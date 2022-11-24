@@ -111,3 +111,4 @@ dmypy.json
 output
 pelican-plugin
 .MWebMetaData
+cache
