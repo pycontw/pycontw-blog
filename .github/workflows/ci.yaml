@@ -33,10 +33,14 @@ jobs:
         run: |
           pipenv run inv style
 
-      - name: Check whether local pelican pages is buildable
+      - name: Check whether pelican local pages is buildable
         run: |
           pipenv run inv build
 
-      - name: Check whether public pelican pages is buildable
+      - name: Check whether pelican public pages is buildable
         run: |
-          pipenv run inv build_publish
+          pipenv run inv build-publish
+
+      - name: Check Python dependencies through pip-audit
+        run: |
+          pipenv run inv security-check
