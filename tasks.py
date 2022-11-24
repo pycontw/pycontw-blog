@@ -154,3 +154,41 @@ def gh_pages(c):
 def pelican_run(cmd):
     cmd += " " + program.core.remainder  # allows to pass-through args to pelican
     pelican_main(shlex.split(cmd))
+
+
+@task
+def style(c):
+    """Run style check on python code"""
+    python_targets = "pelicanconf.py publishconf.py tasks.py"
+    c.run(
+        f"""
+        pipenv run flake8 {python_targets} && \
+        pipenv run black --check {python_targets} && \
+        pipenv run isort --check-only {python_targets} && \
+        pipenv run cz check --rev-range origin/main..
+        """
+    )
+
+
+@task
+def format(c):
+    """Run autoformater on python code"""
+    python_targets = "pelicanconf.py publishconf.py tasks.py"
+    c.run(
+        f"""
+        pipenv run black {python_targets} && \
+        pipenv run isort {python_targets}
+        """
+    )
+
+
+@task
+def security_check(c):
+    """Run pip-autid on dependencies"""
+    c.run(
+        """
+        pipenv requirements > requirements.txt && \
+        pipenv run pip-audit -r requirements.txt && \
+        rm -rf requirements.txt
+        """
+    )
