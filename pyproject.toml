@@ -1,0 +1,30 @@
+[tool.commitizen]
+name = "cz_customize"
+
+[tool.commitizen.customize]
+message_template = "{{change_type}}: {{message}}"
+example = "new post: this is my first post"
+schema = "<type>: <body>"
+schema_pattern = "^(new post|post update|new draft|draft update|post metadata|fix typo|theme|static page|config|dependency|github-actions):"
+info = "git commit convention for PyCon Taiwan blog"
+
+[[tool.commitizen.customize.questions]]
+type = "list"
+name = "change_type"
+choices = [
+    "new post", "post update",
+    "new draft", "draft update",
+    "post metadata",
+    "fix typo",
+    "theme",
+    "static page",
+    "config",
+    "dependency",
+    "github-actions"
+]
+message = "What type of commit is it?"
+
+[[tool.commitizen.customize.questions]]
+type = "input"
+name = "message"
+message = "Message body: \n"
