@@ -5,7 +5,7 @@ name: publish post
 on:
   push:
     branches:
-      - content
+      - main
 
 jobs:
   publish:
