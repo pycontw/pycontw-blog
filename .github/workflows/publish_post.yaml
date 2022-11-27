@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: |
           export GOOGLE_ANALYTICS=${{ secrets.GOOGLE_ANALYTICS }}
-          pipenv run inv build_publish
+          pipenv run inv build-publish
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
