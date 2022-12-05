@@ -7,7 +7,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *  # noqa: F401, E402, F403
 
-SITEURL = "conf.python.tw"
+SITEURL = "https://conf.python.tw"
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"
