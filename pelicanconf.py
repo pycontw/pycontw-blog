@@ -29,6 +29,9 @@ SOCIAL = (
     ("Another social link", "#"),
 )
 
+STATIC_PATHS = ["images", "extra"]
+
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
