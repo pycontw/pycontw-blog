@@ -35,8 +35,9 @@ SOCIAL = (
     ("linkedin", "https://www.linkedin.com/company/pycontw/"),
     ("github", "https://github.com/pycontw"),
     ("youtube", "https://www.youtube.com/channel/UCHLnNgRnfGYDzPCCH8qGbQw"),
+    ("itunes-note", "https://podcasts.apple.com/tw/podcast/pycast/id1559843325"),
+    ("spotify", "https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv"),
 )
-
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
