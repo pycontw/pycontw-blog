@@ -13,7 +13,11 @@
 ### Environment Setup
 
 1. Fork [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-2. Clone the repository from your GitHub. (i.e., your-user-name/pycontw-blog)
+2. Clone the repository from your GitHub recursivly. (i.e., your-user-name/pycontw-blog)
+
+    ```sh
+    git clone --recursive https://github.com/[your-user-name]/pycontw-blog.git
+    ```
 3. Setup development environment through the following command
 
     ```sh
