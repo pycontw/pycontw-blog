@@ -12,9 +12,10 @@ SITELOGO = SITEURL + "/images/profile.jpg"
 # blog config
 PATH = "content"
 STATIC_PATHS = ["images", "extra"]
+PLUGIN_PATHS = ["plugins"]
 DEFAULT_PAGINATION = 10
 TIMEZONE = "Asia/Taipei"
-DEFAULT_LANG = "zh"
+DEFAULT_LANG = "zh-TW"
 MAIN_MENU = True
 MENUITEMS = (
     ("Archives", "/archives.html"),
