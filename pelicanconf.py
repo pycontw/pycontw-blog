@@ -34,6 +34,7 @@ SOCIAL = (
     ("instagram", "https://www.instagram.com/pycon.tw/"),
     ("twitter", "https://twitter.com/#!/PyConTW"),
     ("linkedin", "https://www.linkedin.com/company/pycontw/"),
+    ("flickr", "https://www.flickr.com/photos/pycon_tw/albums/"),
     ("github", "https://github.com/pycontw"),
     ("youtube", "https://www.youtube.com/c/PyConTaiwanVideo"),
     ("itunes-note", "https://podcasts.apple.com/tw/podcast/pycast/id1559843325"),
