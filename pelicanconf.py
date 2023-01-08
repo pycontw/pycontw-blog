@@ -6,7 +6,7 @@ SITEDESCRIPTION = "PyCon Taiwan official blog. Catch up the latest announcement 
 # empty for local development
 SITEURL = ""
 SITELOGO = SITEURL + "/images/profile.jpg"
-# FAVICON = SITEURL + "/images/favicon.ico"
+FAVICON = SITEURL + "/images/favicon.ico"
 
 
 # blog config
@@ -54,7 +54,7 @@ THEME = "theme/Flex"
 PLUGINS = ["i18n_subsites"]
 PYGMENTS_STYLE = "default"
 # JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
-ROWSER_COLOR = "#333"
+# BROWSER_COLOR = "1C1C38"
 
 
 # License
