@@ -49,6 +49,18 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 
+# Markdown extension
+MARKDOWN = {
+    "extension_configs": {
+        "markdown.extensions.extra": {},
+        "markdown.extensions.codehilite": {"css_class": "highlight"},
+        "markdown.extensions.nl2br": {},
+        "markdown.extensions.toc": {"toc_depth": "1-3"},
+    },
+    "output_format": "html5",
+}
+
+
 # Theme Setting
 THEME = "theme/Flex"
 PLUGINS = ["i18n_subsites"]
