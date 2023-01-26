@@ -5,7 +5,7 @@ Category: announcement
 Tags: zh-tw, en
 Slug: migration-announcement
 Authors: Wei Lee
-Summary: PyCon Taiwan 的部落格正式由 [Blogger](https://pycontw.blogspot.com/) 搬到 [GitHub](https://conf.python.tw/) / [https://conf.python.tw](htttps://conf.python.tw) 上囉！
+Summary: PyCon Taiwan 的部落格正式由 [Blogger](https://pycontw.blogspot.com/) 搬到 [GitHub](https://conf.python.tw/) / [https://conf.python.tw](https://conf.python.tw) 上囉！
 
 <!--more-->
 
