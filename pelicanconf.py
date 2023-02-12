@@ -4,7 +4,7 @@ SITENAME = "PyCon Taiwan Blog"
 SITETITLE = "PyCon Taiwan"
 SITEDESCRIPTION = "PyCon Taiwan official blog. Catch up the latest announcement here!"
 # empty for local development
-SITEURL = ""
+SITEURL = "localhost"
 SITELOGO = SITEURL + "/images/profile.jpg"
 FAVICON = SITEURL + "/images/favicon.ico"
 
@@ -41,6 +41,7 @@ SOCIAL = (
     ("spotify", "https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv"),
 )
 
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -63,7 +64,7 @@ MARKDOWN = {
 
 # Theme Setting
 THEME = "theme/Flex"
-PLUGINS = ["i18n_subsites"]
+PLUGINS = ["i18n_subsites", "pelican.plugins.seo"]
 PYGMENTS_STYLE = "default"
 # JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
 # BROWSER_COLOR = "1C1C38"
@@ -81,3 +82,12 @@ COPYRIGHT_YEAR = 2023
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+
+# Plugins
+
+# pelican-seo settings
+SEO_REPORT = True
+SEO_ENHANCER = True
+SEO_ENHANCER_OPEN_GRAPH = True
+SEO_ENHANCER_TWITTER_CARDS = True
