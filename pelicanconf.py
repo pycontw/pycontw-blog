@@ -4,7 +4,7 @@ SITENAME = "PyCon Taiwan Blog"
 SITETITLE = "PyCon Taiwan"
 SITEDESCRIPTION = "PyCon Taiwan official blog. Catch up the latest announcement here!"
 # empty for local development
-SITEURL = "localhost"
+SITEURL = ""
 SITELOGO = SITEURL + "/images/profile.jpg"
 FAVICON = SITEURL + "/images/favicon.ico"
 
@@ -64,7 +64,7 @@ MARKDOWN = {
 
 # Theme Setting
 THEME = "theme/Flex"
-PLUGINS = ["i18n_subsites", "pelican.plugins.seo"]
+PLUGINS = ["i18n_subsites"]
 PYGMENTS_STYLE = "default"
 # JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
 # BROWSER_COLOR = "1C1C38"

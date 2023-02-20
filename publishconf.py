@@ -18,6 +18,6 @@ DELETE_OUTPUT_DIRECTORY = False
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
 }
-
 # Following items are often useful when publishing
-GOOGLE_GLOBAL_SITE_TAG = os.environ.get("GOOGLE_ANALYTICS")
+GOOGLE_ANALYTICS = os.environ.get("GOOGLE_ANALYTICS")
+PLUGINS += ["pelican.plugins.seo"]  # noqa: F405
