@@ -17,6 +17,6 @@ Here's PyCon APAC 2022 Financial Report!
 
 * Expenditure: NTD$ 2,188,647
 
-* Revenue: NTD$ 1,361
+* Banalce: NTD$ 1,361
 
 Thank you for participating and supporting PyCon APAC 2022, we'll see you next year!
