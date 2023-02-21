@@ -11,9 +11,9 @@ Howdy!
 Here's PyCon APAC 2022 Financial Report!
 
 * Income: NTD$ 2,190,008
-** Sponsorship: 68%
-** Tickets Sale: 31%
-** Charity Sale: 1%
+    * Sponsorship: 68%
+    * Tickets Sale: 31%
+    * Charity Sale: 1%
 
 * Expenditure: NTD$ 2,188,647
 
