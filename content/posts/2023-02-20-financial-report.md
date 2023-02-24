@@ -1,6 +1,6 @@
-Title: PyConAPAC 2022 Financial Report
+Title: PyCon APAC 2022 Financial Report
 Date: 2023-02-20 23:00
-Modified: 2023-02-20 23:00
+Modified: 2023-02-21 09:32
 Category: announcement
 Tags: zh-tw, en
 Slug: financial-report
