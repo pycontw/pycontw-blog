@@ -21,3 +21,6 @@ EXTRA_PATH_METADATA = {
 # Following items are often useful when publishing
 GOOGLE_ANALYTICS = os.environ.get("GOOGLE_ANALYTICS")
 PLUGINS += ["pelican.plugins.seo"]  # noqa: F405
+# Following items are for utterances.es support (Github Issue Comment)
+UTTERANCES_REPO = os.environ.get("UTTERANCES_REPO")
+THEME_TEMPLATES_OVERRIDES = ["theme/Flex-extend/templates"]
