@@ -35,6 +35,7 @@ jobs:
       - name: Build
         run: |
           export GOOGLE_ANALYTICS=${{ secrets.GOOGLE_ANALYTICS }}
+          export UTTERANCES_REPO=${{ github.repository }}
           pipenv run inv build-publish
 
       - name: Deploy
