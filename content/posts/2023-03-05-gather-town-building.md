@@ -1,6 +1,6 @@
 Title: PyCon APAC 2022 on Gather.Town
-Date: 2023-03-06 21:00
-Modified: 2023-03-06 21:00
+Date: 2023-03-26 21:00
+Modified: 2023-03-26 21:00
 Category: online-conference
 Tags: en
 Slug: gather-town-building
@@ -173,23 +173,23 @@ This year, we designed a Monopoly as our main space. Working through the path, y
 
 > PyCon APAC 2022 Monopoly
 
-### Mistery-space
+### Mystery-space
 
 There are two hidden levels of our booth game, attendees could find the secret entrance to the mystery,and clear the mission to get points. *- written by Vivian -*
 
-![Mistery_1](images/2023-03-05-gather-town-building/27-Mistery_1.png)
+![Mystery_1](images/2023-03-05-gather-town-building/27-Mystery_1.png)
 
 > The entrance to the mystery.
 
-![Mistery_2](images/2023-03-05-gather-town-building/28-Mistery_2.png)
+![Mystery_2](images/2023-03-05-gather-town-building/28-Mystery_2.png)
 
 > Get the drink: buy a papaya milk for the bear.
 
-![Mistery_3](images/2023-03-05-gather-town-building/29-Mistery_3.png)
+![Mystery_3](images/2023-03-05-gather-town-building/29-Mystery_3.png)
 
 > The multiverse: find the way out of the multiverse by finding the difference of three similar scenes.
 
-![Mistery_4](images/2023-03-05-gather-town-building/30-Mistery_4.png)
+![Mystery_4](images/2023-03-05-gather-town-building/30-Mystery_4.png)
 
 ### Discord
 
