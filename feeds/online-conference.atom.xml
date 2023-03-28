@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Taiwan Blog</title><link href="https://conf.python.tw/" rel="alternate"></link><link href="https://conf.python.tw/feeds/all.atom.xml" rel="self"></link><id>https://conf.python.tw/</id><updated>2023-03-26T21:00:00+08:00</updated><entry><title>PyCon APAC 2022 on Gather.Town</title><link href="https://conf.python.tw/gather-town-building.html" rel="alternate"></link><published>2023-03-26T21:00:00+08:00</published><updated>2023-03-26T21:00:00+08:00</updated><author><name>Winnie</name></author><id>tag:conf.python.tw,2023-03-26:/gather-town-building.html</id><summary type="html">&lt;p&gt;&lt;img alt="PyCon APAC 2022 Monopoly" src="images/2023-03-05-gather-town-building/26.jpg"&gt; Last year (2022), PyCon Taiwan hosted PyCon APAC for the third time. Due to global epidemic situation, we chose holding PyCon APAC 2022 remotely via Gather.Town. It’s the second time we used Gather.Town to build the conference. We found that Gather.Town kept updating the interface and features, and created lots of friendly example maps for newcomers. In this article, we would introduce the events of PyCon APAC 2022 in the following.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Taiwan Blog - online-conference</title><link href="https://conf.python.tw/" rel="alternate"></link><link href="https://conf.python.tw/feeds/online-conference.atom.xml" rel="self"></link><id>https://conf.python.tw/</id><updated>2023-03-26T21:00:00+08:00</updated><entry><title>PyCon APAC 2022 on Gather.Town</title><link href="https://conf.python.tw/gather-town-building.html" rel="alternate"></link><published>2023-03-26T21:00:00+08:00</published><updated>2023-03-26T21:00:00+08:00</updated><author><name>Winnie</name></author><id>tag:conf.python.tw,2023-03-26:/gather-town-building.html</id><summary type="html">&lt;p&gt;&lt;img alt="PyCon APAC 2022 Monopoly" src="images/2023-03-05-gather-town-building/26.jpg"&gt; Last year (2022), PyCon Taiwan hosted PyCon APAC for the third time. Due to global epidemic situation, we chose holding PyCon APAC 2022 remotely via Gather.Town. It’s the second time we used Gather.Town to build the conference. We found that Gather.Town kept updating the interface and features, and created lots of friendly example maps for newcomers. In this article, we would introduce the events of PyCon APAC 2022 in the following.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#overall"&gt;Overall&lt;/a&gt;&lt;ul&gt;
@@ -165,30 +165,4 @@ We put the episode links at the corners of the space.&lt;/p&gt;
 &lt;p&gt;combine booth game with questionnaire collection&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;We integrated the conference questionnaire into the booth game that we could collect the answers from attendees in game. Attendees will also get the game points by answering the questions in the questionnaire. After 2 days of game play, we reward the Top 10 players in points ranking. Besides, we also designed the prize drawing in the booth game, the host could easily do the lucky draw on discord.&lt;/p&gt;
-&lt;p&gt;We have open sourced the code of the discord bot, you can find it &lt;a href="https://github.com/pycontw/pybot22"&gt;here&lt;/a&gt; and run by your own. &lt;em&gt;- written by Angus -&lt;/em&gt;&lt;/p&gt;</content><category term="online-conference"></category><category term="en"></category></entry><entry><title>PyCon APAC 2022 Financial Report</title><link href="https://conf.python.tw/financial-report.html" rel="alternate"></link><published>2023-02-20T23:00:00+08:00</published><updated>2023-02-21T09:32:00+08:00</updated><author><name>Rock Hung</name></author><id>tag:conf.python.tw,2023-02-20:/financial-report.html</id><summary type="html">&lt;p&gt;PyCon APAC 2022 Financial Report&lt;/p&gt;</summary><content type="html">&lt;!--more--&gt;
-&lt;p&gt;Howdy!&lt;br&gt;
-Here's PyCon APAC 2022 Financial Report!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Income: NTD$ 2,190,008&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Sponsorship: 68%&lt;/li&gt;
-&lt;li&gt;Tickets Sale: 31%&lt;/li&gt;
-&lt;li&gt;Charity Sale: 1%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Expenditure: NTD$ 2,188,647&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Balance: NTD$ 1,361&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thank you for participating and supporting PyCon APAC 2022, we'll see you next year!&lt;/p&gt;</content><category term="announcement"></category><category term="zh-tw"></category><category term="en"></category></entry><entry><title>PyCon Taiwan 從 Blogger 搬到 GitHub 上囉～</title><link href="https://conf.python.tw/migration-announcement.html" rel="alternate"></link><published>2023-01-09T21:00:00+08:00</published><updated>2023-01-10T09:50:00+08:00</updated><author><name>Wei Lee</name></author><id>tag:conf.python.tw,2023-01-09:/migration-announcement.html</id><summary type="html">&lt;p&gt;PyCon Taiwan 的部落格正式由 &lt;a href="https://pycontw.blogspot.com/"&gt;Blogger&lt;/a&gt; 搬到 &lt;a href="https://conf.python.tw/"&gt;GitHub&lt;/a&gt; / &lt;a href="https://conf.python.tw"&gt;https://conf.python.tw&lt;/a&gt; 上囉！&lt;/p&gt;</summary><content type="html">&lt;!--more--&gt;
-
-&lt;p&gt;PyCon Taiwan 的部落格正式由 &lt;a href="https://pycontw.blogspot.com/"&gt;Blogger&lt;/a&gt; 搬到 &lt;a href="https://conf.python.tw/"&gt;GitHub&lt;/a&gt; / &lt;a href="https://conf.python.tw"&gt;https://conf.python.tw&lt;/a&gt; 上囉！&lt;br&gt;
-新的部落格除了是使用由 Python 攥寫的 &lt;a href="https://getpelican.com/"&gt;pelican&lt;/a&gt; 來產生外，也希望能透過開放原始碼的方式，讓更多的人能一起來讓 PyCon Taiwan 的部落格內容更加豐富！&lt;br&gt;
-接下來，也要請大家繼續支持 PyCon Taiwan！&lt;/p&gt;
-&lt;p&gt;We migrate our existing PyCon Taiwan blog from  &lt;a href="https://pycontw.blogspot.com/"&gt;Blogger&lt;/a&gt; to &lt;a href="https://conf.python.tw/"&gt;GitHub&lt;/a&gt; / &lt;a href="https://conf.python.tw"&gt;https://conf.python.tw&lt;/a&gt;.&lt;br&gt;
-Our new blog is generated by &lt;a href="https://getpelican.com/"&gt;pelican&lt;/a&gt;, a Python-written static site generator, and open-sourced.&lt;br&gt;
-By doing so, we hope more people can contribute and post content.&lt;/p&gt;</content><category term="announcement"></category><category term="zh-tw"></category><category term="en"></category></entry></feed>
+&lt;p&gt;We have open sourced the code of the discord bot, you can find it &lt;a href="https://github.com/pycontw/pybot22"&gt;here&lt;/a&gt; and run by your own. &lt;em&gt;- written by Angus -&lt;/em&gt;&lt;/p&gt;</content><category term="online-conference"></category><category term="en"></category></entry></feed>
