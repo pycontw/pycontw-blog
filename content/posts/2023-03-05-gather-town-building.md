@@ -17,7 +17,7 @@ Last year (2022), PyCon Taiwan hosted PyCon APAC for the third time.
 
 Due to global epidemic situation, we chose holding PyCon APAC 2022 remotely via Gather.Town. It’s the second time we used Gather.Town to build the conference. We found that Gather.Town kept updating the interface and features, and created lots of friendly example maps for newcomers.
 
-In this article, we would introduce the events of PyCon APAC 2022 in the following.   ***- written by Winnie -***
+In this article, we would introduce the events of PyCon APAC 2022 in the following.   *- written by Winnie -*
 <!--more-->
 
 ---
@@ -26,7 +26,7 @@ In this article, we would introduce the events of PyCon APAC 2022 in the followi
 
 ### Space A & Space B
 
-We tried to introduce Taiwan street view in our main spaces, i.e. Space A & Space B. There is a temple in a rice cooker shape. In Taiwan, there are more than 2,200 temples, which exceeds the number of the convenience stores.   ***- written by Fish -***
+We tried to introduce Taiwan street view in our main spaces, i.e. Space A & Space B. There is a temple in a rice cooker shape. In Taiwan, there are more than 2,200 temples, which exceeds the number of the convenience stores.   *- written by Fish -*
 
 ![Rice Cooker Temple](images/2023-03-05-gather-town-building/0-Rice_Cooker_Temple.jpg)
 > Rice Cooker Temple
