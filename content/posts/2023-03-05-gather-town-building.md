@@ -44,11 +44,8 @@ Religious activities flourish in Taiwan. The temples hold shows and roadside ban
 
 We also have common houses and the breakfast stores on the main spaces, which makes the foreign attendees feel like they are in Taiwan.
 
-![A Breakfast Store](images/2023-03-05-gather-town-building/4-Breakfast_Store.png)
-> A Breakfast Store
-
-![A Plumber Store](images/2023-03-05-gather-town-building/5-Plumber_Store.png)
-> A Plumber Store
+![A Breakfast Store](images/2023-03-05-gather-town-building/4-Breakfast_Store.png){:height="50%" width="49%"} ![A Plumber Store](images/2023-03-05-gather-town-building/5-Plumber_Store.png){:height="50%" width="49%"}
+> A Breakfast Store & A Plumber Store
 
 ### PyNight
 
@@ -130,11 +127,9 @@ For a better viewing experience and not to create several video objects, we used
 >
 ### Speakers' Room
 
-![Speaker_Room_1](images/2023-03-05-gather-town-building/19-Speaker_Room_1.png)
+![Speaker_Room_1](images/2023-03-05-gather-town-building/19-Speaker_Room_1.png){:height="50%" width="49%"} ![Speaker_Room_2](images/2023-03-05-gather-town-building/20-Speaker_Room_2.png){:height="50%" width="49%"}
 
 After watching talk videos, attendees can walk into the speakers room according to the program schedule. In this area, speakers and attendees can communicate freely and directly. For everyone who got questions, this was the perfect time to approach the speakers.
-
-![Speaker_Room_2](images/2023-03-05-gather-town-building/20-Speaker_Room_2.png)
 
 ---
 
@@ -197,9 +192,9 @@ This year, we did not only use discord as our main communication media, but also
 
 During the interaction with the discord bot on the discord game server, data will be collected in the background to record the answering status. Also we have set up some initialization steps while attendees join the server. They will be asked several questions and assigned to different groups. Attendees within the same group have a mission: to touch the group flags on gather town. The touch counts of the flags will be used as a bonus points added back to the attendees' points. We hope by introducing this extra game mechanism can further increase the interactivity to the booth game.*- written by Yoyo -*
 
-![Discord Chatbot](images/2023-03-05-gather-town-building/31-Discord.png)
+![Discord Chatbot](images/2023-03-05-gather-town-building/31-Discord.png){:height="50%" width="50%"}
 
-> combine booth game with questionnaire collection
+> Combine booth game with questionnaire collection
 
 We integrated the conference questionnaire into the booth game that we could collect the answers from attendees in game. Attendees will also get the game points by answering the questions in the questionnaire. After 2 days of game play, we reward the Top 10 players in points ranking. Besides, we also designed the prize drawing in the booth game, the host could easily do the lucky draw on discord.
 
