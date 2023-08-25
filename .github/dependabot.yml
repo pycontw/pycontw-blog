@@ -5,18 +5,13 @@ updates:
     directory: /
     schedule:
       interval: daily
-    labels:
-      - dependencies
     commit-message:
       prefix: "github-actions"
-      include: "scope"
+
   # Maintain python dependencies
   - package-ecosystem: pip
     directory: /
     schedule:
       interval: daily
-    labels:
-      - dependencies
     commit-message:
       prefix: "dependency"
-      include: "scope"
