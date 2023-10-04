@@ -9,8 +9,6 @@ Authors: PyCon Taiwan Blogger contributors
 
 <!--more-->
 
-
-
 PyCon Taiwan 的部落格正式由 [Blogger](https://pycontw.blogspot.com/) 搬到 [GitHub](https://conf.python.tw/) / <https://conf.python.tw> 上囉！  
 
 新的部落格除了是使用由 Python 攥寫的 [pelican](https://getpelican.com/) 來產生外，也希望能透過開放原始碼的方式，讓更多的人能一起來讓 PyCon Taiwan 的部落格內容更加豐富！  

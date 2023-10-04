@@ -16,8 +16,6 @@ It was exciting to chat with new friends at lunch time.
 Due to COVID-19, PyCon TW 2021 will be held online. Instead of chatting face to face, the participants can interact with others at the Soothing Forest on Gather.Town. We can also share our lunch photos on Discord! 🍱
 
 
-
-
 The Soothing Forest on PyCon TW 2021 Venue Powered by Gather.Town
 
 [![](https://1.bp.blogspot.com/-BB65UUYgHoo/YVA5AxXxZ2I/AAAAAAABTVo/L6oZpAjps-Ep_M7HOaxkKyjWdZOrMm4yQCPcBGAYYCw/s320/forest.png)](https://1.bp.blogspot.com/-BB65UUYgHoo/YVA5AxXxZ2I/AAAAAAABTVo/L6oZpAjps-Ep_M7HOaxkKyjWdZOrMm4yQCPcBGAYYCw/s857/forest.png)  
@@ -30,8 +28,6 @@ For many, deciding on what to eat is proabbly one of the most difficult decision
 Just enjoy the meals and share your recipe with friends on Gather.Town! 😋 You can also upload the food photos and show your cooking on Discord. The food photos will be exhibited in the picnic basket at the Soothing Forest on Gather.Town.
 
 In addition, we’re looking forward to sharing fun photos of Python logo composed of materials or tableware on Discord.
-
-
 
 
 Show Your "Py Food" on the Conference Day!!
@@ -54,12 +50,6 @@ Follow the steps below to make the meals. 👨‍🍳
 6. Add the curry cube, and stir them
 
 Recipe reference from Internet (Chinese): <https://icook.tw/recipes/388311>
-
-
-
-
-
-
 
 ### Fried Instant Noodles 🍝
 

@@ -12,15 +12,9 @@ Authors: PyCon Taiwan Blogger contributors
 
 > "你知道嗎... python.org.tw 是怎樣誕生的?"
 
-
-
 > "十年前的 Python 社群聚會是怎樣的面貌?"
 
-
-
 > "哪些公司大力鼓勵員工參加 Python 年會?"
-
-
 
 > "怎樣取得優惠門票呢?"
 

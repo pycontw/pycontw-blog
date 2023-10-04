@@ -19,8 +19,6 @@ Authors: PyCon Taiwan Blogger contributors
 > From the bottom of the sea*
 
 
-
-
 *But first, are you experienced?  
 
 Have you ever been experienced?  

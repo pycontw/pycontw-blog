@@ -128,8 +128,6 @@ Job Fair
 最後，也請您務必閱讀並一同遵守 [PyCon Taiwan 行為準則](https://tw.pycon.org/2018/about/code-of-conduct/)，讓大家都能盡情享受年會的開心氛圍，彼此交流、傳承、啟發。
 
 
-
-
 ---
 
 
@@ -149,31 +147,19 @@ The conference venue is located at Humanities and Social Sciences Building, Acad
 Shuttle Bus
 ===========
 
-
-
 To take the conference shuttle bus, please meet at the bus station in front of [Exit 1 of MRT Taipei Nangang Exhibition Center Station](https://web.metro.taipei/c/googlemap.asp?Longitude=121.616936&Latitude=25.055847) between 8:00 and 8:50.
 
 
 Registration
 ============
 
-
-
 Registration time begins at 08:10 on June 1. After arriving the conference venue, please connect to the conference WiFi in order to successfully register through pressing the registration button in “PyCon TW Pass” app.
-
-
 
 Please download PyCon TW Pass via link at <https://ccip.pycon.tw/>, and open it:
 
-
-
 Please register at the reception on the 3F and follow the instrcution to collect the goodie bag.
 
-
-
 Note that your identification badge is provided inside goodie bag, you’re expected to pick-up and wear your badge while getting into conference rooms.
-
-
 
 If the registration button in PyCon TW Pass was not functioning, or if you failed to successfully install PyCon TW Pass, please show your KKTIX registration QR Code to the staffs at the goodie bags booths at either floor, that way you’ll be able to register and pick-up your goodie bag at the same time.
 
@@ -223,8 +209,6 @@ Job Fair
 
 Job Fair is a career expo for Python developers. During the Job Fair session, our sponsors will take turns introduce themselves on the stage and promote their job openings. For attendees that are looking for a career, this is a great opportunity for you to interact with the sponsors or submit your rèsumè!
 
-
-
 Online forum
 -------------
 
@@ -236,16 +220,10 @@ Online forum
 Food
 ====
 
-
-
 We’ll provide snacks in the morning and in the afternoon on both conference days. Lunches are provided as well.
-
-
 
 Internet
 =========
-
-
 
 Use the following SSID and Password to connect to the Internet
 
@@ -254,15 +232,9 @@ Use the following SSID and Password to connect to the Internet
 * SSID: PyCon2018\_2G
 * Password: 12345678
 
-
-
 Notice
 =======
 
-
-
 We will send electronic invoices directly to your email address after the event. Please feel free to contact [organizers@pycon.tw](mailto:organizers@pycon.tw) if there's any questions.
-
-
 
 Finally, please read our [Code of Conduct](https://tw.pycon.org/2018/about/code-of-conduct/) and comply with it, to make sure everyone can enjoy the share of conference and all the cherished moment in PyConTW 2018 with each other.

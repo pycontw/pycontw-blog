@@ -14,8 +14,6 @@ Thank many of our volunteers for packaging and dispatching so many PySafe boxes.
 We also want to thank the volunteers of our design team led by Ben a.k.a. 本本 to deliver such gorgeous OOBE with love. If you also like PySafe, you may use the following hashtag #pysafe #pycontw #pycontw2021 to say something to the design team. Your comments are the best support and power for us to keep the community moving forward!!
 
 
-
-
 Piling PySafe ready to dispatch!!
 
 [![](https://1.bp.blogspot.com/-ZtvwBkZAh68/YVW4kORshBI/AAAAAAABTXc/OqIMFqIzqnkwyIfRgGNV8hd6ZPlxdvRdACLcBGAsYHQ/s320/image1.jpg)](https://1.bp.blogspot.com/-ZtvwBkZAh68/YVW4kORshBI/AAAAAAABTXc/OqIMFqIzqnkwyIfRgGNV8hd6ZPlxdvRdACLcBGAsYHQ/s2048/image1.jpg)  
