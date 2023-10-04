@@ -14,8 +14,6 @@ Authors: PyCon Taiwan Blogger contributors
 >
 > Share You PyCon Memories and Get Your #PyConTW2019 Fanatic Tickets!
 
-
-
 > 你是 PyCon 派對動物嗎? 你是 Python 鐵粉嗎?  
 >
 > 分享你的熱血回憶, 取得 #PyConTW2019 鐵粉優惠價!
@@ -40,8 +38,6 @@ Post your PyCon or Python event memories on social media, with #MyPyCon hashtag,
 
 
 Here is an example
-
-
 
 > One of my earliest [@PyConTW](https://twitter.com/PyConTW?ref_src=twsrc%5Etfw) memories [#MyPyCon](https://twitter.com/hashtag/MyPyCon?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/b5f3IslQD5](https://t.co/b5f3IslQD5)
 >

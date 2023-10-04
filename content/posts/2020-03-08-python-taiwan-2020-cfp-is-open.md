@@ -14,8 +14,6 @@ PyCon Taiwan 2020 CfP 3/1 正式徵稿！
 
 稿件分為演講 (Talk) 及專業課程 (Tutorial) ，可使用語言為：中文、英文、台語  
 
-
-
 我們接受泛 Python 相關的各類投稿，包括學術報告、商用專案或者案例研究等，或是社群  
 
 經營、溝通、心理健康、失敗經驗等軟議題。
@@ -28,20 +26,14 @@ PyCon Taiwan 2020 CfP 3/1 正式徵稿！
 forward 至各社群，並提供部分交通補助
 
 
-
-
 **重要時程：**
 * 議程、課程 投稿截止： 4 月 26 日（23:59:59 [AoE](https://www.timeanddate.com/worldclock/converter.html?iso=20200427T115900&p1=tz_aoe&p2=241&p3=1440)）
 * 公告完整議程： 6 月 中旬（暫定）
 * 研討會日： 9 月 5 日, 9 月 6日
 
-
-
 想了解更多徵稿資訊，請參考[年會官網](https://tw.pycon.org/2020/zh-hant/speaking/cfp/)內容
 
 歡迎大家踴躍投稿！  
-
-
 
 
 -------------------------------------------------------------------------------------------------------------------------
@@ -60,22 +52,16 @@ good communication, mental health, etc.
 
 Something different from PyConTW 2019 :  
 
-
-
 1. Talks will be lasting either 15 minutes or 30 minutes.( 2019: 30min / 40min)
 2. Tutorials are at a separate venue, they are 1.5 hours sessions
 3. We will make some of the rejected proposals happen in local communities in Taiwan.
 PyCon TW will partially provide financial aid for transportation.
 
 
-
-
 Important Dates :
 * Talks & Tutorial CfP ends: 26 Apr (23:59:59 [AoE](https://www.timeanddate.com/worldclock/converter.html?iso=20200427T115900&p1=tz_aoe&p2=241&p3=1440))
 * Announcement of acceptance: In the middle of June (tentative)
 * Dates of the Conference: 5 Sep - 6 Sep
-
-
 
 For more detailed CfP info, please visit [PyCon Taiwan 2020 website - CfP](https://tw.pycon.org/2020/zh-hant/speaking/cfp/).
 

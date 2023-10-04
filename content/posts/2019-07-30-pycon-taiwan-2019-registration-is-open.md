@@ -26,8 +26,6 @@ Authors: PyCon Taiwan Blogger contributors
 想了解更多議程訊息, 包括基調講者/演講時段/專業課程, 請參考[年會官網](http://tw.pycon.org/2019)內容.
 
 
-
-
 ---
 
 
@@ -43,8 +41,6 @@ For Speakers, Volunteers, and Contributors, we will send you invitation codes. P
 
 
 For more detailed schedule info, please visit [PyCon Taiwan 2019 website](http://tw.pycon.org/2019).
-
-
 
 
 ---
@@ -69,8 +65,6 @@ PyCon Taiwan 是和**財團法人開放文化基金會**合作舉辦, 預設會�
 
 
 售票平台與 KKTIX 合作, 完成註冊後會收到 KKTIX 系統寄送的訂票證明, 樣式像下例所示:
-
-
 
 [![](https://4.bp.blogspot.com/-Dp3ce5KF9BI/XUlBycOHkzI/AAAAAAAAW7g/DmOSmeWF6kYR2LPWLJm8MJvUDdEaXxJ_gCLcBGAs/s1600/kktix-individual-ticket.png)](https://4.bp.blogspot.com/-Dp3ce5KF9BI/XUlBycOHkzI/AAAAAAAAW7g/DmOSmeWF6kYR2LPWLJm8MJvUDdEaXxJ_gCLcBGAs/s1600/kktix-individual-ticket.png)
 我發現企業票每次只能買一張, 是指只能一人進場嗎? 公司其他員工也能進場嗎?

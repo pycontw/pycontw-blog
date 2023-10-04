@@ -15,8 +15,6 @@ PyCon 又叫做 Python 年會，本質是同好的年度聚會。台灣年會 (P
 
 先看最表面的數字，會眾人數 690+，其實這兩年來沒再成長了，因為場地已被塞滿，除非我們向外另闢空間。順道一提場地位置的特色，中研院人文館，第一次抵達的朋友，可能都會驚訝它的偏遠與隱密，容易跟人文社會科學研究中心 (人社中心) 搞混。據說這次新人比例提高，因此迷路的比例也提高，下次問路的秘訣是找「人文館」而不是「人社XX」，在中研院裡這是兩個不同地方 XD
 
-
-
 > 老闆聽到今年 PyConTW 的票價以後皺了一下眉頭 QQ
 >
 > — M157q.py (@M157q) [April 21, 2017](https://twitter.com/M157q/status/855295887467204608)
@@ -43,8 +41,6 @@ PyNight 音樂表演讓氣氛達到高點，第一次體驗的朋友，相信會
 
 [![PyConTW2017-0610-hasi429-6469](https://c1.staticflickr.com/5/4208/34497550313_8dcf470c49_z.jpg)](https://www.flickr.com/photos/pycon_tw/34497550313/in/album-72157682151609613/ "PyConTW2017-0610-hasi429-6469")
 更多會眾迴響請見 [#pycontw](https://twitter.com/search?q=pycontw&src=typd) [#pycontw2017](https://twitter.com/search?q=pycontw2017&src=typd)
-
-
 
 > Join the sprint, make [@PyConTW](https://twitter.com/PyConTW) great again<https://t.co/uEmLQ8wNTd>
 >

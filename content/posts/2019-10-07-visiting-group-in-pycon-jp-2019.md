@@ -9,14 +9,10 @@ Authors: PyCon Taiwan Blogger contributors
 
 <!--more-->
 
-
-
 PyCon is a platform for Python users to get together for Python. This year, people affiliated with PyCon TW formed a visiting group to attend PyCon JP. It’s the first international outreach from PyCon TW, and a great opportunity for us to experience different culture.
 
 Overview
 =========
-
-
 
 The theme of PyCon JP 2019 is "**Python New Era**", an idea of the new era in Japan and the new era of Python3.
 
@@ -34,18 +30,8 @@ Also, our visiting group took notes for the sprint, the welcome party, and the c
 
 <https://hackmd.io/pYYzA4hLROGFKbXR0QMTMA?view>
 
-
-
-
-
-
-
-
-
 Development Sprint (9/14)
 ==========================
-
-
 
 The [sprint](https://pyconjp.connpass.com/event/136558/) was held at the HENNGE office in Shibuya.  
 
@@ -59,16 +45,12 @@ We can roughly classify projects into these types:
 * Tutorial/Hackathon, e.g., Dashで作る可視化ウェブアプリケーション, PyCon JP 2019 Sprint: JetBot ハンズオン
 * OSS hacking, e.g., C API example of Python 2/3 compatible code, Tell you what waits for what in an async/await program, at runtime.
 
-
-
 Around 100 attendees joined this event. At the end of the sprint, we had a short demonstration of what we had accomplished.
 
 ![](https://i.imgur.com/H3gXZvQ.jpg)
 
 Conference Days (9/16, 9/17)
 =============================
-
-
 
 The first day of the conference starts at 9 a.m. After registration, every attendee gets a bag of brochures and the T-shirt (see below).  
 
@@ -83,10 +65,7 @@ The vertical banner stands in the main hall exhibit the sponsors and patrons of 
 The places of sessions locate in different rooms on the first, second, third, and sixth floors. Keynotes, posters, and the job fair are on the first floor (the main hall). Most of the conference rooms are big and nice for a talk.  
 
 ![](https://i.imgur.com/wLYTV09.jpg)
-###
-Keynote
-
-
+### Keynote
 
 Cory Althoff gave the first keynote speech on the first day. The title is “Why Python is Eating the World”.  
 
@@ -101,14 +80,10 @@ Althoff also explains in detail why we should learn Python. The three main reaso
 * **Company Demand**: Many top companies are using Python (e.g., NOKIA, IBM, Amazon).
 * **Community**: Many online communities like Reddit or Facebook groups can help Python beginners.
 
-
-
 Finally, the speaker suggests people to sign up the weekly newsletter "[pythonweekly.com](http://pythonweekly.com/)" or join the slack community "[pyslackers.com](http://pyslackers.com/)", to keep in touch with Python.
 
 
 ---
-
-
 
 The keynote speaker on the second day is Makoto Koike (小池 誠). His topic was titled “Pythonで切り開く新しい農業” (Use Python to Create a New Type of Agriculture).  
 
@@ -125,10 +100,7 @@ In the end, Koike summarized that the know-how of farmers can be transferred by 
 "AI might replace some jobs, but AI also can be a kind of storing tool for human knowledge.", said by Koike.
 
 We feel excited about the development and applications of Python shown in the two keynotes.
-###
-Regular Sessions
-
-
+### Regular Sessions
 
 Besides keynotes, there are also many interesting sessions in conference days.
 
@@ -157,28 +129,19 @@ Also, we received a lot of interesting ideas and information from the posters.
 ![](https://i.imgur.com/ZZxruyS.jpg)
 
 ![](https://i.imgur.com/sLjX48g.jpg)
-###
-Party
-
-
+### Party
 
 There was a party in the evening of the first day (9/16). While enjoying delicious food, we can walk around and make a lot of new friends. By the way, the party also offers a very good variety of drink (beer included)!
 
 ![](https://i.imgur.com/phL5vmJ.jpg)
-###
-Lightning Talks
-
-
+### Lightning Talks
 
 The lightning talk (LT) always gets the spotlight. PyCon JP 2019 also has many interesting talks. It’s worth to mention that there are three LT speakers are from our visiting group.
 
 ![](https://i.imgur.com/QPzG9M3.jpg)
 
 (Top Left: “Is your bot ALIVE? Monitor chatbot from a user’s perspective” by Petertc. Top Right: “How to get more than just PyCon in a PyCon” by Wei Lee. Bottom Middle: “Python in the Belle II experiment” by Huang Kunxian)
-###
-SciPy Meetup
-
-
+### SciPy Meetup
 
 In the conference, those who love and care about science and Python communities in Japan and Taiwan, including Enthought, got together to have a meeting. We look forward to the growth of the SciPy community in Japan as well as the APAC regions.  
 
@@ -188,12 +151,7 @@ Feedbacks from the Visiting Group
 ==================================
 
 
-
-
-###
-Yung-Yu Chen
-
-
+### Yung-Yu Chen
 
 HPC Software Developer
 
@@ -209,10 +167,7 @@ HPC Software Developer
 ---
 
 
-###
-Kevin Shyu
-
-
+### Kevin Shyu
 
 CTO & Co-founder
 
@@ -224,10 +179,7 @@ CTO & Co-founder
 ---
 
 
-###
-Po-An Yang
-
-
+### Po-An Yang
 
 Software Engineer at Rakuten Slice
 
@@ -237,18 +189,13 @@ Software Engineer at Rakuten Slice
 * *Making more connections than attending alone.*
 * *Joining local communities like discussing the plan of SciPy JP Conf.*
 
-
-
 *I hope that we can keep grouping people in Taiwan to visit conferences in other countries. It’s wonderful and helpful!*
 
 
 ---
 
 
-###
-Wei Lee
-
-
+### Wei Lee
 
 Software Engineer at Rakuten Slice, Volunteer of PyCon TW
 
@@ -266,10 +213,7 @@ Software Engineer at Rakuten Slice, Volunteer of PyCon TW
 ---
 
 
-###
-Lo Pang-Yun Ting
-
-
+### Lo Pang-Yun Ting
 
 Computer Science student at NCKU
 
@@ -279,8 +223,6 @@ Computer Science student at NCKU
 
 Last Words
 ===========
-
-
 
 By attending PyCon JP 2019, we have a chance to interact with other Python programmers, get familiar with Japan companies who concern Python, and learn technological development of Python in Japan. It didn’t only open our eyes, but also expanded our network in both Japan and Taiwan. It’s a wonderful experience, and we all look forward to an opportunity for another visiting group!
 
