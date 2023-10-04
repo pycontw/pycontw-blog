@@ -6,7 +6,9 @@ Slug: 2022-02-28-pycon-apac-and-pycon-taiwan
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2022/02/pycon-apac-and-pycon-taiwan.html)*.
----
+
+<!--more-->
+
 What is PyCon APAC?
 ===================
 

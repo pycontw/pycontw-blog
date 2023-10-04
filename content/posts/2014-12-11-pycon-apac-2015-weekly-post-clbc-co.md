@@ -6,7 +6,9 @@ Slug: 2014-12-11-pycon-apac-2015-weekly-post-clbc-co
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2015/02/pycon-apac-2015-weekly-post-clbc-co.html)*.
----
+
+<!--more-->
+
 So many people and organizations supported PyCon APAC/TW 2014, but today we want to highlight all of the help that came from CLBC Coworking Space in Taiwan.  
 
 

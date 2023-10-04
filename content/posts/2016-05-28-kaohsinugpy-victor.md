@@ -6,7 +6,9 @@ Slug: 2016-05-28-kaohsinugpy-victor
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2016/05/kaohsinugpy-victor.html)*.
----
+
+<!--more-->
+
 ##### 文：PyCon Taiwan 2016  攝影：Ming
 
 

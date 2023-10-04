@@ -6,7 +6,9 @@ Slug: 2022-02-28-pycon-apac-pycon-taiwan
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2022/02/pycon-apac-pycon-taiwan.html)*.
----
+
+<!--more-->
+
 **什麼是 PyCon APAC？**
 
 PyCon APAC ( 全名是 Python Conference APAC )，是獲得 Python 軟體基金會 （ Python Software Foundation ， PSF ）授權，並且由亞洲太平洋地區的 Python 社群自發性舉辦的研討會。

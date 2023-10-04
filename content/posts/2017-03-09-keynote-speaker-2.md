@@ -6,7 +6,9 @@ Slug: 2017-03-09-keynote-speaker-2
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2017/03/keynote-speaker-2.html)*.
----
+
+<!--more-->
+
 ####
 林軒田(HT Lin)
 

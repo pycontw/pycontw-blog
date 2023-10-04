@@ -6,7 +6,9 @@ Slug: 2016-12-30-python-pyhug-host-jeff
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2016/12/python-pyhug-host-jeff.html)*.
----
+
+<!--more-->
+
 
 ```
 受訪者: Jeff 訪問: Ming 日期: 2016/11/29

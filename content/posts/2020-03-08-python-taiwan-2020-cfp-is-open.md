@@ -6,7 +6,9 @@ Slug: 2020-03-08-python-taiwan-2020-cfp-is-open
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2020/03/python-taiwan-2020-cfp-is-open.html)*.
----
+
+<!--more-->
+
 
 PyCon Taiwan 2020 CfP 3/1 正式徵稿！
 

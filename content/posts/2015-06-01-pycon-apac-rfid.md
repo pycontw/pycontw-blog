@@ -6,7 +6,9 @@ Slug: 2015-06-01-pycon-apac-rfid
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2015/06/pycon-apac-rfid.html)*.
----
+
+<!--more-->
+
 
 
 

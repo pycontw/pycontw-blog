@@ -6,7 +6,9 @@ Slug: 2020-04-06-pycon-taiwan-2020-financial-aid
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2020/04/pycon-taiwan-2020-financial-aid.html)*.
----
+
+<!--more-->
+
 
 
 

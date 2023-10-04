@@ -6,7 +6,9 @@ Slug: 2018-05-10-thank-you-sponsors
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2018/05/thank-you-sponsors.html)*.
----
+
+<!--more-->
+
 
 > "你知道嗎... python.org.tw 是怎樣誕生的?"
 

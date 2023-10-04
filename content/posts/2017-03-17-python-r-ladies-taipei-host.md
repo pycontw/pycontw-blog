@@ -6,7 +6,9 @@ Slug: 2017-03-17-python-r-ladies-taipei-host
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2017/03/python-r-ladies-taipei-host.html)*.
----
+
+<!--more-->
+
 
 ####
 訪問人: Yen  主持/撰稿人: Zonghan 日期:2017/03/06

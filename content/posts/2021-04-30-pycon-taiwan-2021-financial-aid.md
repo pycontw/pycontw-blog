@@ -6,7 +6,9 @@ Slug: 2021-04-30-pycon-taiwan-2021-financial-aid
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2021/04/pycon-taiwan-2021-financial-aid.html)*.
----
+
+<!--more-->
+
 PyCon Taiwan 2021 is opening applications for the Financial Aid program!  
 **PyCon Taiwan 2021 財務補助開跑！**  
    

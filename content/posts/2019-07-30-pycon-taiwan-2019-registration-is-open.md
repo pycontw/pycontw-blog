@@ -6,7 +6,9 @@ Slug: 2019-07-30-pycon-taiwan-2019-registration-is-open
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2019/07/pycon-taiwan-2019-registration-is-open.html)*.
----
+
+<!--more-->
+
 2019 台灣 Python 年會門票 7/31 開賣! 需要向公司申請報帳的會眾, 請購買企業票; 如果公司多位同事要一起參加, 可洽詢企業團購票; 不需要向公司申請報帳的話, 可以購買個人票, 個人早鳥期間 7/31 到 8/14 限時又限量, 請把握優惠期限.
 
 

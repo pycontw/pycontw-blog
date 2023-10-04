@@ -6,7 +6,9 @@ Slug: 2018-05-30-pycontw-2018-prior-notification
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2018/05/pycontw-2018-prior-notification.html)*.
----
+
+<!--more-->
+
 (English version is available after Chinese version)
 
 

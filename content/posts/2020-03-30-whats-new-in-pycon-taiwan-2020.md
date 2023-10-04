@@ -6,7 +6,9 @@ Slug: 2020-03-30-whats-new-in-pycon-taiwan-2020
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2020/03/whats-new-in-pycon-taiwan-2020.html)*.
----
+
+<!--more-->
+
 
 PyCon Taiwan 2020 有什麼新玩意？  
 

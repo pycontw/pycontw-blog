@@ -6,7 +6,9 @@ Slug: 2015-10-31-pycontw2016-coming
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2015/10/pycontw2016-coming.html)*.
----
+
+<!--more-->
+
 
 [![](https://1.bp.blogspot.com/-Z1sbfl8VgB0/VjSDdROwBsI/AAAAAAAADx0/pK75rltzlPM/s400/CIMG2381.JPG)](https://1.bp.blogspot.com/-Z1sbfl8VgB0/VjSDdROwBsI/AAAAAAAADx0/pK75rltzlPM/s1600/CIMG2381.JPG)
 

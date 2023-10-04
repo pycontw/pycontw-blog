@@ -6,7 +6,9 @@ Slug: 2015-02-04-pycon-asia-pacific-2015-in-taiwan-save
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2015/02/pycon-asia-pacific-2015-in-taiwan-save.html)*.
----
+
+<!--more-->
+
 
 
 [![](https://tw.pycon.org/static/image/header/logo.png)](https://tw.pycon.org/2015apac/en/)

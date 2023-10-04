@@ -6,7 +6,9 @@ Slug: 2019-05-21-postponement-annoucement-may-20-cfp
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2019/05/postponement-annoucement-may-20-cfp.html)*.
----
+
+<!--more-->
+
 Dear proposal submitters,   
 
 有投稿的朋友們，大家好，  

@@ -6,7 +6,9 @@ Slug: 2015-06-04-10-things-you-dont-want-to-miss-at_4
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2015/06/10-things-you-dont-want-to-miss-at_4.html)*.
----
+
+<!--more-->
+
 
 
 ![](https://lh4.googleusercontent.com/3L0PZiVdDPiu9ihmPHcS8pytq5Sidj9CnBRpjolpM-qxaVNA9zl-gDbP1Oxttt_aeWK1D4kRMYkx-2TSCcZZFfoT6zvTSkP2DsU8LP97O8m8pZmJzEvApw06ntHD8tlIe5GaZMM)

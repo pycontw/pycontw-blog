@@ -6,7 +6,9 @@ Slug: 2021-09-28-lets-eat-with-pycon-tw
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2021/09/lets-eat-with-pycon-tw.html)*.
----
+
+<!--more-->
+
 The upcoming PyCon TW is on October 2nd and 3rd! 🤩
 
 It was exciting to chat with new friends at lunch time.
