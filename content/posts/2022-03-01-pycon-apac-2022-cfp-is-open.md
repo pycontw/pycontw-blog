@@ -10,11 +10,11 @@ Authors: PyCon Taiwan Blogger contributors
 <!--more-->
 
 ![](https://lh3.googleusercontent.com/Mg415sDQZDHA9MDeXN6OHuDPa5OcB_4QBvJFGRefgaRFB0Ijb-6N6UkVLqXKL3QZy41rUY46tcV3XSFglIku7ZVcE5TlkZubleWdR1iqoZ424PBbgqkDpFMiMXnNuGyDCLc3qJ_t=w506-h297)  
- (Mandarin Below) 
+ (Mandarin Below)
 
 The CfP for PyCon APAC 2022 is OPEN now!
 
-PyCon APAC 2022 will be held in Gather Town and on Youtube fully remote on Sep. 3-4. 
+PyCon APAC 2022 will be held in Gather Town and on Youtube fully remote on Sep. 3-4.
 
 There will be a different conference style this year, so look out for future updates on what to expect!
 
@@ -30,10 +30,10 @@ Important Points:
 4. You may present in any language you are comfortable with, but the proposals for talks made through our CFP system must be in English or Mandarin Chinese only so that our reviewers can understand them.
 5. We will refer or forward some of the rejected proposals to local Python communities in APAC for their consideration in their own events.
 
-Important Dates : 
+Important Dates :
 
 * Talks & Tutorial CfP starts: Mar. 1
-* Talks & Tutorial CfP ends: Apr. 15  (23:59:59 AoE)
+* Talks & Tutorial CfP ends: Apr. 15  (23:59:59 AoE)
 * Dates of the Conference: Sep. 3 - Sep. 4
 
 For more detailed CfP info, please visit [PyCon APAC 2022 website - CfP](https://tw.pycon.org/2022/en-us/speaking/cfp).
@@ -48,7 +48,7 @@ PyCon APAC 2022 年會將於 Gather, Youtube 平台全線上舉行，並嘗試�
 
 我們接受泛 Python 相關的各類投稿，包括學術報告、商用專案或者案例研究等，或是社群經營、溝通、心理健康、失敗經驗等軟議題。
 
- 
+
 
 【投稿重點摘錄】
 
@@ -66,6 +66,6 @@ PyCon APAC 2022 年會將於 Gather, Youtube 平台全線上舉行，並嘗試�
 * 議程、課程 投稿截止：4/15 (五) 23:59:59 ([AoE](https://www.timeanddate.com/worldclock/converter.html?iso=20210427T115900&p1=tz_aoe&p2=241&p3=1440))
 * 大會日期：9/3 (六) - 9/4 (日)
 
-更多詳細 CfP 說明，請見 [PyCon APAC 2022  - CfP](https://tw.pycon.org/2022/zh-hant/speaking/cfp)。
+更多詳細 CfP 說明，請見 [PyCon APAC 2022  - CfP](https://tw.pycon.org/2022/zh-hant/speaking/cfp)。
 
 歡迎各位舊雨新知前來投稿，並分享此資訊至你所在的社群。

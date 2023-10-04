@@ -5,7 +5,7 @@ Category: online-conference
 Tags: en
 Slug: gather-town-building
 Authors: Winnie, Fish, Ray, Shirley, Vivian, Pochun, TN-Lee, Yoyo, Angus, Allen
-Summary: ![PyCon APAC 2022 Monopoly](images/2023-03-05-gather-town-building/26-Monopoly.jpg) Last year (2022), PyCon Taiwan hosted PyCon APAC for the third time. Due to global epidemic situation, we chose holding PyCon APAC 2022 remotely via Gather.Town. It’s the second time we used Gather.Town to build the conference. We found that Gather.Town kept updating the interface and features, and created lots of friendly example maps for newcomers. In this article, we would introduce the events of PyCon APAC 2022 in the following.
+Summary: ![PyCon APAC 2022 Monopoly](images/2023-03-05-gather-town-building/26-Monopoly.jpg) Last year (2022), PyCon Taiwan hosted PyCon APAC for the third time. Due to global epidemic situation, we chose holding PyCon APAC 2022 remotely via Gather.Town. It’s the second time we used Gather.Town to build the conference. We found that Gather.Town kept updating the interface and features, and created lots of friendly example maps for newcomers. In this article, we would introduce the events of PyCon APAC 2022 in the following.
 
 [TOC]
 
@@ -15,7 +15,7 @@ Summary: ![PyCon APAC 2022 Monopoly](images/2023-03-05-gather-town-building/26-M
 
 Last year (2022), PyCon Taiwan hosted PyCon APAC for the third time.
 
-Due to global epidemic situation, we chose holding PyCon APAC 2022 remotely via Gather.Town. It’s the second time we used Gather.Town to build the conference. We found that Gather.Town kept updating the interface and features, and created lots of friendly example maps for newcomers.
+Due to global epidemic situation, we chose holding PyCon APAC 2022 remotely via Gather.Town. It’s the second time we used Gather.Town to build the conference. We found that Gather.Town kept updating the interface and features, and created lots of friendly example maps for newcomers.
 
 In this article, we would introduce the events of PyCon APAC 2022 in the following.   *- written by Winnie -*
 <!--more-->
@@ -90,7 +90,7 @@ Taiwan is a beautiful island, so we tried to make the attendees feel like walkin
 
 ## Portal
 
-When we left the beach and walked along the forest trail.  What catches the eye is the PyCon railroad station, where there are four trains to different destinations. For example, we can take the yellow car to SPACE A. The model of these trains is Ziqiang, which is very representative of Taiwanese trains. Oh, no! The train is about to leave, let's get on the train and head to the venue! *- written by Ray -*
+When we left the beach and walked along the forest trail.  What catches the eye is the PyCon railroad station, where there are four trains to different destinations. For example, we can take the yellow car to SPACE A. The model of these trains is Ziqiang, which is very representative of Taiwanese trains. Oh, no! The train is about to leave, let's get on the train and head to the venue! *- written by Ray -*
 
 ![Portal](images/2023-03-05-gather-town-building/13-Portal.png)
 

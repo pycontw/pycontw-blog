@@ -66,7 +66,7 @@ http://pyconazure.kktix.cc/events/acfef78c](http://pyconazure.kktix.cc/events/ac
 
 [![](https://lh4.googleusercontent.com/ygMggM8fC52OzafbTiSnyEfwtEGZc7PLdvkZcgJ4cVM00PsRpmGye9K49GLHXitY0SF3DSUh5VX3DI94Vx4XCg6eHBxM_WR2-BxIosX6w7N45grv6pfXj6OzY0mJo_6q5epaFEU)  
 http://pycontwsoftlayer.kktix.cc/events/23b58184](http://pycontwsoftlayer.kktix.cc/events/23b58184)
-2. SoftLayer, an IBM Company, with the topic “Managing Deployments with Async I/O programming on Python 3.4 and provisioning using SoftLayer API”, could introduce you how you may leverage Python 3.4 Asyncio, or build a server with Oursky.  Furthermore,  you could explore how to leverage Python + Salt + Softlayer’s API for server provisioning and orchestration with Griffin, a SoftLayer partner delivers bespoke online products and services for established businesses, from conception to implementation.
+2. SoftLayer, an IBM Company, with the topic “Managing Deployments with Async I/O programming on Python 3.4 and provisioning using SoftLayer API”, could introduce you how you may leverage Python 3.4 Asyncio, or build a server with Oursky.  Furthermore,  you could explore how to leverage Python + Salt + Softlayer’s API for server provisioning and orchestration with Griffin, a SoftLayer partner delivers bespoke online products and services for established businesses, from conception to implementation.
 
 
 
@@ -206,6 +206,6 @@ Don’t miss talks. It's the most important thing in PyCon APAC. There are 42 ta
 
 
 
-Come and join us, it’s time to back to \_\_future\_\_ !! 
+Come and join us, it’s time to back to \_\_future\_\_ !!
 
 SEE YOU IN PYCON APAC 2015!!

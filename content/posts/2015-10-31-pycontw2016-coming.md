@@ -32,4 +32,4 @@ PyConTW 2016 will be held on June 3-5 (Friday to Sunday) at Academia Sinica in T
 
 
 
-Follow us: [Facebook](https://www.facebook.com/pycontw/), [Twitter](https://twitter.com/PyConTW)  
+Follow us: [Facebook](https://www.facebook.com/pycontw/), [Twitter](https://twitter.com/PyConTW)  

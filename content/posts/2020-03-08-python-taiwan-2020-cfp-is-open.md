@@ -73,7 +73,7 @@ PyCon TW will partially provide financial aid for transportation.
 Important Dates :
 * Talks & Tutorial CfP ends: 26 Apr (23:59:59 [AoE](https://www.timeanddate.com/worldclock/converter.html?iso=20200427T115900&p1=tz_aoe&p2=241&p3=1440))
 * Announcement of acceptance: In the middle of June (tentative)
-* Dates of the Conference: 5 Sep - 6 Sep
+* Dates of the Conference: 5 Sep - 6 Sep
 
 
 

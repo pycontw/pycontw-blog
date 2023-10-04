@@ -9,7 +9,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 <!--more-->
 
-##### 文：PyCon Taiwan 2016  攝影：Sharon Wang
+##### 文：PyCon Taiwan 2016  攝影：Sharon Wang
 
 
 
@@ -138,7 +138,7 @@ Aug 28, 2014 : [PyQt應用\_ 跨平台GUI開發工具](http://www.meetup.com/Tai
 
 
 
-Aug 30, 2014 : [Taichung.py八月份聚會](http://www.meetup.com/Taichung-Python-Meetup/events/200633182/) : Django Project 佈署到 Heroku  (演講者：Cody Liu) : OpenCV and Python  (演講者：Max Lai)
+Aug 30, 2014 : [Taichung.py八月份聚會](http://www.meetup.com/Taichung-Python-Meetup/events/200633182/) : Django Project 佈署到 Heroku  (演講者：Cody Liu) : OpenCV and Python  (演講者：Max Lai)
 
 
 
@@ -158,7 +158,7 @@ Oct 25, 2014 : [台中Py十月份第二次聚會](http://www.meetup.com/Taichung
 
 
 
-Nov 22, 2014  : [台中Py11月份聚會 -- Django Forms](http://www.meetup.com/Taichung-Python-Meetup/events/217754172/) : Tim Hsu
+Nov 22, 2014  : [台中Py11月份聚會 -- Django Forms](http://www.meetup.com/Taichung-Python-Meetup/events/217754172/) : Tim Hsu
 
 
 

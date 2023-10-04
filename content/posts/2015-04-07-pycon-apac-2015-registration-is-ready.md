@@ -22,7 +22,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 
 
-Ladies and gentleman, Are you ready? Let's welcome to the BIG DAY：we are going to start our Early Bird ticket sales today!
+Ladies and gentleman, Are you ready? Let's welcome to the BIG DAY：we are going to start our Early Bird ticket sales today!
 
 
 
@@ -66,7 +66,7 @@ Let's re-glance our stunning keynote speakers:
 
 
 
-Cython, Scipy, Numpy, Julia、Rackspace, and Heroku, If you've ever heard of these terms and been a heavy user of them, don't miss our event! Just buy the ticket at 06:05 p.m. (TPE time, GMT+8:00) this afternoon, and enjoy the technical exchange with these superstar in Python world !
+Cython, Scipy, Numpy, Julia、Rackspace, and Heroku, If you've ever heard of these terms and been a heavy user of them, don't miss our event! Just buy the ticket at 06:05 p.m. (TPE time, GMT+8:00) this afternoon, and enjoy the technical exchange with these superstar in Python world !
 
 
 
@@ -95,11 +95,11 @@ Cython, Scipy, Numpy, Julia、Rackspace, and Heroku, If you've ever heard of the
 
 
 
----------2015/05/25 Update-------------
+---------2015/05/25 Update-------------
 
 
 
-Keynote Speaker List has been update.   
+Keynote Speaker List has been update.  
 
 
 

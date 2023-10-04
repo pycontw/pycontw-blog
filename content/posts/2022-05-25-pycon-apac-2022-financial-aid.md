@@ -23,9 +23,9 @@ Authors: PyCon Taiwan Blogger contributors
 
 
 
-PyCon APAC 2022 is opening applications for the Financial Aid program!PyCon APAC 2022 財務補助開跑！ 
+PyCon APAC 2022 is opening applications for the Financial Aid program!PyCon APAC 2022 財務補助開跑！
 
-Whilst following the Everyone Contributes / Everyone Pays policy, we also provide a 
+Whilst following the Everyone Contributes / Everyone Pays policy, we also provide a
 
 financial aid program to help friends in the community, financially or otherwise.
 
@@ -33,9 +33,9 @@ financial aid program to help friends in the community, financially or otherwise
 
 和往年一樣，也懷著取之於社群也用之於社群的初衷，提供有需要的人財務補助。
 
- 
 
-Don't forget to apply financial aid, if you are really interested in participating in PyCon 
+
+Don't forget to apply financial aid, if you are really interested in participating in PyCon
 
 APAC 2022 but with some economic considerations.
 
@@ -43,7 +43,7 @@ APAC 2022 but with some economic considerations.
 
 請財務補助。
 
- 
+
 
 More details in official website <https://tw.pycon.org/2022/en-us/registration/financial-aid>
 

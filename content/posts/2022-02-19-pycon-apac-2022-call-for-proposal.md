@@ -21,7 +21,7 @@ Schedule:
 * May 22 ~ June 5: Second round review
 * June 12: Announce accepted and rejected proposals, and the waiting list
 
- 
+
 
 [![](https://blogger.googleusercontent.com/img/a/AVvXsEgE0UkZxCrDX_iHi-5Vge3EjTN8KjF1NFAqtwEIOt0JhC_pvIiMhTxnEI0hzhSFtqYPaz6nfNfieVa8OPKg01m-6KIatMiXOdIDF6H5awkWoxKyQ6n7__Ows1r9oyefw-FDjafa-U6WH71g8xMqZu3zypLR4-rSyIkcBganKBM7spiq79UX9ASbprTW=w425-h489)](https://blogger.googleusercontent.com/img/a/AVvXsEgE0UkZxCrDX_iHi-5Vge3EjTN8KjF1NFAqtwEIOt0JhC_pvIiMhTxnEI0hzhSFtqYPaz6nfNfieVa8OPKg01m-6KIatMiXOdIDF6H5awkWoxKyQ6n7__Ows1r9oyefw-FDjafa-U6WH71g8xMqZu3zypLR4-rSyIkcBganKBM7spiq79UX9ASbprTW)  
 
@@ -33,6 +33,6 @@ Note:
 
 PyCon APAC 2022 will be held in "Fully Remote". Our online attendees, including online speakers, will also join our Discord to interact with others and watch talks live. Last year in PyCon Taiwan, we used Gather Town to give attendees an experience that is comparable to in-person participation. If you are interested in how Gather Town is used in PyCon Taiwan, [see here](https://pycontw.blogspot.com/2022/01/how-pycon-taiwan-uses-gather-town-to.html) !
 
- We're looking forward to the upcoming PyCon APAC 2022 :)
+ We're looking forward to the upcoming PyCon APAC 2022 :)
 
- #PyConAPAC2022  #PyConAPAC #PyConTW
+ #PyConAPAC2022  #PyConAPAC #PyConTW

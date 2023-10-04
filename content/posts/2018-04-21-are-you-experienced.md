@@ -28,7 +28,7 @@ Have you ever been experienced?
 Well, I have  
 
 
-        The Jimi Hendrix Experience*
+        The Jimi Hendrix Experience*
 
 
 Here are my favorite PyCon Taiwan memories. What are yours? [Join us](https://pycontw.kktix.cc/events/20180601-individual)!

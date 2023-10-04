@@ -62,7 +62,7 @@ Carol Willing 對學習和分享充滿熱情。最近的演講包括 PyCon US 20
 
 
 ####
-Carol Naslund Willing can frequently be heard saying “That’s so cool. How does it work? I would love to learn more about it.”She has enjoyed developing software and is a Director of the Python Software Foundation, a core developer for Project Jupyter, and a Research Software Engineer at Cal Poly San Luis Obispo. She’s an active contributor to open source projects, a maintainer for OpenHatch and the Anita Borg Institute’s open source projects. My experiences with people have taught me to “use what you have learned to make something better and share with others”.Recent lectures include PyCon US 2016, PyData Carolinas 2016, PyCon Philippines 2016.
+Carol Naslund Willing can frequently be heard saying “That’s so cool. How does it work? I would love to learn more about it.”She has enjoyed developing software and is a Director of the Python Software Foundation, a core developer for Project Jupyter, and a Research Software Engineer at Cal Poly San Luis Obispo. She’s an active contributor to open source projects, a maintainer for OpenHatch and the Anita Borg Institute’s open source projects. My experiences with people have taught me to “use what you have learned to make something better and share with others”.Recent lectures include PyCon US 2016, PyData Carolinas 2016, PyCon Philippines 2016.
 
 
 

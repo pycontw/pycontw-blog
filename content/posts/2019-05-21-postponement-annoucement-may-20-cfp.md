@@ -9,7 +9,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 <!--more-->
 
-Dear proposal submitters,   
+Dear proposal submitters,  
 
 有投稿的朋友們，大家好，  
 

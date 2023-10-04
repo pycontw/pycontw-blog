@@ -49,7 +49,7 @@ Authors: PyCon Taiwan Blogger contributors
 版權屬於：Sosorry, PyCon APAC 2015
 
 
-Raspberry Pi (樹莓派) 是對於自造者而言最簡單的入門系統，小小一塊基板卻包含大部分硬體開發的設備需求，從處理器到 GPIO 接腳，從支持 wifi 到各式感應器，提供想學習硬體的初學者一個相當漂亮的入門磚。除了設備完整之外，Raspberry Pi 還支援近來相當火紅的語言 - Python 撰寫。也降低了許多人對硬體操作的門檻。
+Raspberry Pi (樹莓派) 是對於自造者而言最簡單的入門系統，小小一塊基板卻包含大部分硬體開發的設備需求，從處理器到 GPIO 接腳，從支持 wifi 到各式感應器，提供想學習硬體的初學者一個相當漂亮的入門磚。除了設備完整之外，Raspberry Pi 還支援近來相當火紅的語言 - Python 撰寫。也降低了許多人對硬體操作的門檻。
 
 
 
