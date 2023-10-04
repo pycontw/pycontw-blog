@@ -26,7 +26,7 @@ We believe that diversity of the community will stimulate new creation and will 
 And, we wish next PyCon APAC to become more successful conference.  
 
 Thanks HDE, It would be no success without their great support.  
-PyCon APAC 2015 is coming, what are you waiting for? Join us, we need you*smile emoticon*  
+PyCon APAC 2015 is coming, what are you waiting for? Join us, we need you
 
 [#pyconapac2015](https://www.facebook.com/hashtag/pyconapac2015) Call for sponsors  
 
