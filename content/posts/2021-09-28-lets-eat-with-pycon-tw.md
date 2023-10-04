@@ -7,4 +7,66 @@ Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2021/09/lets-eat-with-pycon-tw.html)*.
 ---
-<p class="part in-view"><span>The upcoming PyCon TW is on October 2nd and 3rd! 🤩</span></p><p class="part in-view"><span>It was exciting to chat with new friends at lunch time.</span></p><p class="part in-view"><span>Due to COVID-19, PyCon TW 2021 will be held online. Instead of chatting face to face, the participants can interact with others at the&nbsp;</span><span>Soothing Forest</span><span>&nbsp;on Gather.Town. We can also share our lunch photos on Discord! 🍱</span></p><p class="part"><span><br /></span></p><p class="part"><span>The Soothing Forest on PyCon TW 2021 Venue Powered by Gather.Town</span></p><p class="part"></p><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-BB65UUYgHoo/YVA5AxXxZ2I/AAAAAAABTVo/L6oZpAjps-Ep_M7HOaxkKyjWdZOrMm4yQCPcBGAYYCw/s857/forest.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="262" src="https://1.bp.blogspot.com/-BB65UUYgHoo/YVA5AxXxZ2I/AAAAAAABTVo/L6oZpAjps-Ep_M7HOaxkKyjWdZOrMm4yQCPcBGAYYCw/s320/forest.png" width="320" /></a></div><br /><span><br /></span><p></p><p class="part in-view"><span>For many, deciding on what to eat is proabbly one of the most difficult decisions to make, but don’t sweat it—PyCon TW has decided the contents of the meals.</span></p><p class="part in-view"><span>🍛&nbsp;</span><span>curry rice</span><span>&nbsp;on Saturday, October 2nd</span><br /><span>🍝&nbsp;</span><span>fried instant noodles</span><span>&nbsp;on Sunday, October 3rd</span></p><p class="part in-view"><span>Just enjoy the meals and share your recipe with friends on Gather.Town! 😋 You can also upload the food photos and show your cooking on Discord. The food photos will be exhibited in the picnic basket at the Soothing Forest on Gather.Town.</span></p><p class="part in-view"><span>In addition, we’re looking forward to sharing fun photos of Python logo composed of materials or tableware on Discord.</span></p><p class="part"><span><br /></span></p><p class="part"><span>Show Your "Py Food" on the Conference Day!!</span></p><p class="part"></p><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-xnN7ZVq9wG0/YVA5C_kd4ZI/AAAAAAABTVw/dZVa3OUBEWwqbO_pO998L2TlaPlFwvAqQCPcBGAYYCw/s2048/food-demo.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://1.bp.blogspot.com/-xnN7ZVq9wG0/YVA5C_kd4ZI/AAAAAAABTVw/dZVa3OUBEWwqbO_pO998L2TlaPlFwvAqQCPcBGAYYCw/s320/food-demo.jpg" width="320" /></a></div><br /><span><br /></span><p></p><p class="part"><span>We can’t wait to see the food photos! Set out to shop for groceries. 🛒</span></p><p class="part"><span>Follow the steps below to make the meals. 👨‍🍳</span></p><p class="part"><span></span></p><h3 class="part" id="Curry-Rice-🍛"><a class="anchor hidden-xs" href="https://hackmd.io/@pycontw/BJpxdY6mF#Curry-Rice-%F0%9F%8D%9B" title="Curry-Rice-🍛"><span class="octicon octicon-link"></span></a><span>Curry Rice 🍛</span></h3><div><span><br /></span></div><div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-1a5bOCAyDR4/YVHsDojMxJI/AAAAAAABTXE/ZsWE3_Zt1Y8W5Xwy3wsUoURUmg_qlWUXQCLcBGAsYHQ/s2048/recipe-01-en.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://1.bp.blogspot.com/-1a5bOCAyDR4/YVHsDojMxJI/AAAAAAABTXE/ZsWE3_Zt1Y8W5Xwy3wsUoURUmg_qlWUXQCLcBGAsYHQ/s320/recipe-01-en.png" width="301" /></a></div><span><br /></span></div><div><span><ol class="part"><li><span>Chop the beef and put it with salt and pepper for 10 minutes</span></li><li style="padding-top: 0.25em;"><span>Chop the onion, the carrot and the potato</span></li><li style="padding-top: 0.25em;"><span>Saute the onion</span></li><li style="padding-top: 0.25em;"><span>Add the beef and the carrot, and saute them to medium</span></li><li style="padding-top: 0.25em;"><span>Add the potato and water, and boil them 10 minutes</span></li><li style="padding-top: 0.25em;"><span>Add the curry cube, and stir them</span></li></ol><p class="part"><span>Recipe reference from Internet (Chinese):&nbsp;</span><a href="https://icook.tw/recipes/388311" rel="noopener" style="background-color: transparent; color: #337ab7;" target="_blank"><span>https://icook.tw/recipes/388311</span></a></p><p class="part"><br /></p><p class="part"><br /></p><h3 class="part" id="Fried-Instant-Noodles-🍝"><span>Fried Instant Noodles 🍝</span></h3><div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-mKNJb81Y7Rw/YVHsDqAGxEI/AAAAAAABTXA/wqBjJF4MGQwN0YvGVslPTLhTxM3mBXvAwCLcBGAsYHQ/s2048/recipe-02-en.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="294" src="https://1.bp.blogspot.com/-mKNJb81Y7Rw/YVHsDqAGxEI/AAAAAAABTXA/wqBjJF4MGQwN0YvGVslPTLhTxM3mBXvAwCLcBGAsYHQ/s320/recipe-02-en.png" width="320" /></a></div><span><br /></span></div><div><span><ol class="part"><li><span>Boil water</span></li><li style="padding-top: 0.25em;"><span>Cut the cucumber, the onion, the garlic, the mushroom and the bacon</span></li><li style="padding-top: 0.25em;"><span>Add the seasoning of the instant noodles into the boiled water</span></li><li style="padding-top: 0.25em;"><span>Saute the materials in step 2. with the old of the instant noodles, and add a spoon of soup in step 3.</span></li><li style="padding-top: 0.25em;"><span>Add the instant noodles into the soup in step 3., and cook it to medium-well</span></li><li style="padding-top: 0.25em;"><span>Saute the noodles with the materials in step 4.</span></li></ol><p class="part"><span>Recipe reference from Internet (Chinese):&nbsp;</span><a href="https://youtu.be/7lzqDwejMNk?t=54" rel="noopener" style="background-color: transparent; color: #337ab7;" target="_blank"><span>https://youtu.be/7lzqDwejMNk?t=54</span></a></p></span></div></span></div>
+The upcoming PyCon TW is on October 2nd and 3rd! 🤩
+
+It was exciting to chat with new friends at lunch time.
+
+Due to COVID-19, PyCon TW 2021 will be held online. Instead of chatting face to face, the participants can interact with others at the Soothing Forest on Gather.Town. We can also share our lunch photos on Discord! 🍱
+
+
+
+
+The Soothing Forest on PyCon TW 2021 Venue Powered by Gather.Town
+
+[![](https://1.bp.blogspot.com/-BB65UUYgHoo/YVA5AxXxZ2I/AAAAAAABTVo/L6oZpAjps-Ep_M7HOaxkKyjWdZOrMm4yQCPcBGAYYCw/s320/forest.png)](https://1.bp.blogspot.com/-BB65UUYgHoo/YVA5AxXxZ2I/AAAAAAABTVo/L6oZpAjps-Ep_M7HOaxkKyjWdZOrMm4yQCPcBGAYYCw/s857/forest.png)  
+
+For many, deciding on what to eat is proabbly one of the most difficult decisions to make, but don’t sweat it—PyCon TW has decided the contents of the meals.
+
+🍛 curry rice on Saturday, October 2nd  
+🍝 fried instant noodles on Sunday, October 3rd
+
+Just enjoy the meals and share your recipe with friends on Gather.Town! 😋 You can also upload the food photos and show your cooking on Discord. The food photos will be exhibited in the picnic basket at the Soothing Forest on Gather.Town.
+
+In addition, we’re looking forward to sharing fun photos of Python logo composed of materials or tableware on Discord.
+
+
+
+
+Show Your "Py Food" on the Conference Day!!
+
+[![](https://1.bp.blogspot.com/-xnN7ZVq9wG0/YVA5C_kd4ZI/AAAAAAABTVw/dZVa3OUBEWwqbO_pO998L2TlaPlFwvAqQCPcBGAYYCw/s320/food-demo.jpg)](https://1.bp.blogspot.com/-xnN7ZVq9wG0/YVA5C_kd4ZI/AAAAAAABTVw/dZVa3OUBEWwqbO_pO998L2TlaPlFwvAqQCPcBGAYYCw/s2048/food-demo.jpg)  
+
+We can’t wait to see the food photos! Set out to shop for groceries. 🛒
+
+Follow the steps below to make the meals. 👨‍🍳
+
+### Curry Rice 🍛
+
+
+[![](https://1.bp.blogspot.com/-1a5bOCAyDR4/YVHsDojMxJI/AAAAAAABTXE/ZsWE3_Zt1Y8W5Xwy3wsUoURUmg_qlWUXQCLcBGAsYHQ/s320/recipe-01-en.png)](https://1.bp.blogspot.com/-1a5bOCAyDR4/YVHsDojMxJI/AAAAAAABTXE/ZsWE3_Zt1Y8W5Xwy3wsUoURUmg_qlWUXQCLcBGAsYHQ/s2048/recipe-01-en.png)  
+1. Chop the beef and put it with salt and pepper for 10 minutes
+2. Chop the onion, the carrot and the potato
+3. Saute the onion
+4. Add the beef and the carrot, and saute them to medium
+5. Add the potato and water, and boil them 10 minutes
+6. Add the curry cube, and stir them
+
+Recipe reference from Internet (Chinese): <https://icook.tw/recipes/388311>
+
+
+
+
+
+
+
+### Fried Instant Noodles 🍝
+
+[![](https://1.bp.blogspot.com/-mKNJb81Y7Rw/YVHsDqAGxEI/AAAAAAABTXA/wqBjJF4MGQwN0YvGVslPTLhTxM3mBXvAwCLcBGAsYHQ/s320/recipe-02-en.png)](https://1.bp.blogspot.com/-mKNJb81Y7Rw/YVHsDqAGxEI/AAAAAAABTXA/wqBjJF4MGQwN0YvGVslPTLhTxM3mBXvAwCLcBGAsYHQ/s2048/recipe-02-en.png)  
+1. Boil water
+2. Cut the cucumber, the onion, the garlic, the mushroom and the bacon
+3. Add the seasoning of the instant noodles into the boiled water
+4. Saute the materials in step 2. with the old of the instant noodles, and add a spoon of soup in step 3.
+5. Add the instant noodles into the soup in step 3., and cook it to medium-well
+6. Saute the noodles with the materials in step 4.
+
+Recipe reference from Internet (Chinese): <https://youtu.be/7lzqDwejMNk?t=54>
