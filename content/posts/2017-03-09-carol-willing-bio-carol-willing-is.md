@@ -6,7 +6,9 @@ Slug: 2017-03-09-carol-willing-bio-carol-willing-is
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2017/03/carol-willing-bio-carol-willing-is.html)*.
----
+
+<!--more-->
+
 ####
 Carol Willing
 

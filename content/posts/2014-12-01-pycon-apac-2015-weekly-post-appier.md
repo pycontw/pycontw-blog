@@ -6,7 +6,9 @@ Slug: 2014-12-01-pycon-apac-2015-weekly-post-appier
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2014/12/pycon-apac-2015-weekly-post-appier.html)*.
----
+
+<!--more-->
+
 Appier, the first company in Taiwan chosen to receive investments from Sequoia Capital in 2014, gave a lot of support to PyCon APAC 2014. We were very pleased to have an opportunity for Appier to share their knowledge and experience with us.  
 
 

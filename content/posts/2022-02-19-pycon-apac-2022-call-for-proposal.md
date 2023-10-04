@@ -6,7 +6,9 @@ Slug: 2022-02-19-pycon-apac-2022-call-for-proposal
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2022/02/pycon-apac-2022-call-for-proposal.html)*.
----
+
+<!--more-->
+
 PyCon APAC 2022 will be held fully remote on September 3-4. And the official release time of the call for papers will **start on March 1 and end on April 15.**
 
 Schedule:

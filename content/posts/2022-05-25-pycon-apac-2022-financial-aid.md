@@ -6,7 +6,9 @@ Slug: 2022-05-25-pycon-apac-2022-financial-aid
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2022/05/pycon-apac-2022-financial-aid.html)*.
----
+
+<!--more-->
+
 [![](https://blogger.googleusercontent.com/img/a/AVvXsEhb2Gxl75WaJOqCa2vfI9641OaG32Xd808WJSzE0sVBn1_zxlfleK0T9rEjZWHH3Q8a_enljdV2NbDLxedoNXjNlXq8AFJx4ekj6PCl_DcJmcALIQEe0svp6mHPJkcdbkgXeoVdWk-2K2coqqpB7cN2zyC-bisYr8RjNSuGKmNqhkO3BI6ZfAuQd4dZMw=w320-h286)](https://blogger.googleusercontent.com/img/a/AVvXsEhb2Gxl75WaJOqCa2vfI9641OaG32Xd808WJSzE0sVBn1_zxlfleK0T9rEjZWHH3Q8a_enljdV2NbDLxedoNXjNlXq8AFJx4ekj6PCl_DcJmcALIQEe0svp6mHPJkcdbkgXeoVdWk-2K2coqqpB7cN2zyC-bisYr8RjNSuGKmNqhkO3BI6ZfAuQd4dZMw)  
 
 

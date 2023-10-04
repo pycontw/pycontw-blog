@@ -6,7 +6,9 @@ Slug: 2022-07-06-call-for-sprint-project-leaders-apply
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2022/07/call-for-sprint-project-leaders-apply.html)*.
----
+
+<!--more-->
+
  
 
 

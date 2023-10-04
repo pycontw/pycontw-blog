@@ -6,7 +6,9 @@ Slug: 2015-02-11-pycon-apac-2015-mimi
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2015/02/pycon-apac-2015-mimi.html)*.
----
+
+<!--more-->
+
 
 這次PyCon APAC 2015的整體設計風格, 我們特別嘗試了與以往不同的風格, 呼應 電影 - 回到未來2 的電影場境中回到 2015探索未來, PyCon APAC 2015 更希望能帶給會眾更多驚喜與視覺連結。
 

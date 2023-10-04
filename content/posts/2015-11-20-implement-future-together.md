@@ -6,7 +6,9 @@ Slug: 2015-11-20-implement-future-together
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2015/11/implement-future-together.html)*.
----
+
+<!--more-->
+
 Python 已是最受歡迎的語言之一，關注和參與 PyCon 的會眾數量逐年成長，對於接下來的台灣 Python 年會，我們有怎樣的期許呢？
 
 

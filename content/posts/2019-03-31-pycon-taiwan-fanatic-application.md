@@ -6,7 +6,9 @@ Slug: 2019-03-31-pycon-taiwan-fanatic-application
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2019/03/pycon-taiwan-fanatic-application.html)*.
----
+
+<!--more-->
+
 
 > Are You a PyCon Animal? #MyPyCon  
 >

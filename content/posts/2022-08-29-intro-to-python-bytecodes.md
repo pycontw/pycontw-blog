@@ -6,7 +6,9 @@ Slug: 2022-08-29-intro-to-python-bytecodes
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2022/08/intro-to-python-bytecodes.html)*.
----
+
+<!--more-->
+
 One of the most common myths that I encounter in my corporate training is that Python is an interpreted language. It's not really surprising that people believe that -- after all, Python is often referred to as a "scripting" language, and often has the feel of an interpreted language, one that is translated into machine code one line at a time.
 
 But in fact, Python is a byte-compiled language: First, the code that you write is translated into bytecodes -- an interim, portable format that resembles a high-level assembly language. When you run your program, those bytecodes are executed by the Python runtime. This is pretty similar to how things work in a number of other platforms, including .NET and Java -- but the process in Python is so transparent that we often don't think about it.

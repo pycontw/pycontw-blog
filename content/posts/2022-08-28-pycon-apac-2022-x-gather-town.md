@@ -6,7 +6,9 @@ Slug: 2022-08-28-pycon-apac-2022-x-gather-town
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2022/08/pycon-apac-2022-x-gather-town.html)*.
----
+
+<!--more-->
+
 想知道如何在金融業運用數據力解決問題嗎？
 
 對金融業技術工作有憧憬，但找不到人了解更多嗎？

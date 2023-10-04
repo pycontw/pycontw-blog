@@ -6,7 +6,9 @@ Slug: 2019-06-27-pycon-taiwan-2019-financial-aid
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2019/06/pycon-taiwan-2019-financial-aid.html)*.
----
+
+<!--more-->
+
 PyCon Taiwan 2019 財務補助開跑！
 
 

@@ -6,7 +6,9 @@ Slug: 2015-05-26-python-pycon-apac-2015-6-pycon-python_26
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2015/05/python-pycon-apac-2015-6-pycon-python_26.html)*.
----
+
+<!--more-->
+
 
 
 亞太區的 Python 年度盛會，PyCon APAC 2015 將於 6 月在台盛大舉行

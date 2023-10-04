@@ -6,7 +6,9 @@ Slug: 2018-04-21-are-you-experienced
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2018/04/are-you-experienced.html)*.
----
+
+<!--more-->
+
 
 > *If you can just get your mind together  
 >

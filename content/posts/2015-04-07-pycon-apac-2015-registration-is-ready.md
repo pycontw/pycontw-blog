@@ -6,7 +6,9 @@ Slug: 2015-04-07-pycon-apac-2015-registration-is-ready
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2015/04/pycon-apac-2015-registration-is-ready.html)*.
----
+
+<!--more-->
+
 
 [![](http://3.bp.blogspot.com/-bDvr1fjQ1bM/VQ2FCKwXvkI/AAAAAAAAG2Y/UqtPFrEljqM/s1600/logo.png)](http://3.bp.blogspot.com/-bDvr1fjQ1bM/VQ2FCKwXvkI/AAAAAAAAG2Y/UqtPFrEljqM/s1600/logo.png)
 

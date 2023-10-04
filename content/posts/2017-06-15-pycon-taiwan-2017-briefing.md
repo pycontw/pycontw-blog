@@ -6,7 +6,9 @@ Slug: 2017-06-15-pycon-taiwan-2017-briefing
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2017/06/pycon-taiwan-2017-briefing.html)*.
----
+
+<!--more-->
+
 ![](https://pbs.twimg.com/media/DBzeiV9VYAATd8g.jpg)
 PyCon 又叫做 Python 年會，本質是同好的年度聚會。台灣年會 (PyCon Taiwan) 從 2012 起，每年都有不同層面的成長，那麼，今年到底有什麼相同或不同之處呢? 以下是身為籌備人員的個人觀察和心得分享:
 

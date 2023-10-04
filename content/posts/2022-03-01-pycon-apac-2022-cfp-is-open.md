@@ -6,7 +6,9 @@ Slug: 2022-03-01-pycon-apac-2022-cfp-is-open
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2022/03/pycon-apac-2022-cfp-is-open.html)*.
----
+
+<!--more-->
+
 ![](https://lh3.googleusercontent.com/Mg415sDQZDHA9MDeXN6OHuDPa5OcB_4QBvJFGRefgaRFB0Ijb-6N6UkVLqXKL3QZy41rUY46tcV3XSFglIku7ZVcE5TlkZubleWdR1iqoZ424PBbgqkDpFMiMXnNuGyDCLc3qJ_t=w506-h297)  
  (Mandarin Below) 
 

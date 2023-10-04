@@ -6,7 +6,9 @@ Slug: 2016-05-17-welcome-to-pycon-taiwan-2016
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2016/05/welcome-to-pycon-taiwan-2016.html)*.
----
+
+<!--more-->
+
 
 
 |  |

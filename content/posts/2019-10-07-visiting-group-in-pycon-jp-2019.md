@@ -6,7 +6,9 @@ Slug: 2019-10-07-visiting-group-in-pycon-jp-2019
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2019/10/visiting-group-in-pycon-jp-2019.html)*.
----
+
+<!--more-->
+
 
 
 PyCon is a platform for Python users to get together for Python. This year, people affiliated with PyCon TW formed a visiting group to attend PyCon JP. It’s the first international outreach from PyCon TW, and a great opportunity for us to experience different culture.
