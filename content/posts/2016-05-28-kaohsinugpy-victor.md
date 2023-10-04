@@ -9,7 +9,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 <!--more-->
 
-##### 文：PyCon Taiwan 2016  攝影：Ming
+##### 文：PyCon Taiwan 2016  攝影：Ming
 
 
 ![](https://2.bp.blogspot.com/-0FdT0bxBggg/V0h6JqCpDTI/AAAAAAAAD2E/T-SpugiNtlss00Uzh7YxPHV2VVtljWE4gCLcB/s1600/kaohsiung.jpg)

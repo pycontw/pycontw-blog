@@ -9,7 +9,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 <!--more-->
 
- 
+
 
 
 
@@ -31,7 +31,7 @@ Apply before July 20th via [this form](https://docs.google.com/forms/d/e/1FAIpQL
 
 More info of the sprint:
 
-Time：09:30 ~ 17:00, 14th, Aug. Sunday (2022/08/14 09:30 ~ 17:00) (TST, GMT+8) 
+Time：09:30 ~ 17:00, 14th, Aug. Sunday (2022/08/14 09:30 ~ 17:00) (TST, GMT+8)
 
 Location：Gather Town \*
 

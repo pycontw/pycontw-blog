@@ -13,7 +13,7 @@ The upcoming PyCon TW is on October 2nd and 3rd! 🤩
 
 It was exciting to chat with new friends at lunch time.
 
-Due to COVID-19, PyCon TW 2021 will be held online. Instead of chatting face to face, the participants can interact with others at the Soothing Forest on Gather.Town. We can also share our lunch photos on Discord! 🍱
+Due to COVID-19, PyCon TW 2021 will be held online. Instead of chatting face to face, the participants can interact with others at the Soothing Forest on Gather.Town. We can also share our lunch photos on Discord! 🍱
 
 
 
@@ -24,8 +24,8 @@ The Soothing Forest on PyCon TW 2021 Venue Powered by Gather.Town
 
 For many, deciding on what to eat is proabbly one of the most difficult decisions to make, but don’t sweat it—PyCon TW has decided the contents of the meals.
 
-🍛 curry rice on Saturday, October 2nd  
-🍝 fried instant noodles on Sunday, October 3rd
+🍛 curry rice on Saturday, October 2nd  
+🍝 fried instant noodles on Sunday, October 3rd
 
 Just enjoy the meals and share your recipe with friends on Gather.Town! 😋 You can also upload the food photos and show your cooking on Discord. The food photos will be exhibited in the picnic basket at the Soothing Forest on Gather.Town.
 
@@ -53,7 +53,7 @@ Follow the steps below to make the meals. 👨‍🍳
 5. Add the potato and water, and boil them 10 minutes
 6. Add the curry cube, and stir them
 
-Recipe reference from Internet (Chinese): <https://icook.tw/recipes/388311>
+Recipe reference from Internet (Chinese): <https://icook.tw/recipes/388311>
 
 
 
@@ -71,4 +71,4 @@ Recipe reference from Internet (Chinese): <https://icook.tw/recipes/388311>
 5. Add the instant noodles into the soup in step 3., and cook it to medium-well
 6. Saute the noodles with the materials in step 4.
 
-Recipe reference from Internet (Chinese): <https://youtu.be/7lzqDwejMNk?t=54>
+Recipe reference from Internet (Chinese): <https://youtu.be/7lzqDwejMNk?t=54>

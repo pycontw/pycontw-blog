@@ -13,7 +13,7 @@ So many people and organizations supported PyCon APAC/TW 2014, but today we want
 
 
 
-In 2013, CLBC Coworking Space, the first company in Taiwan that officially joined the Coworking Visa Union, started their business in the Da An district. They now provide a comfortable working environment at an affordable price for more than 100 teams, and have already supported more than 800 activities. CLBC has created a perfect breeding ground where new teams can grow into robust businesses.  
+In 2013, CLBC Coworking Space, the first company in Taiwan that officially joined the Coworking Visa Union, started their business in the Da An district. They now provide a comfortable working environment at an affordable price for more than 100 teams, and have already supported more than 800 activities. CLBC has created a perfect breeding ground where new teams can grow into robust businesses.  
 
 CLBC made a big contribution to PyCon APAC/TW 2014 by offering a wonderful coaching area and free coffee to all guests, giving everyone a chance to take a break and meet new friends. A comfortable place to talk usually leads to great new ideas.  
 
@@ -21,13 +21,13 @@ In fact, the team that created PyCon APAC/TW 2014 actually started in CLBC! All 
 
 PyCon APAC/TW 2014 wants to take this opportunity to show our gratitude to CLBC for their strong support and sponsorship this year. We look forward to even greater contributions in Taiwan and across Asia together.  
 
-To learn more about CLBC, just visit their website: [http://clbc.tw/](http://l.facebook.com/l.php?u=http%3A%2F%2Fclbc.tw%2F&h=oAQH-04IT&enc=AZNawfo4bYyhF8QjCiCL6Kb5Nh206ZUToDDaSPvkmknKv94k9vS73qmct3n8sj2xh8tzyf-NVOYrL1KMCXHDSFM36wyB3rn9JCIzyOt7riTgXo_D-svEaeBIXdL1jJxumWKoZwyd_fU4D5wIDHLv-sPr&s=1)  
+To learn more about CLBC, just visit their website: [http://clbc.tw/](http://l.facebook.com/l.php?u=http%3A%2F%2Fclbc.tw%2F&h=oAQH-04IT&enc=AZNawfo4bYyhF8QjCiCL6Kb5Nh206ZUToDDaSPvkmknKv94k9vS73qmct3n8sj2xh8tzyf-NVOYrL1KMCXHDSFM36wyB3rn9JCIzyOt7riTgXo_D-svEaeBIXdL1jJxumWKoZwyd_fU4D5wIDHLv-sPr&s=1)  
 
 In preparation for PyCon APAC/TW 2015, we have started seeking opportunities for cooperation across different industries. Interested in lending a hand? Please join us to make our community in Taiwan even better!  
 
 --  
-[#pyconapac2015](https://www.facebook.com/hashtag/pyconapac2015) Waiting for you *smile emoticon*  
-PyCon APAC 2015 Website: <https://tw.pycon.org/>  
+[#pyconapac2015](https://www.facebook.com/hashtag/pyconapac2015) Waiting for you *smile emoticon*  
+PyCon APAC 2015 Website: <https://tw.pycon.org/>  
 
 
 
@@ -49,13 +49,13 @@ PyCon APAC/TW 2014，也有許多夥伴用不同的形式幫助我們。以下�
 
 PyCon APAC/TW 2014 非常謝謝「CLBC慶隆商社」今年的鼎力支持與贊助，讓我們一起為科技在台灣甚至在亞洲，提供更多的鼓勵與推動。  
 
-更多有關CLBC，歡迎參考： <http://clbc.tw/>  
+更多有關CLBC，歡迎參考： <http://clbc.tw/>  
 --  
 
 
 2015年的PyCon APAC/TW 2015 正在密集籌備中，我們正在徵求各個領域與產業的合作夥伴。只要您有興趣，歡迎與我們一同創造台灣在科技領域上更多的可能！  
 
-[#pyconapac2015](https://www.facebook.com/hashtag/pyconapac2015) 贊助商募集中  
+[#pyconapac2015](https://www.facebook.com/hashtag/pyconapac2015) 贊助商募集中  
 PyCon APAC 2015 網址  
 [https://tw.pycon.org/](https://www.facebook.com/l.php?u=https%3A%2F%2Ftw.pycon.org%2F&h=PAQEWzfH0&s=1)  
 

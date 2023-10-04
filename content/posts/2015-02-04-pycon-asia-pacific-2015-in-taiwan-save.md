@@ -13,7 +13,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 [![](https://tw.pycon.org/static/image/header/logo.png)](https://tw.pycon.org/2015apac/en/)
 
-PyCon Asia-Pacific 2015 will be held on June 5-7 (Friday to Sunday) at Academia Sinica in Taipei, Taiwan. A one-day Sprint event will take place following the conference on June 8th. The date and time of tutorials will be announced soon.
+PyCon Asia-Pacific 2015 will be held on June 5-7 (Friday to Sunday) at Academia Sinica in Taipei, Taiwan. A one-day Sprint event will take place following the conference on June 8th. The date and time of tutorials will be announced soon.
 
 
 
@@ -42,7 +42,7 @@ Sprints: June 8
 
 
 Mark your calendar!  
-PyCon APAC 2015 is one of the most highly anticipated tech events in Asia. Organized by the PyCon community in Taiwan and supported by the Chinese, Korean, Japanese and Singaporean Python communities, we unite to learn about and collaborate on the technologies making significant impact to society. This year we’re expecting to attract over 1,000 developers, scientists, students, and researchers from a variety of fields to stir exciting interactions.
+PyCon APAC 2015 is one of the most highly anticipated tech events in Asia. Organized by the PyCon community in Taiwan and supported by the Chinese, Korean, Japanese and Singaporean Python communities, we unite to learn about and collaborate on the technologies making significant impact to society. This year we’re expecting to attract over 1,000 developers, scientists, students, and researchers from a variety of fields to stir exciting interactions.
 
 
 
@@ -71,7 +71,7 @@ Calls for Proposals
 
 
 
-The PyCon APAC organizers invite you to submit proposals for talks, tutorials, and workshops to be presented at PyCon APAC 2015. If you are interested in presenting, please submit your ideas for talks/workshops that you would like to present. The proposal submission deadline is March 17th. Presenters will be notified of acceptance by April 7th, 2015.
+The PyCon APAC organizers invite you to submit proposals for talks, tutorials, and workshops to be presented at PyCon APAC 2015. If you are interested in presenting, please submit your ideas for talks/workshops that you would like to present. The proposal submission deadline is March 17th. Presenters will be notified of acceptance by April 7th, 2015.
 
 
 
@@ -132,7 +132,7 @@ The theme of PyCon APAC 2015 is “*Back from the \_\_future\_\_*”. Some of th
 
 [SciPy Track]
 
-The SciPy track is designed for those who focus on the scientific use of Python. Please indicate in your submission form that your proposal idea is for the SciPy track. The SciPy track is English only. Topics of SciPy track that we’re looking for include, but are not limited to:
+The SciPy track is designed for those who focus on the scientific use of Python. Please indicate in your submission form that your proposal idea is for the SciPy track. The SciPy track is English only. Topics of SciPy track that we’re looking for include, but are not limited to:
 
 
 
@@ -154,7 +154,7 @@ The SciPy track is designed for those who focus on the scientific use of Python
 
 [Tutorials/Workshops]
 
-We are looking for tutorials/workshops that can help grow the community. Tutorials will be full-day (6 hours) while workshops will be half-day (3 hours). Both tutorials and workshops will be scheduled on the day before the conference. Submit tutorial and workshop ideas to share your excitement.
+We are looking for tutorials/workshops that can help grow the community. Tutorials will be full-day (6 hours) while workshops will be half-day (3 hours). Both tutorials and workshops will be scheduled on the day before the conference. Submit tutorial and workshop ideas to share your excitement.
 
 
 
@@ -170,7 +170,7 @@ PyCon APAC would not be possible without the generosity of its sponsors. So far 
 
 
 
-Visit our website at  <https://tw.pycon.org/2015apac/>  
+Visit our website at  <https://tw.pycon.org/2015apac/>  
 
 
 
