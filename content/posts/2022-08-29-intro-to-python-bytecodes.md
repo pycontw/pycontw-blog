@@ -184,7 +184,7 @@ We now have two strings on our stack -- and yes, the Python runtime is a stack m
                 6 LOAD\_CONST               2 ('!')
 ```
 
-We now have three strings on the stack -- our initial constant, the formatted version of "name", and the constant '!'.  We now create a string, based on these three components, with another bytecode, BUILD\_STRING. We hand BUILD\_STRING an argument of 3, to indicate that it should crate a string from the three topmost items on the stack:
+We now have three strings on the stack -- our initial constant, the formatted version of "name", and the constant '!'.  We now create a string, based on these three components, with another bytecode, BUILD\_STRING. We hand BUILD\_STRING an argument of 3, to indicate that it should create a string from the three topmost items on the stack:
 
 ```python
                 8 BUILD\_STRING             3

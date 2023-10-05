@@ -1,6 +1,6 @@
 Title: Visiting Group in PyCon JP 2019
 Date: 2019-10-07 00:14:00
-Category: visting group
+Category: visiting group
 Tags: legacy-blogger, PyCon JP 2019
 Slug: 2019-10-07-visiting-group-in-pycon-jp-2019
 Authors: PyCon Taiwan Blogger contributors

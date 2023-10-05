@@ -23,7 +23,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 ---
 
-The registration is open on July 31. Grab your ticket befor they are sold out. Need reimbursement from your company? Check out Corporate Ticket first, where you can see two EXTRA required fields on its registration form, Invoiced Company Name and Unified Business No., needed specially for local companies to meet our tax regulation. If no reimbursement needed, you can buy Individual Ticket and might get the EarlyBird discount rate.
+The registration is open on July 31. Grab your ticket before they are sold out. Need reimbursement from your company? Check out Corporate Ticket first, where you can see two EXTRA required fields on its registration form, Invoiced Company Name and Unified Business No., needed specially for local companies to meet our tax regulation. If no reimbursement needed, you can buy Individual Ticket and might get the EarlyBird discount rate.
 
 * Individual Ticket: <http://bit.ly/pycontw2019-individual>
 * Corporate Ticket: <http://bit.ly/pycontw2019-corporate>

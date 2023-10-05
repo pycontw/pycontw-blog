@@ -13,7 +13,7 @@
 ### Environment Setup
 
 1. Fork [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-2. Clone the repository from your GitHub recursivly. (i.e., your-user-name/pycontw-blog)
+2. Clone the repository from your GitHub recursively. (i.e., your-user-name/pycontw-blog)
 
     ```sh
     git clone --recursive https://github.com/[your-user-name]/pycontw-blog.git
@@ -53,7 +53,7 @@
 
         :date: 2010-10-03 10:20
         :modified: 2010-10-04 18:40
-        :tags: thats, awesome
+        :tags: that's, awesome
         :category: yeah
         :slug: my-super-post
         :authors: Alexis Metaireau, Conan Doyle
