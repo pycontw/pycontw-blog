@@ -16,6 +16,11 @@ repos:
       - id: commitizen
         stages: [commit-msg]
 
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.4
+    hooks:
+      - id: codespell
+
   - repo: local
     hooks:
       - id: style-reformat
