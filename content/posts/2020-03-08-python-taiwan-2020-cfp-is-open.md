@@ -1,14 +1,13 @@
 Title: PyCon Taiwan 2020 CfP is Open !
 Date: 2020-03-08 12:52:00
-Category:
-Tags: Calls for Proposals, pycontw2020, Conference, legacy-blogger
+Category: programs
+Tags: legacy-blogger, Calls for Proposals, Conference, PyCon TW 2020
 Slug: 2020-03-08-python-taiwan-2020-cfp-is-open
 Authors: PyCon Taiwan Blogger contributors
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2020/03/python-taiwan-2020-cfp-is-open.html)*.
 
 <!--more-->
-
 
 PyCon Taiwan 2020 CfP 3/1 正式徵稿！
 
@@ -35,8 +34,7 @@ forward 至各社群，並提供部分交通補助
 
 歡迎大家踴躍投稿！  
 
-
--------------------------------------------------------------------------------------------------------------------------
+---
 
 The CfP for PyConTW 2020 is open!
 
@@ -56,7 +54,6 @@ Something different from PyConTW 2019 :
 2. Tutorials are at a separate venue, they are 1.5 hours sessions
 3. We will make some of the rejected proposals happen in local communities in Taiwan.
 PyCon TW will partially provide financial aid for transportation.
-
 
 Important Dates :
 * Talks & Tutorial CfP ends: 26 Apr (23:59:59 [AoE](https://www.timeanddate.com/worldclock/converter.html?iso=20200427T115900&p1=tz_aoe&p2=241&p3=1440))

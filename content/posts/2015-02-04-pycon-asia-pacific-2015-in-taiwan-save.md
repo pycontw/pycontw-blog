@@ -1,7 +1,7 @@
 Title: PyCon Asia-Pacific 2015 in Taiwan - Save the Date
 Date: 2015-02-04 00:46:00
 Category: programs
-Tags: Calls for Proposals, PyConAPAC, legacy-blogger
+Tags: legacy-blogger, Calls for Proposals, PyCon APAC 2015
 Slug: 2015-02-04-pycon-asia-pacific-2015-in-taiwan-save
 Authors: PyCon Taiwan Blogger contributors
 

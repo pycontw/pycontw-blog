@@ -1,7 +1,7 @@
 Title: PyCon APAC 2022 CfP is Open!
 Date: 2022-03-01 10:00:00
-Category:
-Tags: Calls for Proposals, PyConAPAC, pycontw, legacy-blogger
+Category: programs
+Tags: legacy-blogger, Calls for Proposals, PyCon APAC 2022
 Slug: 2022-03-01-pycon-apac-2022-cfp-is-open
 Authors: PyCon Taiwan Blogger contributors
 

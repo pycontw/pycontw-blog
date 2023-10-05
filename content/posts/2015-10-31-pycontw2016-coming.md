@@ -1,7 +1,7 @@
 Title: PyConTW 2016 in Taiwan - Save the Date
 Date: 2015-10-31 17:15:00
 Category: announcement
-Tags: pycontw2016, legacy-blogger
+Tags: legacy-blogger, PyCon TW 2016
 Slug: 2015-10-31-pycontw2016-coming
 Authors: PyCon Taiwan Blogger contributors
 

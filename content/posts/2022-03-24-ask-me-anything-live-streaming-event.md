@@ -1,7 +1,7 @@
 Title: Ask Me Anything live streaming event this Saturday (March 26th 2022)
 Date: 2022-03-24 19:23:00
-Category:
-Tags: legacy-blogger
+Category: announcement
+Tags: legacy-blogger, PyCon APAC 2022
 Slug: 2022-03-24-ask-me-anything-live-streaming-event
 Authors: PyCon Taiwan Blogger contributors
 
@@ -11,9 +11,7 @@ Authors: PyCon Taiwan Blogger contributors
 
  （中文在下方 Mandarin below）
 
-
 Live Streaming Youtube Link <https://youtu.be/z7UoBbYyPLs> Youtube 直播連結。  
-
 
 PyCon Taiwan organizing team hosts PyCon APAC 2022 this year. The organizing team will invite some of the members of the proposal reviewer committee in the past to ASK ME ANYTHING live streaming.  
 Please feel free to submit your questions via [this Slido page](https://lihi1.com/DYMBk) prior to the event, or join [the corresponding Discord text/audio channel of Python Taiwan Discord](https://discord.gg/Z2MaukSH) to ask your questions interactively online by then. Questions regarding submitting proposals to PyCon APAC 2022 are more than welcome.  

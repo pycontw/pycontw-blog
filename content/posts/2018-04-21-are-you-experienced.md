@@ -1,7 +1,7 @@
 Title: Are You Experienced ?
 Date: 2018-04-21 13:53:00
-Category:
-Tags: community, pycontw, legacy-blogger
+Category: announcement
+Tags: legacy-blogger, PyCon TW 2018
 Slug: 2018-04-21-are-you-experienced
 Authors: PyCon Taiwan Blogger contributors
 
@@ -10,27 +10,17 @@ Authors: PyCon Taiwan Blogger contributors
 <!--more-->
 
 
-> *If you can just get your mind together  
->
+> If you can just get your mind together
 > Then come on across to me  
->
 > We'll hold hands, and then we'll watch the sunrise  
+> From the bottom of the sea
 >
-> From the bottom of the sea*
-
-
-*But first, are you experienced?  
-
-Have you ever been experienced?  
-
-Well, I have  
-
-
-        The Jimi Hendrix Experience*
-
+> But first, are you experienced?
+> Have you ever been experienced?  
+> Well, I have  
+>       The Jimi Hendrix Experience
 
 Here are my favorite PyCon Taiwan memories. What are yours? [Join us](https://pycontw.kktix.cc/events/20180601-individual)!
-
 
 <https://www.flickr.com/photos/taiwan-i/34335055034>  
 

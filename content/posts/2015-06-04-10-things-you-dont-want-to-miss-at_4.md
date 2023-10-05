@@ -1,7 +1,7 @@
 Title: 10 Things You Don't want to miss at PyCon APAC 2015
 Date: 2015-06-04 22:29:00
 Category: announcement
-Tags: legacy-blogger
+Tags: legacy-blogger, PyCon APAC 2015
 Slug: 2015-06-04-10-things-you-dont-want-to-miss-at_4
 Authors: PyCon Taiwan Blogger contributors
 

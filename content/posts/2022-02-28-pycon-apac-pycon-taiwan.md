@@ -1,7 +1,7 @@
 Title: PyCon APAC 與 PyCon Taiwan
 Date: 2022-02-28 09:48:00
-Category:
-Tags: legacy-blogger
+Category: announcement
+Tags: legacy-blogger, PyCon APAC 2022
 Slug: 2022-02-28-pycon-apac-pycon-taiwan
 Authors: PyCon Taiwan Blogger contributors
 

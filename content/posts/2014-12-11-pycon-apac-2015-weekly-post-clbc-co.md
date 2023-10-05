@@ -1,7 +1,7 @@
 Title: Sponsor from Taiwan co-working space - CLBC
 Date: 2014-12-11 22:21:00
 Category: sponsors
-Tags: legacy-blogger
+Tags: legacy-blogger, PyCon APAC 2014
 Slug: 2014-12-11-pycon-apac-2015-weekly-post-clbc-co
 Authors: PyCon Taiwan Blogger contributors
 

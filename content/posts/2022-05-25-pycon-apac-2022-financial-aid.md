@@ -1,7 +1,7 @@
 Title: PyCon APAC 2022 Financial Aid  財務補助開跑！
 Date: 2022-05-25 09:30:00
-Category:
-Tags: legacy-blogger
+Category: announcement
+Tags: legacy-blogger, Financial Aid, PyCon APAC 2022
 Slug: 2022-05-25-pycon-apac-2022-financial-aid
 Authors: PyCon Taiwan Blogger contributors
 

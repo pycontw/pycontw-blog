@@ -1,7 +1,7 @@
 Title: The Golden sponsor of PyCon 2014 - HDE from Japan
 Date: 2014-11-25 22:14:00
 Category: sponsors
-Tags: legacy-blogger
+Tags: legacy-blogger, PyCon APAC 2014
 Slug: 2014-11-25-pycon-apac-2015-weekly-post-hde-company
 Authors: PyCon Taiwan Blogger contributors
 

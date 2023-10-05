@@ -1,7 +1,7 @@
 Title: Visiting Group in PyCon JP 2019
 Date: 2019-10-07 00:14:00
-Category:
-Tags: legacy-blogger
+Category: visting group
+Tags: legacy-blogger, PyCon JP 2019
 Slug: 2019-10-07-visiting-group-in-pycon-jp-2019
 Authors: PyCon Taiwan Blogger contributors
 
@@ -65,6 +65,7 @@ The vertical banner stands in the main hall exhibit the sponsors and patrons of 
 The places of sessions locate in different rooms on the first, second, third, and sixth floors. Keynotes, posters, and the job fair are on the first floor (the main hall). Most of the conference rooms are big and nice for a talk.  
 
 ![](https://i.imgur.com/wLYTV09.jpg)
+
 ### Keynote
 
 Cory Althoff gave the first keynote speech on the first day. The title is “Why Python is Eating the World”.  
@@ -100,6 +101,7 @@ In the end, Koike summarized that the know-how of farmers can be transferred by 
 "AI might replace some jobs, but AI also can be a kind of storing tool for human knowledge.", said by Koike.
 
 We feel excited about the development and applications of Python shown in the two keynotes.
+
 ### Regular Sessions
 
 Besides keynotes, there are also many interesting sessions in conference days.
@@ -129,11 +131,13 @@ Also, we received a lot of interesting ideas and information from the posters.
 ![](https://i.imgur.com/ZZxruyS.jpg)
 
 ![](https://i.imgur.com/sLjX48g.jpg)
+
 ### Party
 
 There was a party in the evening of the first day (9/16). While enjoying delicious food, we can walk around and make a lot of new friends. By the way, the party also offers a very good variety of drink (beer included)!
 
 ![](https://i.imgur.com/phL5vmJ.jpg)
+
 ### Lightning Talks
 
 The lightning talk (LT) always gets the spotlight. PyCon JP 2019 also has many interesting talks. It’s worth to mention that there are three LT speakers are from our visiting group.
@@ -141,6 +145,7 @@ The lightning talk (LT) always gets the spotlight. PyCon JP 2019 also has many i
 ![](https://i.imgur.com/QPzG9M3.jpg)
 
 (Top Left: “Is your bot ALIVE? Monitor chatbot from a user’s perspective” by Petertc. Top Right: “How to get more than just PyCon in a PyCon” by Wei Lee. Bottom Middle: “Python in the Belle II experiment” by Huang Kunxian)
+
 ### SciPy Meetup
 
 In the conference, those who love and care about science and Python communities in Japan and Taiwan, including Enthought, got together to have a meeting. We look forward to the growth of the SciPy community in Japan as well as the APAC regions.  
@@ -149,7 +154,6 @@ In the conference, those who love and care about science and Python communities 
 
 Feedbacks from the Visiting Group
 ==================================
-
 
 ### Yung-Yu Chen
 
@@ -163,9 +167,7 @@ HPC Software Developer
 
 *I think this is another piece of proof of the productivity of open source. This is one of the best PyCon experiences I have!*
 
-
 ---
-
 
 ### Kevin Shyu
 
@@ -175,9 +177,7 @@ CTO & Co-founder
 
 *It’s my first time to PyCon JP. The visiting group is totally beyond my expectation. We have our own free time to go around and we also have good connection with PyCon JP. Before going to Japan, it is great for the pre-tasks like cooperate notes, flight info sharing, the shared docs, and etc. In this trip, I have known lots of different cultures from Japanese. I really look forward to going with the visiting group again in the future. We don’t stop at Japan, we can go everywhere with PyCon.*
 
-
 ---
-
 
 ### Po-An Yang
 
@@ -191,9 +191,7 @@ Software Engineer at Rakuten Slice
 
 *I hope that we can keep grouping people in Taiwan to visit conferences in other countries. It’s wonderful and helpful!*
 
-
 ---
-
 
 ### Wei Lee
 
@@ -209,9 +207,7 @@ Software Engineer at Rakuten Slice, Volunteer of PyCon TW
 
 *After we returned to Taiwan, PyCon JP also organized a group to visit us. I think the connection is what makes Python community a better place. I’m looking forward to the next visiting group to “PyCon [A-Z]+”!*
 
-
 ---
-
 
 ### Lo Pang-Yun Ting
 

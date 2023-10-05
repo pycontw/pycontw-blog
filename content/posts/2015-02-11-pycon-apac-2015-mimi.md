@@ -1,7 +1,7 @@
 Title: 訪問 PyCon APAC 2015 設計總監 - Mimi
 Date: 2015-02-11 11:00:00
 Category: interview
-Tags: legacy-blogger, interview, design
+Tags: legacy-blogger, design, PyCon APAC 2015
 Slug: 2015-02-11-pycon-apac-2015-mimi
 Authors: PyCon Taiwan Blogger contributors
 

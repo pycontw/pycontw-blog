@@ -1,7 +1,7 @@
 Title: PyCon Taiwan 2018 Prior Notification
 Date: 2018-05-30 23:54:00
-Category:
-Tags: pycontw, legacy-blogger
+Category: announcement
+Tags: legacy-blogger, PyCon TW 2018
 Slug: 2018-05-30-pycontw-2018-prior-notification
 Authors: PyCon Taiwan Blogger contributors
 
@@ -17,7 +17,6 @@ Authors: PyCon Taiwan Blogger contributors
 
 交通資訊
 ====
-
 
 年會場地位於中央研究院人文社會科學館（台北市南港區研究院路二段 128 號），詳細位置可以參考 [PyConTW2018官方網站](https://tw.pycon.org/2018/venue/) 或 [中研院院區圖](http://gis.sinica.edu.tw/asmap/sinica_campus_map.png)。
 

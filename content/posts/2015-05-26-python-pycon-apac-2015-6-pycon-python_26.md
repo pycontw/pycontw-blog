@@ -1,7 +1,7 @@
 Title: PyCon APAC 2015 即將於 6 月在台盛大舉行，你準備好了嗎？
 Date: 2015-05-26 23:29:00
 Category: announcement
-Tags: legacy-blogger
+Tags: legacy-blogger, PyCon APAC 2015
 Slug: 2015-05-26-python-pycon-apac-2015-6-pycon-python_26
 Authors: PyCon Taiwan Blogger contributors
 

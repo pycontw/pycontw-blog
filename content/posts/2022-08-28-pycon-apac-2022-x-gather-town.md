@@ -1,7 +1,7 @@
 Title: 白金級贊助商 - PyCon APAC 2022 x 國泰金控 Gather Town活動搶先預告 技術短講&人才諮詢&限量好禮我全都要！
 Date: 2022-08-28 12:25:00
-Category:
-Tags: legacy-blogger
+Category: sponsors
+Tags: legacy-blogger, PyCon APAC 2022
 Slug: 2022-08-28-pycon-apac-2022-x-gather-town
 Authors: PyCon Taiwan Blogger contributors
 
