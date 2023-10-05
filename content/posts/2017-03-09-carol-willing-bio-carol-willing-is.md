@@ -28,7 +28,7 @@ TBD
 
 經常總會聽到 Carol Naslund Willing 說：「這真是太酷了。它是如何運作的？好希望學習到更多有關的事物。」 她熱愛開發軟體，目前為 PSF (Python Software Foundation) 基金會理事之一 、 Project Jupyter 的核心開發人員與加州理工大學聖路易斯奧比斯 ( Cal Poly San Luis Obispo) 的軟體研究工程師。她活躍於開源專案的共同開發，並且維護像是 OpenHatch 與 Anita Brog Institute 的開源專案。
 
-與人之間的經驗使我有了這樣感觸：「用你所學，使事情更好，並且與人分享。」Caril Wiilling 這樣說的。
+與人之間的經驗使我有了這樣感觸：「用你所學，使事情更好，並且與人分享。」Caril Willing 這樣說的。
 
 Carol Willing 對學習和分享充滿熱情。最近的演講包括 PyCon US 2016，PyData Carolinas 2016，PyCon Philippines 2016。
 

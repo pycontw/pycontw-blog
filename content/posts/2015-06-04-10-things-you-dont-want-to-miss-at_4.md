@@ -61,7 +61,7 @@ See you on Saturday at R4!
 
 ![](https://lh6.googleusercontent.com/qtSndggbTpwn_AaYj4xbJlosuhqbU91xzHmLJ1qKtFs0TCyBK_qZNiRvB7d0KenLjfyGxrJwdzu15o6_wAhfXKDBzHxF2LfBqWgVWz3zbaWGyXd4SDWefOq7N6YCuvJvFa6H154)![](https://lh4.googleusercontent.com/ddoKu9OckXYbWtt89NDLoRYiiR9TED_tLW9W2wYKR4MED6qOkoGPcqKIn88Gkn2K_JZ9qImHyxEc3ghrEGUqNJUZQ4hImi9QU1QxeYvjUA08EssAbj6Yw3j92D-U_znNvPpL_dE)
 
-Everyone loves Night-Market. Now you can find it on PyCon APAC 2015, within Pythoniest Style ! You can enjoy the buffet, the performance, and the boothes with genious stuffs. All made by Python.
+Everyone loves Night-Market. Now you can find it on PyCon APAC 2015, within Pythoniest Style ! You can enjoy the buffet, the performance, and the booths with genius staffs. All made by Python.
 
 
 Oh, BTW, we are still calling for booth. Join us now :p
@@ -81,7 +81,7 @@ For the main theme “ Back to \_\_future\_\_ II," there is a History wall at 3F
 
 Talents, Engineers, Sponsors, Hunters, are gathered together.
 
-Like a carnival, Show Ttime & Job Fair is a party we encourage our sponsors to show their products, culture, and even what they can do for you! All you need to do is to walk around the booth area, take a look on what's going on there. We bet you will find something really impressing.
+Like a carnival, Show Time & Job Fair is a party we encourage our sponsors to show their products, culture, and even what they can do for you! All you need to do is to walk around the booth area, take a look on what's going on there. We bet you will find something really impressing.
 
 If you do impressed, just go and talk with them, register to them through scanning your ticket, you can submit your detail resume later by our PyCon APAC 2015 job-fair system.
 

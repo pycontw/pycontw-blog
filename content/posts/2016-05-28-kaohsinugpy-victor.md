@@ -1,4 +1,4 @@
-Title: Kaohsinug.py 聊聊－社群共同創辦人 Victor 專訪
+Title: Kaohsiung.py 聊聊－社群共同創辦人 Victor 專訪
 Date: 2016-05-28 01:18:00
 Category: interview
 Tags: community, legacy-blogger, Kaohsinug.py, PyCon TW 2016

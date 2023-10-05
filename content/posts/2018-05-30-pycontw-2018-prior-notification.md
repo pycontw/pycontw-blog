@@ -156,7 +156,7 @@ Registration time begins at 08:10 on June 1. After arriving the conference venue
 
 Please download PyCon TW Pass via link at <https://ccip.pycon.tw/>, and open it:
 
-Please register at the reception on the 3F and follow the instrcution to collect the goodie bag.
+Please register at the reception on the 3F and follow the instruction to collect the goodie bag.
 
 Note that your identification badge is provided inside goodie bag, you’re expected to pick-up and wear your badge while getting into conference rooms.
 
