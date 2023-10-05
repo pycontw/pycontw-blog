@@ -1,7 +1,7 @@
 Title: 認識 Keynote Speaker #2 : 林軒田
 Date: 2017-03-09 19:29:00
-Category:
-Tags: legacy-blogger
+Category: programs
+Tags: legacy-blogger, keynote, PyCon TW 2017
 Slug: 2017-03-09-keynote-speaker-2
 Authors: PyCon Taiwan Blogger contributors
 
@@ -22,10 +22,11 @@ Authors: PyCon Taiwan Blogger contributors
 ### Title（演講題目）
 
 TBD
+
 ### Abstract（演講大綱）
 
 TBD
-#####
+
 
 #### Scikit learn
 

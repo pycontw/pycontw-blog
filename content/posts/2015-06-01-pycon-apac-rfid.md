@@ -1,7 +1,7 @@
 Title: PyCon APAC 自造RFID讀卡機，快速完成會議報到系統
 Date: 2015-06-01 22:46:00
 Category: programs
-Tags: legacy-blogger
+Tags: legacy-blogger, PyCon APAC 2015
 Slug: 2015-06-01-pycon-apac-rfid
 Authors: PyCon Taiwan Blogger contributors
 

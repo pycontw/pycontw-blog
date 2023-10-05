@@ -1,7 +1,7 @@
 Title: 銀級贊助商  - Reuven Lerner - An intro to Python bytecodes
 Date: 2022-08-29 18:34:00
-Category:
-Tags: legacy-blogger
+Category: sponsors
+Tags: legacy-blogger, PyCon APAC 2022
 Slug: 2022-08-29-intro-to-python-bytecodes
 Authors: PyCon Taiwan Blogger contributors
 
@@ -21,29 +21,38 @@ The fact that "def" assigns our newly created function object to a variable is a
 
 So if I execute the following code in Python:
 
+```python
     def hello(name):
-
         return f'Hello, {name}!'
+```
 
 I have assigned a new value, a function object, to the variable "hello".  I can even ask Python what type of object the variable refers to, using the "type" builtin:
 
+```python
     >>> type(hello)
 
     function
+```
 
 It doesn't matter what "hello" might have referred to before; once we have executed "def", the variable "hello" now refers to a function object. We can call our function with parentheses:
 
+```python
     >>> hello('world')
+```
 
 Not surprisingly, we get the following back:
 
+```python
     'Hello, world!'
+```
 
 What happens, though, when we execute our function? In order to understand that, we'll need to have a close look at what is done at compile time (i.e., when we define our function) and at runtime (i.e., when we actually run our function).
 
 I mentioned above that when we define a function, we create a function object, and that the object (like all others in Python) has attributes. The most interesting attribute on a function object is called "\_\_code\_\_" (pronounced "dunder-code" in the Python world, where "dunder" means "double underscore before and after a name"). This is the code object, the core of what is defined when we create a function. The code object itself has a number of attributes, the most interesting of which all start with "co\_".  We can see a full list with the "dir" builtin:
 
+```python
     >>> dir(hello.\_\_code\_\_)
+```
 
 Here's a list of the attributes (a subset of the list that you'll get from running "dir") that start with co\_:
 
@@ -85,16 +94,21 @@ Here's a list of the attributes (a subset of the list that you'll get from runni
 
 I wrote above that when we define a function, Python compiles it into bytecodes. Those are stored inside of the co\_code attribute. We can thus see the bytecodes for a function by looking at it:
 
+```python
     >>> print(hello.\_\_code\_\_.co\_code)
+```
 
 The good news is that this works. But the bad news is that it's pretty hard to understand what's going on here:
 
+```python
     b'd\x01|\x00\x9b\x00d\x02\x9d\x03S\x00'
+```
 
 What we see here is a bytestring, a sequence of bytes -- as opposed to a sequence of characters, which is what we would have in a normal Python string. This is the code that Python executes when we run our function.
 
 But wait -- what are these codes? What do they mean, and what do they do? In order to understand, we can use the "dis" function in the "dis" module. That module (and its function) are short for "disassemble," and they allow us to break apart the function and see it:
 
+```python
     >>> import dis
 
     >>> dis.dis(hello)
@@ -110,6 +124,7 @@ But wait -- what are these codes? What do they mean, and what do they do? In ord
                   8 BUILD\_STRING             3
 
                  10 RETURN\_VALUE
+```
 
 Things might now start to make more sense, even though we've also opened up a bunch of additional new mysteries.  The (CAPITALIZED) names that we see are the bytecodes, the names of the pseudo-assembly commands that Python recognizes.  The integers to the left of each command indicates the index into co\_code with which each bytecode is associated.
 
@@ -119,19 +134,25 @@ But wait: What do these commands do? And why are we only using the even-numbered
 
 The LOAD\_CONST instruction tells Python to load a constant value. We're not talking about a constant in the general language, but rather a constant value that was assigned to the function object when it was compiled. At compile time, Python noticed that there was a string, 'Hello, '. It stored that string as a constant on the function object, in a tuple named co\_consts. The function can thus retrieve that constant whenever it needs.  We can, of course, look at the co\_consts tuple ourselves:
 
+```python
     >>> hello.\_\_code\_\_.co\_consts
 
     (None, 'Hello, ', '!')
+```
 
 As you can see, the element at index 1 in our function's co\_consts is the string 'Hello, '.  So the first bytecode loads that constant, making it available to our Python interpreter.  But wait, where did this constant come from? Look carefully, and you'll see that it's the first part of the f-string that we return in the body of the function. That's right -- while we think of an f-string as a static string with a dynamic component (inside of the {}), Python thinks of it as the combination of static parts (which are stored in co\_consts as strings) and dynamic parts (which are evaluated at runtime).
 
 So our f-string, which looks like this:
 
+```python
     f'Hello, {name}!'
+```
 
 Is turned by the Python compiler into
 
+```python
     'Hello, ' (constant) + name (variable lookup) + '!' (constant)
+```
 
 And indeed, we can see that co\_consts[1] is 'Hello, ', and co\_consts[2] is the single-character string '!'.  In between, we'll need to get the value of the "name" variable.
 
@@ -139,31 +160,41 @@ In order to do this, Python needs to know if "name" is a local variable or a glo
 
 Fortunately, our function object also has an attribute named co\_vars, a tuple of strings with all of the local variable names:
 
+```python
     >>> hello.\_\_code\_\_.co\_varnames
 
     ('name',)
+```
 
 So the argument 0 which is given to LOAD\_FAST indicates that we want to retrieve the value of local variable 0, aka "name".  In the first two bytecodes, we thus load a constant and a variable name. Then Python uses the special FORMAT\_VALUE bytecode to format our "name" variable:
 
+```python
       2           0 LOAD\_CONST               1 ('Hello, ')
 
                   2 LOAD\_FAST                0 (name)
 
                   4 FORMAT\_VALUE             0
+```
 
 Usually, formatting a value means turning it into a string using "str".  But some objects have a special "\_\_format\_\_" method defined, which allows them to have a special output in this context.
 
 We now have two strings on our stack -- and yes, the Python runtime is a stack machine, which you might have learned about if you studied computer science. But we need the exclamation point, so we load that, too:
 
+```python
                 6 LOAD\_CONST               2 ('!')
+```
 
 We now have three strings on the stack -- our initial constant, the formatted version of "name", and the constant '!'.  We now create a string, based on these three components, with another bytecode, BUILD\_STRING. We hand BUILD\_STRING an argument of 3, to indicate that it should crate a string from the three topmost items on the stack:
 
+```python
                 8 BUILD\_STRING             3
+```
 
 And that's it! We have created the string that we wanted, based on the user's argument. The time has come to return that value, and we do so with the special RETURN\_VALUE bytecode:
 
+```python
                10 RETURN\_VALUE
+```
 
 How often do you really need to read Python bytecodes? Never. But reading the bytecodes does give you a sense of how Python works, what it's doing behind the scenes, how particular functionality (e.g., f-strings) are implemented, and which decisions are made at compile time, rather than runtime.  Understanding Python's division of labor between compile time and runtime can, in my experience, help to make sense of error messages you get, and also to put into context so many other parts of Python that can see mysterious.
 

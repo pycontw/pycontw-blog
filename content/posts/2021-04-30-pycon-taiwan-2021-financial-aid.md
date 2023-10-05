@@ -1,7 +1,7 @@
 Title: PyCon Taiwan 2021 財務補助 Financial Aid
 Date: 2021-04-30 21:00:00
-Category:
-Tags: legacy-blogger
+Category: announcement
+Tags: legacy-blogger, Financial Aid, PyCon TW 2021
 Slug: 2021-04-30-pycon-taiwan-2021-financial-aid
 Authors: PyCon Taiwan Blogger contributors
 

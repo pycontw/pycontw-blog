@@ -1,7 +1,7 @@
 Title: Kaohsinug.py 聊聊－社群共同創辦人 Victor 專訪
 Date: 2016-05-28 01:18:00
-Category:
-Tags: community, legacy-blogger
+Category: interview
+Tags: community, legacy-blogger, Kaohsinug.py, PyCon TW 2016
 Slug: 2016-05-28-kaohsinugpy-victor
 Authors: PyCon Taiwan Blogger contributors
 
@@ -11,11 +11,9 @@ Authors: PyCon Taiwan Blogger contributors
 
 ##### 文：PyCon Taiwan 2016  攝影：Ming
 
-
 ![](https://2.bp.blogspot.com/-0FdT0bxBggg/V0h6JqCpDTI/AAAAAAAAD2E/T-SpugiNtlss00Uzh7YxPHV2VVtljWE4gCLcB/s1600/kaohsiung.jpg)
 
-**> 南部地區的 Python 愛好者們， 你們 Kaohsiung.py 了嗎？**
-
+> 南部地區的 Python 愛好者們， 你們 Kaohsiung.py 了嗎？
 
 隨著 Python 的流行，台灣各地都有在地化的 Python 社群，  
 
@@ -40,7 +38,6 @@ Kaohsiung.py 每個月會有一次技術性的分享，地點位於高雄文藻�
 
 
 想知道更多嗎？趕快加入 [Kaohsiung.py Meetup](https://www.meetup.com/Kaohsiung-Python-Meetup/)，參與下一次的主題分享！
-
 
 [![](https://3.bp.blogspot.com/-SgheYvaquyE/V0h7WwMAUiI/AAAAAAAAD2Q/jR9RHtyD-4Q2bbBfS_KcMGutOxhK3Ln8QCLcB/s1600/Kaohsiung%2BPython%2BMeetup.png)](https://www.meetup.com/Kaohsiung-Python-Meetup/)
 

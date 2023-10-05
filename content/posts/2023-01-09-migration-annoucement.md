@@ -2,7 +2,7 @@ Title: PyCon Taiwan 從 Blogger 搬到 GitHub 上囉～
 Date: 2023-01-09 21:00
 Modified: 2023-01-10 09:50
 Category: announcement
-Tags: zh-tw, en
+Tags: zh-tw, en, PyCon TW 2023
 Slug: migration-announcement
 Authors: Wei Lee
 Summary: PyCon Taiwan 的部落格正式由 [Blogger](https://pycontw.blogspot.com/) 搬到 [GitHub](https://conf.python.tw/) / [https://conf.python.tw](https://conf.python.tw) 上囉！

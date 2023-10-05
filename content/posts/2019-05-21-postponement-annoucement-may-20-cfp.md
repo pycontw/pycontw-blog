@@ -1,7 +1,7 @@
 Title: Postponement Annoucement: May 20 CFP Acceptance Announcement
 Date: 2019-05-21 20:27:00
-Category:
-Tags: Calls for Proposals, pycontw, legacy-blogger
+Category: programs
+Tags: legacy-blogger, Calls for Proposals, PyCon TW 2019
 Slug: 2019-05-21-postponement-annoucement-may-20-cfp
 Authors: PyCon Taiwan Blogger contributors
 

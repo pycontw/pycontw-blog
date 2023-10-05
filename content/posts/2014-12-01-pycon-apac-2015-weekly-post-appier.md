@@ -1,7 +1,7 @@
 Title: Sponsor of PyCon 2014 - Appier
 Date: 2014-12-01 22:18:00
 Category: sponsors
-Tags: legacy-blogger
+Tags: legacy-blogger, PyCon APAC 2014
 Slug: 2014-12-01-pycon-apac-2015-weekly-post-appier
 Authors: PyCon Taiwan Blogger contributors
 

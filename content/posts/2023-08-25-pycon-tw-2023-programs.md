@@ -1,7 +1,7 @@
 Title: PyCon Taiwan 2023 議程總覽 Program Overview
 Date: 2023-08-25 13:00
 Category: programs
-Tags: zh-tw, en
+Tags: zh-tw, en, PyCon TW 2023
 Slug: pycon-tw-2023-programs
 Authors: Andy Lee, Ting Yi, Lois, Jaihua
 Summary: ![Programs](images/2023-08-25-pycon-tw-2023-programs/0_programs.jpg){width=400} <br> PyCon Taiwan 2023 將回歸實體年會！趕快來看看今年會有哪些活動及議程！<br>PyCon Taiwan 2023 is returning as an in-person conference! Come take a look at this year's lineup of activities and sessions!

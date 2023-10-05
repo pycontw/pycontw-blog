@@ -1,7 +1,7 @@
 Title: PyCon Taiwan 2023 贊助商行前招呼
 Date: 2023-08-25 23:00
 Category: sponsors
-Tags: zh-tw, en
+Tags: zh-tw, en, PyCon TW 2023
 Slug: pycon-tw-2023-sponsors
 Authors: Kevin
 Summary: 2023 年白金級與金級贊助商在大會前向會眾打招呼！

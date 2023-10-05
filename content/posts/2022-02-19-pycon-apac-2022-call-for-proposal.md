@@ -1,7 +1,7 @@
 Title: PyCon APAC 2022 Call for Proposal Deadlines and Important Dates
 Date: 2022-02-19 17:03:00
-Category:
-Tags: legacy-blogger
+Category: programs
+Tags: legacy-blogger, Calls for Proposals, PyCon APAC 2022
 Slug: 2022-02-19-pycon-apac-2022-call-for-proposal
 Authors: PyCon Taiwan Blogger contributors
 

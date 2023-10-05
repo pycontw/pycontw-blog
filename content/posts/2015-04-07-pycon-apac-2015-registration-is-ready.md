@@ -1,7 +1,7 @@
 Title: PyCon APAC 2015 Registration is ready, Let's Back to __future__ II !
 Date: 2015-04-07 16:19:00
 Category: registration
-Tags: legacy-blogger
+Tags: legacy-blogger, PyCon APAC 2015
 Slug: 2015-04-07-pycon-apac-2015-registration-is-ready
 Authors: PyCon Taiwan Blogger contributors
 

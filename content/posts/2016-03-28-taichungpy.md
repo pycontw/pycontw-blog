@@ -1,9 +1,9 @@
 Title: Taichung.py 聊聊－社群共同創辦人唐元亮老師専訪
 Date: 2016-03-28 20:15:00
-Category:
-Tags: community, legacy-blogger
+Category: interview
+Tags: legacy-blogger, community, Taichung.py, PyCon TW 2016
 Slug: 2016-03-28-taichungpy
-Authors: PyCon Taiwan Blogger contributors
+Authors: Sharon Wang
 
 *This was originally posted on blogger [here](https://pycontw.blogspot.com/2016/03/taichungpy.html)*.
 
@@ -46,7 +46,7 @@ Authors: PyCon Taiwan Blogger contributors
 ##### Taichung.py 活動歷史
 
 
- Jun 14, 2014 : [Pyfirmata 簡介](http://www.meetup.com/Taichung-Python-Meetup/events/185019552/) : Tony
+Jun 14, 2014 : [Pyfirmata 簡介](http://www.meetup.com/Taichung-Python-Meetup/events/185019552/) : Tony
 
 
 Jun 26, 2014 : [transforming into a serious python programmer](http://www.meetup.com/Taichung-Python-Meetup/events/189049462/)

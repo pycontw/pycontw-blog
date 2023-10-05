@@ -1,7 +1,7 @@
 Title: PySafe is Delivered
 Date: 2021-09-30 21:29:00
-Category:
-Tags: legacy-blogger
+Category: announcement
+Tags: legacy-blogger, PyCon TW 2021
 Slug: 2021-09-30-pysafe-is-delivered
 Authors: PyCon Taiwan Blogger contributors
 

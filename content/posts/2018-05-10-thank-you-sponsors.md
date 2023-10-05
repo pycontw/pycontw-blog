@@ -1,7 +1,7 @@
 Title: 前進的路上, 感謝有你同行
 Date: 2018-05-10 14:22:00
-Category:
-Tags: sponsor, community, pycontw, legacy-blogger
+Category: announcement
+Tags: legacy-blogger, PyCon TW 2018
 Slug: 2018-05-10-thank-you-sponsors
 Authors: PyCon Taiwan Blogger contributors
 

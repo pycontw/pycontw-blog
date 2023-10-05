@@ -1,17 +1,15 @@
 Title: Python 人物誌：R-Ladies Taipei Host - Yen
 Date: 2017-03-17 21:54:00
-Category:
-Tags: legacy-blogger
+Category: interview
+Tags: legacy-blogger, PyCon TW 2017
 Slug: 2017-03-17-python-r-ladies-taipei-host
-Authors: PyCon Taiwan Blogger contributors
+Authors: Zonghan
 
-*This was originally posted on blogger [here](https://pycontw.blogspot.com/2017/03/python-r-ladies-taipei-host.html)*.
+*This was originally posted on blogger [here](https://pycontw.blogspot.com/2017/03/python-r-ladies-taipei-host.html)*
 
 <!--more-->
 
-
 #### 訪問人: Yen  主持/撰稿人: Zonghan 日期:2017/03/06
-
 
 ![](https://lh3.googleusercontent.com/fjX2VY596HHg1H71Sv_qjMJWYJbGunWEJM4fTW51j-KCQPAgen86PRoTGiM9T_uidcknxkmgd0wUb3zjkMT4meVhrmvNFuqwFKDsYg7pF4d4OlYKWw0Jq8qnXmjbAxgfCz8uhx13)
 

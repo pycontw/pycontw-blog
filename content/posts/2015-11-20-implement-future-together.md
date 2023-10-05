@@ -1,7 +1,7 @@
 Title: Implement the Future, Together!
 Date: 2015-11-20 23:01:00
 Category: announcement
-Tags: legacy-blogger
+Tags: legacy-blogger, PyCon TW 2016
 Slug: 2015-11-20-implement-future-together
 Authors: PyCon Taiwan Blogger contributors
 

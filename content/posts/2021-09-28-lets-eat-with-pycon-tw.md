@@ -1,7 +1,7 @@
 Title: Let’s Eat with PyCon TW
 Date: 2021-09-28 00:01:00
-Category:
-Tags: legacy-blogger
+Category: announcement
+Tags: legacy-blogger, PyCon TW 2021
 Slug: 2021-09-28-lets-eat-with-pycon-tw
 Authors: PyCon Taiwan Blogger contributors
 
@@ -29,7 +29,6 @@ Just enjoy the meals and share your recipe with friends on Gather.Town! 😋 You
 
 In addition, we’re looking forward to sharing fun photos of Python logo composed of materials or tableware on Discord.
 
-
 Show Your "Py Food" on the Conference Day!!
 
 [![](https://1.bp.blogspot.com/-xnN7ZVq9wG0/YVA5C_kd4ZI/AAAAAAABTVw/dZVa3OUBEWwqbO_pO998L2TlaPlFwvAqQCPcBGAYYCw/s320/food-demo.jpg)](https://1.bp.blogspot.com/-xnN7ZVq9wG0/YVA5C_kd4ZI/AAAAAAABTVw/dZVa3OUBEWwqbO_pO998L2TlaPlFwvAqQCPcBGAYYCw/s2048/food-demo.jpg)  
@@ -39,7 +38,6 @@ We can’t wait to see the food photos! Set out to shop for groceries. 🛒
 Follow the steps below to make the meals. 👨‍🍳
 
 ### Curry Rice 🍛
-
 
 [![](https://1.bp.blogspot.com/-1a5bOCAyDR4/YVHsDojMxJI/AAAAAAABTXE/ZsWE3_Zt1Y8W5Xwy3wsUoURUmg_qlWUXQCLcBGAsYHQ/s320/recipe-01-en.png)](https://1.bp.blogspot.com/-1a5bOCAyDR4/YVHsDojMxJI/AAAAAAABTXE/ZsWE3_Zt1Y8W5Xwy3wsUoURUmg_qlWUXQCLcBGAsYHQ/s2048/recipe-01-en.png)  
 1. Chop the beef and put it with salt and pepper for 10 minutes

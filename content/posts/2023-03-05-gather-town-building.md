@@ -2,7 +2,7 @@ Title: PyCon APAC 2022 on Gather.Town
 Date: 2023-03-26 21:00
 Modified: 2023-03-26 21:00
 Category: online-conference
-Tags: en
+Tags: en, PyCon APAC 2022
 Slug: gather-town-building
 Authors: Winnie, Fish, Ray, Shirley, Vivian, Pochun, TN-Lee, Yoyo, Angus, Allen
 Summary: ![PyCon APAC 2022 Monopoly](images/2023-03-05-gather-town-building/26-Monopoly.jpg) Last year (2022), PyCon Taiwan hosted PyCon APAC for the third time. Due to global epidemic situation, we chose holding PyCon APAC 2022 remotely via Gather.Town. It’s the second time we used Gather.Town to build the conference. We found that Gather.Town kept updating the interface and features, and created lots of friendly example maps for newcomers. In this article, we would introduce the events of PyCon APAC 2022 in the following.
