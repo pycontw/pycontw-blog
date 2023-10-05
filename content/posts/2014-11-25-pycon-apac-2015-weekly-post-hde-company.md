@@ -19,7 +19,7 @@ technology events in abroad. And, PyCon APAC 2014 was a first
 experience for us to sponsor a technology conference abroad.  
 
 PyConTW: How was the experience of sponsoring PyCon APAC?  
-In the beginning, we were afraid to have a difficulty in communication. Even though we had a little difficulty about speaking language, what we found was that if we have common technology backgrounds, we can communicate and share our informations. Furthermore, it was precious experience for us to exchange information with foreign developers.  
+In the beginning, we were afraid to have a difficulty in communication. Even though we had a little difficulty about speaking language, what we found was that if we have common technology backgrounds, we can communicate and share our information. Furthermore, it was precious experience for us to exchange information with foreign developers.  
 
 We believe that diversity of the community will stimulate new creation and will activate the community more. And, we are pleased that we were able to participate such conference. We hope that there will be more diverse developers from APAC countries to participate next PyCon APAC.  
 
