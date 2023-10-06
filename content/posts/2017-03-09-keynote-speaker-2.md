@@ -27,10 +27,9 @@ TBD
 
 TBD
 
-
 #### Scikit learn
 
-大數據、機器學習可說是這幾年科技業最火紅的討論主題之一。「數據科學家」（Data Scientist）更被《哈佛商業評論》喻為「21世紀最性感的職業」。在 Python 之中，最著名的機器學習套件就是 Scikit-learn(<http://scikit-learn.org/>)。緣起於一個在 Google Summer of Code 之下的計畫，後續由法國國家資訊暨自動化研究院主導開發與支援。從開發者的角度來看，Scikit-learn 設計的使用邏輯設計非常簡單。它將繁雜的機器學習過程簡化到幾個步驟完成。一群台灣的開發者們，也針對 Scikit-learn 做了線上學習電子書方便大家學習(<https://www.gitbook.com/book/htygithub/machine-learning-python/>)，同時用開源的方式將書本編輯全放在網路上(https://github.com/htygithub/machine-learning-python) 供大家一起編輯開發。對機器學習有興趣的 Python 愛好者們，快點去一探究竟吧！除此之外，PyConTW 今年請到的 Keynote speaker 之一，便是國內機器學習的大師級研究者，林軒田老師。對機器學習有興趣的Python愛好者們，千萬不要錯過這次的 Keynote 演講喔！除了Keynote 演講之外，林軒田老師最著名的就是在 Coursera 的機器學習線上課程。現在在Youtube 上就可以看得到囉！
+大數據、機器學習可說是這幾年科技業最火紅的討論主題之一。「數據科學家」（Data Scientist）更被《哈佛商業評論》喻為「21世紀最性感的職業」。在 Python 之中，最著名的機器學習套件就是 Scikit-learn(<http://scikit-learn.org/>)。緣起於一個在 Google Summer of Code 之下的計畫，後續由法國國家資訊暨自動化研究院主導開發與支援。從開發者的角度來看，Scikit-learn 設計的使用邏輯設計非常簡單。它將繁雜的機器學習過程簡化到幾個步驟完成。一群台灣的開發者們，也針對 Scikit-learn 做了線上學習電子書方便大家學習(<https://www.gitbook.com/book/htygithub/machine-learning-python/>)，同時用開源的方式將書本編輯全放在網路上(<https://github.com/htygithub/machine-learning-python>) 供大家一起編輯開發。對機器學習有興趣的 Python 愛好者們，快點去一探究竟吧！除此之外，PyConTW 今年請到的 Keynote speaker 之一，便是國內機器學習的大師級研究者，林軒田老師。對機器學習有興趣的Python愛好者們，千萬不要錯過這次的 Keynote 演講喔！除了Keynote 演講之外，林軒田老師最著名的就是在 Coursera 的機器學習線上課程。現在在Youtube 上就可以看得到囉！
 
 課程分為機器學習基石（[初階](https://www.youtube.com/watch?v=nQvpFSMPhr0&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf)）與機器學習技法（[進階](https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2)），快點去看看吧！
 

@@ -25,13 +25,12 @@ It's worth noted that, the cheapest ticket, the Early Bird Group Ticket, is only
 
 Let's re-glance our stunning keynote speakers:
 
-1. **Robert Bradshaw:** One of the creator of "Cython"
-2. **Steven G. Johnson:** Associate Professor from MIT.
-3. **Kenneth Reitz:** Creator of requests a famous python libs.
-4. **Travis Oliphant:** Primary developer of numpy.
-5. **Van Lindberg:** CTO of Rackspace(OpenStack), Chairman of Python software foundation.
-6. **Arnaud Bergeron:** Theano Core Developer
-
+1. __Robert Bradshaw:__ One of the creator of "Cython"
+2. __Steven G. Johnson:__ Associate Professor from MIT.
+3. __Kenneth Reitz:__ Creator of requests a famous python libs.
+4. __Travis Oliphant:__ Primary developer of numpy.
+5. __Van Lindberg:__ CTO of Rackspace(OpenStack), Chairman of Python software foundation.
+6. __Arnaud Bergeron:__ Theano Core Developer
 
 Cython, Scipy, Numpy, Julia、Rackspace, and Heroku, If you've ever heard of these terms and been a heavy user of them, don't miss our event! Just buy the ticket at 06:05 p.m. (TPE time, GMT+8:00) this afternoon, and enjoy the technical exchange with these superstar in Python world !
 
@@ -49,14 +48,13 @@ Cython, Scipy, Numpy, Julia、Rackspace, and Heroku, If you've ever heard of the
 
 <https://tw.pycon.org/2015apac/en/registration/financial-aid/>
 
-
 ---------2015/05/25 Update-------------
 
-Keynote Speaker List has been update.  
+Keynote Speaker List has been update.
 
-1. **Robert Bradshaw:** One of the creator of "Cython"
-2. **Steven G. Johnson:** Associate Professor from MIT.
-3. **Kenneth Reitz:** Creator of requests a famous python libs.
-4. **Andy Terrel:** Chief Scientist from Continuum Analytics.
-5. **Van Lindberg:** CTO of Rackspace(OpenStack), Chairman of Python software foundation.
-6. **Arnaud Bergeron:** Theano Core Developer
+1. __Robert Bradshaw:__ One of the creator of "Cython"
+2. __Steven G. Johnson:__ Associate Professor from MIT.
+3. __Kenneth Reitz:__ Creator of requests a famous python libs.
+4. __Andy Terrel:__ Chief Scientist from Continuum Analytics.
+5. __Van Lindberg:__ CTO of Rackspace(OpenStack), Chairman of Python software foundation.
+6. __Arnaud Bergeron:__ Theano Core Developer

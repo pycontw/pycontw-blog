@@ -9,13 +9,13 @@ Authors: PyCon Taiwan Blogger contributors
 
 <!--more-->
 
-PyCon Taiwan 2020 有什麼新玩意？  
+PyCon Taiwan 2020 有什麼新玩意？
 
 ![](https://lh5.googleusercontent.com/Lb8OrlzcTrs9gwHEZVt23RjTtEukCf279yo4k0ippRvP4tm-zQw1zwy1Kn6fP62k5rd-5nldiepGiz0kdzYk8xzoPaKicQnk400IYk_F_ytCzquLn_DCQPuX81-WHMbvrSRxBTEV0qM)
 
  看這府城風格的官網！
 
-### 對，我們把活動搬到台南了！
+### 對，我們把活動搬到台南了
 
 今年除了希望能夠加強在濁水溪以南的 Python 推廣力道以外，我們也想開啟「台灣各地也都可以有正式 or Mini PyCon」的可能性，所以先選擇了位於台南火車站旁的成功大學作為舉辦的地點。這樣做除了幫南部的 Python 社群站台，以及方便南部的會眾參與活動以外，其實也有用不一樣的府城文化與美食來邀請居住於中北部的鐵粉會眾參與的企圖。😈
 
@@ -79,4 +79,4 @@ PyCon Taiwan 2020 有什麼新玩意？
 
 由於疫情的影響，國內外近期有許多大型活動皆已停辦。我們尚無法得知今年九月時台灣與國外的狀況如何，所以將實體活動改為線上型式，甚至是直接取消活動，皆為我們會考慮的選項。我們認為在六月附近就會有更好的能見度，希望這個項目不會真的變成今年 PyCon Taiwan 2020 的特色。
 
-以上為 PyCon Taiwan 2020 的新玩意，希望大家身體健康 & [投稿順利](https://tw.pycon.org/2020/zh-hant/speaking/cfp/)！  
+以上為 PyCon Taiwan 2020 的新玩意，希望大家身體健康 & [投稿順利](https://tw.pycon.org/2020/zh-hant/speaking/cfp/)！

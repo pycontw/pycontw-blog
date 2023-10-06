@@ -9,7 +9,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 <!--more-->
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhb2Gxl75WaJOqCa2vfI9641OaG32Xd808WJSzE0sVBn1_zxlfleK0T9rEjZWHH3Q8a_enljdV2NbDLxedoNXjNlXq8AFJx4ekj6PCl_DcJmcALIQEe0svp6mHPJkcdbkgXeoVdWk-2K2coqqpB7cN2zyC-bisYr8RjNSuGKmNqhkO3BI6ZfAuQd4dZMw=w320-h286)](https://blogger.googleusercontent.com/img/a/AVvXsEhb2Gxl75WaJOqCa2vfI9641OaG32Xd808WJSzE0sVBn1_zxlfleK0T9rEjZWHH3Q8a_enljdV2NbDLxedoNXjNlXq8AFJx4ekj6PCl_DcJmcALIQEe0svp6mHPJkcdbkgXeoVdWk-2K2coqqpB7cN2zyC-bisYr8RjNSuGKmNqhkO3BI6ZfAuQd4dZMw)  
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhb2Gxl75WaJOqCa2vfI9641OaG32Xd808WJSzE0sVBn1_zxlfleK0T9rEjZWHH3Q8a_enljdV2NbDLxedoNXjNlXq8AFJx4ekj6PCl_DcJmcALIQEe0svp6mHPJkcdbkgXeoVdWk-2K2coqqpB7cN2zyC-bisYr8RjNSuGKmNqhkO3BI6ZfAuQd4dZMw=w320-h286)](https://blogger.googleusercontent.com/img/a/AVvXsEhb2Gxl75WaJOqCa2vfI9641OaG32Xd808WJSzE0sVBn1_zxlfleK0T9rEjZWHH3Q8a_enljdV2NbDLxedoNXjNlXq8AFJx4ekj6PCl_DcJmcALIQEe0svp6mHPJkcdbkgXeoVdWk-2K2coqqpB7cN2zyC-bisYr8RjNSuGKmNqhkO3BI6ZfAuQd4dZMw)
 
 PyCon APAC 2022 is opening applications for the Financial Aid program!PyCon APAC 2022 財務補助開跑！
 

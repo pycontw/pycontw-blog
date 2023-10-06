@@ -9,7 +9,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 <!--more-->
 
-![](https://lh3.googleusercontent.com/Mg415sDQZDHA9MDeXN6OHuDPa5OcB_4QBvJFGRefgaRFB0Ijb-6N6UkVLqXKL3QZy41rUY46tcV3XSFglIku7ZVcE5TlkZubleWdR1iqoZ424PBbgqkDpFMiMXnNuGyDCLc3qJ_t=w506-h297)  
+![](https://lh3.googleusercontent.com/Mg415sDQZDHA9MDeXN6OHuDPa5OcB_4QBvJFGRefgaRFB0Ijb-6N6UkVLqXKL3QZy41rUY46tcV3XSFglIku7ZVcE5TlkZubleWdR1iqoZ424PBbgqkDpFMiMXnNuGyDCLc3qJ_t=w506-h297)
  (Mandarin Below)
 
 The CfP for PyCon APAC 2022 is OPEN now!

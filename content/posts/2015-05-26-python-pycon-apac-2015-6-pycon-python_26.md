@@ -23,18 +23,17 @@ Python 是個通用程式語言，以簡潔、易懂、易用而聞名，大量�
 
 議程表請見：
 
-https://tw.pycon.org/2015apac/zh/schedule/
+<https://tw.pycon.org/2015apac/zh/schedule/>
 
 除了精彩的三天議程以外，PyCon APAC 2015 在五月底舉辦了五場專業課程， 適合不同程度和興趣的參加者，從基礎的 Python 教學、網路爬蟲、資料挖掘與分析、訊號處理，到 Raspberry Pi 的應用，每一場都是知名講師的手把手教學，包羅萬象，應有盡有。
 
 專業課程仍然接受報名，請見：
 
-https://tw.pycon.org/2015apac/zh/tutorial/
+<https://tw.pycon.org/2015apac/zh/tutorial/>
 
 這場年度盛會，吸引的族群包括企業人士、工程師、開發者、創業家、教師、各領域的學者專家及從業人員。期望藉由 PyCon APAC 2015 亞太 Python 年會的召開，促進亞太區社群與全球愛好者的交流，一起來開發充滿無限可能的未來。
 
 ![](https://lh3.googleusercontent.com/iv1Jr8XvNLKaE_V6k47-CYFw0fuTYCngFNi3vZUG73RxqG1eiJHwBFRaufekCki0TxKG2TL1g8zhx2y2FdPqWo1H2ZdK0oCmnhOG4cP0Jw98zf5tzvjfiEXFMh3_A0ftaL2ztn4)
-
 
 ### 活動資訊
 
