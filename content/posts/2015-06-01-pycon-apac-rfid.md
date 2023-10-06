@@ -19,7 +19,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 ![](https://lh6.googleusercontent.com/O3SaVRFouillhzZwxI4B2Q4AsJwtBRhmervLIz5QGQiHMf6pwVLGrWDZPvVIFNiDUGOyW99OhNJm5FlV1yvUpCPSZgxSOSRzxS9myo-Qok-pDwebOriOjj7PMEYEHGAGKocm2XQ)
 
-版權屬於：COSCUP 2013，來源：https://www.flickr.com/photos/coscup/9634483039/
+版權屬於：COSCUP 2013，來源：<https://www.flickr.com/photos/coscup/9634483039/>
 
 今年面對 PyCon APAC 2015超過700 人的參與人數。在票券選擇上使用了 RFID，搭配頻率相同的 NFC 讀取機，預計可加速報到流程。尤其這個技術目前已經相當成熟。單張 RFID 卡片價格低廉，而一台以 Raspberry Pi 全自造的 NFC 讀取機成本只在台幣 5000 塊左右。這樣的解決方案最適合財務來源匱乏的自發式社群。Sosorry也提到，『除此之外，這套系統將帶出與會者的所有資訊，屆時不只是報到，連便當、衣服領取、參加的活動，都將更方便。』 贊助組組長 David 補充，『而想投履歷到各家參展公司的人，也只需要感應你手上的卡片即可，相當方便！』
 

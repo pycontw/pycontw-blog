@@ -11,12 +11,10 @@ Authors: PyCon Taiwan Blogger contributors
 
 [![](https://1.bp.blogspot.com/-Z1sbfl8VgB0/VjSDdROwBsI/AAAAAAAADx0/pK75rltzlPM/s400/CIMG2381.JPG)](https://1.bp.blogspot.com/-Z1sbfl8VgB0/VjSDdROwBsI/AAAAAAAADx0/pK75rltzlPM/s1600/CIMG2381.JPG)
 
-PyConTW 2016 will be held on June 3-5 (Friday to Sunday) at Academia Sinica in Taipei, Taiwan.  
-
+PyConTW 2016 will be held on June 3-5 (Friday to Sunday) at Academia Sinica in Taipei, Taiwan.
 
 [#pycontw2016](https://twitter.com/hashtag/pycontw2016?src=hash)
 
-[#WeAreWorkingHard](https://twitter.com/hashtag/WeAreWorkingHard?src=hash)  
+[#WeAreWorkingHard](https://twitter.com/hashtag/WeAreWorkingHard?src=hash)
 
-
-Follow us: [Facebook](https://www.facebook.com/pycontw/), [Twitter](https://twitter.com/PyConTW)  
+Follow us: [Facebook](https://www.facebook.com/pycontw/), [Twitter](https://twitter.com/PyConTW)

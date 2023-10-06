@@ -12,6 +12,7 @@ Authors: PyCon Taiwan Blogger contributors
 #### Carol Willing
 
 #### Bio（簡歷）
+
 Carol Willing is a Director of the Python Software Foundation, a core developer for Project Jupyter, and a Research Software Engineer at Cal Poly San Luis Obispo.
 
 She's also Geek-In-Residence at Fab Lab San Diego and co-organizes PyLadies San Diego and San Diego Python. She's an active contributor to open source projects, a maintainer for OpenHatch and the Anita Borg Institute's open source projects. Combining a love of nature, the arts, and math with a BSE in Electrical Engineering from Duke and an MS in Management from MIT, she's enjoyed creating and teaching others for over 20 years.
@@ -19,9 +20,11 @@ She's also Geek-In-Residence at Fab Lab San Diego and co-organizes PyLadies San 
 She recently spoke at PyCon US 2016, PyCon Philippines 2016, Write/Speak/Code 2016, SciPy 2016, and PyData Carolinas 2016.
 
 ### Title（演講題目）
+
 Education, Contributor Onboarding (temporarily)
 
 ### Abstract（演講大綱）
+
 TBD
 
 ### Introduction(介紹)

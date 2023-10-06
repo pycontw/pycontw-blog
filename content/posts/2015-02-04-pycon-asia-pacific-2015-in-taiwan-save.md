@@ -15,16 +15,13 @@ PyCon Asia-Pacific 2015 will be held on June 5-7 (Friday to Sunday) at Academia 
 
 ### Events
 
-
-#### Tutorials: to be announced.
-
+#### Tutorials: to be announced
 
 #### Conference: June 5 - June 7
 
-
 #### Sprints: June 8
 
-Mark your calendar!  
+Mark your calendar!
 PyCon APAC 2015 is one of the most highly anticipated tech events in Asia. Organized by the PyCon community in Taiwan and supported by the Chinese, Korean, Japanese and Singaporean Python communities, we unite to learn about and collaborate on the technologies making significant impact to society. This year we’re expecting to attract over 1,000 developers, scientists, students, and researchers from a variety of fields to stir exciting interactions.
 
 ### Calls for Proposals
@@ -39,7 +36,6 @@ Notification of Proposal Acceptance - April 7, 2015
 ### Proposal Ideas
 
 The theme of PyCon APAC 2015 is “*Back from the \_\_future\_\_*”. Some of the topics we are on the lookout for PyCon APAC conference program are:
-
 
 - Web Programming (e.g Django, Pyramid, Web2Py, TurboGears)
 - Cloud Computing
@@ -73,7 +69,7 @@ We are looking for tutorials/workshops that can help grow the community. Tutoria
 
 PyCon APAC would not be possible without the generosity of its sponsors. So far we have Gandi, GitCafe, Oursky, Kdan Mobile, Pinkoi and LiveHouse.in. We’re excited that vibrant companies are sponsoring the events. If you or your organization are interested in sponsoring PyCon APAC 2015, please contact sponsorship team lead David Chen at [sponsorship@pycon.tw](mailto:sponsorship@pycon.tw). If you are interested in helping PyCon APAC 2015, please email to the committee, at [organizers@pycon.tw](mailto:organizers@pycon.tw).
 
-Visit our website at  <https://tw.pycon.org/2015apac/>  
+Visit our website at  <https://tw.pycon.org/2015apac/>
 
 ![](http://3.bp.blogspot.com/-R10dx8eqke8/VN9VE8U_UmI/AAAAAAAAGpY/DRMKrZDWwss/s1600/PyChina_logo_131217_zq_h200.png)[![](http://2.bp.blogspot.com/-QoQdxLbgGvc/VPmTXQDRdNI/AAAAAAAAGts/Tod9FtL-SLg/s1600/pycon_kr_2015.png)](http://pycon.kr/2015)
 

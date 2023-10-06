@@ -9,7 +9,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 <!--more-->
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-3113JaB_H51HM0ZZ8Nv2mS8Y-VqvqzgJfI6HFP-Th2RsG3-2zfQ_dkf51rOb54EvZ38OuEh4vnIqLa9ghLP8gb6c_iwtyzu20IzzoIFhEAR3xjY_RfJrl2AEAD1wew6k7Vdjgrqu-2yGzlGX8ZgtNXkeqp_h7rOGoXoNtpZamTfvohHSOez-DcCH/s320/sprint-leader.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-3113JaB_H51HM0ZZ8Nv2mS8Y-VqvqzgJfI6HFP-Th2RsG3-2zfQ_dkf51rOb54EvZ38OuEh4vnIqLa9ghLP8gb6c_iwtyzu20IzzoIFhEAR3xjY_RfJrl2AEAD1wew6k7Vdjgrqu-2yGzlGX8ZgtNXkeqp_h7rOGoXoNtpZamTfvohHSOez-DcCH/s1060/sprint-leader.png)  
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-3113JaB_H51HM0ZZ8Nv2mS8Y-VqvqzgJfI6HFP-Th2RsG3-2zfQ_dkf51rOb54EvZ38OuEh4vnIqLa9ghLP8gb6c_iwtyzu20IzzoIFhEAR3xjY_RfJrl2AEAD1wew6k7Vdjgrqu-2yGzlGX8ZgtNXkeqp_h7rOGoXoNtpZamTfvohHSOez-DcCH/s320/sprint-leader.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-3113JaB_H51HM0ZZ8Nv2mS8Y-VqvqzgJfI6HFP-Th2RsG3-2zfQ_dkf51rOb54EvZ38OuEh4vnIqLa9ghLP8gb6c_iwtyzu20IzzoIFhEAR3xjY_RfJrl2AEAD1wew6k7Vdjgrqu-2yGzlGX8ZgtNXkeqp_h7rOGoXoNtpZamTfvohHSOez-DcCH/s1060/sprint-leader.png)
 
 Do you want to invite more people to join the project you're developing?
 

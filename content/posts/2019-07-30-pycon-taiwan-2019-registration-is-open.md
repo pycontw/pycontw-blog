@@ -35,36 +35,35 @@ For more detailed schedule info, please visit [PyCon Taiwan 2019 website](http:/
 
 ---
 
-
 # FAQ
 
 ## 企業票和個人票有什麼不同?
+
 企業票種的註冊問卷可填寫統編資訊, 因此適於報帳場合; 個人票的註冊問卷無法填寫統編資訊.
 
-
 ## 註冊後會獲得怎樣的購票證明?
+
 PyCon Taiwan 是和**財團法人開放文化基金會**合作舉辦, 預設會寄送電子發票, 賣方統一編號 38552170
 
 售票平台與 KKTIX 合作, 完成註冊後會收到 KKTIX 系統寄送的訂票證明, 樣式像下例所示:
 
 [![](https://4.bp.blogspot.com/-Dp3ce5KF9BI/XUlBycOHkzI/AAAAAAAAW7g/DmOSmeWF6kYR2LPWLJm8MJvUDdEaXxJ_gCLcBGAs/s1600/kktix-individual-ticket.png)](https://4.bp.blogspot.com/-Dp3ce5KF9BI/XUlBycOHkzI/AAAAAAAAW7g/DmOSmeWF6kYR2LPWLJm8MJvUDdEaXxJ_gCLcBGAs/s1600/kktix-individual-ticket.png)
 
-
 ## 我發現企業票每次只能買一張, 是指只能一人進場嗎? 公司其他員工也能進場嗎?
+
 一張企業票, 只能一人入場.
 如果公司內有多位 (例如5位以上) 同仁想參加, 可考慮企業票團購.
 不過, 即使是團購票, 每一位都要獨立填寫註冊問卷, 因為需要個別會眾的紀念衫尺寸或飲食習慣等調查資訊.
 
-
 ## 企業團購優惠是怎麼回事?
-如果公司內有多位 (預設是 5 位) 夥伴想要一起報名, 可以考慮[洽詢團購優惠價](http://bit.ly/pycontw2019-groupbuy).
 
+如果公司內有多位 (預設是 5 位) 夥伴想要一起報名, 可以考慮[洽詢團購優惠價](http://bit.ly/pycontw2019-groupbuy).
 
 ## 團購的優惠金額是多少呢?
 
-企業票團購範例, 可先參考下列試算:  
-申請 5 張的優惠金額是 1000元, 付款總金額是 5500x5-1000=26500元  
-申請 8 張的優惠金額是 1800元, 付款總金額是 5500x8-1800=42200元  
+企業票團購範例, 可先參考下列試算:
+申請 5 張的優惠金額是 1000元, 付款總金額是 5500x5-1000=26500元
+申請 8 張的優惠金額是 1800元, 付款總金額是 5500x8-1800=42200元
 申請 10張的優惠金額是 2500元, 付款總金額是 5500x10-2500=52500元
 
 數量越多, 優惠自然越多; 如果您過往對 PyCon 或 Python 社群有所貢獻, 也歡迎讓我們知道, 會列為考量.
