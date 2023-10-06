@@ -9,14 +9,12 @@ Authors: Ming
 
 <!--more-->
 
-```
 受訪者: Jeff 訪問: Ming 日期: 2016/11/29
 
 
 Python人物誌，茫茫大海中發掘默默貢獻的你！
 這次的専訪，我們邀請到 PyHUG Host Jeff ，
 向我們聊聊自己與新竹 Python 社群。
-```
 
 [![](https://1.bp.blogspot.com/-9oXAtYKJttg/WGf-rR7YrkI/AAAAAAAAFrg/qoEbHrKW29Q1lpG21pBNxaEqKbpiJ5REQCLcB/s320/IMAG0567.jpg)](https://1.bp.blogspot.com/-9oXAtYKJttg/WGf-rR7YrkI/AAAAAAAAFrg/qoEbHrKW29Q1lpG21pBNxaEqKbpiJ5REQCLcB/s1600/IMAG0567.jpg)
 
