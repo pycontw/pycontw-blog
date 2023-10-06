@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://conf.python.tw/theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/pygments/default.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://conf.python.tw/feeds/all.atom.xml" rel="alternate" title="PyCon Taiwan Blog Atom" type="application/atom+xml"/>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CLR9RYLP5N', 'auto');
+  ga('send', 'pageview');
+</script>
+<meta content="PyCon Taiwan Blogger contributors" name="author"/>
+<meta content="This was originally posted on blogger here. One of the most common myths that I encounter in my corporate training is that Python is an interpreted language. It's not really surprising that people believe that -- after all, Python is often referred to as a &quot;scripting&quot; language, and often has the …" name="description"/>
+<meta content="legacy-blogger, PyCon APAC 2022" name="keywords"/>
+<meta content="PyCon Taiwan Blog" property="og:site_name">
+<meta content="銀級贊助商 - Reuven Lerner - An intro to Python bytecodes" property="og:title"/>
+<meta content="This was originally posted on blogger here. One of the most common myths that I encounter in my corporate training is that Python is an interpreted language. It's not really surprising that people believe that -- after all, Python is often referred to as a &quot;scripting&quot; language, and often has the …" property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://conf.python.tw/2022-08-29-intro-to-python-bytecodes.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2022-08-29 18:34:00+08:00" property="article:published_time"/>
+<meta content="" property="article:modified_time"/>
+<meta content="https://conf.python.tw/author/pycon-taiwan-blogger-contributors.html" property="article:author"/>
+<meta content="sponsors" property="article:section">
+<meta content="legacy-blogger" property="article:tag"/>
+<meta content="PyCon APAC 2022" property="article:tag"/>
+<meta content="/images/profile.jpg" property="og:image"/>
+<title>PyCon Taiwan Blog – 銀級贊助商 - Reuven Lerner - An intro to Python bytecodes</title>
+</meta></meta><link href="https://conf.python.tw/2022-08-29-intro-to-python-bytecodes.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "PyCon Taiwan Blog", "item": "https://conf.python.tw"}, {"@type": "ListItem", "position": 2, "name": "2022 08 29 intro to python bytecodes", "item": "https://conf.python.tw/2022-08-29-intro-to-python-bytecodes.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "PyCon Taiwan Blogger contributors"}, "publisher": {"@type": "Organization", "name": "PyCon Taiwan Blog"}, "headline": "銀級贊助商  - Reuven Lerner - An intro to Python bytecodes", "about": "sponsors", "datePublished": "2022-08-29 18:34"}</script></head>
+<body class="light-theme">
+<aside>
+<div>
+<a href="https://conf.python.tw/">
+<img alt="PyCon Taiwan" src="/images/profile.jpg" title="PyCon Taiwan"/>
+</a>
+<h1>
+<a href="https://conf.python.tw/">PyCon Taiwan</a>
+</h1>
+<nav>
+<ul class="list">
+<li>
+<a href="https://conf.python.tw/pages/about.html#about" target="_self">
+                About
+              </a>
+</li>
+<li>
+<a href="http://tw.pycon.org" target="_self">Official Website</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-facebook" href="https://www.facebook.com/pycontw" target="_blank">
+<i class="fa-brands fa-facebook"></i>
+</a>
+</li>
+<li>
+<a class="sc-instagram" href="https://www.instagram.com/pycon.tw/" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/#!/PyConTW" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/company/pycontw/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-flickr" href="https://www.flickr.com/photos/pycon_tw/albums/" target="_blank">
+<i class="fa-brands fa-flickr"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/pycontw" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-youtube" href="https://www.youtube.com/c/PyConTaiwanVideo" target="_blank">
+<i class="fa-brands fa-youtube"></i>
+</a>
+</li>
+<li>
+<a class="sc-itunes-note" href="https://podcasts.apple.com/tw/podcast/pycast/id1559843325" target="_blank">
+<i class="fa-brands fa-itunes-note"></i>
+</a>
+</li>
+<li>
+<a class="sc-spotify" href="https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv" target="_blank">
+<i class="fa-brands fa-spotify"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="https://conf.python.tw/">Home</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="https://conf.python.tw/feeds/all.atom.xml">Atom</a>
+</nav>
+<article class="single">
+<header>
+<h1 id="2022-08-29-intro-to-python-bytecodes">銀級贊助商  - Reuven Lerner - An intro to Python bytecodes</h1>
+<p>
+      Posted on Mon 29 August 2022 in <a href="https://conf.python.tw/category/sponsors.html">sponsors</a>
+</p>
+</header>
+<div>
+<p><em>This was originally posted on blogger <a href="https://pycontw.blogspot.com/2022/08/intro-to-python-bytecodes.html">here</a></em>.</p>
+<!--more-->
+<p>One of the most common myths that I encounter in my corporate training is that Python is an interpreted language. It's not really surprising that people believe that -- after all, Python is often referred to as a "scripting" language, and often has the feel of an interpreted language, one that is translated into machine code one line at a time.</p>
+<p>But in fact, Python is a byte-compiled language: First, the code that you write is translated into bytecodes -- an interim, portable format that resembles a high-level assembly language. When you run your program, those bytecodes are executed by the Python runtime. This is pretty similar to how things work in a number of other platforms, including .NET and Java -- but the process in Python is so transparent that we often don't think about it.</p>
+<p>This is often easiest to see when we define a function. Whenever we use "def", we actually do two things: First, we create a function object. Then we assign that object to a variable.  Both of these seemingly simple steps can be a bit surprising, even to people who have been using Python for many years.</p>
+<p>First, the notion that Python has "function objects" seems a bit weird. But really, it's part of Python's overall philosophy that everything is an object. Every string is an instance of class "str", every dictionary is an instance of class "dict", and every function is an instance of class "function". (Note that while both "str" and "dict" are builtin names, "function" is not.) The fact that functions are objects allows us to store them in lists and dicts, and to pass them as arguments to other functions (e.g., the "key" parameter in the builtin "sorted" function). The fact that functions are objects also means that they have attributes, names following dots (.) that act like a private dictionary.</p>
+<p>The fact that "def" assigns our newly created function object to a variable is also a bit surprising to many, especially those coming from languages in which functions and data are in separate namespaces. Python has only a single namespace, which means that you cannot have both a variable named "x" and a function named "x" at the same time.</p>
+<p>So if I execute the following code in Python:</p>
+<div class="highlight"><pre><span></span><code>    <span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s1">'Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1">!'</span>
+</code></pre></div>
+<p>I have assigned a new value, a function object, to the variable "hello".  I can even ask Python what type of object the variable refers to, using the "type" builtin:</p>
+<div class="highlight"><pre><span></span><code>    <span class="o">&gt;&gt;&gt;</span> <span class="nb">type</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
+
+    <span class="n">function</span>
+</code></pre></div>
+<p>It doesn't matter what "hello" might have referred to before; once we have executed "def", the variable "hello" now refers to a function object. We can call our function with parentheses:</p>
+<div class="highlight"><pre><span></span><code>    <span class="o">&gt;&gt;&gt;</span> <span class="n">hello</span><span class="p">(</span><span class="s1">'world'</span><span class="p">)</span>
+</code></pre></div>
+<p>Not surprisingly, we get the following back:</p>
+<div class="highlight"><pre><span></span><code>    <span class="s1">'Hello, world!'</span>
+</code></pre></div>
+<p>What happens, though, when we execute our function? In order to understand that, we'll need to have a close look at what is done at compile time (i.e., when we define our function) and at runtime (i.e., when we actually run our function).</p>
+<p>I mentioned above that when we define a function, we create a function object, and that the object (like all others in Python) has attributes. The most interesting attribute on a function object is called "__code__" (pronounced "dunder-code" in the Python world, where "dunder" means "double underscore before and after a name"). This is the code object, the core of what is defined when we create a function. The code object itself has a number of attributes, the most interesting of which all start with "co_".  We can see a full list with the "dir" builtin:</p>
+<div class="highlight"><pre><span></span><code>    <span class="o">&gt;&gt;&gt;</span> <span class="nb">dir</span><span class="p">(</span><span class="n">hello</span><span class="o">.</span>\<span class="n">_</span>\<span class="n">_code</span>\<span class="n">_</span>\<span class="n">_</span><span class="p">)</span>
+</code></pre></div>
+<p>Here's a list of the attributes (a subset of the list that you'll get from running "dir") that start with co_:</p>
+<p>['co_argcount',</p>
+<p>'co_cellvars',</p>
+<p>'co_code',</p>
+<p>'co_consts',</p>
+<p>'co_filename',</p>
+<p>'co_firstlineno',</p>
+<p>'co_flags',</p>
+<p>'co_freevars',</p>
+<p>'co_kwonlyargcount',</p>
+<p>'co_lines',</p>
+<p>'co_linetable',</p>
+<p>'co_lnotab',</p>
+<p>'co_name',</p>
+<p>'co_names',</p>
+<p>'co_nlocals',</p>
+<p>'co_posonlyargcount',</p>
+<p>'co_stacksize',</p>
+<p>'co_varnames']</p>
+<p>I wrote above that when we define a function, Python compiles it into bytecodes. Those are stored inside of the co_code attribute. We can thus see the bytecodes for a function by looking at it:</p>
+<div class="highlight"><pre><span></span><code>    <span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">hello</span><span class="o">.</span>\<span class="n">_</span>\<span class="n">_code</span>\<span class="n">_</span>\<span class="n">_</span><span class="o">.</span><span class="n">co</span>\<span class="n">_code</span><span class="p">)</span>
+</code></pre></div>
+<p>The good news is that this works. But the bad news is that it's pretty hard to understand what's going on here:</p>
+<div class="highlight"><pre><span></span><code>    <span class="sa">b</span><span class="s1">'d</span><span class="se">\x01</span><span class="s1">|</span><span class="se">\x00\x9b\x00</span><span class="s1">d</span><span class="se">\x02\x9d\x03</span><span class="s1">S</span><span class="se">\x00</span><span class="s1">'</span>
+</code></pre></div>
+<p>What we see here is a bytestring, a sequence of bytes -- as opposed to a sequence of characters, which is what we would have in a normal Python string. This is the code that Python executes when we run our function.</p>
+<p>But wait -- what are these codes? What do they mean, and what do they do? In order to understand, we can use the "dis" function in the "dis" module. That module (and its function) are short for "disassemble," and they allow us to break apart the function and see it:</p>
+<div class="highlight"><pre><span></span><code>    <span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">dis</span>
+
+    <span class="o">&gt;&gt;&gt;</span> <span class="n">dis</span><span class="o">.</span><span class="n">dis</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
+
+      <span class="mi">2</span>           <span class="mi">0</span> <span class="n">LOAD</span>\<span class="n">_CONST</span>               <span class="mi">1</span> <span class="p">(</span><span class="s1">'Hello, '</span><span class="p">)</span>
+
+                  <span class="mi">2</span> <span class="n">LOAD</span>\<span class="n">_FAST</span>                <span class="mi">0</span> <span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+                  <span class="mi">4</span> <span class="n">FORMAT</span>\<span class="n">_VALUE</span>             <span class="mi">0</span>
+
+                  <span class="mi">6</span> <span class="n">LOAD</span>\<span class="n">_CONST</span>               <span class="mi">2</span> <span class="p">(</span><span class="s1">'!'</span><span class="p">)</span>
+
+                  <span class="mi">8</span> <span class="n">BUILD</span>\<span class="n">_STRING</span>             <span class="mi">3</span>
+
+                 <span class="mi">10</span> <span class="n">RETURN</span>\<span class="n">_VALUE</span>
+</code></pre></div>
+<p>Things might now start to make more sense, even though we've also opened up a bunch of additional new mysteries.  The (CAPITALIZED) names that we see are the bytecodes, the names of the pseudo-assembly commands that Python recognizes.  The integers to the left of each command indicates the index into co_code with which each bytecode is associated.</p>
+<p>So the byte at index 0 is for LOAD_CONST. The byte at index 2 is LOAD_FAST. And the byte at index 4 is FORMAT_VALUE.</p>
+<p>But wait: What do these commands do? And why are we only using the even-numbered bytes?</p>
+<p>The LOAD_CONST instruction tells Python to load a constant value. We're not talking about a constant in the general language, but rather a constant value that was assigned to the function object when it was compiled. At compile time, Python noticed that there was a string, 'Hello, '. It stored that string as a constant on the function object, in a tuple named co_consts. The function can thus retrieve that constant whenever it needs.  We can, of course, look at the co_consts tuple ourselves:</p>
+<div class="highlight"><pre><span></span><code>    <span class="o">&gt;&gt;&gt;</span> <span class="n">hello</span><span class="o">.</span>\<span class="n">_</span>\<span class="n">_code</span>\<span class="n">_</span>\<span class="n">_</span><span class="o">.</span><span class="n">co</span>\<span class="n">_consts</span>
+
+    <span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="s1">'Hello, '</span><span class="p">,</span> <span class="s1">'!'</span><span class="p">)</span>
+</code></pre></div>
+<p>As you can see, the element at index 1 in our function's co_consts is the string 'Hello, '.  So the first bytecode loads that constant, making it available to our Python interpreter.  But wait, where did this constant come from? Look carefully, and you'll see that it's the first part of the f-string that we return in the body of the function. That's right -- while we think of an f-string as a static string with a dynamic component (inside of the {}), Python thinks of it as the combination of static parts (which are stored in co_consts as strings) and dynamic parts (which are evaluated at runtime).</p>
+<p>So our f-string, which looks like this:</p>
+<div class="highlight"><pre><span></span><code>    <span class="sa">f</span><span class="s1">'Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1">!'</span>
+</code></pre></div>
+<p>Is turned by the Python compiler into</p>
+<div class="highlight"><pre><span></span><code>    <span class="s1">'Hello, '</span> <span class="p">(</span><span class="n">constant</span><span class="p">)</span> <span class="o">+</span> <span class="n">name</span> <span class="p">(</span><span class="n">variable</span> <span class="n">lookup</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'!'</span> <span class="p">(</span><span class="n">constant</span><span class="p">)</span>
+</code></pre></div>
+<p>And indeed, we can see that co_consts[1] is 'Hello, ', and co_consts[2] is the single-character string '!'.  In between, we'll need to get the value of the "name" variable.</p>
+<p>In order to do this, Python needs to know if "name" is a local variable or a global one. In this case, it's an easy call: Because "name" is a parameter to our function, it is by definition a local variable. Local variable values are retrieved using the LOAD_FAST bytecode, which we see at byte index 2. But how does it know which local variable to retrieve?</p>
+<p>Fortunately, our function object also has an attribute named co_vars, a tuple of strings with all of the local variable names:</p>
+<div class="highlight"><pre><span></span><code>    <span class="o">&gt;&gt;&gt;</span> <span class="n">hello</span><span class="o">.</span>\<span class="n">_</span>\<span class="n">_code</span>\<span class="n">_</span>\<span class="n">_</span><span class="o">.</span><span class="n">co</span>\<span class="n">_varnames</span>
+
+    <span class="p">(</span><span class="s1">'name'</span><span class="p">,)</span>
+</code></pre></div>
+<p>So the argument 0 which is given to LOAD_FAST indicates that we want to retrieve the value of local variable 0, aka "name".  In the first two bytecodes, we thus load a constant and a variable name. Then Python uses the special FORMAT_VALUE bytecode to format our "name" variable:</p>
+<div class="highlight"><pre><span></span><code>      <span class="mi">2</span>           <span class="mi">0</span> <span class="n">LOAD</span>\<span class="n">_CONST</span>               <span class="mi">1</span> <span class="p">(</span><span class="s1">'Hello, '</span><span class="p">)</span>
+
+                  <span class="mi">2</span> <span class="n">LOAD</span>\<span class="n">_FAST</span>                <span class="mi">0</span> <span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+                  <span class="mi">4</span> <span class="n">FORMAT</span>\<span class="n">_VALUE</span>             <span class="mi">0</span>
+</code></pre></div>
+<p>Usually, formatting a value means turning it into a string using "str".  But some objects have a special "__format__" method defined, which allows them to have a special output in this context.</p>
+<p>We now have two strings on our stack -- and yes, the Python runtime is a stack machine, which you might have learned about if you studied computer science. But we need the exclamation point, so we load that, too:</p>
+<div class="highlight"><pre><span></span><code>                <span class="mi">6</span> <span class="n">LOAD</span>\<span class="n">_CONST</span>               <span class="mi">2</span> <span class="p">(</span><span class="s1">'!'</span><span class="p">)</span>
+</code></pre></div>
+<p>We now have three strings on the stack -- our initial constant, the formatted version of "name", and the constant '!'.  We now create a string, based on these three components, with another bytecode, BUILD_STRING. We hand BUILD_STRING an argument of 3, to indicate that it should create a string from the three topmost items on the stack:</p>
+<div class="highlight"><pre><span></span><code>                <span class="mi">8</span> <span class="n">BUILD</span>\<span class="n">_STRING</span>             <span class="mi">3</span>
+</code></pre></div>
+<p>And that's it! We have created the string that we wanted, based on the user's argument. The time has come to return that value, and we do so with the special RETURN_VALUE bytecode:</p>
+<div class="highlight"><pre><span></span><code>               <span class="mi">10</span> <span class="n">RETURN</span>\<span class="n">_VALUE</span>
+</code></pre></div>
+<p>How often do you really need to read Python bytecodes? Never. But reading the bytecodes does give you a sense of how Python works, what it's doing behind the scenes, how particular functionality (e.g., f-strings) are implemented, and which decisions are made at compile time, rather than runtime.  Understanding Python's division of labor between compile time and runtime can, in my experience, help to make sense of error messages you get, and also to put into context so many other parts of Python that can see mysterious.</p>
+<p>I'll be talking about these and other parts of Python bytecodes, especially through the lens of functions, at PyCon APAC 2022, in my talk, "Function dissection lab." I hope to see you there!</p>
+</div>
+<div class="tag-cloud">
+<p>
+<a href="https://conf.python.tw/tag/legacy-blogger.html">legacy-blogger</a>
+<a href="https://conf.python.tw/tag/pycon-apac-2022.html">PyCon APAC 2022</a>
+</p>
+</div>
+<!-- utteranc.es -->
+<script async="" crossorigin="anonymous" issue-term="pathname" label="✨Blog Comments✨" repo="pycontw/pycontw-blog" src="https://utteranc.es/client.js" theme="github-light">
+</script>
+<!-- End utteranc.es -->
+</article>
+<footer>
+<p>
+  © 2023 PyCon Taiwan - This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" rel="license" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
+<img alt="Creative Commons License" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border-width:0" title="Creative Commons License" width="80">
+</img></a>
+</p></footer> </main>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PyCon Taiwan Blog ",
+  "url" : "https://conf.python.tw",
+  "image": "/images/profile.jpg",
+  "description": "PyCon Taiwan official blog. Catch up the latest announcement here!"
+}
+</script>
+</body>
+</html>

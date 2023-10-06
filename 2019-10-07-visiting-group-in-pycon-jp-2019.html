@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://conf.python.tw/theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/pygments/default.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://conf.python.tw/feeds/all.atom.xml" rel="alternate" title="PyCon Taiwan Blog Atom" type="application/atom+xml"/>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CLR9RYLP5N', 'auto');
+  ga('send', 'pageview');
+</script>
+<meta content="PyCon Taiwan Blogger contributors" name="author"/>
+<meta content="This was originally posted on blogger here. PyCon is a platform for Python users to get together for Python. This year, people affiliated with PyCon TW formed a visiting group to attend PyCon JP. It’s the first international outreach from PyCon TW, and a great opportunity for us to …" name="description"/>
+<meta content="legacy-blogger, PyCon JP 2019" name="keywords"/>
+<meta content="PyCon Taiwan Blog" property="og:site_name">
+<meta content="Visiting Group in PyCon JP 2019" property="og:title"/>
+<meta content="This was originally posted on blogger here. PyCon is a platform for Python users to get together for Python. This year, people affiliated with PyCon TW formed a visiting group to attend PyCon JP. It’s the first international outreach from PyCon TW, and a great opportunity for us to …" property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://conf.python.tw/2019-10-07-visiting-group-in-pycon-jp-2019.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2019-10-07 00:14:00+08:00" property="article:published_time"/>
+<meta content="" property="article:modified_time"/>
+<meta content="https://conf.python.tw/author/pycon-taiwan-blogger-contributors.html" property="article:author"/>
+<meta content="visiting group" property="article:section">
+<meta content="legacy-blogger" property="article:tag"/>
+<meta content="PyCon JP 2019" property="article:tag"/>
+<meta content="/images/profile.jpg" property="og:image"/>
+<title>PyCon Taiwan Blog – Visiting Group in PyCon JP 2019</title>
+</meta></meta><link href="https://conf.python.tw/2019-10-07-visiting-group-in-pycon-jp-2019.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "PyCon Taiwan Blog", "item": "https://conf.python.tw"}, {"@type": "ListItem", "position": 2, "name": "2019 10 07 visiting group in pycon jp 2019", "item": "https://conf.python.tw/2019-10-07-visiting-group-in-pycon-jp-2019.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "PyCon Taiwan Blogger contributors"}, "publisher": {"@type": "Organization", "name": "PyCon Taiwan Blog"}, "headline": "Visiting Group in PyCon JP 2019", "about": "visiting group", "datePublished": "2019-10-07 00:14"}</script></head>
+<body class="light-theme">
+<aside>
+<div>
+<a href="https://conf.python.tw/">
+<img alt="PyCon Taiwan" src="/images/profile.jpg" title="PyCon Taiwan"/>
+</a>
+<h1>
+<a href="https://conf.python.tw/">PyCon Taiwan</a>
+</h1>
+<nav>
+<ul class="list">
+<li>
+<a href="https://conf.python.tw/pages/about.html#about" target="_self">
+                About
+              </a>
+</li>
+<li>
+<a href="http://tw.pycon.org" target="_self">Official Website</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-facebook" href="https://www.facebook.com/pycontw" target="_blank">
+<i class="fa-brands fa-facebook"></i>
+</a>
+</li>
+<li>
+<a class="sc-instagram" href="https://www.instagram.com/pycon.tw/" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/#!/PyConTW" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/company/pycontw/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-flickr" href="https://www.flickr.com/photos/pycon_tw/albums/" target="_blank">
+<i class="fa-brands fa-flickr"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/pycontw" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-youtube" href="https://www.youtube.com/c/PyConTaiwanVideo" target="_blank">
+<i class="fa-brands fa-youtube"></i>
+</a>
+</li>
+<li>
+<a class="sc-itunes-note" href="https://podcasts.apple.com/tw/podcast/pycast/id1559843325" target="_blank">
+<i class="fa-brands fa-itunes-note"></i>
+</a>
+</li>
+<li>
+<a class="sc-spotify" href="https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv" target="_blank">
+<i class="fa-brands fa-spotify"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="https://conf.python.tw/">Home</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="https://conf.python.tw/feeds/all.atom.xml">Atom</a>
+</nav>
+<article class="single">
+<header>
+<h1 id="2019-10-07-visiting-group-in-pycon-jp-2019">Visiting Group in PyCon JP 2019</h1>
+<p>
+      Posted on Mon 07 October 2019 in <a href="https://conf.python.tw/category/visiting-group.html">visiting group</a>
+</p>
+</header>
+<div>
+<p><em>This was originally posted on blogger <a href="https://pycontw.blogspot.com/2019/10/visiting-group-in-pycon-jp-2019.html">here</a></em>.</p>
+<!--more-->
+<p>PyCon is a platform for Python users to get together for Python. This year, people affiliated with PyCon TW formed a visiting group to attend PyCon JP. It’s the first international outreach from PyCon TW, and a great opportunity for us to experience different culture.</p>
+<h1 id="overview">Overview</h1>
+<p>The theme of PyCon JP 2019 is "<strong>Python New Era</strong>", an idea of the new era in Japan and the new era of Python3.</p>
+<p><img alt="" src="https://i.imgur.com/okoiksC.png"/></p>
+<p><em>(The picture is from <a href="https://pycon.jp/2019/">PyCon JP 2019 official website</a>)</em></p>
+<p>PyCon JP 2019 is held September 14 to 17 at Tokyo. September 14th and 15th are Development Sprints and Tutorial Day, respectively. The conference is on September 16th and 17th at <a href="https://www.pio-ota.jp/english/pio.html">Ota Cty Industrial Plaza (PiO)</a>.</p>
+<p><img alt="" src="https://i.imgur.com/0944OPo.jpg"/></p>
+<p>The conference includes keynotes, invited talks, technical talks, poster sessions, jobs fair, lightning talks, and many other activities. The topics of them involve project case studies, machine learning, data science, web programming, etc. This year PyCon JP has <strong>951</strong> participants in the conference alone, and <strong>1160</strong> participants including sprints and tutorials. It is the largest body of total participants ever. (See also <a href="https://www.pycon.jp/organizer/">https://www.pycon.jp/organizer/</a> .) And here is the schedule of the conference (youtube videos are attached): <a href="https://pycon.jp/2019/schedule/">https://pycon.jp/2019/schedule/</a> .</p>
+<p>Also, our visiting group took notes for the sprint, the welcome party, and the conference on HackMD:</p>
+<p><a href="https://hackmd.io/pYYzA4hLROGFKbXR0QMTMA?view">https://hackmd.io/pYYzA4hLROGFKbXR0QMTMA?view</a></p>
+<h1 id="development-sprint-914">Development Sprint (9/14)</h1>
+<p>The <a href="https://pyconjp.connpass.com/event/136558/">sprint</a> was held at the HENNGE office in Shibuya.</p>
+<p>There are fifteen projects this year. List of projects is available <a href="https://docs.google.com/spreadsheets/d/1SNQsUUar-TD5AHfdDxupgjpdmvBF6Ao_wQ_lf5kJFjo/edit#gid=0">here</a>.</p>
+<p>Most projects were in Japanese. Only those hosted by foreigners are in English.</p>
+<p>We can roughly classify projects into these types:</p>
+<ul>
+<li>OSS document translation (Surely to Japanese), e.g., Django Girls Tutorialの日本語翻訳, sphinx</li>
+<li>PyCon JP preparation</li>
+<li>Tutorial/Hackathon, e.g., Dashで作る可視化ウェブアプリケーション, PyCon JP 2019 Sprint: JetBot ハンズオン</li>
+<li>OSS hacking, e.g., C API example of Python 2/3 compatible code, Tell you what waits for what in an async/await program, at runtime.</li>
+</ul>
+<p>Around 100 attendees joined this event. At the end of the sprint, we had a short demonstration of what we had accomplished.</p>
+<p><img alt="" src="https://i.imgur.com/H3gXZvQ.jpg"/></p>
+<h1 id="conference-days-916-917">Conference Days (9/16, 9/17)</h1>
+<p>The first day of the conference starts at 9 a.m. After registration, every attendee gets a bag of brochures and the T-shirt (see below).</p>
+<p><img alt="" src="https://i.imgur.com/jZOIch8.jpg"/></p>
+<p>(The T-shirt in the picture is for the regular attendee.)</p>
+<p>The vertical banner stands in the main hall exhibit the sponsors and patrons of PyCon JP this year.</p>
+<p><img alt="" src="https://i.imgur.com/IqDQnkg.jpg"/></p>
+<p>The places of sessions locate in different rooms on the first, second, third, and sixth floors. Keynotes, posters, and the job fair are on the first floor (the main hall). Most of the conference rooms are big and nice for a talk.</p>
+<p><img alt="" src="https://i.imgur.com/wLYTV09.jpg"/></p>
+<h3 id="keynote">Keynote</h3>
+<p>Cory Althoff gave the first keynote speech on the first day. The title is “Why Python is Eating the World”.</p>
+<p><img alt="" src="https://i.imgur.com/P12LcxY.jpg"/></p>
+<p>Althoff works at eBay as a software engineer. He is also the author of the book "<a href="https://www.amazon.com/Self-Taught-Programmer-Definitive-Programming-Professionally-ebook/dp/B01M01YDQA">The Self-Taught Programmer</a>", which has more than 100,000 copies sold.</p>
+<p>"Learning to program in Python helped more than just my career." he said, "It gave me confidence. I am passionate about programming and about teaching others how to!"</p>
+<p>Althoff also explains in detail why we should learn Python. The three main reasons are:</p>
+<ul>
+<li><strong>Beginner Adoption</strong>: Python is easier for beginners to learn, and there are also many different paths to learn Python.</li>
+<li><strong>Company Demand</strong>: Many top companies are using Python (e.g., NOKIA, IBM, Amazon).</li>
+<li><strong>Community</strong>: Many online communities like Reddit or Facebook groups can help Python beginners.</li>
+</ul>
+<p>Finally, the speaker suggests people to sign up the weekly newsletter "<a href="http://pythonweekly.com/">pythonweekly.com</a>" or join the slack community "<a href="http://pyslackers.com/">pyslackers.com</a>", to keep in touch with Python.</p>
+<hr/>
+<p>The keynote speaker on the second day is Makoto Koike (小池 誠). His topic was titled “Pythonで切り開く新しい農業” (Use Python to Create a New Type of Agriculture).</p>
+<p><img alt="" src="https://i.imgur.com/7QYV5bc.jpg"/></p>
+<p>Koike was an embedded system engineer in the Japanese automobile industry. Now he operates a cucumber farm by using machine learning and deep learning.</p>
+<p>Each farm has its classification standard in Japan. To decrease the time of sorting work, Koike explores machine learning and deep learning on sorting cucumbers.</p>
+<p>In this talk, Koike showed different methods he has tried and the performance (the third version of the method can achieve <strong>79.4% accuracy</strong>).</p>
+<p>In the end, Koike summarized that the know-how of farmers can be transferred by exploring these technologies on agriculture.</p>
+<p>"AI might replace some jobs, but AI also can be a kind of storing tool for human knowledge.", said by Koike.</p>
+<p>We feel excited about the development and applications of Python shown in the two keynotes.</p>
+<h3 id="regular-sessions">Regular Sessions</h3>
+<p>Besides keynotes, there are also many interesting sessions in conference days.</p>
+<p>This year, PyCon JP invites Prof. Renyuan Lyu from Chang Gung University (Taiwan) for the invited talk. Prof. Lyu demonstrated a lot of real-time pitch detection and speech recognition technologies through chatbots.</p>
+<p><img alt="" src="https://i.imgur.com/NchoDPS.jpg"/></p>
+<p>The technical talks have many different aspects, such as solutions of managing projects in Python 2, the usage of Docker, so on and so forth.</p>
+<p><img alt="" src="https://i.imgur.com/kP7Bx1m.jpg"/></p>
+<p>And there were, of course, other Taiwanese speakers!</p>
+<p><img alt="" src="https://i.imgur.com/lE0tXCv.jpg"/></p>
+<p>(Left: “Supporting Python3 in Large Scale Project” by Kir Chou. Right: “When AI meets 3000-year-old Chinese Palmistry” by Kai Hsu (a member of our visiting group).)</p>
+<p>The sponsors locate in the main hall and it is a great place to interact with them.</p>
+<p><img alt="" src="https://i.imgur.com/vNuoQyb.jpg"/></p>
+<p><img alt="" src="https://i.imgur.com/HFNDCpT.jpg"/></p>
+<p>Also, we received a lot of interesting ideas and information from the posters.</p>
+<p><img alt="" src="https://i.imgur.com/ZZxruyS.jpg"/></p>
+<p><img alt="" src="https://i.imgur.com/sLjX48g.jpg"/></p>
+<h3 id="party">Party</h3>
+<p>There was a party in the evening of the first day (9/16). While enjoying delicious food, we can walk around and make a lot of new friends. By the way, the party also offers a very good variety of drink (beer included)!</p>
+<p><img alt="" src="https://i.imgur.com/phL5vmJ.jpg"/></p>
+<h3 id="lightning-talks">Lightning Talks</h3>
+<p>The lightning talk (LT) always gets the spotlight. PyCon JP 2019 also has many interesting talks. It’s worth to mention that there are three LT speakers are from our visiting group.</p>
+<p><img alt="" src="https://i.imgur.com/QPzG9M3.jpg"/></p>
+<p>(Top Left: “Is your bot ALIVE? Monitor chatbot from a user’s perspective” by Petertc. Top Right: “How to get more than just PyCon in a PyCon” by Wei Lee. Bottom Middle: “Python in the Belle II experiment” by Huang Kunxian)</p>
+<h3 id="scipy-meetup">SciPy Meetup</h3>
+<p>In the conference, those who love and care about science and Python communities in Japan and Taiwan, including Enthought, got together to have a meeting. We look forward to the growth of the SciPy community in Japan as well as the APAC regions.</p>
+<p><img alt="" src="https://imgur.com/vuQE5In.jpg"/></p>
+<h1 id="feedbacks-from-the-visiting-group">Feedbacks from the Visiting Group</h1>
+<h3 id="yung-yu-chen">Yung-Yu Chen</h3>
+<p>HPC Software Developer</p>
+<p><img alt="" src="https://i.imgur.com/QP5GEWF.png"/></p>
+<p><em>Everything began with a random thought. It’s been a while since my last visit to PyConJP. I planned to go this year but was unable to submit a talk. What can I bring there? It occurred to me that Terada san has organized visit groups from Japan to many PyCons in other countries, including Taiwan. So this time, we guys from Taiwan should probably do the same! There must be some people who want to visit a PyCon overseas but don’t know how to start. This gonna be good.</em></p>
+<p><em>It is good. Much more successful than I originally thought. The conference is great, but what moves me the most is the self-organizing team. As the “organizer” the only things I did were two pre-meetings, a couple of emails, a telegram chat room, and a Google doc. Then the team of 13 people just formed automatically, and everyone got some things to do: local guide, camera man, LT speakers, and making a lot of new friends.</em></p>
+<p><em>I think this is another piece of proof of the productivity of open source. This is one of the best PyCon experiences I have!</em></p>
+<hr/>
+<h3 id="kevin-shyu">Kevin Shyu</h3>
+<p>CTO &amp; Co-founder</p>
+<p><img alt="" src="https://i.imgur.com/nqehaYB.png"/></p>
+<p><em>It’s my first time to PyCon JP. The visiting group is totally beyond my expectation. We have our own free time to go around and we also have good connection with PyCon JP. Before going to Japan, it is great for the pre-tasks like cooperate notes, flight info sharing, the shared docs, and etc. In this trip, I have known lots of different cultures from Japanese. I really look forward to going with the visiting group again in the future. We don’t stop at Japan, we can go everywhere with PyCon.</em></p>
+<hr/>
+<h3 id="po-an-yang">Po-An Yang</h3>
+<p>Software Engineer at Rakuten Slice</p>
+<p><img alt="" src="https://i.imgur.com/fw2GPaV.jpg"/></p>
+<p><em>Joining the visiting group is the most correct decision which I have made in 2019! I have attended conferences in other countries before, but this is the one which I most enjoyed. With the visiting group, we experienced a lot of things. For example:</em></p>
+<ul>
+<li><em>Making more connections than attending alone.</em></li>
+<li><em>Joining local communities like discussing the plan of SciPy JP Conf.</em></li>
+</ul>
+<p><em>I hope that we can keep grouping people in Taiwan to visit conferences in other countries. It’s wonderful and helpful!</em></p>
+<hr/>
+<h3 id="wei-lee">Wei Lee</h3>
+<p>Software Engineer at Rakuten Slice, Volunteer of PyCon TW</p>
+<p><img alt="" src="https://i.imgur.com/fpETAJ2.png"/></p>
+<p><em>PyCon JP 2019 was my second PyCon oversea. The first one was PyCon US this May, and I felt like I was not prepared to have this much connection with others. The more conference I attend, the more I realize that connection is equally important to listen to the talks, if not more so. However, I didn’t know where to start. When there was a call for this visiting group, I thought it was a good chance for me to learn from the experienced.</em></p>
+<p><em>I must say that this visiting group was way beyond my expectation. It was just a few emails and one or two pre-meetings, and everything seemed to work perfectly. We joined the Sprint and enjoyed the time developing. We learned a lot from the quality talks, met people from all over the world, and had parties and parties with them after the conference. A lot of amazing things happened in those days. If I were to come to PyCon JP alone, I would definitely not meet so many great people and have so much fun.</em></p>
+<p><em>Another challenge for me this time was having the LT talk. It was my first speech in a PyCon. Even though it was just a five-minute LT talk, I still felt really nervous. Thank everyone for giving the feedback to make this talk better. Glad that the audiences liked the bubble tea joke.</em></p>
+<p><em>After we returned to Taiwan, PyCon JP also organized a group to visit us. I think the connection is what makes Python community a better place. I’m looking forward to the next visiting group to “PyCon [A-Z]+”!</em></p>
+<hr/>
+<h3 id="lo-pang-yun-ting">Lo Pang-Yun Ting</h3>
+<p>Computer Science student at NCKU</p>
+<p><img alt="" src="https://i.imgur.com/zCSMS1N.jpg"/></p>
+<p><em>I’m glad to have a chance to join the visiting group! PyCon JP includes a variety of topics. Whether you are a researcher, an engineer or even a Python beginner, you can benefit from this conference. My biggest reward in this trip is making friends with many people from different backgrounds. I also join the slack channel of PyLadies Japan! In short, It is a valuable experience for me. I have benefited a great deal from this trip!</em></p>
+<h1 id="last-words">Last Words</h1>
+<p>By attending PyCon JP 2019, we have a chance to interact with other Python programmers, get familiar with Japan companies who concern Python, and learn technological development of Python in Japan. It didn’t only open our eyes, but also expanded our network in both Japan and Taiwan. It’s a wonderful experience, and we all look forward to an opportunity for another visiting group!</p>
+<p><img alt="" src="https://i.imgur.com/pdIoEU5.jpg"/></p>
+</div>
+<div class="tag-cloud">
+<p>
+<a href="https://conf.python.tw/tag/legacy-blogger.html">legacy-blogger</a>
+<a href="https://conf.python.tw/tag/pycon-jp-2019.html">PyCon JP 2019</a>
+</p>
+</div>
+<!-- utteranc.es -->
+<script async="" crossorigin="anonymous" issue-term="pathname" label="✨Blog Comments✨" repo="pycontw/pycontw-blog" src="https://utteranc.es/client.js" theme="github-light">
+</script>
+<!-- End utteranc.es -->
+</article>
+<footer>
+<p>
+  © 2023 PyCon Taiwan - This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" rel="license" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
+<img alt="Creative Commons License" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border-width:0" title="Creative Commons License" width="80">
+</img></a>
+</p></footer> </main>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PyCon Taiwan Blog ",
+  "url" : "https://conf.python.tw",
+  "image": "/images/profile.jpg",
+  "description": "PyCon Taiwan official blog. Catch up the latest announcement here!"
+}
+</script>
+</body>
+</html>

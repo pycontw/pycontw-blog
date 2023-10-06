@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Taiwan Blog - tutoiral</title><link href="https://conf.python.tw/" rel="alternate"></link><link href="https://conf.python.tw/feeds/tutoiral.atom.xml" rel="self"></link><id>https://conf.python.tw/</id><updated>2021-03-23T06:15:00+08:00</updated><entry><title>如何成為 Python 軟體基金會基本會員</title><link href="https://conf.python.tw/2021-03-23-python_23.html" rel="alternate"></link><published>2021-03-23T06:15:00+08:00</published><updated>2021-03-23T06:15:00+08:00</updated><author><name>PyCon Taiwan Blogger contributors</name></author><id>tag:conf.python.tw,2021-03-23:/2021-03-23-python_23.html</id><summary type="html">&lt;p&gt;&lt;em&gt;This was originally posted on blogger &lt;a href="https://pycontw.blogspot.com/2021/03/python_23.html"&gt;here&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;!--more--&gt;
+
+&lt;p&gt;我們在&lt;a href="https://pycontw.blogspot.com/2021/03/python.html"&gt;前一篇&lt;/a&gt;提到為什麼要加入 Python 軟體基金會（ Python Software Foundation，PSF ）的基本會員，接下來我們要來說明如何提出申 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This was originally posted on blogger &lt;a href="https://pycontw.blogspot.com/2021/03/python_23.html"&gt;here&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;!--more--&gt;
+
+&lt;p&gt;我們在&lt;a href="https://pycontw.blogspot.com/2021/03/python.html"&gt;前一篇&lt;/a&gt;提到為什麼要加入 Python 軟體基金會（ Python Software Foundation，PSF ）的基本會員，接下來我們要來說明如何提出申請、成為會員。&lt;/p&gt;
+&lt;p&gt;大致上的流程是先在 &lt;a href="https://www.python.org"&gt;https://www.python.org&lt;/a&gt; 建立帳號，然後透過這個代表本人的帳號簽署行為準則（ Code of Conduct ）即可，是不是很簡單呢？下面是實際上每個步驟的截圖提供給大家參考。&lt;/p&gt;
+&lt;h1 id="psf-basic-membership"&gt;申請成為 PSF Basic Membership&lt;/h1&gt;
+&lt;h2 id="_1"&gt;註冊 &lt;www.python.org&gt; 帳號&lt;/h2&gt;
+&lt;p&gt;首先先在 &lt;a href="https://www.python.org"&gt;https://www.python.org&lt;/a&gt; 建立帳號。你可以直接點擊 &lt;a href="https://www.python.org/accounts/signup/"&gt;https://www.python.org/accounts/signup/&lt;/a&gt; 連到註冊畫面：&lt;br&gt;
+&lt;a href="https://1.bp.blogspot.com/-zjq5bZs3JmM/YFkOK0czOJI/AAAAAAABSto/R4y2x15AG8QlfqAOKrnW8AjnLw6b0BDhwCLcBGAsYHQ/s1097/Selection_179.png"&gt;&lt;img alt="" src="https://1.bp.blogspot.com/-zjq5bZs3JmM/YFkOK0czOJI/AAAAAAABSto/R4y2x15AG8QlfqAOKrnW8AjnLw6b0BDhwCLcBGAsYHQ/s320/Selection_179.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;填寫完資料點下藍色的 「 Sign Up 」之後，會提示你去電子信箱收件：&lt;br&gt;
+&lt;a href="https://1.bp.blogspot.com/-H0VPEJ-B2-g/YFkPfLVrZXI/AAAAAAABSt0/yOAo3zaKdHEwkyHWMZk5fAPamUz_wbKngCLcBGAsYHQ/s1397/Selection_180.png"&gt;&lt;img alt="" src="https://1.bp.blogspot.com/-H0VPEJ-B2-g/YFkPfLVrZXI/AAAAAAABSt0/yOAo3zaKdHEwkyHWMZk5fAPamUz_wbKngCLcBGAsYHQ/s320/Selection_180.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;接著去電子信箱確定收到標題像是 「 [python.org] Please Confirm Your E-mail Address 」 的信件之後，點下裡面的確認連結：&lt;br&gt;
+&lt;a href="https://1.bp.blogspot.com/-Ax4n_ux-Zo4/YFkQeTpz-HI/AAAAAAABSt8/Hu0xdLgq9t8_y003M-3jCDnJyAc0AfDQQCLcBGAsYHQ/s770/Selection_181.png"&gt;&lt;img alt="" src="https://1.bp.blogspot.com/-Ax4n_ux-Zo4/YFkQeTpz-HI/AAAAAAABSt8/Hu0xdLgq9t8_y003M-3jCDnJyAc0AfDQQCLcBGAsYHQ/s320/Selection_181.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;按下 「 Confirm 」確認沒問題後，即完成帳號註冊。&lt;/p&gt;
+&lt;h2 id="psf"&gt;簽署 PSF 行為準則&lt;/h2&gt;
+&lt;p&gt;接著用剛註冊的帳號重新登入 python.org 。登入後選 Become a PSF member ，或是直接用 &lt;a href="https://www.python.org/users/membership/"&gt;https://www.python.org/users/membership/&lt;/a&gt; 進到註冊成為 PSF 會員的頁面，會看到簽署行為準則（ Code of Conduct ）的畫面：&lt;br&gt;
+&lt;a href="https://1.bp.blogspot.com/-1pCZcpaIPVM/YFkYODURs6I/AAAAAAABSus/KMIdMzg630AigqkwlIKTRps0tn1quuwXACLcBGAsYHQ/s830/Selection_182.png"&gt;&lt;img alt="" src="https://1.bp.blogspot.com/-1pCZcpaIPVM/YFkYODURs6I/AAAAAAABSus/KMIdMzg630AigqkwlIKTRps0tn1quuwXACLcBGAsYHQ/s320/Selection_182.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果可以，提供 Country 的資訊能夠協助 PSF 識別與評估每個國家或地區的「忠實 Python 使用人數」，藉此評估哪裡更需要加強推廣，是很有意義的資訊。&lt;br&gt;
+填完基本資料與勾選同意 PSF 行為準則（ I agree to the PSF Code of Conduct ），按下 Save Profile 。如果你看到這個確認畫面，恭喜你！你已經成為 PSF 基本會員了！&lt;br&gt;
+&lt;a href="https://1.bp.blogspot.com/-M8c_6066LMs/YFkSunJAn2I/AAAAAAABSuM/7AZw2Ox_XsIjwH6h0EMn-O3R8dudZx9HQCLcBGAsYHQ/s789/Selection_183.png"&gt;&lt;img alt="" src="https://1.bp.blogspot.com/-M8c_6066LMs/YFkSunJAn2I/AAAAAAABSuM/7AZw2Ox_XsIjwH6h0EMn-O3R8dudZx9HQCLcBGAsYHQ/s320/Selection_183.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果再次回到自己 python.org 帳號頁面選 View profile 的話，也可以看到自己 PSF Member 的狀態是 「 Yes 」：&lt;br&gt;
+&lt;a href="https://1.bp.blogspot.com/-yi7otJ_0A_o/YFkTfKPjzEI/AAAAAAABSuU/qVYtTtiR-yckChuxRbof-y80bGmw1MB4wCLcBGAsYHQ/s704/Selection_184.png"&gt;&lt;img alt="" src="https://1.bp.blogspot.com/-yi7otJ_0A_o/YFkTfKPjzEI/AAAAAAABSuU/qVYtTtiR-yckChuxRbof-y80bGmw1MB4wCLcBGAsYHQ/s320/Selection_184.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="_2"&gt;刪除基本會員資格&lt;/h2&gt;
+&lt;p&gt;如果反悔了，也可以透過自己 python.org 的帳號來刪除自己的 PSF membership ，像是這個畫面：&lt;br&gt;
+&lt;a href="https://1.bp.blogspot.com/-zMKqTipNpm0/YFkUFyBe9VI/AAAAAAABSuc/kDYdhszgjLMl-i7-USCxYJvCqdnqP3SUgCLcBGAsYHQ/s738/Selection_185.png"&gt;&lt;img alt="" src="https://1.bp.blogspot.com/-zMKqTipNpm0/YFkUFyBe9VI/AAAAAAABSuc/kDYdhszgjLMl-i7-USCxYJvCqdnqP3SUgCLcBGAsYHQ/s320/Selection_185.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;點下 「 Delete your PSF membership 」之後，PSF Membership 就會變成 「 No 」囉：&lt;br&gt;
+&lt;a href="https://1.bp.blogspot.com/-CvnDZpzeS-E/YFkUsTCjm-I/AAAAAAABSuk/7Kabr-L3eCgHpM9WGtTF5QYuA7vg0yYDACLcBGAsYHQ/s838/Selection_186.png"&gt;&lt;img alt="" src="https://1.bp.blogspot.com/-CvnDZpzeS-E/YFkUsTCjm-I/AAAAAAABSuk/7Kabr-L3eCgHpM9WGtTF5QYuA7vg0yYDACLcBGAsYHQ/s320/Selection_186.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果想要再次成為 PSF 基本會員，選 Become a PSF member 之後，再重新操作一次上述簽署行為準則的步驟即可。&lt;/p&gt;
+&lt;h2 id="_3"&gt;了解更多&lt;/h2&gt;
+&lt;p&gt;如果想要了解更多，可以參考 &lt;a href="https://www.python.org/psf/membership/"&gt;PSF Membership FAQ&lt;/a&gt; ，以及&lt;a href="https://pycontw.blogspot.com/2021/03/python.html"&gt;為什麼要成為 PSF 基本會員 （ PSF Basic Member ）&lt;/a&gt;。&lt;/p&gt;</content><category term="tutoiral"></category><category term="legacy-blogger"></category><category term="PSF"></category></entry></feed>

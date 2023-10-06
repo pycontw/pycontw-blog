@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://conf.python.tw/theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/pygments/default.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://conf.python.tw/feeds/all.atom.xml" rel="alternate" title="PyCon Taiwan Blog Atom" type="application/atom+xml"/>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CLR9RYLP5N', 'auto');
+  ga('send', 'pageview');
+</script>
+<meta content="Zonghan" name="author"/>
+<meta content="This was originally posted on blogger here 訪問人: Yen 主持/撰稿人: Zonghan 日期:2017/03/06 關於 R 與 Python Zonghan：妳本身是以 R 做分析的，請問是在什麼樣的情況下會 …" name="description"/>
+<meta content="legacy-blogger, PyCon TW 2017" name="keywords"/>
+<meta content="PyCon Taiwan Blog" property="og:site_name">
+<meta content="Python 人物誌：R-Ladies Taipei Host - Yen" property="og:title"/>
+<meta content="This was originally posted on blogger here 訪問人: Yen 主持/撰稿人: Zonghan 日期:2017/03/06 關於 R 與 Python Zonghan：妳本身是以 R 做分析的，請問是在什麼樣的情況下會 …" property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://conf.python.tw/2017-03-17-python-r-ladies-taipei-host.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2017-03-17 21:54:00+08:00" property="article:published_time"/>
+<meta content="" property="article:modified_time"/>
+<meta content="https://conf.python.tw/author/zonghan.html" property="article:author"/>
+<meta content="interview" property="article:section">
+<meta content="legacy-blogger" property="article:tag"/>
+<meta content="PyCon TW 2017" property="article:tag"/>
+<meta content="/images/profile.jpg" property="og:image"/>
+<title>PyCon Taiwan Blog – Python 人物誌：R-Ladies Taipei Host - Yen</title>
+</meta></meta><link href="https://conf.python.tw/2017-03-17-python-r-ladies-taipei-host.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "PyCon Taiwan Blog", "item": "https://conf.python.tw"}, {"@type": "ListItem", "position": 2, "name": "2017 03 17 python r ladies taipei host", "item": "https://conf.python.tw/2017-03-17-python-r-ladies-taipei-host.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Zonghan"}, "publisher": {"@type": "Organization", "name": "PyCon Taiwan Blog"}, "headline": "Python 人物誌：R-Ladies Taipei Host - Yen", "about": "interview", "datePublished": "2017-03-17 21:54"}</script></head>
+<body class="light-theme">
+<aside>
+<div>
+<a href="https://conf.python.tw/">
+<img alt="PyCon Taiwan" src="/images/profile.jpg" title="PyCon Taiwan"/>
+</a>
+<h1>
+<a href="https://conf.python.tw/">PyCon Taiwan</a>
+</h1>
+<nav>
+<ul class="list">
+<li>
+<a href="https://conf.python.tw/pages/about.html#about" target="_self">
+                About
+              </a>
+</li>
+<li>
+<a href="http://tw.pycon.org" target="_self">Official Website</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-facebook" href="https://www.facebook.com/pycontw" target="_blank">
+<i class="fa-brands fa-facebook"></i>
+</a>
+</li>
+<li>
+<a class="sc-instagram" href="https://www.instagram.com/pycon.tw/" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/#!/PyConTW" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/company/pycontw/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-flickr" href="https://www.flickr.com/photos/pycon_tw/albums/" target="_blank">
+<i class="fa-brands fa-flickr"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/pycontw" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-youtube" href="https://www.youtube.com/c/PyConTaiwanVideo" target="_blank">
+<i class="fa-brands fa-youtube"></i>
+</a>
+</li>
+<li>
+<a class="sc-itunes-note" href="https://podcasts.apple.com/tw/podcast/pycast/id1559843325" target="_blank">
+<i class="fa-brands fa-itunes-note"></i>
+</a>
+</li>
+<li>
+<a class="sc-spotify" href="https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv" target="_blank">
+<i class="fa-brands fa-spotify"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="https://conf.python.tw/">Home</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="https://conf.python.tw/feeds/all.atom.xml">Atom</a>
+</nav>
+<article class="single">
+<header>
+<h1 id="2017-03-17-python-r-ladies-taipei-host">Python 人物誌：R-Ladies Taipei Host - Yen</h1>
+<p>
+      Posted on Fri 17 March 2017 in <a href="https://conf.python.tw/category/interview.html">interview</a>
+</p>
+</header>
+<div>
+<p><em>This was originally posted on blogger <a href="https://pycontw.blogspot.com/2017/03/python-r-ladies-taipei-host.html">here</a></em></p>
+<!--more-->
+<h4 id="yen-zonghan-20170306">訪問人: Yen  主持/撰稿人: Zonghan 日期:2017/03/06</h4>
+<p><img alt="" src="https://lh3.googleusercontent.com/fjX2VY596HHg1H71Sv_qjMJWYJbGunWEJM4fTW51j-KCQPAgen86PRoTGiM9T_uidcknxkmgd0wUb3zjkMT4meVhrmvNFuqwFKDsYg7pF4d4OlYKWw0Jq8qnXmjbAxgfCz8uhx13"/></p>
+<h1 id="r-python">關於 R 與 Python</h1>
+<p>Zonghan：妳本身是以 R 做分析的，請問是在什麼樣的情況下會選擇使用 Python？妳覺得 R 與 Python 各適合用在什麼地方？</p>
+<p>Yen：我本身做的是金融相關的工作，經常會研究到剛發表在 paper 上的統計模型，而 R 是統計學家常用的程式語言，當統計學家發表新的模型時，通常會同時附上 R 的程式碼。同時， R 語言上面各種統計方法的套件非常多，功能也非常完整強大。最方便的是，使用 R 可以直接拿別人發 paper 時寫好的程式碼來用，不用自己刻。相對的，在 Python 的領域，統計相關的套件就沒有這麼多。雖然 Python 在數值計算上面的基礎套件非常強大，但是如果要拿它來做統計研究，就必須自己參考 paper 再重新撰寫一次程式碼，這相對比直接用 R 來做耗工耗時。</p>
+<p>不過， Python 的優勢在系統面，我通常拿 Python 來做資料的 ETL ，尤其 Python 有 Pandas 這個套件，資料處理非常的方便。所以我通常會透過 Python 先將資料整理好再用 R 做模型分析。</p>
+<p>如果提到最近很夯的機器學習，則 Python 又再度勝出。 Python 的 scikit-learn 是一個很完整的機器學習套件，而且在 deep learning 方面，各家的套件幾乎都支援 Python。因此， Python 在機器學習上應該是比 R 好用的。</p>
+<h1 id="_1">關於社群</h1>
+<p>Zonghan：妳本身是社群的 host 也參加過 PyCon APAC 2014 的籌備團隊，請問妳對於經營社群有什麼樣的看法？</p>
+<p>Yen：我覺得參加社群給 talk 除了是讓講者有一個表演的舞台之外，也是讓雙方可以互相學習。講者增加經驗與曝光度，聽眾也長知識。最重要的是，大家都是利用剩餘的時間來參加這些 meetups，講者是利用額外的時間來準備投影片，聽眾也是利用下班或者是假日時間來做學習，所以經營與參加這些活動最重要的一點是不要對自己造成太多額外的負擔。不過，籌備像 PyCon APAC 這樣的活動就比較累。我在 PyCon APAC 2014 是擔任註冊組組長，註冊組在接近活動的那一段時間，非常的忙碌，幾乎必須在活動前後請一兩天假才能完整 support 這個 event。</p>
+<h1 id="_2">關於社群國際化</h1>
+<p>Zonghan: 妳最近去西班牙馬德里來了一段 meetup travel？可以分享一下經驗？</p>
+<p>Yen：我這次是去西班牙馬德里給 talk，雖然是去西班牙，但是並不會有語言不通的問題，因為大家都可以用英文來做溝通。到國外的社群給 talk ，不僅可以增加台灣社群的能見度，也能結交外國的社群朋友。像我這次去馬德里，因為我們 R-Ladies Taipei 社群最近在台灣跟台灣微軟走得比較近，透過這層關係，最後爭取到了西班牙的微軟對馬德里當地 R 社群的贊助，雖然馬德里微軟的總部距離他們 R 社群 meetup 的地方只有幾公里遠，但很妙的是雙方這層緣份卻是透過台灣人牽起來的。這對於增進雙方的關係，有非常大的幫助。當然，除了去社群演講、互相交流之外，當地人會當嚮導帶你去吃當地好吃的東西。根據我這一次的經驗，幾乎都是當地人點得才會好吃，自己看 menu 點的東西通常都很難吃 XD。</p>
+<p>註：<a href="https://docs.google.com/presentation/d/13BzMoWPyJ7RsqQhkf2ncA4npJa2ESXj6a9zKpVzQ0ms/edit#slide=id.g35f391192_00">經驗分享投影片</a></p>
+<h1 id="_3">結論</h1>
+<p>Zonghan：最後可以請你講一下，對於台灣各地社群的一些建議嘛？</p>
+<p>Yen：我覺得台灣的社群需要盡量與國外的社群接觸。台灣有很多人才，但是對國外接觸太少，所以人才發展的空間與發揮的舞台都受限制。 open source 的社群本來就是全球化的，而且，軟體的工作機會也是國際的機會多過於台灣本地的。台灣的在地社群應該多多與外國社群接觸，才能增加自己的能見度，也才能提供台灣的人才更多成長與發揮的空間。</p>
+</div>
+<div class="tag-cloud">
+<p>
+<a href="https://conf.python.tw/tag/legacy-blogger.html">legacy-blogger</a>
+<a href="https://conf.python.tw/tag/pycon-tw-2017.html">PyCon TW 2017</a>
+</p>
+</div>
+<!-- utteranc.es -->
+<script async="" crossorigin="anonymous" issue-term="pathname" label="✨Blog Comments✨" repo="pycontw/pycontw-blog" src="https://utteranc.es/client.js" theme="github-light">
+</script>
+<!-- End utteranc.es -->
+</article>
+<footer>
+<p>
+  © 2023 PyCon Taiwan - This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" rel="license" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
+<img alt="Creative Commons License" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border-width:0" title="Creative Commons License" width="80">
+</img></a>
+</p></footer> </main>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PyCon Taiwan Blog ",
+  "url" : "https://conf.python.tw",
+  "image": "/images/profile.jpg",
+  "description": "PyCon Taiwan official blog. Catch up the latest announcement here!"
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://conf.python.tw/theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/pygments/default.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://conf.python.tw/feeds/all.atom.xml" rel="alternate" title="PyCon Taiwan Blog Atom" type="application/atom+xml"/>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CLR9RYLP5N', 'auto');
+  ga('send', 'pageview');
+</script>
+<meta content="PyCon Taiwan Blogger contributors" name="author"/>
+<meta content="This was originally posted on blogger here. The upcoming PyCon TW is on October 2nd and 3rd! 🤩 It was exciting to chat with new friends at lunch time. Due to COVID-19, PyCon TW 2021 will be held online. Instead of chatting face to face, the participants can interact with others …" name="description"/>
+<meta content="legacy-blogger, PyCon TW 2021" name="keywords"/>
+<meta content="PyCon Taiwan Blog" property="og:site_name">
+<meta content="Let’s Eat with PyCon TW" property="og:title"/>
+<meta content="This was originally posted on blogger here. The upcoming PyCon TW is on October 2nd and 3rd! 🤩 It was exciting to chat with new friends at lunch time. Due to COVID-19, PyCon TW 2021 will be held online. Instead of chatting face to face, the participants can interact with others …" property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://conf.python.tw/2021-09-28-lets-eat-with-pycon-tw.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2021-09-28 00:01:00+08:00" property="article:published_time"/>
+<meta content="" property="article:modified_time"/>
+<meta content="https://conf.python.tw/author/pycon-taiwan-blogger-contributors.html" property="article:author"/>
+<meta content="announcement" property="article:section">
+<meta content="legacy-blogger" property="article:tag"/>
+<meta content="PyCon TW 2021" property="article:tag"/>
+<meta content="/images/profile.jpg" property="og:image"/>
+<title>PyCon Taiwan Blog – Let’s Eat with PyCon TW</title>
+</meta></meta><link href="https://conf.python.tw/2021-09-28-lets-eat-with-pycon-tw.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "PyCon Taiwan Blog", "item": "https://conf.python.tw"}, {"@type": "ListItem", "position": 2, "name": "2021 09 28 lets eat with pycon tw", "item": "https://conf.python.tw/2021-09-28-lets-eat-with-pycon-tw.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "PyCon Taiwan Blogger contributors"}, "publisher": {"@type": "Organization", "name": "PyCon Taiwan Blog"}, "headline": "Let’s Eat with PyCon TW", "about": "announcement", "datePublished": "2021-09-28 00:01"}</script></head>
+<body class="light-theme">
+<aside>
+<div>
+<a href="https://conf.python.tw/">
+<img alt="PyCon Taiwan" src="/images/profile.jpg" title="PyCon Taiwan"/>
+</a>
+<h1>
+<a href="https://conf.python.tw/">PyCon Taiwan</a>
+</h1>
+<nav>
+<ul class="list">
+<li>
+<a href="https://conf.python.tw/pages/about.html#about" target="_self">
+                About
+              </a>
+</li>
+<li>
+<a href="http://tw.pycon.org" target="_self">Official Website</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-facebook" href="https://www.facebook.com/pycontw" target="_blank">
+<i class="fa-brands fa-facebook"></i>
+</a>
+</li>
+<li>
+<a class="sc-instagram" href="https://www.instagram.com/pycon.tw/" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/#!/PyConTW" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/company/pycontw/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-flickr" href="https://www.flickr.com/photos/pycon_tw/albums/" target="_blank">
+<i class="fa-brands fa-flickr"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/pycontw" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-youtube" href="https://www.youtube.com/c/PyConTaiwanVideo" target="_blank">
+<i class="fa-brands fa-youtube"></i>
+</a>
+</li>
+<li>
+<a class="sc-itunes-note" href="https://podcasts.apple.com/tw/podcast/pycast/id1559843325" target="_blank">
+<i class="fa-brands fa-itunes-note"></i>
+</a>
+</li>
+<li>
+<a class="sc-spotify" href="https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv" target="_blank">
+<i class="fa-brands fa-spotify"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="https://conf.python.tw/">Home</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="https://conf.python.tw/feeds/all.atom.xml">Atom</a>
+</nav>
+<article class="single">
+<header>
+<h1 id="2021-09-28-lets-eat-with-pycon-tw">Let’s Eat with PyCon TW</h1>
+<p>
+      Posted on Tue 28 September 2021 in <a href="https://conf.python.tw/category/announcement.html">announcement</a>
+</p>
+</header>
+<div>
+<p><em>This was originally posted on blogger <a href="https://pycontw.blogspot.com/2021/09/lets-eat-with-pycon-tw.html">here</a></em>.</p>
+<!--more-->
+<p>The upcoming PyCon TW is on October 2nd and 3rd! 🤩</p>
+<p>It was exciting to chat with new friends at lunch time.</p>
+<p>Due to COVID-19, PyCon TW 2021 will be held online. Instead of chatting face to face, the participants can interact with others at the Soothing Forest on Gather.Town. We can also share our lunch photos on Discord! 🍱</p>
+<p>The Soothing Forest on PyCon TW 2021 Venue Powered by Gather.Town</p>
+<p><a href="https://1.bp.blogspot.com/-BB65UUYgHoo/YVA5AxXxZ2I/AAAAAAABTVo/L6oZpAjps-Ep_M7HOaxkKyjWdZOrMm4yQCPcBGAYYCw/s857/forest.png"><img alt="" src="https://1.bp.blogspot.com/-BB65UUYgHoo/YVA5AxXxZ2I/AAAAAAABTVo/L6oZpAjps-Ep_M7HOaxkKyjWdZOrMm4yQCPcBGAYYCw/s320/forest.png"/></a></p>
+<p>For many, deciding on what to eat is proabbly one of the most difficult decisions to make, but don’t sweat it—PyCon TW has decided the contents of the meals.</p>
+<p>🍛 curry rice on Saturday, October 2nd<br/>
+🍝 fried instant noodles on Sunday, October 3rd</p>
+<p>Just enjoy the meals and share your recipe with friends on Gather.Town! 😋 You can also upload the food photos and show your cooking on Discord. The food photos will be exhibited in the picnic basket at the Soothing Forest on Gather.Town.</p>
+<p>In addition, we’re looking forward to sharing fun photos of Python logo composed of materials or tableware on Discord.</p>
+<p>Show Your "Py Food" on the Conference Day!!</p>
+<p><a href="https://1.bp.blogspot.com/-xnN7ZVq9wG0/YVA5C_kd4ZI/AAAAAAABTVw/dZVa3OUBEWwqbO_pO998L2TlaPlFwvAqQCPcBGAYYCw/s2048/food-demo.jpg"><img alt="" src="https://1.bp.blogspot.com/-xnN7ZVq9wG0/YVA5C_kd4ZI/AAAAAAABTVw/dZVa3OUBEWwqbO_pO998L2TlaPlFwvAqQCPcBGAYYCw/s320/food-demo.jpg"/></a></p>
+<p>We can’t wait to see the food photos! Set out to shop for groceries. 🛒</p>
+<p>Follow the steps below to make the meals. 👨‍🍳</p>
+<h3 id="curry-rice">Curry Rice 🍛</h3>
+<p><a href="https://1.bp.blogspot.com/-1a5bOCAyDR4/YVHsDojMxJI/AAAAAAABTXE/ZsWE3_Zt1Y8W5Xwy3wsUoURUmg_qlWUXQCLcBGAsYHQ/s2048/recipe-01-en.png"><img alt="" src="https://1.bp.blogspot.com/-1a5bOCAyDR4/YVHsDojMxJI/AAAAAAABTXE/ZsWE3_Zt1Y8W5Xwy3wsUoURUmg_qlWUXQCLcBGAsYHQ/s320/recipe-01-en.png"/></a></p>
+<ol>
+<li>Chop the beef and put it with salt and pepper for 10 minutes</li>
+<li>Chop the onion, the carrot and the potato</li>
+<li>Saute the onion</li>
+<li>Add the beef and the carrot, and saute them to medium</li>
+<li>Add the potato and water, and boil them 10 minutes</li>
+<li>Add the curry cube, and stir them</li>
+</ol>
+<p>Recipe reference from Internet (Chinese): <a href="https://icook.tw/recipes/388311">https://icook.tw/recipes/388311</a></p>
+<h3 id="fried-instant-noodles">Fried Instant Noodles 🍝</h3>
+<p><a href="https://1.bp.blogspot.com/-mKNJb81Y7Rw/YVHsDqAGxEI/AAAAAAABTXA/wqBjJF4MGQwN0YvGVslPTLhTxM3mBXvAwCLcBGAsYHQ/s2048/recipe-02-en.png"><img alt="" src="https://1.bp.blogspot.com/-mKNJb81Y7Rw/YVHsDqAGxEI/AAAAAAABTXA/wqBjJF4MGQwN0YvGVslPTLhTxM3mBXvAwCLcBGAsYHQ/s320/recipe-02-en.png"/></a></p>
+<ol>
+<li>Boil water</li>
+<li>Cut the cucumber, the onion, the garlic, the mushroom and the bacon</li>
+<li>Add the seasoning of the instant noodles into the boiled water</li>
+<li>Saute the materials in step 2. with the old of the instant noodles, and add a spoon of soup in step 3.</li>
+<li>Add the instant noodles into the soup in step 3., and cook it to medium-well</li>
+<li>Saute the noodles with the materials in step 4.</li>
+</ol>
+<p>Recipe reference from Internet (Chinese): <a href="https://youtu.be/7lzqDwejMNk?t=54">https://youtu.be/7lzqDwejMNk?t=54</a></p>
+</div>
+<div class="tag-cloud">
+<p>
+<a href="https://conf.python.tw/tag/legacy-blogger.html">legacy-blogger</a>
+<a href="https://conf.python.tw/tag/pycon-tw-2021.html">PyCon TW 2021</a>
+</p>
+</div>
+<!-- utteranc.es -->
+<script async="" crossorigin="anonymous" issue-term="pathname" label="✨Blog Comments✨" repo="pycontw/pycontw-blog" src="https://utteranc.es/client.js" theme="github-light">
+</script>
+<!-- End utteranc.es -->
+</article>
+<footer>
+<p>
+  © 2023 PyCon Taiwan - This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" rel="license" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
+<img alt="Creative Commons License" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border-width:0" title="Creative Commons License" width="80">
+</img></a>
+</p></footer> </main>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PyCon Taiwan Blog ",
+  "url" : "https://conf.python.tw",
+  "image": "/images/profile.jpg",
+  "description": "PyCon Taiwan official blog. Catch up the latest announcement here!"
+}
+</script>
+</body>
+</html>
