@@ -417,11 +417,11 @@
         },
         "cyclonedx-python-lib": {
             "hashes": [
-                "sha256:d8fd40a94ab9130e9d1292ecebd35bd081f8a2d589c5259eaf7ec5caa5e95a43",
-                "sha256:fabc09bedc1e5aa2244d16bb72faaf88d2ff918c9a5f5c1a9026f75d1f896015"
+                "sha256:904068b55d1665f0ea96f38307603cc14f95c3b421f1687fc2411326aefde3a6",
+                "sha256:e9b923af525b6acf7bab917a35360b4b562b85dc15fde9eaa500828949adf73a"
             ],
             "markers": "python_version >= '3.7' and python_version < '4.0'",
-            "version": "==4.2.2"
+            "version": "==4.2.3"
         },
         "decli": {
             "hashes": [
@@ -748,12 +748,12 @@
         },
         "pre-commit-hooks": {
             "hashes": [
-                "sha256:7011eed8e1a25cde94693da009cba76392194cecc2f3f06c51a44ea6ad6c2af9",
-                "sha256:fc8837335476221ccccda3d176ed6ae29fe58753ce7e8b7863f5d0f987328fc6"
+                "sha256:b779d5c44ede9b1fda48e2d96b08e9aa5b1d2fdb8903ca09f0dbaca22d529edb",
+                "sha256:ffbe2af1c85ac9a7695866955680b4dee98822638b748a6f3debefad79748c8a"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.7'",
-            "version": "==4.4.0"
+            "markers": "python_version >= '3.8'",
+            "version": "==4.5.0"
         },
         "prompt-toolkit": {
             "hashes": [
