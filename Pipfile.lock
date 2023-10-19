@@ -61,7 +61,7 @@
                 "sha256:4afb124395ce5fc34e6d9886dab977fd9ae987fc6e85689f08278cf0c69d4bf3",
                 "sha256:a807eb2e4778d9156c8f07876c6e4d50b5494c5665c4834f67b06459dfd877b3"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_version >= '3.8'",
             "version": "==3.5"
         },
         "markdown-del-ins": {
@@ -404,12 +404,12 @@
         },
         "commitizen": {
             "hashes": [
-                "sha256:a185f79f92697f612bcea9ac9036dd21eadb66b2901ef5e1f99ab23b32178825",
-                "sha256:a8fd58cb604d3cc2cbd2c1ec88f8b54d3343119a19b08b38aa358b17492ad3ca"
+                "sha256:082f4733409bc4f01f987467295f8393ceb16b42cc648cf2f5a7a754c6d594db",
+                "sha256:7c313f1f85f45c9acf1a70f1637deab5c388150ae8660a0037ac260e77bb1492"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==3.10.1"
+            "version": "==3.12.0"
         },
         "cyclonedx-python-lib": {
             "hashes": [
