@@ -19,30 +19,30 @@ Summary: ![cathay1](images/2023-10-25-pycon-tw-2023-sponsor-cathay/cathay-1.jpeg
 
 | 公司                | 職缺                                           | 連結                                                          |   |   |
 |---------------------|------------------------------------------------|---------------------------------------------------------------|---|---|
-| 國泰金控DDT         | 資料科學工程師(Python程式開發)                 | <a href="https://www.104.com.tw/job/6w7ov" target="_blank">https://www.104.com.tw/job/6w7ov</a> |   |   |
-|     國泰金控DDT     | 資料科學工程師(Kubernetes K8s平台產品開發)     | <a href="https://www.104.com.tw/job/6k5fs" target="_blank">https://www.104.com.tw/job/6k5fs</a>        |   |   |
-|     國泰金控DDT     | 資深資料科學分析師(Sr. Data Scientist R&D)     | <a href="https://www.104.com.tw/job/7ztom" target="_blank">https://www.104.com.tw/job/7ztom</a>        |   |   |
-|     國泰金控DDT     | 資料科學分析師(Data Scientist R&D)             | <a href="https://www.104.com.tw/job/7qtpx" target="_blank">https://www.104.com.tw/job/7qtpx</a>        |   |   |
-|     國泰世華銀行    | 資料科學工程師 (數數發中心,DDT)                | <a href="https://www.104.com.tw/job/6v7pz" target="_blank">https://www.104.com.tw/job/6v7pz</a>                              |   |   |
-|     國泰世華銀行    | 資料營運工程師(Hadoop)                         | <a href="https://www.104.com.tw/job/7gajq" target="_blank">https://www.104.com.tw/job/7gajq</a>                              |   |   |
-|     國泰世華銀行    | 資料營運工程師(SRE)                            | <a href="https://www.104.com.tw/job/6xu96" target="_blank">https://www.104.com.tw/job/6xu96</a>                              |   |   |
-|     國泰世華銀行    | 數據工程師 (數數發中心,DDT)                    | <a href="https://www.104.com.tw/job/7mb38" target="_blank">https://www.104.com.tw/job/7mb38</a>                              |   |   |
+| 國泰金控DDT         | 資料科學工程師(Python程式開發)                 | [連結](https://www.104.com.tw/job/6w7ov) |   |   |
+|     國泰金控DDT     | 資料科學工程師(Kubernetes K8s平台產品開發)     | [連結](https://www.104.com.tw/job/6k5fs)        |   |   |
+|     國泰金控DDT     | 資深資料科學分析師(Sr. Data Scientist R&D)     | [連結](https://www.104.com.tw/job/7ztom)        |   |   |
+|     國泰金控DDT     | 資料科學分析師(Data Scientist R&D)             | [連結](https://www.104.com.tw/job/7qtpx)        |   |   |
+|     國泰世華銀行    | 資料科學工程師 (數數發中心,DDT)                | [連結](https://www.104.com.tw/job/6v7pz)                              |   |   |
+|     國泰世華銀行    | 資料營運工程師(Hadoop)                         | [連結](https://www.104.com.tw/job/7gajq)                              |   |   |
+|     國泰世華銀行    | 資料營運工程師(SRE)                            | [連結](https://www.104.com.tw/job/6xu96)                              |   |   |
+|     國泰世華銀行    | 數據工程師 (數數發中心,DDT)                    | [連結](https://www.104.com.tw/job/7mb38)                              |   |   |
 |       國泰人壽      | 資料科學工程師                                 | 預計10月後會於104釋出此職缺                                   |   |   |
 |       國泰人壽      | 資料科學家                                     | 預計10月後會於104釋出此職缺                                   |   |   |
-|       國泰產險      | 資料科學家                                     | <a href="https://www.104.com.tw/job/6emjw" target="_blank">https://www.104.com.tw/job/6emjw</a>                              |   |   |
-|       國泰產險      | 資深資料分析師                                 | <a href="https://www.104.com.tw/job/7qnqp" target="_blank">https://www.104.com.tw/job/7qnqp</a>                              |   |   |
-|       國泰產險      | 資料科學工程師                                 | <a href="https://www.104.com.tw/job/7ugc0" target="_blank">https://www.104.com.tw/job/7ugc0</a>                              |   |   |
-|       國泰產險      | 資料倉儲工程師                                 | <a href="https://www.104.com.tw/job/7ugc3" target="_blank">https://www.104.com.tw/job/7ugc3</a>                              |   |   |
-|       國泰產險      | 數據專案管理師                                 | <a href="https://www.104.com.tw/job/81kk0" target="_blank">https://www.104.com.tw/job/81kk0</a>                              |   |   |
-|       國泰產險      | 商業數據分析師                                 | <a href="https://www.104.com.tw/job/6l49y" target="_blank">https://www.104.com.tw/job/6l49y</a>                              |   |   |
-| 台中資訊開發中心CDC | 資料科學前端工程師 (Frontend Engineer)         | <a href="https://www.104.com.tw/job/80xzh" target="_blank">https://www.104.com.tw/job/80xzh</a>                              |   |   |
-| 台中資訊開發中心CDC | 資深資料科學前端工程師 (Sr. Frontend Engineer) | <a href="https://www.104.com.tw/job/80xz7" target="_blank">https://www.104.com.tw/job/80xz7</a>                              |   |   |
-| 台中資訊開發中心CDC | 數據工程師                                     | <a href="https://www.104.com.tw/job/763vo" target="_blank">https://www.104.com.tw/job/763vo</a>                              |   |   |
-| 台中資訊開發中心CDC | 資料科學家                                     | <a href="https://www.104.com.tw/job/763vy" target="_blank">https://www.104.com.tw/job/763vy</a>                              |   |   |
-| 高雄資訊開發中心CDC | 雲端數據工程師                                 | <a href="https://www.104.com.tw/job/7sf4c" target="_blank">https://www.104.com.tw/job/7sf4c</a>        |   |   |
-| 高雄資訊開發中心CDC | 專案管理師                                     | <a href="https://www.104.com.tw/job/81b74" target="_blank">https://www.104.com.tw/job/81b74</a>        |   |   |
+|       國泰產險      | 資料科學家                                     | [連結](https://www.104.com.tw/job/6emjw)                              |   |   |
+|       國泰產險      | 資深資料分析師                                 | [連結](https://www.104.com.tw/job/7qnqp)                              |   |   |
+|       國泰產險      | 資料科學工程師                                 | [連結](https://www.104.com.tw/job/7ugc0)                              |   |   |
+|       國泰產險      | 資料倉儲工程師                                 | [連結](https://www.104.com.tw/job/7ugc3)                              |   |   |
+|       國泰產險      | 數據專案管理師                                 | [連結](https://www.104.com.tw/job/81kk0)                              |   |   |
+|       國泰產險      | 商業數據分析師                                 | [連結](https://www.104.com.tw/job/6l49y)                              |   |   |
+| 台中資訊開發中心CDC | 資料科學前端工程師 (Frontend Engineer)         | [連結](https://www.104.com.tw/job/80xzh)                              |   |   |
+| 台中資訊開發中心CDC | 資深資料科學前端工程師 (Sr. Frontend Engineer) | [連結](https://www.104.com.tw/job/80xz7)                              |   |   |
+| 台中資訊開發中心CDC | 數據工程師                                     | [連結](https://www.104.com.tw/job/763vo)                              |   |   |
+| 台中資訊開發中心CDC | 資料科學家                                     | [連結](https://www.104.com.tw/job/763vy)                              |   |   |
+| 高雄資訊開發中心CDC | 雲端數據工程師                                 | [連結](https://www.104.com.tw/job/7sf4c)        |   |   |
+| 高雄資訊開發中心CDC | 專案管理師                                     | [連結](https://www.104.com.tw/job/81b74)        |   |   |
 |                     |                                                |                                                               |   |   |
 
-更詳細的職缺內容，請點連結至國泰金控人才招募網查看：<a href="http://bit.ly/3KLgx8i" target="_blank">http://bit.ly/3KLgx8i</a>
+更詳細的職缺內容，請點連結至國泰金控人才招募網查看：[連結](http://bit.ly/3KLgx8i)
 
 ![cathay2](images/2023-10-25-pycon-tw-2023-sponsor-cathay/cathay-2.png)
