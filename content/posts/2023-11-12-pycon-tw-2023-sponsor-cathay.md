@@ -1,14 +1,14 @@
 Title: PyCon Taiwan 2023 贊助商 國泰金控 Cathay Financial Holdings
-Date: 2023-10-25 21:00
+Date: 2023-11-12 21:00
 Category: sponsors
 Tags: zh-tw
 Slug: pycon-tw-2023-sponsor-cathay
 Authors: Kevin
-Summary: ![cathay1](images/2023-10-25-pycon-tw-2023-sponsor-cathay/cathay-1.jpeg){width=400} <br> 來看看白金級贊助商國泰金控的介紹與精選職缺吧！
+Summary: ![cathay1](images/2023-11-12-pycon-tw-2023-sponsor-cathay/cathay-1.jpeg){width=400} <br> 來看看白金級贊助商國泰金控的介紹與精選職缺吧！
 
 [TOC]
 
-![cathay1](images/2023-10-25-pycon-tw-2023-sponsor-cathay/cathay-1.jpeg)
+![cathay1](images/2023-11-12-pycon-tw-2023-sponsor-cathay/cathay-1.jpeg)
 
 ## 公司介紹
 
@@ -45,4 +45,4 @@ Summary: ![cathay1](images/2023-10-25-pycon-tw-2023-sponsor-cathay/cathay-1.jpeg
 
 更詳細的職缺內容，請點連結至國泰金控人才招募網查看：[連結](http://bit.ly/3KLgx8i)
 
-![cathay2](images/2023-10-25-pycon-tw-2023-sponsor-cathay/cathay-2.png)
+![cathay2](images/2023-11-12-pycon-tw-2023-sponsor-cathay/cathay-2.png)
