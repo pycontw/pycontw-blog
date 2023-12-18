@@ -162,9 +162,8 @@ def style(c):
     python_targets = "pelicanconf.py publishconf.py tasks.py"
     c.run(
         f"""
-        pipenv run flake8 {python_targets} && \
+        pipenv run ruff check {python_targets} && \
         pipenv run black --check {python_targets} && \
-        pipenv run isort --check-only {python_targets} && \
         pipenv run cz check --rev-range origin/main..
         """
     )
@@ -176,8 +175,8 @@ def format(c):
     python_targets = "pelicanconf.py publishconf.py tasks.py"
     c.run(
         f"""
-        pipenv run black {python_targets} && \
-        pipenv run isort {python_targets}
+        pipenv run ruff format {python_targets} && \
+        pipenv run black {python_targets}
         """
     )
 

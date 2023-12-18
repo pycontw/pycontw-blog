@@ -7,15 +7,14 @@ name = "pypi"
 pelican = {extras = ["markdown"], version = "*"}
 markdown-del-ins = "*"
 pelican-seo = "*"
+ruff = "*"
 
 [dev-packages]
 livereload = "*"
 black = ">=22.8.0"
-flake8 = ">=3.8.3"
 pre-commit-hooks = ">=3.2.0"
 invoke = ">=1.4.1"
 commitizen = "*"
-isort = "*"
 pip-audit = "*"
 
 [requires]
