@@ -672,11 +672,11 @@
         },
         "cyclonedx-python-lib": {
             "hashes": [
-                "sha256:904068b55d1665f0ea96f38307603cc14f95c3b421f1687fc2411326aefde3a6",
-                "sha256:e9b923af525b6acf7bab917a35360b4b562b85dc15fde9eaa500828949adf73a"
+                "sha256:1b43065205cdc53490c825fcfbda73142b758aa40ca169c968e342e88d06734f",
+                "sha256:b9ebf2c0520721d2f8ee16aadc2bbb9d4e015862c84ab1691a49b177f3014d99"
             ],
-            "markers": "python_version >= '3.7' and python_version < '4.0'",
-            "version": "==4.2.3"
+            "markers": "python_version >= '3.8' and python_version < '4.0'",
+            "version": "==5.2.0"
         },
         "decli": {
             "hashes": [
@@ -1114,11 +1114,12 @@
         },
         "pip-audit": {
             "hashes": [
-                "sha256:55c9bd18b0fe3959f73397db08d257c6012ad1826825e3d74cb6c3f79e95c245",
-                "sha256:8a32bb67dca6a76c244bbccebed562c0f6957b1fc9d34d59a9ec0fbff0672ae0"
+                "sha256:0bbd023a199a104b29f949f063a872d41113b5a9048285666820fa35a76a7794",
+                "sha256:ac3a4b6e977ef2c574aa8d19a5d71d12201bdb65bba2d67d9df49f53f0be5e7d"
             ],
             "index": "pypi",
-            "version": "==2.6.1"
+            "markers": "python_version >= '3.8'",
+            "version": "==2.6.2"
         },
         "pip-requirements-parser": {
             "hashes": [
@@ -1154,11 +1155,11 @@
         },
         "py-serializable": {
             "hashes": [
-                "sha256:79e21f0672822e6200b15f45ce9f636e8126466f62dbd7d488c67313c72b5c3e",
-                "sha256:ba0e1287b9e4f645a5334f1913abd8e647e7250209f84f55dce3909498a6f586"
+                "sha256:8fc41457d8ee5f5c5a12f41fd87bf1a4f2ecf9da39fee92059b728e78f320771",
+                "sha256:d3f1201b33420c481aa83f7860c7bf2c2f036ba3ea82b6e15a96696457c36cd2"
             ],
             "markers": "python_version >= '3.7' and python_version < '4.0'",
-            "version": "==0.11.1"
+            "version": "==0.15.0"
         },
         "pygments": {
             "hashes": [
