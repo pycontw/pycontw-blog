@@ -67,7 +67,7 @@ THEME = "theme/Flex"
 PLUGINS = ["i18n_subsites"]
 PYGMENTS_STYLE = "default"
 THEME_TEMPLATES_OVERRIDES = ["theme/Flex-extend/templates"]
-THEME_STATIC_PATHS = ["../Flex-extend/static"]
+THEME_STATIC_PATHS = ["../Flex-extend/static", "static"]
 # JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
 # BROWSER_COLOR = "1C1C38"
 
