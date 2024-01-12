@@ -1116,12 +1116,12 @@
         },
         "pip-audit": {
             "hashes": [
-                "sha256:216983210db4a15393f9e80e4d24a805f5767e4c8e0c31fc70c336acc629613b",
-                "sha256:bd796066f69684b2f4fc2c2b6d222589e23190db0bbde069cea5c2b0be2cc57d"
+                "sha256:67740c5b1d5d967a258c3dfefc46f9713a2819c48062505ddf4b29de101c2b75",
+                "sha256:83e039740653eb9ef1a78b1540ed441600cd88a560588ba2c0a169180685a522"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==2.6.3"
+            "version": "==2.7.0"
         },
         "pip-requirements-parser": {
             "hashes": [
