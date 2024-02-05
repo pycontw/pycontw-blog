@@ -3,7 +3,7 @@ Date: 2024-01-29 15:00
 Modified: 2024-01-29 15:32
 Category: announcement
 Tags: zh-tw, en, PyCon TW 2023
-Slug: financial-report
+Slug: pycontw-financial-report-2023
 Authors: Rock Hung
 Summary: PyCon TW 2023 Financial Report
 <!--more-->
