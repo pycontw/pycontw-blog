@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Taiwan Blog</title><link href="https://conf.python.tw/" rel="alternate"></link><link href="https://conf.python.tw/feeds/all.atom.xml" rel="self"></link><id>https://conf.python.tw/</id><updated>2023-11-23T08:10:00+08:00</updated><entry><title>PyCon Taiwan 2023 贊助商 國泰金控 Cathay Financial Holdings</title><link href="https://conf.python.tw/pycon-tw-2023-sponsor-cathay.html" rel="alternate"></link><published>2023-11-23T08:10:00+08:00</published><updated>2023-11-23T08:10:00+08:00</updated><author><name>Kevin</name></author><id>tag:conf.python.tw,2023-11-23:/pycon-tw-2023-sponsor-cathay.html</id><summary type="html">&lt;p&gt;&lt;img alt="cathay1" src="images/2023-11-12-pycon-tw-2023-sponsor-cathay/cathay-1.jpeg" width="400"&gt; &lt;br&gt; 來看看白金級贊助商國泰金控的介紹與精選職缺吧！&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Taiwan Blog</title><link href="https://conf.python.tw/" rel="alternate"></link><link href="https://conf.python.tw/feeds/all.atom.xml" rel="self"></link><id>https://conf.python.tw/</id><updated>2024-02-06T09:37:00+08:00</updated><entry><title>PyCon TW 2023 Financial Report</title><link href="https://conf.python.tw/pycontw-financial-report-2023.html" rel="alternate"></link><published>2024-02-06T09:00:00+08:00</published><updated>2024-02-06T09:37:00+08:00</updated><author><name>Rock Hung</name></author><id>tag:conf.python.tw,2024-02-06:/pycontw-financial-report-2023.html</id><summary type="html">&lt;p&gt;PyCon TW 2023 Financial Report&lt;/p&gt;</summary><content type="html">&lt;!--more--&gt;
+&lt;p&gt;Here's PyCon TW 2023 Financial Report!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Income: NTD$ 3,392,430&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sponsorship: 54.1%&lt;/li&gt;
+&lt;li&gt;Tickets Sale: 44.7%&lt;/li&gt;
+&lt;li&gt;Charity Sale: 1.2%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Expenditure: NTD$ 2,723,293&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Balance: NTD$ 669,137&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you for participating and supporting PyCon TW 2023, we'll see you next year!&lt;/p&gt;</content><category term="announcement"></category><category term="zh-tw"></category><category term="en"></category><category term="PyCon TW 2023"></category></entry><entry><title>PyCon Taiwan 2023 贊助商 國泰金控 Cathay Financial Holdings</title><link href="https://conf.python.tw/pycon-tw-2023-sponsor-cathay.html" rel="alternate"></link><published>2023-11-23T08:10:00+08:00</published><updated>2023-11-23T08:10:00+08:00</updated><author><name>Kevin</name></author><id>tag:conf.python.tw,2023-11-23:/pycon-tw-2023-sponsor-cathay.html</id><summary type="html">&lt;p&gt;&lt;img alt="cathay1" src="images/2023-11-12-pycon-tw-2023-sponsor-cathay/cathay-1.jpeg" width="400"&gt; &lt;br&gt; 來看看白金級贊助商國泰金控的介紹與精選職缺吧！&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#_1"&gt;公司介紹&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#_2"&gt;精選職缺&lt;/a&gt;&lt;/li&gt;

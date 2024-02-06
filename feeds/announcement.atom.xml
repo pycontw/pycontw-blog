@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Taiwan Blog - announcement</title><link href="https://conf.python.tw/" rel="alternate"></link><link href="https://conf.python.tw/feeds/announcement.atom.xml" rel="self"></link><id>https://conf.python.tw/</id><updated>2023-02-21T09:32:00+08:00</updated><entry><title>PyCon APAC 2022 Financial Report</title><link href="https://conf.python.tw/financial-report.html" rel="alternate"></link><published>2023-02-20T23:00:00+08:00</published><updated>2023-02-21T09:32:00+08:00</updated><author><name>Rock Hung</name></author><id>tag:conf.python.tw,2023-02-20:/financial-report.html</id><summary type="html">&lt;p&gt;PyCon APAC 2022 Financial Report&lt;/p&gt;</summary><content type="html">&lt;!--more--&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Taiwan Blog - announcement</title><link href="https://conf.python.tw/" rel="alternate"></link><link href="https://conf.python.tw/feeds/announcement.atom.xml" rel="self"></link><id>https://conf.python.tw/</id><updated>2024-02-06T09:37:00+08:00</updated><entry><title>PyCon TW 2023 Financial Report</title><link href="https://conf.python.tw/pycontw-financial-report-2023.html" rel="alternate"></link><published>2024-02-06T09:00:00+08:00</published><updated>2024-02-06T09:37:00+08:00</updated><author><name>Rock Hung</name></author><id>tag:conf.python.tw,2024-02-06:/pycontw-financial-report-2023.html</id><summary type="html">&lt;p&gt;PyCon TW 2023 Financial Report&lt;/p&gt;</summary><content type="html">&lt;!--more--&gt;
+&lt;p&gt;Here's PyCon TW 2023 Financial Report!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Income: NTD$ 3,392,430&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sponsorship: 54.1%&lt;/li&gt;
+&lt;li&gt;Tickets Sale: 44.7%&lt;/li&gt;
+&lt;li&gt;Charity Sale: 1.2%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Expenditure: NTD$ 2,723,293&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Balance: NTD$ 669,137&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you for participating and supporting PyCon TW 2023, we'll see you next year!&lt;/p&gt;</content><category term="announcement"></category><category term="zh-tw"></category><category term="en"></category><category term="PyCon TW 2023"></category></entry><entry><title>PyCon APAC 2022 Financial Report</title><link href="https://conf.python.tw/financial-report.html" rel="alternate"></link><published>2023-02-20T23:00:00+08:00</published><updated>2023-02-21T09:32:00+08:00</updated><author><name>Rock Hung</name></author><id>tag:conf.python.tw,2023-02-20:/financial-report.html</id><summary type="html">&lt;p&gt;PyCon APAC 2022 Financial Report&lt;/p&gt;</summary><content type="html">&lt;!--more--&gt;
 &lt;p&gt;Howdy!&lt;br&gt;
 Here's PyCon APAC 2022 Financial Report!&lt;/p&gt;
 &lt;ul&gt;
