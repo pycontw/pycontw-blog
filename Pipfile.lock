@@ -369,6 +369,7 @@
                 "sha256:f63d96494eeec2fc70d909393bcd76c69f35334cdbd9e20d089fb3f0640216ca"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.7'",
             "version": "==0.2.2"
         },
         "setuptools": {
@@ -544,6 +545,7 @@
                 "sha256:faf2ee02e6612577ba0181f4347bcbcf591eb122f7841ae5ba233d12c39dcb4d"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.8'",
             "version": "==24.2.0"
         },
         "boolean.py": {
@@ -690,6 +692,7 @@
                 "sha256:5f9f9097f1f14c943982fe159905b1e895f4686f15b7aaa62a1e913fa89f2d6f"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.8'",
             "version": "==3.15.0"
         },
         "cyclonedx-python-lib": {
@@ -978,6 +981,7 @@
                 "sha256:b9b4230d1ac685d669b4a36b1d5f849ea3d1ce371501aff73047bd278b22c055"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.8'",
             "version": "==2.7.1"
         },
         "pip-requirements-parser": {
