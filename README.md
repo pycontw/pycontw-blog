@@ -33,25 +33,54 @@
 3. Install [miniconda](https://docs.anaconda.com/free/miniconda/#quick-command-line-install)
 
     Use `miniconda` to setup the required version of Python.
-    Execute the code below depending on your OS.
+    Choose the code to execute depending on your OS.
+
+    <details>
+    <summary>(click me) Mac OS M-series chip</summary>
+
     ```bash
-    # For MacOS
     mkdir -p ~/miniconda3
     curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
     bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
     rm -rf ~/miniconda3/miniconda.sh
+    ~/miniconda3/bin/conda init zsh
+    ```
+    </details>
 
-    # For Windows
+    <details>
+    <summary>(click me) Mac OS Intel chip</summary>
+
+    ```bash
+    mkdir -p ~/miniconda3
+    curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o ~/miniconda3/miniconda.sh
+    bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+    rm -rf ~/miniconda3/miniconda.sh
+    ~/miniconda3/bin/conda init zsh
+    ```
+    </details>
+
+    <details>
+    <summary>(click me) Windows</summary>
+
+    ```bash
     curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe -o miniconda.exe
     start /wait "" miniconda.exe /S
     del miniconda.exe
+    ~/miniconda3/bin/conda init bash
+    ```
+    </details>
 
-    # For Linux
+    <details>
+    <summary>(click me) Linux</summary>
+
+    ```bash
     mkdir -p ~/miniconda3
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
     bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
     rm -rf ~/miniconda3/miniconda.sh
+    ~/miniconda3/bin/conda init bash
     ```
+    </details>
 
 4. Setup Python & Pipenv
 
@@ -86,7 +115,7 @@
     ```
 
     Then open the newly created file under `content/posts` to finish editing the rest of the content body.
-    The post is written in Markdown format. You can learn more about Markdown [here](https://www.markdownguide.org/cheat-sheet/)
+    The post is written in Markdown format. You can learn more about Markdown [here](https://www.markdownguide.org/cheat-sheet/).
 
 2. Test Locally
 
@@ -129,14 +158,14 @@
     <img src="content/images/pr_step_2.png" />
     </details>
 
-    Modify the content of the red rectagle 1 and 2. After editing, press the `Create pull request` button. That's it!!
+    Modify the content of the red rectangle 1 and 2. After editing, press the `Create pull request` button. That's it!!
 
-Congratulations!! You've done all the jobs to post a new blog article. The next is take a rest, drink a cup of tea, and wait for the maintainer to come for reviewing your PR ~
+Congratulations!! You've done all the jobs to post a new blog article. The next is taking a rest, drinking a cup of tea, and waiting for the maintainer to come for reviewing your PR ~
 
 
 #### More about the post
 
-The post could be written in Markdown or reStructuredText format. The file should be put under `content/posts` folder. Your filename should be the English title of your article. You'll have to translate it if there's no English title.
+The post could be written in Markdown or reStructuredText format. The file should put under `content/posts` folder. Your filename should be the English title of your article. You'll have to translate it if there's no English title.
 
 The following is a minimal example of an article.
 * In markdown
@@ -173,3 +202,4 @@ TBD
 
 ## Authors
 Wei Lee <weilee.rx@gmail.com>
+Yoyo <miyashita2010@tuta.io>
