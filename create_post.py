@@ -78,7 +78,6 @@ def main():
     slug = f'{slug_date}-{slug_title}'
     summary = input('Summary: ')
 
-
     rendered_template = POST_TEMPLATE.format(
         title=title,
         date=date,
