@@ -8,6 +8,7 @@ pelican = {extras = ["markdown"], version = "*"}
 markdown-del-ins = "*"
 pelican-seo = "*"
 ruff = "*"
+pre-commit = "*"
 
 [dev-packages]
 livereload = "*"
