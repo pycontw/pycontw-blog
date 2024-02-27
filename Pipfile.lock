@@ -667,7 +667,7 @@
                 "sha256:fd1abc0d89e30cc4e02e4064dc67fcc51bd941eb395c502aac3ec19fab46b519",
                 "sha256:ff8fa367d09b717b2a17a052544193ad76cd49979c805768879cb63d9ca50561"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==3.3.2"
         },
         "click": {
@@ -688,12 +688,12 @@
         },
         "commitizen": {
             "hashes": [
-                "sha256:10b9cc1013a87aaca30562f9f5ac6ddaad47c336f7eee6fbfd11e92b820eee39",
-                "sha256:5f9f9097f1f14c943982fe159905b1e895f4686f15b7aaa62a1e913fa89f2d6f"
+                "sha256:1269619d383d12809f436ff196fb786a3d49fc50987562e6e566cd9c2908735c",
+                "sha256:a880005352fd35b908d9c3951e71e155b157f4a4ec61ca9c080a9637bf98e0a1"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==3.15.0"
+            "version": "==3.16.0"
         },
         "cyclonedx-python-lib": {
             "hashes": [
