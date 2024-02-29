@@ -1,4 +1,4 @@
-title: PyCon Taiwan 2024 Call for Proposal is OPEN!
+title: PyCon Taiwan 2024 Call for Proposals is OPEN!
 Date: 2024-02-28 21:32:09
 Modified: 2024-02-28 21:32:09
 Category: programs
@@ -18,12 +18,13 @@ Time flies, and another year has passed! We believe you have accumulated many br
 
 🗓 **Important Information:**
 
-Conference Dates: September 21 - 22, 2024
-Venue: National Museum of Science and Technology
-🔔 Call for Proposals Period:
+- Conference Dates: September 21 - 22, 2024
+- Venue: National Museum of Science and Technology
 
-Start Date: February 25, 2024
-Deadline: April 8, 2024, 23:59:59 (AoE)
+🔔 **Call for Proposals Period:**
+
+- Start Date: February 25, 2024
+- Deadline: April 8, 2024, 23:59:59 (AoE)
 
 📝 **How to Submit:**
 
@@ -50,13 +51,13 @@ For more detailed information, please visit the CFP page for more insights 👇
 
 🗓 **重要資訊：**
 
-大會日期： 2024 年 9 月 21 日 - 9 月 22 日
-大會場地： 國立科學工藝博物館
+- 大會日期： 2024 年 9 月 21 日 - 9 月 22 日
+- 大會場地： 國立科學工藝博物館
 
 🔔 **徵稿日期：**
 
-開始日期： 2024 年 2 月 25 日
-截止日期： 2024 年 4 月 8 日，23:59:59 (AoE)
+- 開始日期： 2024 年 2 月 25 日
+- 截止日期： 2024 年 4 月 8 日，23:59:59 (AoE)
 
 📝 **如何投稿：**
 
