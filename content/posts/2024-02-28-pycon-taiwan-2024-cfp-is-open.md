@@ -19,7 +19,7 @@ Time flies, and another year has passed! We believe you have accumulated many br
 🗓 **Important Information:**
 
 - Conference Dates: September 21 - 22, 2024
-- Venue: National Museum of Science and Technology
+- Conference Venue: National Science and Technology Museum
 
 🔔 **Call for Proposals Period:**
 
