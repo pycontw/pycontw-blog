@@ -667,7 +667,7 @@
                 "sha256:fd1abc0d89e30cc4e02e4064dc67fcc51bd941eb395c502aac3ec19fab46b519",
                 "sha256:ff8fa367d09b717b2a17a052544193ad76cd49979c805768879cb63d9ca50561"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==3.3.2"
         },
         "click": {
@@ -688,12 +688,12 @@
         },
         "commitizen": {
             "hashes": [
-                "sha256:10b9cc1013a87aaca30562f9f5ac6ddaad47c336f7eee6fbfd11e92b820eee39",
-                "sha256:5f9f9097f1f14c943982fe159905b1e895f4686f15b7aaa62a1e913fa89f2d6f"
+                "sha256:1949025c5485c645656929158a5e2f6f6fa96501eb4461dee88a2493f630cb9c",
+                "sha256:2a9942d52724dc50518ca53997bef0f3b51a7e1c518d1ea3da44f9a9ece2df3a"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==3.15.0"
+            "version": "==3.17.0"
         },
         "cyclonedx-python-lib": {
             "hashes": [
@@ -1232,11 +1232,11 @@
         },
         "tomlkit": {
             "hashes": [
-                "sha256:75baf5012d06501f07bee5bf8e801b9f343e7aac5a92581f20f80ce632e6b5a4",
-                "sha256:b0a645a9156dc7cb5d3a1f0d4bab66db287fcb8e0430bdd4664a095ea16414ba"
+                "sha256:5cd82d48a3dd89dee1f9d64420aa20ae65cfbd00668d6f094d7578a78efbb77b",
+                "sha256:7ca1cfc12232806517a8515047ba66a19369e71edf2439d0f5824f91032b6cc3"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.12.3"
+            "version": "==0.12.4"
         },
         "tornado": {
             "hashes": [
