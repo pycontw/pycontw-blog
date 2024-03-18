@@ -25,7 +25,10 @@ MENUITEMS = (
 
 
 # Blogroll
-LINKS = (("Official Website", "http://tw.pycon.org"),)
+LINKS = (
+    ("Official Website", "http://tw.pycon.org"),
+    ("Code of Conduct", "/2024-03-07-code-of-conduct.html"),
+)
 
 
 # Social widget
