@@ -14,7 +14,7 @@ pre-commit = "*"
 livereload = "*"
 black = ">=22.8.0"
 pre-commit-hooks = ">=3.2.0"
-invoke = ">=1.4.1"
+invoke = ">=2.0.0"
 commitizen = "*"
 pip-audit = "*"
 
