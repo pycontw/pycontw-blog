@@ -7,6 +7,7 @@ import shlex
 import shutil
 import sys
 
+import questionary
 from invoke.tasks import task
 from invoke.main import program
 from invoke.context import Context
@@ -228,60 +229,51 @@ def security_check(c):
     )
 
 
-def _input_date() -> str:
-    default_time = str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-    return input(f"Date (default: {default_time}): ") or default_time
+def _ask_multiple_inputs_question(prompt: str, break_symbol: str = "!") -> str:
+    questionary.print(f'{prompt} Enter "{break_symbol} to finish"')
+    answers = []
+    while (answer := questionary.text("", qmark="->").ask()) != break_symbol:
+        answers.append(answer)
+    return ", ".join(answer)
 
 
-def _input_category() -> str:
-    print("Select a category:")
-    for idx, cat in enumerate(AVAILABLE_CATEGORIES):
-        print(f"{idx}. {cat}")
-
-    selection = int(input("Your selection (default: 0): ") or 0)
-    if selection < 0 or selection >= len(AVAILABLE_CATEGORIES):
-        raise ValueError(f"Numbers should be within 0~{len(AVAILABLE_CATEGORIES) - 1}")
-
-    return AVAILABLE_CATEGORIES[selection]
-
-
-def _input_tags() -> str:
-    print('Type any number of tags. Enter "!" to finish\n')
-    tags = []
-    while (tag := input("-> ")) != "!":
-        tags.append(tag)
-    return ", ".join(tags)
-
-
-def _input_authors() -> str:
-    print('Specify any number of authors. Enter "!" to finish\n')
-    authors = []
-    while (author := input("-> ")) != "!":
-        authors.append(author)
-    return ", ".join(authors)
+def _validate_datetime(datetime_str: str) -> bool:
+    try:
+        datetime.strptime(datetime_str, "%Y-%m-%d %H:%M:%S")
+        return True
+    except ValueError:
+        return False
 
 
 @task
 def create_post(context: Context) -> None:
     """Create a new post with required metadata."""
-    print("Create a new post to pycontw-blog\n".title())
+    questionary.print("Create a new post", style="bold")
 
-    title = input("Title of the post: ")
-    date = modified = _input_date()
-    category = _input_category()
-    tags = _input_tags()
-    authors = _input_authors()
+    answers = questionary.form(
+        title=questionary.text(
+            "Title of the post: ", validate=lambda answer: answer != ""
+        ),
+        date=questionary.text(
+            "Date: ",
+            default=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            validate=_validate_datetime,
+        ),
+        category=questionary.select("Select a category:", choices=AVAILABLE_CATEGORIES),
+    ).ask()
+    tags = _ask_multiple_inputs_question("Type any number of tags.")
+    authors = _ask_multiple_inputs_question("Specify any number of authors.")
 
-    slug_title = "-".join(title.lower().split())
+    slug_title = "-".join(answers["title"].lower().split())
     slug_date = datetime.now().strftime("%Y-%m-%d")
     slug = f"{slug_date}-{slug_title}"
-    summary = input("Summary: ")
+    summary = questionary.text("Summary: ").ask()
 
     rendered_template = POST_TEMPLATE.format(
-        title=title,
-        date=date,
-        modified=modified,
-        category=category,
+        title=answers["title"],
+        date=answers["date"],
+        modified=answers["date"],
+        category=answers["category"],
         tags=tags,
         authors=authors,
         slug=slug,
@@ -291,5 +283,9 @@ def create_post(context: Context) -> None:
     with open(file_path, "w") as out:
         out.write(rendered_template)
 
-    print(f"\nFile has already been written to {file_path}.")
-    print("Please open the file to continue editing the content. Have a nice day~")
+    questionary.print(
+        (
+            f"\nFile has already been written to {file_path}.\n"
+            "Please open the file to continue editing the content. Have a nice day~"
+        )
+    )
