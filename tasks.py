@@ -7,8 +7,9 @@ import shlex
 import shutil
 import sys
 
-from invoke import task
+from invoke.tasks import task
 from invoke.main import program
+from invoke.context import Context
 from pelican import main as pelican_main
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
@@ -68,7 +69,7 @@ AVAILABLE_CATEGORIES = [
 
 
 @task
-def clean(c):
+def clean(context: Context) -> None:
     """Remove generated files"""
     if os.path.isdir(CONFIG["deploy_path"]):
         shutil.rmtree(CONFIG["deploy_path"])
@@ -76,25 +77,25 @@ def clean(c):
 
 
 @task
-def build(c):
+def build(context: Context) -> None:
     """Build local version of site"""
     pelican_run("-s {settings_base}".format(**CONFIG))
 
 
 @task
-def rebuild(c):
+def rebuild(context: Context) -> None:
     """`build` with the delete switch"""
     pelican_run("-d -s {settings_base}".format(**CONFIG))
 
 
 @task
-def regenerate(c):
+def regenerate(context: Context) -> None:
     """Automatically regenerate site upon file modification"""
     pelican_run("-r -s {settings_base}".format(**CONFIG))
 
 
 @task
-def serve(c):
+def serve(context: Context) -> None:
     """Serve site at http://$HOST:$PORT/ (default is localhost:8000)"""
 
     class AddressReuseTCPServer(RootedHTTPServer):
@@ -117,20 +118,20 @@ def serve(c):
 
 
 @task
-def reserve(c):
+def reserve(context: Context) -> None:
     """`build`, then `serve`"""
-    build(c)
-    serve(c)
+    build(context)
+    serve(context)
 
 
 @task
-def preview(c):
+def preview(context: Context) -> None:
     """Build production version of site"""
     pelican_run("-s {settings_publish}".format(**CONFIG))
 
 
 @task
-def livereload(c):
+def livereload(context: Context) -> None:
     """Automatically reload browser tab upon file modification."""
     from livereload import Server
 
@@ -169,16 +170,16 @@ def livereload(c):
 
 
 @task
-def build_publish(c):
+def build_publish(context: Context) -> None:
     """Build pages with publishconf.py"""
     pelican_run("-s {settings_publish}".format(**CONFIG))
 
 
 @task
-def gh_pages(c):
+def gh_pages(context: Context) -> None:
     """Publish to GitHub Pages"""
-    preview(c)
-    c.run(
+    preview(context)
+    context.run(
         "ghp-import -b {github_pages_branch} "
         "-m {commit_message} "
         "{deploy_path} -p".format(**CONFIG)
@@ -191,10 +192,10 @@ def pelican_run(cmd):
 
 
 @task
-def style(c):
+def style(context: Context) -> None:
     """Run style check on python code"""
     python_targets = "pelicanconf.py publishconf.py tasks.py"
-    c.run(
+    context.run(
         f"""
         pipenv run ruff check {python_targets} && \
         pipenv run black --check {python_targets} && \
@@ -204,10 +205,10 @@ def style(c):
 
 
 @task
-def format(c):
+def format(context: Context) -> None:
     """Run autoformater on python code"""
     python_targets = "pelicanconf.py publishconf.py tasks.py"
-    c.run(
+    context.run(
         f"""
         pipenv run ruff format {python_targets} && \
         pipenv run black {python_targets}
@@ -261,7 +262,7 @@ def _input_authors() -> str:
 
 
 @task
-def create_post(context) -> None:
+def create_post(context: Context) -> None:
     """Create a new post with required metadata."""
     print("Create a new post to pycontw-blog\n".title())
 
