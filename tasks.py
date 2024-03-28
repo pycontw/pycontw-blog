@@ -39,8 +39,7 @@ CONFIG = {
 # templates for creating a new post
 
 POST_TEMPLATE = dedent(
-    """
-    Title: {title}
+    """Title: {title}
     Date: {date}
     Modified: {modified}
     Category: {category}
@@ -64,7 +63,7 @@ AVAILABLE_CATEGORIES = [
     "programs",
     "registration",
     "sponsors",
-    "tutoiral",
+    "tutorial",
     "visiting group",
 ]
 
@@ -230,7 +229,7 @@ def security_check(c):
 
 
 def _ask_multiple_inputs_question(prompt: str, break_symbol: str = "!") -> str:
-    questionary.print(f'{prompt} Enter "{break_symbol} to finish"')
+    questionary.print(f'{prompt} Enter "{break_symbol}" to finish"')
     answers = []
     while (answer := questionary.text("", qmark="->").ask()) != break_symbol:
         answers.append(answer)
