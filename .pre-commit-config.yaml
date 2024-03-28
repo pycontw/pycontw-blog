@@ -1,3 +1,4 @@
+exclude: ^(theme|plugins|output)\/.+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
@@ -17,9 +18,14 @@ repos:
         stages: [commit-msg]
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.4
+    rev: v2.2.6
     hooks:
       - id: codespell
+
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.19.0
+    hooks:
+      - id: typos
 
   - repo: local
     hooks:
