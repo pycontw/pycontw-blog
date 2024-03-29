@@ -99,7 +99,7 @@
     This will check common errors when you do certain types of git commits.
 
     ```bash
-    pipenv run pre-commit install --hook-type commit-msg --hook-type pre-push --hook-type pre-commit
+    pipenv run inv setup-pre-commit-hooks
     ```
 
 ### Write a new article
@@ -111,7 +111,7 @@
     Run the following command to create a new post. Follow the steps to fill in all necessary information.
 
     ```bash
-    python create_post.py
+    pipenv run inv create-post
     ```
 
     Then open the newly created file under `content/posts` to finish editing the rest of the content body.

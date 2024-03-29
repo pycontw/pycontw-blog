@@ -1,17 +1,21 @@
 # -*- coding: utf-8 -*-
 
-import datetime
+from datetime import datetime, date
+from textwrap import dedent
 import os
 import shlex
 import shutil
 import sys
 
-from invoke import task
+import questionary
+from invoke.tasks import task
 from invoke.main import program
+from invoke.context import Context
 from pelican import main as pelican_main
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
 
+# Default pelican task.py settings
 OPEN_BROWSER_ON_SERVE = True
 SETTINGS_FILE_BASE = "pelicanconf.py"
 SETTINGS = {}
@@ -26,15 +30,46 @@ CONFIG = {
     "deploy_path": SETTINGS["OUTPUT_PATH"],
     # Github Pages configuration
     "github_pages_branch": "gh-pages",
-    "commit_message": "'Publish site on {}'".format(datetime.date.today().isoformat()),
+    "commit_message": "'Publish site on {}'".format(date.today().isoformat()),
     # Host and port for `serve`
     "host": "localhost",
     "port": 8000,
 }
 
+# templates for creating a new post
+
+POST_TEMPLATE = dedent(
+    """Title: {title}
+    Date: {date}
+    Modified: {modified}
+    Category: {category}
+    Tags: {tags}
+    Slug: {slug}
+    Authors: {authors}
+    Summary: {summary}
+
+    [TOC]
+
+    ---
+    <!--your content here-->
+"""
+)
+
+
+AVAILABLE_CATEGORIES = [
+    "announcement",
+    "interview",
+    "online-conference",
+    "programs",
+    "registration",
+    "sponsors",
+    "tutorial",
+    "visiting group",
+]
+
 
 @task
-def clean(c):
+def clean(context: Context) -> None:
     """Remove generated files"""
     if os.path.isdir(CONFIG["deploy_path"]):
         shutil.rmtree(CONFIG["deploy_path"])
@@ -42,25 +77,25 @@ def clean(c):
 
 
 @task
-def build(c):
+def build(context: Context) -> None:
     """Build local version of site"""
     pelican_run("-s {settings_base}".format(**CONFIG))
 
 
 @task
-def rebuild(c):
+def rebuild(context: Context) -> None:
     """`build` with the delete switch"""
     pelican_run("-d -s {settings_base}".format(**CONFIG))
 
 
 @task
-def regenerate(c):
+def regenerate(context: Context) -> None:
     """Automatically regenerate site upon file modification"""
     pelican_run("-r -s {settings_base}".format(**CONFIG))
 
 
 @task
-def serve(c):
+def serve(context: Context) -> None:
     """Serve site at http://$HOST:$PORT/ (default is localhost:8000)"""
 
     class AddressReuseTCPServer(RootedHTTPServer):
@@ -83,20 +118,20 @@ def serve(c):
 
 
 @task
-def reserve(c):
+def reserve(context: Context) -> None:
     """`build`, then `serve`"""
-    build(c)
-    serve(c)
+    build(context)
+    serve(context)
 
 
 @task
-def preview(c):
+def preview(context: Context) -> None:
     """Build production version of site"""
     pelican_run("-s {settings_publish}".format(**CONFIG))
 
 
 @task
-def livereload(c):
+def livereload(context: Context) -> None:
     """Automatically reload browser tab upon file modification."""
     from livereload import Server
 
@@ -135,16 +170,16 @@ def livereload(c):
 
 
 @task
-def build_publish(c):
+def build_publish(context: Context) -> None:
     """Build pages with publishconf.py"""
     pelican_run("-s {settings_publish}".format(**CONFIG))
 
 
 @task
-def gh_pages(c):
+def gh_pages(context: Context) -> None:
     """Publish to GitHub Pages"""
-    preview(c)
-    c.run(
+    preview(context)
+    context.run(
         "ghp-import -b {github_pages_branch} "
         "-m {commit_message} "
         "{deploy_path} -p".format(**CONFIG)
@@ -157,10 +192,10 @@ def pelican_run(cmd):
 
 
 @task
-def style(c):
+def style(context: Context) -> None:
     """Run style check on python code"""
     python_targets = "pelicanconf.py publishconf.py tasks.py"
-    c.run(
+    context.run(
         f"""
         pipenv run ruff check {python_targets} && \
         pipenv run black --check {python_targets} && \
@@ -170,10 +205,10 @@ def style(c):
 
 
 @task
-def format(c):
+def format(context: Context) -> None:
     """Run autoformater on python code"""
     python_targets = "pelicanconf.py publishconf.py tasks.py"
-    c.run(
+    context.run(
         f"""
         pipenv run ruff format {python_targets} && \
         pipenv run black {python_targets}
@@ -182,12 +217,92 @@ def format(c):
 
 
 @task
-def security_check(c):
+def security_check(context: Context) -> None:
     """Run pip-autid on dependencies"""
-    c.run(
+    context.run(
         """
         pipenv requirements > requirements.txt && \
         pipenv run pip-audit -r requirements.txt && \
         rm -rf requirements.txt
         """
+    )
+
+
+@task
+def setup_pre_commit_hooks(context: Context) -> None:
+    """Setup pre-commit hook to automate check before git commit and git push"""
+    context.run("git init")
+    context.run(
+        "pipenv run pre-commit install -t pre-commit & "
+        "pipenv run pre-commit install -t pre-push & "
+        "pipenv run pre-commit install -t commit-msg &"
+        "pipenv run pre-commit autoupdate"
+    )
+
+
+@task
+def run_pre_commit(context: Context) -> None:
+    """Run pre-commit on all-files"""
+    context.run("pipenv run pre-commit run --all-files")
+
+
+def _ask_multiple_inputs_question(prompt: str, break_symbol: str = "!") -> str:
+    questionary.print(f'{prompt} Enter "{break_symbol}" to finish"')
+    answers = []
+    while (answer := questionary.text("", qmark="->").ask()) != break_symbol:
+        answers.append(answer)
+    return ", ".join(answer)
+
+
+def _validate_datetime(datetime_str: str) -> bool:
+    try:
+        datetime.strptime(datetime_str, "%Y-%m-%d %H:%M:%S")
+        return True
+    except ValueError:
+        return False
+
+
+@task
+def create_post(context: Context) -> None:
+    """Create a new post with required metadata."""
+    questionary.print("Create a new post", style="bold")
+
+    answers = questionary.form(
+        title=questionary.text(
+            "Title of the post: ", validate=lambda answer: answer != ""
+        ),
+        date=questionary.text(
+            "Date: ",
+            default=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            validate=_validate_datetime,
+        ),
+        category=questionary.select("Select a category:", choices=AVAILABLE_CATEGORIES),
+    ).ask()
+    tags = _ask_multiple_inputs_question("Type any number of tags.")
+    authors = _ask_multiple_inputs_question("Specify any number of authors.")
+
+    slug_title = "-".join(answers["title"].lower().split())
+    slug_date = datetime.now().strftime("%Y-%m-%d")
+    slug = f"{slug_date}-{slug_title}"
+    summary = questionary.text("Summary: ").ask()
+
+    rendered_template = POST_TEMPLATE.format(
+        title=answers["title"],
+        date=answers["date"],
+        modified=answers["date"],
+        category=answers["category"],
+        tags=tags,
+        authors=authors,
+        slug=slug,
+        summary=summary,
+    )
+    file_path = f"content/posts/{slug}.md"
+    with open(file_path, "w") as out:
+        out.write(rendered_template)
+
+    questionary.print(
+        (
+            f"\nFile has already been written to {file_path}.\n"
+            "Please open the file to continue editing the content. Have a nice day~"
+        )
     )
