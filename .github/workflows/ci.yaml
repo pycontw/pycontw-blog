@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
     inputs:
       git_rev:
-        description: 'git revision'
+        description: "git revision"
         required: false
-        default: ''
+        default: ""
 
 jobs:
   check:
@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@main
         with:
           fetch-depth: 0
-          ref: '${{ github.event.inputs.git_rev }}'
+          ref: "${{ github.event.inputs.git_rev }}"
 
       - name: Checkout submodules
         shell: bash
@@ -36,9 +36,10 @@ jobs:
           python -m pip install -U pip pipenv
           pipenv install --dev
 
-      - name: Check Python coding style
+      - name: Run linters and checks through pre-commit
         run: |
-          pipenv run inv style
+          pipenv run inv setup-pre-commit-hooks
+          pipenv run inv run-pre-commit
 
       - name: Check whether pelican local pages is buildable
         run: |
@@ -47,7 +48,3 @@ jobs:
       - name: Check whether pelican public pages is buildable
         run: |
           pipenv run inv build-publish
-
-      - name: Check Python dependencies through pip-audit
-        run: |
-          pipenv run inv security-check
