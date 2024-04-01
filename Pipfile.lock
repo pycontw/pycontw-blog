@@ -687,11 +687,12 @@
         },
         "commitizen": {
             "hashes": [
-                "sha256:17aebc8f36326fa3e65dcc08195303579e356be84b0d65c3c4bfed85b8822411",
-                "sha256:f079d9642347d314afae75664d289b0de80cf0343c99c3dcfa85782f164333f3"
+                "sha256:1c23a9b0e02fadfb1f586649ed7f57745679af24be2f8158d2e746472f115246",
+                "sha256:dc23147e77376cced87f2aedd3693afa05832da88bf9e08c0baaa9d242d9549f"
             ],
             "index": "pypi",
-            "version": "==3.20.0"
+            "markers": "python_version >= '3.8'",
+            "version": "==3.21.3"
         },
         "cyclonedx-python-lib": {
             "hashes": [
@@ -1100,6 +1101,7 @@
                 "sha256:bcce898bf3dbb446ff62830c86c5c6fb9a22a54146f0f5597d3da43b10d8fc8b"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.8'",
             "version": "==2.0.1"
         },
         "requests": {
