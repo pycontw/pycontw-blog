@@ -1,6 +1,7 @@
 [default.extend-words]
 Klick = "Klick"
 MIS = "MIS"
+HD = "HD"
 
 [files]
 extend-exclude = ["theme/*", "plugins/*", "output/*"]
