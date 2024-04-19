@@ -514,11 +514,11 @@
     "develop": {
         "argcomplete": {
             "hashes": [
-                "sha256:bf7900329262e481be5a15f56f19736b376df6f82ed27576fa893652c5de6c23",
-                "sha256:c12355e0494c76a2a7b73e3a59b09024ca0ba1e279fb9ed6c1b82d5b74b6a70c"
+                "sha256:c168c3723482c031df3c207d4ba8fa702717ccb9fc0bfe4117166c1f537b4a54",
+                "sha256:fd03ff4a5b9e6580569d34b273f741e85cd9e072f3feeeee3eba4891c70eda62"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==3.2.3"
+            "version": "==3.3.0"
         },
         "black": {
             "hashes": [
@@ -689,12 +689,12 @@
         },
         "commitizen": {
             "hashes": [
-                "sha256:671a587a8684220e7527e7b6a79374d2b13dda7f287a7ef78be6c4ea9919520f",
-                "sha256:806141c59ed9151acd468e6579c76df83a1536dae27a5f7be7b2ffb1847b79d5"
+                "sha256:088e01ae8265f1d6fa5a4d11a05e4fd7092d958c881837c35f6c65aad27331a9",
+                "sha256:d9e28b1dcd97cea64dcb50be25292ceb730470d933f1da37131f9540f762df36"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==3.22.0"
+            "version": "==3.24.0"
         },
         "cyclonedx-python-lib": {
             "hashes": [
