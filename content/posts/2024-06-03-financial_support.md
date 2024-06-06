@@ -5,11 +5,12 @@ Title: Financial_Support
     Tags: zh-tw, financial-support, PyCon TW 2024
     Slug: 2024-06-03-financial_support
     Authors: Simon Huang
-    Summary: PyCon Taiwan 2024 財務補助申請指南
+    Summary: ![PyCon Taiwan 2024 財務補助申請指南](https://media.discordapp.net/attachments/1243967398587928606/1246308349226516530/0603_.png?ex=6661d959&is=666087d9&hm=0e486459749dcf2d9a4578de05e39163a38b66ade1d457bc6a33dd8c2a06f061&){width=500}
 
     [TOC]
 
     ---
+![PyCon Taiwan 2024 財務補助申請指南](https://media.discordapp.net/attachments/1243967398587928606/1246308349226516530/0603_.png?ex=6661d959&is=666087d9&hm=0e486459749dcf2d9a4578de05e39163a38b66ade1d457bc6a33dd8c2a06f061&){width=500}
 
 # PyCon Taiwan 2024 財務補助申請指南
 
@@ -31,10 +32,10 @@ Title: Financial_Support
 
 ## 時程安排
 
-- **申請開始**：2024-03-24 23:59 (UTC+8)
-- **申請截止**：2024-06-17 23:59 (UTC+8)
-- **結果通知**：2024-06-23 23:59 (UTC+8)
-- **單據審核**：2024-09-21 18:00 (UTC+8) 大會當場支付
+- **申請開始**：2024-03-24 23:59 [AoE](https://www.timeanddate.com/worldclock/converter.html?iso=20240409T115900&p1=tz_aoe&p2=241&p3=1440)
+- **申請截止**：2024-06-17 23:59 [AoE](https://www.timeanddate.com/worldclock/converter.html?iso=20240409T115900&p1=tz_aoe&p2=241&p3=1440)
+- **結果通知**：2024-06-23 23:59 [AoE](https://www.timeanddate.com/worldclock/converter.html?iso=20240409T115900&p1=tz_aoe&p2=241&p3=1440)
+- **單據審核**：2024-09-21 18:00 [AoE](https://www.timeanddate.com/worldclock/converter.html?iso=20240409T115900&p1=tz_aoe&p2=241&p3=1440) 大會當場支付
 
 ## 如何領取補助？
 
