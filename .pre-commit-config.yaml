@@ -12,18 +12,18 @@ repos:
       - id: check-yaml
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.21.3
+    rev: v3.27.0
     hooks:
       - id: commitizen
         stages: [commit-msg]
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.6
+    rev: v2.3.0
     hooks:
       - id: codespell
 
   - repo: https://github.com/crate-ci/typos
-    rev: v1.20.4
+    rev: v1.22.4
     hooks:
       - id: typos
 
