@@ -42,6 +42,7 @@ SOCIAL = (
     ("youtube", "https://www.youtube.com/c/PyConTaiwanVideo"),
     ("itunes-note", "https://podcasts.apple.com/tw/podcast/pycast/id1559843325"),
     ("spotify", "https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv"),
+    ("rss", "https://conf.python.tw/feeds/all.atom.xml"),
 )
 
 
