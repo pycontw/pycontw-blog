@@ -11,7 +11,7 @@ Authors: PyCon Taiwan Blogger contributors
 
 亞太區的 Python 年度盛會，PyCon APAC 2015 將於 6 月在台盛大舉行
 
-![](https://lh6.googleusercontent.com/JJpiaCIdvEX7Sx2nsXi3hO-iVm5PcJAPw9nIKB34amHQFZAzO04nVtgc3IShIh4i86jIYBB4Kb_HyOz_w__u6zn4bAr0oT2QP4h1595bBgSdZaPF5BU17iN8wd_2zlliTWPAdGM)
+![PyCon APAC 2025](https://lh6.googleusercontent.com/JJpiaCIdvEX7Sx2nsXi3hO-iVm5PcJAPw9nIKB34amHQFZAzO04nVtgc3IShIh4i86jIYBB4Kb_HyOz_w__u6zn4bAr0oT2QP4h1595bBgSdZaPF5BU17iN8wd_2zlliTWPAdGM)
 
 PyCon 為 Python 社群年度大會，扮演推動亞太區域 Python 社群成長的重要角色。今年由台灣 Python 年會組織委員會主辦，在中央研究院舉辦大型 PyCon APAC 2015 亞太區 Python 年會，吸引超過 700 位國內外軟體工程師齊聚一堂，以「Back to \_\_future\_\_ II」為主題，提供參與者探究未來的科技盛會。
 
@@ -33,7 +33,7 @@ Python 是個通用程式語言，以簡潔、易懂、易用而聞名，大量�
 
 這場年度盛會，吸引的族群包括企業人士、工程師、開發者、創業家、教師、各領域的學者專家及從業人員。期望藉由 PyCon APAC 2015 亞太 Python 年會的召開，促進亞太區社群與全球愛好者的交流，一起來開發充滿無限可能的未來。
 
-![](https://lh3.googleusercontent.com/iv1Jr8XvNLKaE_V6k47-CYFw0fuTYCngFNi3vZUG73RxqG1eiJHwBFRaufekCki0TxKG2TL1g8zhx2y2FdPqWo1H2ZdK0oCmnhOG4cP0Jw98zf5tzvjfiEXFMh3_A0ftaL2ztn4)
+![venue](https://lh3.googleusercontent.com/iv1Jr8XvNLKaE_V6k47-CYFw0fuTYCngFNi3vZUG73RxqG1eiJHwBFRaufekCki0TxKG2TL1g8zhx2y2FdPqWo1H2ZdK0oCmnhOG4cP0Jw98zf5tzvjfiEXFMh3_A0ftaL2ztn4)
 
 ### 活動資訊
 

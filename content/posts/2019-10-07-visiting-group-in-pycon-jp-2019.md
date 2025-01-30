@@ -16,13 +16,13 @@ Overview
 
 The theme of PyCon JP 2019 is "**Python New Era**", an idea of the new era in Japan and the new era of Python3.
 
-![](https://i.imgur.com/okoiksC.png)
+![PyCon JP 2019](https://i.imgur.com/okoiksC.png)
 
 *(The picture is from [PyCon JP 2019 official website](https://pycon.jp/2019/))*
 
 PyCon JP 2019 is held September 14 to 17 at Tokyo. September 14th and 15th are Development Sprints and Tutorial Day, respectively. The conference is on September 16th and 17th at [Ota Cty Industrial Plaza (PiO)](https://www.pio-ota.jp/english/pio.html).
 
-![](https://i.imgur.com/0944OPo.jpg)
+![pyconjp-2019-venue](https://i.imgur.com/0944OPo.jpg)
 
 The conference includes keynotes, invited talks, technical talks, poster sessions, jobs fair, lightning talks, and many other activities. The topics of them involve project case studies, machine learning, data science, web programming, etc. This year PyCon JP has **951** participants in the conference alone, and **1160** participants including sprints and tutorials. It is the largest body of total participants ever. (See also <https://www.pycon.jp/organizer/> .) And here is the schedule of the conference (youtube videos are attached): <https://pycon.jp/2019/schedule/> .
 
@@ -48,7 +48,7 @@ We can roughly classify projects into these types:
 
 Around 100 attendees joined this event. At the end of the sprint, we had a short demonstration of what we had accomplished.
 
-![](https://i.imgur.com/H3gXZvQ.jpg)
+![sprint](https://i.imgur.com/H3gXZvQ.jpg)
 
 Conference Days (9/16, 9/17)
 =============================
@@ -215,7 +215,7 @@ Software Engineer at Rakuten Slice, Volunteer of PyCon TW
 
 Computer Science student at NCKU
 
-![](https://i.imgur.com/zCSMS1N.jpg)
+![tinlopangyun](https://i.imgur.com/zCSMS1N.jpg)
 
 *I’m glad to have a chance to join the visiting group! PyCon JP includes a variety of topics. Whether you are a researcher, an engineer or even a Python beginner, you can benefit from this conference. My biggest reward in this trip is making friends with many people from different backgrounds. I also join the slack channel of PyLadies Japan! In short, It is a valuable experience for me. I have benefited a great deal from this trip!*
 
