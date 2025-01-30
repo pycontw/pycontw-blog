@@ -83,7 +83,7 @@ CC_LICENSE = {
     "slug": "by-sa",
 }
 COPYRIGHT_NAME = "PyCon Taiwan"
-COPYRIGHT_YEAR = 2023
+COPYRIGHT_YEAR = 2025
 
 
 # Uncomment following line if you want document-relative URLs when developing
