@@ -3,6 +3,29 @@
 
 # PyCon Taiwan Blog
 
+## Prerequisite
+
+1. Create a GitHub Account  
+   Go to [GitHub](https://github.com/) and sign up for an account. This will allow you to store, manage, and share your projects.
+
+2. Download a Code Editor (e.g., VSCode)  
+   To write and edit code, a code editor is required. Consider using [VSCode](https://code.visualstudio.com/download). Download and install it on your computer.
+
+3. Understand Version Control  
+   Git is a tool for version control, which helps you track changes in your project. It allows you to manage edits, undo mistakes, and collaborate easily with others.
+
+4. Why Use Git?  
+   Git allows multiple people to work on the same project efficiently. For example, if you want to contribute to the `pycontw-blog` project hosted on Github, you’ll need to **fork** and **clone** the repository before making changes.  
+
+   More details can be found in the **"Fork & Clone pycontw-blog"** section.
+
+5. Install Git  
+   To start using Git for version control, install it on your computer.  
+
+   - Download Git from the official site: [Git Download](https://git-scm.com/downloads)  
+   - For step-by-step installation and usage, watch this guide:  
+     [Git Installation and Usage Guide](https://www.youtube.com/watch?v=FKXRiAiQFiY&t=103s)
+
 ## Getting Started
 ### Environment Setup
 
@@ -30,7 +53,23 @@
     git clone --recursive <YOUR_URL_HERE>
     ```
 
-3. Install [miniconda](https://docs.anaconda.com/free/miniconda/#quick-command-line-install)
+3. Create a New Branch
+
+    Before creating a post or making any changes (such as bug fixes or feature additions), always create a new branch. This ensures that your work remains separate from the main branch.
+
+    **Important**: Make sure you're on the `main` branch before creating a new branch. You can switch to the main branch using the following command:
+
+    ```bash
+    git checkout main
+    ```
+
+    Then, create a new branch by running the command below, replacing "branch-name" with a descriptive name for your branch (e.g., add-new-post, fix-typo, add-feature-x).
+
+   ```bash
+   git checkout -b "branch-name"
+   ```
+
+4. Install [miniconda](https://docs.anaconda.com/free/miniconda/#quick-command-line-install)
 
     Use `miniconda` to setup the required version of Python.
     Choose the code to execute depending on your OS.
@@ -82,19 +121,19 @@
     ```
     </details>
 
-4. Setup Python & Pipenv
+5. Setup Python & Pipenv
 
     ```bash
     conda create -y -n py-blog python=3.10 pipenv
     conda activate py-blog
     ```
 
-5. Install Dependencies
+6. Install Dependencies
     ```bash
     pipenv install --dev
     ```
 
-6. Setup [pre-commit](https://pre-commit.com/) hooks
+7. Setup [pre-commit](https://pre-commit.com/) hooks
 
     This will check common errors when you do certain types of git commits.
 
