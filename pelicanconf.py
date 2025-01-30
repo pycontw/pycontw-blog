@@ -5,8 +5,8 @@ SITETITLE = "PyCon Taiwan"
 SITEDESCRIPTION = "PyCon Taiwan official blog. Catch up the latest announcement here!"
 # empty for local development
 SITEURL = ""
-SITELOGO = SITEURL + "/images/profile.jpg"
-FAVICON = SITEURL + "/images/favicon.ico"
+SITELOGO = f"{SITEURL}/images/profile.jpg"
+FAVICON = f"{SITEURL}/images/favicon.ico"
 
 
 # blog config

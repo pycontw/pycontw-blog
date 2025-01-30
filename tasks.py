@@ -177,7 +177,7 @@ def build_publish(context: Context) -> None:
 
 
 def pelican_run(cmd):
-    cmd += " " + program.core.remainder  # allows to pass-through args to pelican
+    cmd = f"{cmd} {program.core.remainder}"  # allows to pass-through args to pelican
     pelican_main(shlex.split(cmd))
 
 
