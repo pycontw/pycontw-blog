@@ -3,6 +3,29 @@
 
 # PyCon Taiwan Blog
 
+## Prerequisite
+
+1. Create a GitHub Account  
+   Go to [GitHub](https://github.com/) and sign up for an account. This will allow you to store, manage, and share your projects.
+
+2. Download a Code Editor (e.g., VSCode)  
+   To write and edit code, a code editor is required. Consider using [VSCode](https://code.visualstudio.com/download). Download and install it on your computer.
+
+3. Understand Version Control  
+   Git is a tool for version control, which helps you track changes in your project. It allows you to manage edits, undo mistakes, and collaborate easily with others.
+
+4. Why Use Git?  
+   Git allows multiple people to work on the same project efficiently. For example, if you want to contribute to the pycontw-blog project hosted on Github, you’ll need to **fork** and **clone** the repository before making changes.  
+
+   More details can be found in the **"Fork & Clone pycontw-blog"** section.
+
+5. Install Git  
+   To start using Git for version control, install it on your computer.  
+
+   - Download Git from the official site: [Git Download](https://git-scm.com/downloads)  
+   - For step-by-step installation and usage, watch this guide:  
+     [Git Installation and Usage Guide](https://www.youtube.com/watch?v=FKXRiAiQFiY&t=103s)
+
 ## Getting Started
 ### Environment Setup
 
@@ -64,7 +87,23 @@
 
 #### Quick Start
 
-1. Create Post
+1. Create a New Branch
+
+    Before creating a post or making any changes (such as bug fixes or feature additions), always create a new branch. This ensures that your work remains separate from the main branch.
+
+    **Important**: Make sure you're on the main branch before creating a new branch. You can switch to the main branch using the following command:
+
+    ```bash
+        git checkout main
+    ```
+
+    Then, create a new branch by running the command below, replacing "branch-name" with a descriptive name for your branch (e.g., add-new-post, fix-typo, add-feature-x).
+
+    ```bash
+    git checkout -b "branch-name"
+    ```
+
+2. Create Post
 
     Run the following command to create a new post. Follow the steps to fill in all necessary information.
 
@@ -75,7 +114,7 @@
     Then open the newly created file under `content/posts` to finish editing the rest of the content body.
     The post is written in Markdown format. You can learn more about Markdown [here](https://www.markdownguide.org/cheat-sheet/).
 
-2. Test Locally
+3. Test Locally
 
     It's very ***IMPORTANT*** to test and run locally before committing anything. Run the following command to host the website locally.
 
@@ -86,7 +125,7 @@
     After executing the above command, open your browser and navigate to `http://localhost:8000/`.
     You should be able to see the new post you've just created.
 
-3. Commit
+4. Commit
 
     After all is ready, it's time to commit the modifications to the branch and push to the repository.
 
@@ -101,7 +140,7 @@
     git push origin $(git rev-parse --abbrev-ref HEAD)
     ```
 
-4. Create a Pull Request
+5. Create a Pull Request
 
     After pushing to the remote repository, go back to your GitHub page of your forked repository. There should be a very obvious pop up on top of the page like below.
 
