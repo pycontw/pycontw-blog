@@ -15,13 +15,13 @@
 
     1. Navigate to [pycontw-blog] and press the `Fork` button
     on the top right corner.
-    <img src="./content/images/step_1_fork_repo.png" />
+    <img src="./content/images/readme/step_1_fork_repo.png" />
 
     2. Press `Create fork`
-    <img src="./content/images/step_2_create_fork.png" />
+    <img src="./content/images/readme/step_2_create_fork.png" />
 
     3. Copy the URL of the forked repo
-    <img src="./content/images/step_3_copy_url.png" />
+    <img src="./content/images/readme/step_3_copy_url.png" />
     </details>
 
 2. Clone the forked repo
@@ -105,11 +105,11 @@
 
     After pushing to the remote repository, go back to your GitHub page of your forked repository. There should be a very obvious pop up on top of the page like below.
 
-    ![PR step 1](content/images/pr_step_1.png)
+    ![PR step 1](content/images/readme/pr_step_1.png)
 
     Press that `Compare & pull request` hardly and go to the next page.
 
-    ![PR step 2](content/images/pr_step_2.png)
+    ![PR step 2](content/images/readme/pr_step_2.png)
 
     Modify the content of the red rectangle 1 and 2. After editing, press the `Create pull request` button. That's it!!
 
@@ -150,7 +150,7 @@ The following is a minimal example of an article.
     Please read [Writing content](https://docs.getpelican.com/en/latest/content.html) section in pelican documentation for format detail.
 
 
-If you need to upload images, you'll need to create a directory for your posts in [content/images/](https://github.com/pycontw/pycontw-blog/tree/main/content/images).
+If you need to upload images, you'll need to create a directory for your posts in [content/images/readme/](https://github.com/pycontw/pycontw-blog/tree/main/content/images).
 
 
 ### How do we organize our data in the `content` directory?
