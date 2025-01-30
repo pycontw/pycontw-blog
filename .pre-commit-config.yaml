@@ -34,7 +34,7 @@ repos:
         stages: [commit]
         language: system
         pass_filenames: false
-        entry: pipenv run inv format
+        entry: uv run inv format
         types: [python]
 
       - id: style-check
@@ -42,7 +42,7 @@ repos:
         stages: [push]
         language: system
         pass_filenames: false
-        entry: pipenv run inv style
+        entry: uv run inv style
         types: [python]
 
       - id: security-check
@@ -50,5 +50,5 @@ repos:
         stages: [push]
         language: system
         pass_filenames: false
-        entry: pipenv run inv security-check
+        entry: uv run inv security-check
         types: [python]

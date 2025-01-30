@@ -197,9 +197,8 @@ def style(context: Context) -> None:
     python_targets = "pelicanconf.py publishconf.py tasks.py"
     context.run(
         f"""
-        pipenv run ruff check {python_targets} && \
-        pipenv run black --check {python_targets} && \
-        pipenv run cz check --rev-range origin/main..
+        uv run ruff check {python_targets} && \
+        uv run cz check --rev-range origin/main..
         """
     )
 
@@ -210,8 +209,8 @@ def format(context: Context) -> None:
     python_targets = "pelicanconf.py publishconf.py tasks.py"
     context.run(
         f"""
-        pipenv run ruff format {python_targets} && \
-        pipenv run black {python_targets}
+        uv run ruff check {python_targets} --fix && \
+        uv run ruff format {python_targets}
         """
     )
 
@@ -219,13 +218,7 @@ def format(context: Context) -> None:
 @task
 def security_check(context: Context) -> None:
     """Run pip-autid on dependencies"""
-    context.run(
-        """
-        pipenv requirements > requirements.txt && \
-        pipenv run pip-audit -r requirements.txt && \
-        rm -rf requirements.txt
-        """
-    )
+    context.run("""uv run pip-audit""")
 
 
 @task
@@ -233,17 +226,17 @@ def setup_pre_commit_hooks(context: Context) -> None:
     """Setup pre-commit hook to automate check before git commit and git push"""
     context.run("git init")
     context.run(
-        "pipenv run pre-commit install -t pre-commit & "
-        "pipenv run pre-commit install -t pre-push & "
-        "pipenv run pre-commit install -t commit-msg &"
-        "pipenv run pre-commit autoupdate"
+        "uv run pre-commit install -t pre-commit & "
+        "uv run pre-commit install -t pre-push & "
+        "uv run pre-commit install -t commit-msg &"
+        "uv run pre-commit autoupdate"
     )
 
 
 @task
 def run_pre_commit(context: Context) -> None:
     """Run pre-commit on all-files"""
-    context.run("pipenv run pre-commit run --all-files")
+    context.run("uv run pre-commit run --all-files")
 
 
 def _ask_multiple_inputs_question(prompt: str, break_symbol: str = "!") -> str:
