@@ -8,10 +8,10 @@
 &lt;p&gt;PyCon is a platform for Python users to get together for Python. This year, people affiliated with PyCon TW formed a visiting group to attend PyCon JP. It’s the first international outreach from PyCon TW, and a great opportunity for us to experience different culture.&lt;/p&gt;
 &lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
 &lt;p&gt;The theme of PyCon JP 2019 is "&lt;strong&gt;Python New Era&lt;/strong&gt;", an idea of the new era in Japan and the new era of Python3.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://i.imgur.com/okoiksC.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon JP 2019" src="https://i.imgur.com/okoiksC.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(The picture is from &lt;a href="https://pycon.jp/2019/"&gt;PyCon JP 2019 official website&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;PyCon JP 2019 is held September 14 to 17 at Tokyo. September 14th and 15th are Development Sprints and Tutorial Day, respectively. The conference is on September 16th and 17th at &lt;a href="https://www.pio-ota.jp/english/pio.html"&gt;Ota Cty Industrial Plaza (PiO)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://i.imgur.com/0944OPo.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pyconjp-2019-venue" src="https://i.imgur.com/0944OPo.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;The conference includes keynotes, invited talks, technical talks, poster sessions, jobs fair, lightning talks, and many other activities. The topics of them involve project case studies, machine learning, data science, web programming, etc. This year PyCon JP has &lt;strong&gt;951&lt;/strong&gt; participants in the conference alone, and &lt;strong&gt;1160&lt;/strong&gt; participants including sprints and tutorials. It is the largest body of total participants ever. (See also &lt;a href="https://www.pycon.jp/organizer/"&gt;https://www.pycon.jp/organizer/&lt;/a&gt; .) And here is the schedule of the conference (youtube videos are attached): &lt;a href="https://pycon.jp/2019/schedule/"&gt;https://pycon.jp/2019/schedule/&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;Also, our visiting group took notes for the sprint, the welcome party, and the conference on HackMD:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hackmd.io/pYYzA4hLROGFKbXR0QMTMA?view"&gt;https://hackmd.io/pYYzA4hLROGFKbXR0QMTMA?view&lt;/a&gt;&lt;/p&gt;
@@ -27,7 +27,7 @@
 &lt;li&gt;OSS hacking, e.g., C API example of Python 2/3 compatible code, Tell you what waits for what in an async/await program, at runtime.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Around 100 attendees joined this event. At the end of the sprint, we had a short demonstration of what we had accomplished.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://i.imgur.com/H3gXZvQ.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="sprint" src="https://i.imgur.com/H3gXZvQ.jpg"&gt;&lt;/p&gt;
 &lt;h1 id="conference-days-916-917"&gt;Conference Days (9/16, 9/17)&lt;/h1&gt;
 &lt;p&gt;The first day of the conference starts at 9 a.m. After registration, every attendee gets a bag of brochures and the T-shirt (see below).&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://i.imgur.com/jZOIch8.jpg"&gt;&lt;/p&gt;
@@ -115,7 +115,7 @@
 &lt;hr&gt;
 &lt;h3 id="lo-pang-yun-ting"&gt;Lo Pang-Yun Ting&lt;/h3&gt;
 &lt;p&gt;Computer Science student at NCKU&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://i.imgur.com/zCSMS1N.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="tinlopangyun" src="https://i.imgur.com/zCSMS1N.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;I’m glad to have a chance to join the visiting group! PyCon JP includes a variety of topics. Whether you are a researcher, an engineer or even a Python beginner, you can benefit from this conference. My biggest reward in this trip is making friends with many people from different backgrounds. I also join the slack channel of PyLadies Japan! In short, It is a valuable experience for me. I have benefited a great deal from this trip!&lt;/em&gt;&lt;/p&gt;
 &lt;h1 id="last-words"&gt;Last Words&lt;/h1&gt;
 &lt;p&gt;By attending PyCon JP 2019, we have a chance to interact with other Python programmers, get familiar with Japan companies who concern Python, and learn technological development of Python in Japan. It didn’t only open our eyes, but also expanded our network in both Japan and Taiwan. It’s a wonderful experience, and we all look forward to an opportunity for another visiting group!&lt;/p&gt;
