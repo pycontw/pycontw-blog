@@ -1,16 +1,14 @@
-# -*- coding: utf-8 -*-
-
-from datetime import datetime, date
-from textwrap import dedent
 import os
 import shlex
 import shutil
 import sys
+from datetime import date, datetime
+from textwrap import dedent
 
 import questionary
-from invoke.tasks import task
-from invoke.main import program
 from invoke.context import Context
+from invoke.main import program
+from invoke.tasks import task
 from pelican import main as pelican_main
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
@@ -30,7 +28,7 @@ CONFIG = {
     "deploy_path": SETTINGS["OUTPUT_PATH"],
     # Github Pages configuration
     "github_pages_branch": "gh-pages",
-    "commit_message": "'Publish site on {}'".format(date.today().isoformat()),
+    "commit_message": f"'Publish site on {date.today().isoformat()}'",
     # Host and port for `serve`
     "host": "localhost",
     "port": 8000,
@@ -71,9 +69,11 @@ AVAILABLE_CATEGORIES = [
 @task
 def clean(context: Context) -> None:
     """Remove generated files"""
-    if os.path.isdir(CONFIG["deploy_path"]):
-        shutil.rmtree(CONFIG["deploy_path"])
-        os.makedirs(CONFIG["deploy_path"])
+    deploy_path = CONFIG["deploy_path"]
+    if os.path.isdir(deploy_path):
+        shutil.rmtree(deploy_path)
+        os.makedirs(deploy_path)
+    print(f"Removed {deploy_path}")
 
 
 @task
@@ -144,17 +144,18 @@ def livereload(context: Context) -> None:
     theme_path = SETTINGS["THEME"]
     watched_globs = [
         CONFIG["settings_base"],
-        "{}/templates/**/*.html".format(theme_path),
+        f"{theme_path}/templates/**/*.html",
     ]
 
     content_file_extensions = [".md", ".rst"]
     for extension in content_file_extensions:
-        content_glob = "{0}/**/*{1}".format(SETTINGS["PATH"], extension)
+        path = SETTINGS["PATH"]
+        content_glob = f"{path}/**/*{extension}"
         watched_globs.append(content_glob)
 
     static_file_extensions = [".css", ".js"]
     for extension in static_file_extensions:
-        static_file_glob = "{0}/static/**/*{1}".format(theme_path, extension)
+        static_file_glob = f"{theme_path}/static/**/*{extension}"
         watched_globs.append(static_file_glob)
 
     for glob in watched_globs:
@@ -175,19 +176,8 @@ def build_publish(context: Context) -> None:
     pelican_run("-s {settings_publish}".format(**CONFIG))
 
 
-@task
-def gh_pages(context: Context) -> None:
-    """Publish to GitHub Pages"""
-    preview(context)
-    context.run(
-        "ghp-import -b {github_pages_branch} "
-        "-m {commit_message} "
-        "{deploy_path} -p".format(**CONFIG)
-    )
-
-
 def pelican_run(cmd):
-    cmd += " " + program.core.remainder  # allows to pass-through args to pelican
+    cmd = f"{cmd} {program.core.remainder}"  # allows to pass-through args to pelican
     pelican_main(shlex.split(cmd))
 
 
@@ -197,9 +187,8 @@ def style(context: Context) -> None:
     python_targets = "pelicanconf.py publishconf.py tasks.py"
     context.run(
         f"""
-        pipenv run ruff check {python_targets} && \
-        pipenv run black --check {python_targets} && \
-        pipenv run cz check --rev-range origin/main..
+        uv run ruff check {python_targets} && \
+        uv run cz check --rev-range origin/main..
         """
     )
 
@@ -210,8 +199,8 @@ def format(context: Context) -> None:
     python_targets = "pelicanconf.py publishconf.py tasks.py"
     context.run(
         f"""
-        pipenv run ruff format {python_targets} && \
-        pipenv run black {python_targets}
+        uv run ruff check {python_targets} --fix && \
+        uv run ruff format {python_targets}
         """
     )
 
@@ -219,13 +208,7 @@ def format(context: Context) -> None:
 @task
 def security_check(context: Context) -> None:
     """Run pip-autid on dependencies"""
-    context.run(
-        """
-        pipenv requirements > requirements.txt && \
-        pipenv run pip-audit -r requirements.txt && \
-        rm -rf requirements.txt
-        """
-    )
+    context.run("""uv run pip-audit""")
 
 
 @task
@@ -233,17 +216,17 @@ def setup_pre_commit_hooks(context: Context) -> None:
     """Setup pre-commit hook to automate check before git commit and git push"""
     context.run("git init")
     context.run(
-        "pipenv run pre-commit install -t pre-commit & "
-        "pipenv run pre-commit install -t pre-push & "
-        "pipenv run pre-commit install -t commit-msg &"
-        "pipenv run pre-commit autoupdate"
+        "uv run pre-commit install -t pre-commit & "
+        "uv run pre-commit install -t pre-push & "
+        "uv run pre-commit install -t commit-msg &"
+        "uv run pre-commit autoupdate"
     )
 
 
 @task
 def run_pre_commit(context: Context) -> None:
     """Run pre-commit on all-files"""
-    context.run("pipenv run pre-commit run --all-files")
+    context.run("uv run pre-commit run --all-files")
 
 
 def _ask_multiple_inputs_question(prompt: str, break_symbol: str = "!") -> str:
@@ -301,8 +284,6 @@ def create_post(context: Context) -> None:
         out.write(rendered_template)
 
     questionary.print(
-        (
-            f"\nFile has already been written to {file_path}.\n"
-            "Please open the file to continue editing the content. Have a nice day~"
-        )
+        f"\nFile has already been written to {file_path}.\n"
+        "Please open the file to continue editing the content. Have a nice day~"
     )

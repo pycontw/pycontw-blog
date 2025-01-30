@@ -1,7 +1,7 @@
 exclude: ^(theme|plugins|output)\/.+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: end-of-file-fixer
       - id: trailing-whitespace
@@ -12,18 +12,18 @@ repos:
       - id: check-yaml
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.27.0
+    rev: v4.1.1
     hooks:
       - id: commitizen
         stages: [commit-msg]
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
+    rev: v2.4.1
     hooks:
       - id: codespell
 
   - repo: https://github.com/crate-ci/typos
-    rev: v1.22.4
+    rev: dictgen-v0.3.1
     hooks:
       - id: typos
 
@@ -31,24 +31,24 @@ repos:
     hooks:
       - id: style-reformat
         name: style-reformat
-        stages: [commit]
+        stages: [pre-commit]
         language: system
         pass_filenames: false
-        entry: pipenv run inv format
+        entry: uv run inv format
         types: [python]
 
       - id: style-check
         name: style-check
-        stages: [push]
+        stages: [pre-push]
         language: system
         pass_filenames: false
-        entry: pipenv run inv style
+        entry: uv run inv style
         types: [python]
 
       - id: security-check
         name: security-check
-        stages: [push]
+        stages: [pre-push]
         language: system
         pass_filenames: false
-        entry: pipenv run inv security-check
+        entry: uv run inv security-check
         types: [python]

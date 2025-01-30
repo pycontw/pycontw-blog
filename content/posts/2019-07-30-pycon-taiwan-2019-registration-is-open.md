@@ -47,7 +47,7 @@ PyCon Taiwan 是和**財團法人開放文化基金會**合作舉辦, 預設會�
 
 售票平台與 KKTIX 合作, 完成註冊後會收到 KKTIX 系統寄送的訂票證明, 樣式像下例所示:
 
-[![](https://4.bp.blogspot.com/-Dp3ce5KF9BI/XUlBycOHkzI/AAAAAAAAW7g/DmOSmeWF6kYR2LPWLJm8MJvUDdEaXxJ_gCLcBGAs/s1600/kktix-individual-ticket.png)](https://4.bp.blogspot.com/-Dp3ce5KF9BI/XUlBycOHkzI/AAAAAAAAW7g/DmOSmeWF6kYR2LPWLJm8MJvUDdEaXxJ_gCLcBGAs/s1600/kktix-individual-ticket.png)
+[![kktix-individual-ticket](https://4.bp.blogspot.com/-Dp3ce5KF9BI/XUlBycOHkzI/AAAAAAAAW7g/DmOSmeWF6kYR2LPWLJm8MJvUDdEaXxJ_gCLcBGAs/s1600/kktix-individual-ticket.png)](https://4.bp.blogspot.com/-Dp3ce5KF9BI/XUlBycOHkzI/AAAAAAAAW7g/DmOSmeWF6kYR2LPWLJm8MJvUDdEaXxJ_gCLcBGAs/s1600/kktix-individual-ticket.png)
 
 ## 我發現企業票每次只能買一張, 是指只能一人進場嗎? 公司其他員工也能進場嗎?
 

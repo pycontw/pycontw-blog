@@ -5,8 +5,8 @@ SITETITLE = "PyCon Taiwan"
 SITEDESCRIPTION = "PyCon Taiwan official blog. Catch up the latest announcement here!"
 # empty for local development
 SITEURL = ""
-SITELOGO = SITEURL + "/images/profile.jpg"
-FAVICON = SITEURL + "/images/favicon.ico"
+SITELOGO = f"{SITEURL}/images/profile.jpg"
+FAVICON = f"{SITEURL}/images/favicon.ico"
 
 
 # blog config
@@ -42,6 +42,7 @@ SOCIAL = (
     ("youtube", "https://www.youtube.com/c/PyConTaiwanVideo"),
     ("itunes-note", "https://podcasts.apple.com/tw/podcast/pycast/id1559843325"),
     ("spotify", "https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv"),
+    ("rss", "https://conf.python.tw/feeds/all.atom.xml"),
 )
 
 
@@ -82,7 +83,7 @@ CC_LICENSE = {
     "slug": "by-sa",
 }
 COPYRIGHT_NAME = "PyCon Taiwan"
-COPYRIGHT_YEAR = 2023
+COPYRIGHT_YEAR = 2025
 
 
 # Uncomment following line if you want document-relative URLs when developing
