@@ -69,9 +69,11 @@ AVAILABLE_CATEGORIES = [
 @task
 def clean(context: Context) -> None:
     """Remove generated files"""
-    if os.path.isdir(CONFIG["deploy_path"]):
-        shutil.rmtree(CONFIG["deploy_path"])
-        os.makedirs(CONFIG["deploy_path"])
+    deploy_path = CONFIG["deploy_path"]
+    if os.path.isdir(deploy_path):
+        shutil.rmtree(deploy_path)
+        os.makedirs(deploy_path)
+    print(f"Removed {deploy_path}")
 
 
 @task
