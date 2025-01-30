@@ -54,3 +54,26 @@ message = "What type of commit is it?"
 type = "input"
 name = "message"
 message = "Message body: \n"
+
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+ignore = ["E501", "D1", "D415"]
+extend-select = [
+    # Enable entire ruff rule section
+    "I",     # Missing required import (auto-fixable)
+    "UP",    # Pyupgrade
+    "TCH",   # Rules around TYPE_CHECKING blocks
+    "FA100",
+    "G",     # flake8-logging-format rules
+    "LOG",   # flake8-logging rules, most of them autofixable
+    "PT",    # flake8-pytest-style rules
+    "TID25", # flake8-tidy-imports rules
+    "E",     # pycodestyle rules
+    "W",     # pycodestyle rules
+]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true

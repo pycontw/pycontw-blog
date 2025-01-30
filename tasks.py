@@ -1,16 +1,14 @@
-# -*- coding: utf-8 -*-
-
-from datetime import datetime, date
-from textwrap import dedent
 import os
 import shlex
 import shutil
 import sys
+from datetime import date, datetime
+from textwrap import dedent
 
 import questionary
-from invoke.tasks import task
-from invoke.main import program
 from invoke.context import Context
+from invoke.main import program
+from invoke.tasks import task
 from pelican import main as pelican_main
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
@@ -30,7 +28,7 @@ CONFIG = {
     "deploy_path": SETTINGS["OUTPUT_PATH"],
     # Github Pages configuration
     "github_pages_branch": "gh-pages",
-    "commit_message": "'Publish site on {}'".format(date.today().isoformat()),
+    "commit_message": f"'Publish site on {date.today().isoformat()}'",
     # Host and port for `serve`
     "host": "localhost",
     "port": 8000,
@@ -144,17 +142,18 @@ def livereload(context: Context) -> None:
     theme_path = SETTINGS["THEME"]
     watched_globs = [
         CONFIG["settings_base"],
-        "{}/templates/**/*.html".format(theme_path),
+        f"{theme_path}/templates/**/*.html",
     ]
 
     content_file_extensions = [".md", ".rst"]
     for extension in content_file_extensions:
-        content_glob = "{0}/**/*{1}".format(SETTINGS["PATH"], extension)
+        path = SETTINGS["PATH"]
+        content_glob = f"{path}/**/*{extension}"
         watched_globs.append(content_glob)
 
     static_file_extensions = [".css", ".js"]
     for extension in static_file_extensions:
-        static_file_glob = "{0}/static/**/*{1}".format(theme_path, extension)
+        static_file_glob = f"{theme_path}/static/**/*{extension}"
         watched_globs.append(static_file_glob)
 
     for glob in watched_globs:
@@ -294,8 +293,6 @@ def create_post(context: Context) -> None:
         out.write(rendered_template)
 
     questionary.print(
-        (
-            f"\nFile has already been written to {file_path}.\n"
-            "Please open the file to continue editing the content. Have a nice day~"
-        )
+        f"\nFile has already been written to {file_path}.\n"
+        "Please open the file to continue editing the content. Have a nice day~"
     )
