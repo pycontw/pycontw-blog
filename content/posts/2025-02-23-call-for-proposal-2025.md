@@ -31,10 +31,10 @@ Summary: ![CFP-1](images/2025-02-23-call-for-proposal-2025/CFP-1.png){width=500}
 
 📌 需要靈感？  
 來點過去的講題刺激產能🔥  
-💡 PyCon TW 2024: https://reurl.cc/WAQr8L  
-💡 PyCon TW 2023: https://reurl.cc/QearvZ  
-💡 PyCon APAC 2022：https://reurl.cc/n7VXZD  
-💡 PyCon TW 2021： https://reurl.cc/RvdDOr  
+💡 PyCon TW 2024: <https://reurl.cc/WAQr8L> 
+💡 PyCon TW 2023: <https://reurl.cc/QearvZ>
+💡 PyCon APAC 2022： <https://reurl.cc/n7VXZD>
+💡 PyCon TW 2021： <https://reurl.cc/RvdDOr>
 飛機上有蛇，PyCon 上有你，讓我們一起打造最直擊趨勢的 PyCon TW 2025！✨  
 
 
