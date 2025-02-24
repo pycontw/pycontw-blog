@@ -27,7 +27,7 @@ Summary: ![CFP-1](images/2025-02-23-call-for-proposal-2025/CFP-1.png){width=500}
 
 📌 可以投蛇麼？  
 任何與 Python 有關的主題都能來！無論是 AI、ML、FinTech、DA、開源專案、實踐應用甚至是開發血淚史，各種用 Python 點亮生活與世界的議題都可以！🐍  
-除了懶人包還想知道更多嗎？趕快上 CFP 頁面看看👉：https://reurl.cc/748O61  
+除了懶人包還想知道更多嗎？趕快上 CFP 頁面看看👉： <https://reurl.cc/748O61>
 
 📌 需要靈感？  
 來點過去的講題刺激產能🔥  
