@@ -3,6 +3,38 @@
 
 # PyCon Taiwan Blog
 
+## Prerequisite
+
+1. Create a GitHub Account  
+   Go to [GitHub](https://github.com/) and sign up for an account. This will allow you to store, manage, and share your projects.
+   If you already have a GitHub account, please sign in before continuing with the README document. Without logging into your account, you will not be able to fork the project.
+
+2. Download a Code Editor (e.g., VSCode)  
+   To write and edit code, a code editor is required. Consider using [VSCode](https://code.visualstudio.com/download). Download and install it on your computer.
+
+3. Understand Version Control  
+   Git is a tool for version control, which helps you track changes in your project. It allows you to manage edits, undo mistakes, and collaborate easily with others.
+
+4. Why Use Git?  
+   Git allows multiple people to work on the same project efficiently. For example, if you want to contribute to the pycontw-blog project hosted on Github, you’ll need to **fork** and **clone** the repository before making changes.  
+
+   More details can be found in the **"Fork & Clone pycontw-blog"** section.
+
+5. Install Git  
+    To start using Git for version control, install it on your computer.  
+
+   - Download Git from the official site: [Git Download](https://git-scm.com/downloads)  
+   - For step-by-step installation and usage, watch this guide:  
+     [Git Installation and Usage Guide](https://www.youtube.com/watch?v=FKXRiAiQFiY&t=103s)
+
+6. Terminal</br>
+    The Terminal is a command-line interface (CLI) that allows you to interact with your computer using text commands. It is essential for running Git commands.
+
+   - On **[macOS](https://support.apple.com/guide/terminal/welcome/mac)** and **Linux**, you can use the built-in terminal.  
+   - On **[Windows](https://docs.microsoft.com/en-us/windows/terminal/)**, you can use **[Command Prompt](https://support.microsoft.com/en-us/windows/command-prompt-commands)** or install **[Git Bash](https://git-scm.com/bash)** to use a Unix-like terminal.  
+
+   Familiarizing yourself with basic terminal commands will make using Git much easier.
+
 ## Getting Started
 ### Environment Setup
 
@@ -25,11 +57,17 @@
     </details>
 
 2. Clone the forked repo
+    > Note: Do not include `< >`, just copy and paste the repository URL directly.
 
     ```bash
     git clone --recursive <YOUR_URL_HERE>
     ```
 
+    Example (using HTTPS)</br>
+    If you are cloning the pycontw-blog repository, use the following command:
+    ```bash
+    git clone --recursive https://github.com/pycontw/pycontw-blog.git
+    ```
 3. [Install uv]
 
     Use [uv] to setup the required version of Python.
@@ -39,6 +77,8 @@
     ```bash
     curl -LsSf https://astral.sh/uv/install.sh | sh
     ```
+
+    > Note: To check if uv is installed successfully, you can type `uv --version` or `which uv` to see the installation path. If the installation is successful, running `uv --version` will output the version of `uv`.
 
     2. For Windows users
 
@@ -64,7 +104,23 @@
 
 #### Quick Start
 
-1. Create Post
+1. Create a New Branch
+
+    Before creating a post or making any changes (such as bug fixes or feature additions), always create a new branch. This ensures that your work remains separate from the main branch.
+
+    **Important**: Make sure you're on the main branch before creating a new branch. You can switch to the main branch using the following command:
+
+    ```bash
+    git checkout main
+    ```
+
+    Then, create a new branch by running the command below, replacing "branch-name" with a descriptive name for your branch (e.g., add-new-post, fix-typo, add-feature-x).
+
+    ```bash
+    git checkout -b "branch-name"
+    ```
+
+2. Create Post
 
     Run the following command to create a new post. Follow the steps to fill in all necessary information.
 
@@ -75,7 +131,7 @@
     Then open the newly created file under `content/posts` to finish editing the rest of the content body.
     The post is written in Markdown format. You can learn more about Markdown [here](https://www.markdownguide.org/cheat-sheet/).
 
-2. Test Locally
+3. Test Locally
 
     It's very ***IMPORTANT*** to test and run locally before committing anything. Run the following command to host the website locally.
 
@@ -86,7 +142,7 @@
     After executing the above command, open your browser and navigate to `http://localhost:8000/`.
     You should be able to see the new post you've just created.
 
-3. Commit
+4. Commit
 
     After all is ready, it's time to commit the modifications to the branch and push to the repository.
 
@@ -101,7 +157,7 @@
     git push origin $(git rev-parse --abbrev-ref HEAD)
     ```
 
-4. Create a Pull Request
+5. Create a Pull Request
 
     After pushing to the remote repository, go back to your GitHub page of your forked repository. There should be a very obvious pop up on top of the page like below.
 
@@ -156,12 +212,30 @@ If you need to upload images, you'll need to create a directory for your posts i
 ### How do we organize our data in the `content` directory?
 TBD
 
-## Authors
-Wei Lee <weilee.rx@gmail.com>
-Yoyo <miyashita2010@tuta.io>
+## References
+
+Here are some useful resources related to Git, VSCode, and Terminal:
+
+### Git & Github
+- [Git Official Documentation](https://git-scm.com/doc)  
+- [GitHub Learning Lab](https://lab.github.com/)  
+- [GitHub Forking Guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo)  
+- [YouTube - Git & GitHub Crash Course](https://www.youtube.com/watch?v=SWYqp7iY_Tc)  
+
+### VSCode  
+- [VSCode Official Documentation](https://code.visualstudio.com/docs)  
+- [VSCode Git Integration](https://code.visualstudio.com/docs/editor/versioncontrol)  
+- [YouTube - VSCode for Beginners](https://www.youtube.com/watch?v=WPqXP_kLzpo)  
 
 [pycontw-blog]: https://github.com/pycontw/pycontw-blog
 [Install uv]: https://docs.astral.sh/uv/getting-started/installation/
 [uv]: https://docs.astral.sh/uv/
 [Markdown]: https://markdown.tw/
 [reStructuredText]: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+
+### Terminal (Command Line)  
+- [Command Line for Beginners](https://hackmd.io/@taiwansmile/Skyx8qmT8)  
+
+## Authors
+Wei Lee <weilee.rx@gmail.com>
+Yoyo <miyashita2010@tuta.io>
