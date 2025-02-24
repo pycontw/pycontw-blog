@@ -42,10 +42,10 @@ Summary: ![CFP-1](images/2025-02-23-call-for-proposal-2025/CFP-1.png){width=500}
 👉PyCon TW 2025 志工報名表單：https://reurl.cc/A6m7bE  
 #pycontw2025 #pycontw #python #talks #cfp  
 
-![CFP-2](images/2025-02-23-call-for-proposal-2025/CFP-2.png){width=500}
+![CFP-2](images/2025-02-23-call-for-proposal-2025/CFP-2.jpg){width=500}
 
-![CFP-3](images/2025-02-23-call-for-proposal-2025/CFP-3.png){width=500}
+![CFP-3](images/2025-02-23-call-for-proposal-2025/CFP-3.jpg){width=500}
 
-![CFP-4](images/2025-02-23-call-for-proposal-2025/CFP-4.png){width=500}
+![CFP-4](images/2025-02-23-call-for-proposal-2025/CFP-4.jpg){width=500}
 
-![CFP-5](images/2025-02-23-call-for-proposal-2025/CFP-5.png){width=500}
+![CFP-5](images/2025-02-23-call-for-proposal-2025/CFP-5.jpg){width=500}
