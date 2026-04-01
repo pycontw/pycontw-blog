@@ -1,7 +1,7 @@
 exclude: ^(theme|plugins|output)\/.+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: end-of-file-fixer
       - id: trailing-whitespace
@@ -12,18 +12,18 @@ repos:
       - id: check-yaml
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.1.1
+    rev: v4.13.9
     hooks:
       - id: commitizen
         stages: [commit-msg]
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.4.1
+    rev: v2.4.2
     hooks:
       - id: codespell
 
   - repo: https://github.com/crate-ci/typos
-    rev: dictgen-v0.3.1
+    rev: v1
     hooks:
       - id: typos
 
