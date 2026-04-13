@@ -4,7 +4,7 @@ Modified: 2026-04-13 15:12:35
 Category: announcement
 Tags: pycontw2026, pycontw, python, talks, cfp
 Slug: 2026-04-13-pycon-tw-2026-cfp-is-officially-open
-Authors: Peter
+Authors: Peter, Winnie
 Summary: ![CFP](images/2026-04-13-pycon-tw-2026-cfp-is-officially-open/0413_CFP.jpg){width=500}<br>PyCon TW 2026 Call for Proposal (CfP) 即刻開跑啦！<br>PyCon TW 2026 Call for Proposals (CfP) is officially open!
 
 ![CFP](images/2026-04-13-pycon-tw-2026-cfp-is-officially-open/0413_CFP.jpg){width=500}
