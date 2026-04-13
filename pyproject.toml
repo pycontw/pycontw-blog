@@ -13,7 +13,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-  "pre-commit-hooks>=5.0.0",
+  "pre-commit-hooks>=6.0.0",
   "pre-commit>=4.1.0",
   "ruff>=0.9.3",
   "livereload>=2.7.1",
