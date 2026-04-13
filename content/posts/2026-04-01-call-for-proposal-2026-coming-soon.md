@@ -1,4 +1,4 @@
-Title: 【PyCon TW 2026 Call for Proposal (CfP) 即將開跑啦！🏃‍♂️】
+Title: PyCon TW 2026 Call for Proposal (CfP) 即將開跑啦！
 Date: 2026-04-01 18:35:40
 Modified: 2026-04-01 18:35:40
 Category: announcement
@@ -7,11 +7,13 @@ Slug: 2026-04-01-call-for-proposal-2026-coming-soon
 Authors: Justin, Peter, Winnie
 Summary: ![CFP-zh](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-zh.png){width=300}![CFP-en](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-en.png){width=300}<br>PyCon TW 2026 CfP Coming Soon!<br>PyCon TW 2026 馬上就要在 4/13（一） 開放投稿啦！
 
-[TOC]
-
 ![CFP-zh](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-zh.png){width=300}![CFP-en](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-en.png){width=300}
 
-# 【PyCon TW 2026 Call for Proposal (CfP) 即將開跑啦！🏃‍♂️】
+[TOC]
+
+---
+
+## PyCon TW 2026 Call for Proposal (CfP) 即將開跑啦！🏃‍♂️
 
 🐴 各位拍粉們，準備好一馬當先、馬力全開直擊時代趨勢的思維了嗎？🐴
 
@@ -31,7 +33,7 @@ PyCon TW 2026 馬上就要在 4/13（一） 開放投稿啦！渴望展現專業
 
 ---
 
-# 【PyCon TW 2026 Call for Proposals (CfP) is opening soon! 🏃‍♂️】
+## PyCon TW 2026 Call for Proposals (CfP) is opening soon! 🏃‍♂️
 
 Hey Pythonistas, are you ready to gallop into the Year of the Horse and ride the wave of new ideas? 🐴
 
