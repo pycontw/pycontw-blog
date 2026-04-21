@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://conf.python.tw/theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/stylesheet/applause-button.css" rel="stylesheet" type="text/css"/>
+<script src="https://conf.python.tw/theme/js/applause-button.js"></script>
+<link href="https://conf.python.tw/theme/pygments/default.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://conf.python.tw/feeds/all.atom.xml" rel="alternate" title="PyCon Taiwan Blog Atom" type="application/atom+xml"/>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CLR9RYLP5N', 'auto');
+  ga('send', 'pageview');
+</script>
+<meta content="Winnie" name="author"/>
+<meta content="Tomorrow is Earth Day 🌍 — do you know what the most eco-friendly thing you can do is?明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？" name="description"/>
+<meta content="PyConTW2026, 世界地球日, Python, CfP, 靈感回收, 不要再拖了, EarthDay, RecycleYourIdeas, StopProcrastinating" name="keywords"/>
+<meta content="PyCon Taiwan Blog" property="og:site_name">
+<meta content="明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？" property="og:title"/>
+<meta content="Tomorrow is Earth Day 🌍 — do you know what the most eco-friendly thing you can do is?明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？" property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://conf.python.tw/2026-04-20-cfp-remind-earth-day.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2026-04-20 23:01:27+08:00" property="article:published_time"/>
+<meta content="2026-04-20 23:01:27+08:00" property="article:modified_time"/>
+<meta content="https://conf.python.tw/author/winnie.html" property="article:author"/>
+<meta content="announcement" property="article:section">
+<meta content="PyConTW2026" property="article:tag"/>
+<meta content="世界地球日" property="article:tag"/>
+<meta content="Python" property="article:tag"/>
+<meta content="CfP" property="article:tag"/>
+<meta content="靈感回收" property="article:tag"/>
+<meta content="不要再拖了" property="article:tag"/>
+<meta content="EarthDay" property="article:tag"/>
+<meta content="RecycleYourIdeas" property="article:tag"/>
+<meta content="StopProcrastinating" property="article:tag"/>
+<meta content="/images/profile.jpg" property="og:image"/>
+<title>PyCon Taiwan Blog – 明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？</title>
+</meta></meta><link href="https://conf.python.tw/2026-04-20-cfp-remind-earth-day.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "PyCon Taiwan Blog", "item": "https://conf.python.tw"}, {"@type": "ListItem", "position": 2, "name": "2026 04 20 cfp remind earth day", "item": "https://conf.python.tw/2026-04-20-cfp-remind-earth-day.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Winnie"}, "publisher": {"@type": "Organization", "name": "PyCon Taiwan Blog"}, "headline": "明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？", "about": "announcement", "datePublished": "2026-04-20 23:01"}</script><meta content="summary" name="twitter:card"/><meta content="https://conf.python.tw/2026-04-20-cfp-remind-earth-day.html" property="og:url"/><meta content="article" property="og:type"/><meta content="明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？" property="og:title"/><meta content="C" property="og:locale"/></head>
+<body class="light-theme">
+<aside>
+<div>
+<a href="https://conf.python.tw/">
+<img alt="PyCon Taiwan" src="/images/profile.jpg" title="PyCon Taiwan"/>
+</a>
+<h1>
+<a href="https://conf.python.tw/">PyCon Taiwan</a>
+</h1>
+<nav>
+<ul class="list">
+<li>
+<a href="https://conf.python.tw/pages/about.html#about" target="_self">
+                About
+              </a>
+</li>
+<li>
+<a href="http://tw.pycon.org" target="_self">Official Website</a>
+</li>
+<li>
+<a href="/2024-03-07-code-of-conduct.html" target="_self">Code of Conduct</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-facebook" href="https://www.facebook.com/pycontw" target="_blank">
+<i class="fa-brands fa-facebook"></i>
+</a>
+</li>
+<li>
+<a class="sc-instagram" href="https://www.instagram.com/pycon.tw/" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/#!/PyConTW" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/company/pycontw/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-flickr" href="https://www.flickr.com/photos/pycon_tw/albums/" target="_blank">
+<i class="fa-brands fa-flickr"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/pycontw" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-youtube" href="https://www.youtube.com/c/PyConTaiwanVideo" target="_blank">
+<i class="fa-brands fa-youtube"></i>
+</a>
+</li>
+<li>
+<a class="sc-itunes-note" href="https://podcasts.apple.com/tw/podcast/pycast/id1559843325" target="_blank">
+<i class="fa-brands fa-itunes-note"></i>
+</a>
+</li>
+<li>
+<a class="sc-spotify" href="https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv" target="_blank">
+<i class="fa-brands fa-spotify"></i>
+</a>
+</li>
+<li>
+<a class="sc-rss" href="https://conf.python.tw/feeds/all.atom.xml" target="_blank">
+<i class="fa-solid fa-rss"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="https://conf.python.tw/">Home</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="https://conf.python.tw/feeds/all.atom.xml">Atom</a>
+</nav>
+<article class="single">
+<header>
+<h1 id="2026-04-20-cfp-remind-earth-day">明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？</h1>
+<p>
+      Posted on Mon 20 April 2026 in <a href="https://conf.python.tw/category/announcement.html">announcement</a>
+</p>
+</header>
+<div>
+<p><img alt="Image-zh" src="images/2026-04-20-cfp-remind-earth-day/Image-zh.jpg" width="300"/> <img alt="Image-en" src="images/2026-04-20-cfp-remind-earth-day/Image-en.jpg" width="300"/></p>
+<div class="toc">
+<ul>
+<li><a href="#_1">明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？</a></li>
+<li><a href="#tomorrow-is-earth-day-do-you-know-what-the-most-eco-friendly-thing-you-can-do-is">Tomorrow is Earth Day 🌍 — do you know what the most eco-friendly thing you can do is?</a></li>
+</ul>
+</div>
+<hr/>
+<h2 id="_1">明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？</h2>
+<p>不是不用塑膠袋，是趕快把你 Local 端那些發霉的專案投到 PyCon TW<br/>
+讓它們發光發熱，而不是在那邊浪費你硬碟的電！！！</p>
+<p>不管是：<br/>
+  ✨ 那些被你藏起來的 Python 騷操作<br/>
+  📈 跑了一半的資料科學實驗<br/>
+  🐈 還是那個能讓貓自動吃飯、幫你省下體力的腳本</p>
+<p>👉 這裡投一下 CFP，靈感不浪費： <a href="https://lihi1.me/QKOzP">https://lihi1.me/QKOzP</a></p>
+<p>趁現在空氣還清新、腦袋還清楚，趕快把摘要寫一寫。<br/>
+別讓你的好點子跟著硬碟一起變成電子垃圾</p>
+<p>2026 的 PyCon TW，我們台北見啦！！🐍✨</p>
+<hr/>
+<h2 id="tomorrow-is-earth-day-do-you-know-what-the-most-eco-friendly-thing-you-can-do-is">Tomorrow is Earth Day 🌍 — do you know what the most eco-friendly thing you can do is?</h2>
+<p>It’s not ditching plastic bags.<br/>
+ It’s submitting those dusty local projects to PyCon TW.<br/>
+Let them shine instead of wasting electricity on your hard drive.</p>
+<p>No matter if it’s:<br/>
+  ✨ That hidden Python wizardry<br/>
+  📈 That half-finished data science experiment<br/>
+  🐈 Or the script that auto-feeds your cat and saves your life</p>
+<p>👉 Submit your CFP here and recycle your ideas: <a href="https://lihi1.me/QKOzP">https://lihi1.me/QKOzP</a></p>
+<p>While the air is still fresh and your brain still works, write that abstract.<br/>
+Don’t let your ideas turn into e-waste along with your hard drive.</p>
+<p>See you at PyCon TW 2026 in Taipei 🐍✨</p>
+</div>
+<div class="tag-cloud">
+<p>
+<a href="https://conf.python.tw/tag/pycontw2026.html">PyConTW2026</a>
+<a href="https://conf.python.tw/tag/shi-jie-di-qiu-ri.html">世界地球日</a>
+<a href="https://conf.python.tw/tag/python.html">Python</a>
+<a href="https://conf.python.tw/tag/cfp.html">CfP</a>
+<a href="https://conf.python.tw/tag/ling-gan-hui-shou.html">靈感回收</a>
+<a href="https://conf.python.tw/tag/bu-yao-zai-tuo-liao.html">不要再拖了</a>
+<a href="https://conf.python.tw/tag/earthday.html">EarthDay</a>
+<a href="https://conf.python.tw/tag/recycleyourideas.html">RecycleYourIdeas</a>
+<a href="https://conf.python.tw/tag/stopprocrastinating.html">StopProcrastinating</a>
+</p>
+</div>
+<div>
+<applause-button multiclap="true" url="2026-04-20-cfp-remind-earth-day.html"></applause-button>
+</div><!-- utteranc.es -->
+<script async="" crossorigin="anonymous" issue-term="pathname" label="✨Blog Comments✨" repo="pycontw/pycontw-blog" src="https://utteranc.es/client.js" theme="github-light">
+</script>
+<!-- End utteranc.es -->
+</article>
+<footer>
+<p>
+  © 2025 PyCon Taiwan - This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" rel="license" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
+<img alt="Creative Commons License" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border-width:0" title="Creative Commons License" width="80">
+</img></a>
+</p></footer> </main>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PyCon Taiwan Blog ",
+  "url" : "https://conf.python.tw",
+  "image": "/images/profile.jpg",
+  "description": "PyCon Taiwan official blog. Catch up the latest announcement here!"
+}
+</script>
+</body>
+</html>
