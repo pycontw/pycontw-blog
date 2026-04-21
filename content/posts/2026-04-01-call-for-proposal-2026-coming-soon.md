@@ -5,9 +5,9 @@ Category: announcement
 Tags: pycontw2026, pycontw, python, talks, cfp, pycon
 Slug: 2026-04-01-call-for-proposal-2026-coming-soon
 Authors: Justin, Peter, Winnie
-Summary: ![CFP-zh](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-zh.png){width=300}![CFP-en](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-en.png){width=300}<br>PyCon TW 2026 CfP Coming Soon!<br>PyCon TW 2026 馬上就要在 4/13（一） 開放投稿啦！
+Summary: ![CFP-zh](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-zh.png){width=300} ![CFP-en](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-en.png){width=300}<br>PyCon TW 2026 CfP Coming Soon!<br>PyCon TW 2026 馬上就要在 4/13（一） 開放投稿啦！
 
-![CFP-zh](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-zh.png){width=300}![CFP-en](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-en.png){width=300}
+![CFP-zh](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-zh.png){width=300} ![CFP-en](images/2026-04-01-call-for-proposal-2026-coming-soon/2026-CFP-coming-soon-en.png){width=300}
 
 [TOC]
 

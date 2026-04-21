@@ -5,9 +5,9 @@ Category: announcement
 Tags: pycontw2026, pycontw, volunteer, community
 Slug: 2026-04-10-pycon-taiwan-2026-volunteer-recruitment-is-open
 Authors: Yucheng
-Summary: ![volunteer-zh](images/2026-04-10-pycon-taiwan-2026-volunteer-recruitment-is-open/202604_volunteer_zh.png){width=300}![volunteer-en](images/2026-04-10-pycon-taiwan-2026-volunteer-recruitment-is-open/202604_volunteer_en.png){width=300}<br>PyCon Taiwan 2026 志工公開招募！<br>PyCon Taiwan 2026 Volunteer Recruitment is Open!
+Summary: ![volunteer-zh](images/2026-04-10-pycon-taiwan-2026-volunteer-recruitment-is-open/202604_volunteer_zh.png){width=300} ![volunteer-en](images/2026-04-10-pycon-taiwan-2026-volunteer-recruitment-is-open/202604_volunteer_en.png){width=300}<br>PyCon Taiwan 2026 志工公開招募！<br>PyCon Taiwan 2026 Volunteer Recruitment is Open!
 
-![volunteer-zh](images/2026-04-10-pycon-taiwan-2026-volunteer-recruitment-is-open/202604_volunteer_zh.png){width=300}![volunteer-en](images/2026-04-10-pycon-taiwan-2026-volunteer-recruitment-is-open/202604_volunteer_en.png){width=300}
+![volunteer-zh](images/2026-04-10-pycon-taiwan-2026-volunteer-recruitment-is-open/202604_volunteer_zh.png){width=300} ![volunteer-en](images/2026-04-10-pycon-taiwan-2026-volunteer-recruitment-is-open/202604_volunteer_en.png){width=300}
 
 [TOC]
 
