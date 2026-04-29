@@ -207,7 +207,7 @@ def format(context: Context) -> None:
 
 @task
 def security_check(context: Context) -> None:
-    """Run pip-autid on dependencies"""
+    """Run pip-audit on dependencies"""
     context.run("""uv run pip-audit""")
 
 
