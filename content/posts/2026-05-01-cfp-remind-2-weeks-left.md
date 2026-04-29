@@ -1,5 +1,5 @@
 Title: PyCon TW 2026 投稿指南 CFP 截止倒數兩週
-Date: 2026-05-01 10:00:00
+Date: 2026-05-01 09:00:00
 Modified: 2026-04-27 22:37:31
 Category: announcement
 Tags: pycontw2026, pycontw, python, talks, cfp
