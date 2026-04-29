@@ -142,6 +142,11 @@
     After executing the above command, open your browser and navigate to `http://localhost:8000/`.
     You should be able to see the new post you've just created.
 
+    Future-dated posts are visible in local preview so you can review how a
+    scheduled article will look before it is published. On the deployed site,
+    posts with a future `Date` are hidden until a scheduled publish workflow
+    rebuilds the site after that time.
+
 4. Commit
 
     After all is ready, it's time to commit the modifications to the branch and push to the repository.

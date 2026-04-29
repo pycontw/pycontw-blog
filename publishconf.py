@@ -9,11 +9,14 @@ from pelicanconf import *  # noqa: F401, E402, F403
 
 SITEURL = "https://conf.python.tw"
 RELATIVE_URLS = False
+WITH_FUTURE_DATES = False
+
+DRAFT_SAVE_AS = ""
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 
-DELETE_OUTPUT_DIRECTORY = False
+DELETE_OUTPUT_DIRECTORY = True
 
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
