@@ -23,7 +23,7 @@ Summary: ![Image-zh](images/2026-05-10-cfp-remind-one-week-left/Image-zh.jpg){wi
 趕緊點底下連結投稿，站上舞台跟世界分享 Python 二三事吧！
 PyCon TW 2026 投稿這裡去👉 <https://lihi1.me/QKOzP>
 
-###📌 投稿截止
+### 📌 投稿截止
 
 📅 5/18 (一) 23:59:59 (AoE)
 🙌想知道更多CFP資訊 👉 <https://lihi1.me/D8Y4S>
