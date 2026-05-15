@@ -1,5 +1,5 @@
 Title: PyCon TW 2026 CFP 徵稿延期至 6/1
-Date: 2026-05-15 00:06:36
+Date: 2026-05-15 00:09:00
 Modified: 2026-05-15 00:06:36
 Category: announcement
 Tags: pycontw2026, pycontw, python, talks, cfp, 徵稿延期, DeadlineExtended
