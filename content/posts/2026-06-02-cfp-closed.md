@@ -17,7 +17,7 @@ Summary: ![Image-zh](images/2026-06-02-cfp-closed/Image-zh.jpeg){width=300} ![Im
 
 PyCon TW 2026 徵稿已正式結束，感謝社群的熱烈參與！
 
-今年我們共收到超過 110 份投稿稿件，已是歷年第二高‼️
+今年我們共收到近 110 份投稿稿件，已是歷年第二高‼️
 很高興能看到這麼多優秀的 Python 技術實踐及分享稿件！
 
 接下來，評審委員們將正式進入審稿階段，我們會懷著期待的心情，認真評閱每一份提案，為大家規劃出最精彩的大會全貌。
@@ -39,7 +39,7 @@ PyCon TW 2026 志工持續火熱招募中！歡迎加入籌備團隊，和我們
 
 The PyCon TW 2026 Call for Proposals (CfP) has officially closed! We would like to extend our heartfelt thanks to the entire community for your enthusiastic participation.
 
-This year, we received over 110 proposals! We are incredibly thrilled to see such a diverse and outstanding range of Python technical practices and insights shared with us.
+This year, we received around 110 proposals! We are incredibly thrilled to see such a diverse and outstanding range of Python technical practices and insights shared with us.
 Our review committee has now officially entered the evaluation phase. With great excitement and dedication, we will carefully review each and every proposal to curate the most exceptional program lineup for this year's conference.
 
 ⚠️ Please mark your calendar for the next crucial phase:
