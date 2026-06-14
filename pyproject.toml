@@ -1,7 +1,7 @@
 [project]
 name = "pycontw-blog"
 version = "0.1.0"
-description = "Add your description here"
+description = "PyCon Taiwan official blog, built with Pelican."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

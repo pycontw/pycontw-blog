@@ -1,3 +1,5 @@
+from datetime import date
+
 # Site metadata
 AUTHOR = "PyCon Taiwan Organizers"
 SITENAME = "PyCon Taiwan Blog"
@@ -83,7 +85,7 @@ CC_LICENSE = {
     "slug": "by-sa",
 }
 COPYRIGHT_NAME = "PyCon Taiwan"
-COPYRIGHT_YEAR = 2025
+COPYRIGHT_YEAR = date.today().year
 
 
 # Uncomment following line if you want document-relative URLs when developing
