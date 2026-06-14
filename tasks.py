@@ -37,7 +37,8 @@ CONFIG = {
 # templates for creating a new post
 
 POST_TEMPLATE = dedent(
-    """Title: {title}
+    """
+    Title: {title}
     Date: {date}
     Modified: {modified}
     Category: {category}
@@ -50,8 +51,8 @@ POST_TEMPLATE = dedent(
 
     ---
     <!--your content here-->
-"""
-)
+    """
+).lstrip("\n")
 
 
 AVAILABLE_CATEGORIES = [
@@ -184,7 +185,7 @@ def pelican_run(cmd):
 @task
 def style(context: Context) -> None:
     """Run style check on python code"""
-    python_targets = "pelicanconf.py publishconf.py tasks.py"
+    python_targets = "pelicanconf.py publishconf.py tasks.py tests"
     context.run(
         f"""
         uv run ruff check {python_targets} && \
@@ -196,7 +197,7 @@ def style(context: Context) -> None:
 @task
 def format(context: Context) -> None:
     """Run autoformater on python code"""
-    python_targets = "pelicanconf.py publishconf.py tasks.py"
+    python_targets = "pelicanconf.py publishconf.py tasks.py tests"
     context.run(
         f"""
         uv run ruff check {python_targets} --fix && \
@@ -234,7 +235,7 @@ def _ask_multiple_inputs_question(prompt: str, break_symbol: str = "!") -> str:
     answers = []
     while (answer := questionary.text("", qmark="->").ask()) != break_symbol:
         answers.append(answer)
-    return ", ".join(answer)
+    return ", ".join(answer.strip() for answer in answers if answer)
 
 
 def _validate_datetime(datetime_str: str) -> bool:
@@ -243,6 +244,13 @@ def _validate_datetime(datetime_str: str) -> bool:
         return True
     except ValueError:
         return False
+
+
+def _build_slug(title: str, date_str: str) -> str:
+    """Build a post slug as ``<post-date>-<dash-joined-title>``."""
+    slug_title = "-".join(title.lower().split())
+    slug_date = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S").strftime("%Y-%m-%d")
+    return f"{slug_date}-{slug_title}"
 
 
 @task
@@ -264,9 +272,7 @@ def create_post(context: Context) -> None:
     tags = _ask_multiple_inputs_question("Type any number of tags.")
     authors = _ask_multiple_inputs_question("Specify any number of authors.")
 
-    slug_title = "-".join(answers["title"].lower().split())
-    slug_date = datetime.now().strftime("%Y-%m-%d")
-    slug = f"{slug_date}-{slug_title}"
+    slug = _build_slug(answers["title"], answers["date"])
     summary = questionary.text("Summary: ").ask()
 
     rendered_template = POST_TEMPLATE.format(
@@ -280,10 +286,19 @@ def create_post(context: Context) -> None:
         summary=summary,
     )
     file_path = f"content/posts/{slug}.md"
-    with open(file_path, "w") as out:
-        out.write(rendered_template)
+    try:
+        with open(file_path, "x") as out:
+            out.write(rendered_template)
 
-    questionary.print(
-        f"\nFile has already been written to {file_path}.\n"
-        "Please open the file to continue editing the content. Have a nice day~"
-    )
+        questionary.print(
+            f"\nFile has already been written to {file_path}.\n"
+            "Please open the file to continue editing the content. Have a nice day~"
+        )
+    except FileExistsError:
+        questionary.print(
+            f"\nA post with slug '{slug}' already exists at {file_path}.\n"
+            "Nothing was written, so the existing file is safe. "
+            "Please pick a different title or date and try again.",
+            style="bold fg:red",
+        )
+        raise SystemExit(1)
