@@ -195,6 +195,12 @@ def style(context: Context) -> None:
 
 
 @task
+def test(context: Context) -> None:
+    """Run the test suite"""
+    context.run("uv run pytest")
+
+
+@task
 def format(context: Context) -> None:
     """Run autoformater on python code"""
     python_targets = "pelicanconf.py publishconf.py tasks.py tests"
