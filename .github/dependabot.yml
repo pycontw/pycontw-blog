@@ -4,14 +4,14 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
     commit-message:
       prefix: "github-actions"
 
-  # Maintain python dependencies
-  - package-ecosystem: pip
+  # Maintain python dependencies (managed with uv / uv.lock)
+  - package-ecosystem: uv
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
     commit-message:
       prefix: "dependency"
