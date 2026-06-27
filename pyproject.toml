@@ -24,6 +24,12 @@ dev = [
   "pytest>=9.1.1",
 ]
 
+
+[tool.uv]
+required-version = ">=0.9.17"
+exclude-newer = "4 days"
+
+
 [tool.commitizen]
 name = "cz_customize"
 
