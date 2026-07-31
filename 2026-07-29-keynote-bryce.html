@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://conf.python.tw/theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/stylesheet/applause-button.css" rel="stylesheet" type="text/css"/>
+<script src="https://conf.python.tw/theme/js/applause-button.js"></script>
+<link href="https://conf.python.tw/theme/pygments/default.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://conf.python.tw/feeds/all.atom.xml" rel="alternate" title="PyCon Taiwan Blog Atom" type="application/atom+xml"/>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CLR9RYLP5N', 'auto');
+  ga('send', 'pageview');
+</script>
+<meta content="Kevin" name="author"/>
+<meta content="PyCon TW 2026 Keynote 1 Bryce Adelstein Lelbach, the CUDA ColonelPyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach" name="description"/>
+<meta content="PyConTW2026, Python, CUDA, NVIDIA, Autoresearch, AgenticAI, GPU, Keynote, AI" name="keywords"/>
+<meta content="PyCon Taiwan Blog" property="og:site_name">
+<meta content="PyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach" property="og:title"/>
+<meta content="PyCon TW 2026 Keynote 1 Bryce Adelstein Lelbach, the CUDA ColonelPyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach" property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://conf.python.tw/2026-07-29-keynote-bryce.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2026-07-29 09:00:00+08:00" property="article:published_time"/>
+<meta content="2026-07-29 09:00:00+08:00" property="article:modified_time"/>
+<meta content="https://conf.python.tw/author/kevin.html" property="article:author"/>
+<meta content="announcement" property="article:section">
+<meta content="PyConTW2026" property="article:tag"/>
+<meta content="Python" property="article:tag"/>
+<meta content="CUDA" property="article:tag"/>
+<meta content="NVIDIA" property="article:tag"/>
+<meta content="Autoresearch" property="article:tag"/>
+<meta content="AgenticAI" property="article:tag"/>
+<meta content="GPU" property="article:tag"/>
+<meta content="Keynote" property="article:tag"/>
+<meta content="AI" property="article:tag"/>
+<meta content="/images/profile.jpg" property="og:image"/>
+<title>PyCon Taiwan Blog – PyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach</title>
+</meta></meta><link href="https://conf.python.tw/2026-07-29-keynote-bryce.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "PyCon Taiwan Blog", "item": "https://conf.python.tw"}, {"@type": "ListItem", "position": 2, "name": "2026 07 29 keynote bryce", "item": "https://conf.python.tw/2026-07-29-keynote-bryce.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Kevin"}, "publisher": {"@type": "Organization", "name": "PyCon Taiwan Blog"}, "headline": "PyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach", "about": "announcement", "datePublished": "2026-07-29 09:00"}</script><meta content="summary" name="twitter:card"/><meta content="https://conf.python.tw/2026-07-29-keynote-bryce.html" property="og:url"/><meta content="article" property="og:type"/><meta content="PyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach" property="og:title"/><meta content="C" property="og:locale"/></head>
+<body class="light-theme">
+<aside>
+<div>
+<a href="https://conf.python.tw/">
+<img alt="PyCon Taiwan" src="/images/profile.jpg" title="PyCon Taiwan"/>
+</a>
+<h1>
+<a href="https://conf.python.tw/">PyCon Taiwan</a>
+</h1>
+<nav>
+<ul class="list">
+<li>
+<a href="https://conf.python.tw/pages/about.html#about" target="_self">
+                About
+              </a>
+</li>
+<li>
+<a href="http://tw.pycon.org" target="_self">Official Website</a>
+</li>
+<li>
+<a href="/2024-03-07-code-of-conduct.html" target="_self">Code of Conduct</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-facebook" href="https://www.facebook.com/pycontw" target="_blank">
+<i class="fa-brands fa-facebook"></i>
+</a>
+</li>
+<li>
+<a class="sc-instagram" href="https://www.instagram.com/pycon.tw/" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/#!/PyConTW" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/company/pycontw/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-flickr" href="https://www.flickr.com/photos/pycon_tw/albums/" target="_blank">
+<i class="fa-brands fa-flickr"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/pycontw" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-youtube" href="https://www.youtube.com/c/PyConTaiwanVideo" target="_blank">
+<i class="fa-brands fa-youtube"></i>
+</a>
+</li>
+<li>
+<a class="sc-itunes-note" href="https://podcasts.apple.com/tw/podcast/pycast/id1559843325" target="_blank">
+<i class="fa-brands fa-itunes-note"></i>
+</a>
+</li>
+<li>
+<a class="sc-spotify" href="https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv" target="_blank">
+<i class="fa-brands fa-spotify"></i>
+</a>
+</li>
+<li>
+<a class="sc-rss" href="https://conf.python.tw/feeds/all.atom.xml" target="_blank">
+<i class="fa-solid fa-rss"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="https://conf.python.tw/">Home</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="https://conf.python.tw/feeds/all.atom.xml">Atom</a>
+</nav>
+<article class="single">
+<header>
+<h1 id="2026-07-29-keynote-bryce">PyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach</h1>
+<p>
+      Posted on Wed 29 July 2026 in <a href="https://conf.python.tw/category/announcement.html">announcement</a>
+</p>
+</header>
+<div>
+<p><img alt="Image" src="images/2026-07-29-keynote-bryce/Image.png" width="300"/></p>
+<div class="toc">
+<ul>
+<li><a href="#pycon-tw-2026-keynote-1-bryce-adelstein-lelbach">PyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach</a></li>
+<li><a href="#pycon-tw-2026-keynote-1-bryce-adelstein-lelbach-the-cuda-colonel">PyCon TW 2026 Keynote 1 Bryce Adelstein Lelbach, the CUDA Colonel</a></li>
+</ul>
+</div>
+<hr/>
+<h2 id="pycon-tw-2026-keynote-1-bryce-adelstein-lelbach">PyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach</h2>
+<p>讓 AI Agent 自己燃燒 Token 來優化程式，真的就能高枕無憂了嗎？🤖</p>
+<p>從 Andrej Karpathy 提出的 Autoresearch，到近期熱議的 Loop Engineering 與 Graph Engineering，大家都期待將軟體優化下放給 AI 自主進化<br/>
+只要定義好迭代步驟與目標衡量，程式就能自動變快 🚀</p>
+<p>但是.... 對於 GPU Kernel 的極限加速而言，事情遠沒有想像中簡單！！</p>
+<p>當 AI 為了達標而開始「耍小聰明（Reward Hacking）」或是「死背考古題（Overfitting）」時，我們該如何引導它逃離局部最佳解（Local Maximums），真正做出能上線運行的生產級程式？</p>
+<p>這次，我們邀請到 NVIDIA 首席架構師 Bryce Adelstein Lelbach ✨</p>
+<p>作為創立 NVIDIA CUDA 核心計算函式庫團隊、現任 Vanguard 編譯器與語言團隊的領袖，Bryce 將帶大家從開源 GPUMODE Kernel 競賽的實戰經驗出發，剖析理想與現實的差距，探索如何將 Autoresearch 真正落地到 CUDA Kernel 的加速工程中！</p>
+<p>想一窺 AI 輔助系統級優化的最新發展嗎？快把這場 Keynote 排進你的必看清單！</p>
+<p>👉搶先看 Keynote 陣容： <a href="https://lihi1.me/z7Qo9">https://lihi1.me/z7Qo9</a><br/>
+👉前往搶購早鳥票： <a href="https://lihi1.me/9wIMG">https://lihi1.me/9wIMG</a></p>
+<hr/>
+<h2 id="pycon-tw-2026-keynote-1-bryce-adelstein-lelbach-the-cuda-colonel">PyCon TW 2026 Keynote 1 Bryce Adelstein Lelbach, the CUDA Colonel</h2>
+<p>As AI models and agents harness progress, can we really just delegate software optimization to AI and let agents burn tokens unsupervised?</p>
+<p>Maybe not so simple when it comes to GPU kernel speedup! ⚡</p>
+<p>We are thrilled to announce Bryce Adelstein Lelbach (Principal Engineer at NVIDIA) as our Keynote Speaker at PyCon TW 2026! Bryce leads NVIDIA's Vanguard Programming group and founded the CUDA Core Compute Libraries team.</p>
+<p>In his talk, "Accelerating Algorithm Autoresearch", Bryce will bridge the gap between ideal and reality—exploring reward hacking, local maximums, and how to take autoresearch results from a "cool idea" to "shipped in production".</p>
+<p>Don't miss out on this extraordinary talk! Stay tuned! 🐍</p>
+<p>Check out 2026 Keynotes 👉 <a href="https://lihi1.me/z7Qo9">https://lihi1.me/z7Qo9</a><br/>
+Get Earlybird tickets right now 👉 <a href="https://lihi1.me/9wIMG">https://lihi1.me/9wIMG</a></p>
+</div>
+<div class="tag-cloud">
+<p>
+<a href="https://conf.python.tw/tag/pycontw2026.html">PyConTW2026</a>
+<a href="https://conf.python.tw/tag/python.html">Python</a>
+<a href="https://conf.python.tw/tag/cuda.html">CUDA</a>
+<a href="https://conf.python.tw/tag/nvidia.html">NVIDIA</a>
+<a href="https://conf.python.tw/tag/autoresearch.html">Autoresearch</a>
+<a href="https://conf.python.tw/tag/agenticai.html">AgenticAI</a>
+<a href="https://conf.python.tw/tag/gpu.html">GPU</a>
+<a href="https://conf.python.tw/tag/keynote.html">Keynote</a>
+<a href="https://conf.python.tw/tag/ai.html">AI</a>
+</p>
+</div>
+<div>
+<applause-button multiclap="true" url="2026-07-29-keynote-bryce.html"></applause-button>
+</div><!-- utteranc.es -->
+<script async="" crossorigin="anonymous" issue-term="pathname" label="✨Blog Comments✨" repo="pycontw/pycontw-blog" src="https://utteranc.es/client.js" theme="github-light">
+</script>
+<!-- End utteranc.es -->
+</article>
+<footer>
+<p>
+  © 2026 PyCon Taiwan - This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" rel="license" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
+<img alt="Creative Commons License" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border-width:0" title="Creative Commons License" width="80">
+</img></a>
+</p></footer> </main>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PyCon Taiwan Blog ",
+  "url" : "https://conf.python.tw",
+  "image": "/images/profile.jpg",
+  "description": "PyCon Taiwan official blog. Catch up the latest announcement here!"
+}
+</script>
+</body>
+</html>
