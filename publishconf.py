@@ -5,7 +5,7 @@ import os
 import sys
 
 sys.path.append(os.curdir)
-from pelicanconf import *  # noqa: F401, E402, F403
+from pelicanconf import *  # noqa: F403
 
 SITEURL = "https://conf.python.tw"
 RELATIVE_URLS = False
