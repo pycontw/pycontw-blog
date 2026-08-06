@@ -1,0 +1,43 @@
+name: Dependency security audit
+
+on:
+  pull_request:
+  schedule:
+    # Mondays 01:05 UTC (09:05 Taipei). A locked dependency becomes
+    # vulnerable when an advisory is published against it, not when anyone
+    # changes uv.lock, so this needs a trigger independent of repository
+    # activity. pip-audit reads the PyPI advisory database, which does not
+    # always carry the same findings as the GitHub Advisory Database behind
+    # Dependabot alerts.
+    #
+    # Runs at :05 rather than on the hour: scheduled workflows queue behind
+    # the spike of jobs that pick round times, and GitHub drops runs it
+    # cannot dispatch instead of catching them up later.
+    - cron: "5 1 * * 1"
+  workflow_dispatch:
+
+jobs:
+  audit:
+    # Non-blocking (continue-on-error) because pygments PYSEC-2026-2987
+    # cannot be fixed while pelican caps pygments<2.20.0 — see issue #219.
+    # Make this job blocking once that finding is resolved or ignored.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Check out
+        uses: actions/checkout@v7
+
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          version: "latest"
+
+      - name: Install dependencies
+        run: |
+          uv --version
+          uv sync
+
+      - name: Audit dependencies for known vulnerabilities
+        run: |
+          uv run inv security-check
