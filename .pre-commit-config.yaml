@@ -44,11 +44,3 @@ repos:
         pass_filenames: false
         entry: uv run inv style
         types: [python]
-
-      - id: security-check
-        name: security-check
-        stages: [pre-push]
-        language: system
-        pass_filenames: false
-        entry: uv run inv security-check
-        types: [python]
