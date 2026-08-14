@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://conf.python.tw/theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/stylesheet/applause-button.css" rel="stylesheet" type="text/css"/>
+<script src="https://conf.python.tw/theme/js/applause-button.js"></script>
+<link href="https://conf.python.tw/theme/pygments/default.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://conf.python.tw/feeds/all.atom.xml" rel="alternate" title="PyCon Taiwan Blog Atom" type="application/atom+xml"/>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CLR9RYLP5N', 'auto');
+  ga('send', 'pageview');
+</script>
+<meta content="Winnie" name="author"/>
+<meta content="PyCon TW 2026 Keynote 2 Tian Gao From CPython to PySparkPyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark" name="description"/>
+<meta content="PyConTW2026, Keynote, TianGao, CPython, PySpark, OpenSource, Python開發者, ApacheSpark, TechTalk, DeveloperCommunity" name="keywords"/>
+<meta content="PyCon Taiwan Blog" property="og:site_name">
+<meta content="PyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark" property="og:title"/>
+<meta content="PyCon TW 2026 Keynote 2 Tian Gao From CPython to PySparkPyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark" property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://conf.python.tw/2026-08-10-pycon-tw-2026-keynote-2-tian-gao.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2026-08-10 09:00:00+08:00" property="article:published_time"/>
+<meta content="2026-08-10 09:00:00+08:00" property="article:modified_time"/>
+<meta content="https://conf.python.tw/author/winnie.html" property="article:author"/>
+<meta content="announcement" property="article:section">
+<meta content="PyConTW2026" property="article:tag"/>
+<meta content="Keynote" property="article:tag"/>
+<meta content="TianGao" property="article:tag"/>
+<meta content="CPython" property="article:tag"/>
+<meta content="PySpark" property="article:tag"/>
+<meta content="OpenSource" property="article:tag"/>
+<meta content="Python開發者" property="article:tag"/>
+<meta content="ApacheSpark" property="article:tag"/>
+<meta content="TechTalk" property="article:tag"/>
+<meta content="DeveloperCommunity" property="article:tag"/>
+<meta content="/images/profile.jpg" property="og:image"/>
+<title>PyCon Taiwan Blog – PyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark</title>
+</meta></meta><link href="https://conf.python.tw/2026-08-10-pycon-tw-2026-keynote-2-tian-gao.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "PyCon Taiwan Blog", "item": "https://conf.python.tw"}, {"@type": "ListItem", "position": 2, "name": "2026 08 10 pycon tw 2026 keynote 2 tian gao", "item": "https://conf.python.tw/2026-08-10-pycon-tw-2026-keynote-2-tian-gao.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Winnie"}, "publisher": {"@type": "Organization", "name": "PyCon Taiwan Blog"}, "headline": "PyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark", "about": "announcement", "datePublished": "2026-08-10 09:00"}</script><meta content="summary" name="twitter:card"/><meta content="https://conf.python.tw/2026-08-10-pycon-tw-2026-keynote-2-tian-gao.html" property="og:url"/><meta content="article" property="og:type"/><meta content="PyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark" property="og:title"/><meta content="C" property="og:locale"/></head>
+<body class="light-theme">
+<aside>
+<div>
+<a href="https://conf.python.tw/">
+<img alt="PyCon Taiwan" src="/images/profile.jpg" title="PyCon Taiwan"/>
+</a>
+<h1>
+<a href="https://conf.python.tw/">PyCon Taiwan</a>
+</h1>
+<nav>
+<ul class="list">
+<li>
+<a href="https://conf.python.tw/pages/about.html#about" target="_self">
+                About
+              </a>
+</li>
+<li>
+<a href="http://tw.pycon.org" target="_self">Official Website</a>
+</li>
+<li>
+<a href="/2024-03-07-code-of-conduct.html" target="_self">Code of Conduct</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-facebook" href="https://www.facebook.com/pycontw" target="_blank">
+<i class="fa-brands fa-facebook"></i>
+</a>
+</li>
+<li>
+<a class="sc-instagram" href="https://www.instagram.com/pycon.tw/" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/#!/PyConTW" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/company/pycontw/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-flickr" href="https://www.flickr.com/photos/pycon_tw/albums/" target="_blank">
+<i class="fa-brands fa-flickr"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/pycontw" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-youtube" href="https://www.youtube.com/c/PyConTaiwanVideo" target="_blank">
+<i class="fa-brands fa-youtube"></i>
+</a>
+</li>
+<li>
+<a class="sc-itunes-note" href="https://podcasts.apple.com/tw/podcast/pycast/id1559843325" target="_blank">
+<i class="fa-brands fa-itunes-note"></i>
+</a>
+</li>
+<li>
+<a class="sc-spotify" href="https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv" target="_blank">
+<i class="fa-brands fa-spotify"></i>
+</a>
+</li>
+<li>
+<a class="sc-rss" href="https://conf.python.tw/feeds/all.atom.xml" target="_blank">
+<i class="fa-solid fa-rss"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="https://conf.python.tw/">Home</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="https://conf.python.tw/feeds/all.atom.xml">Atom</a>
+</nav>
+<article class="single">
+<header>
+<h1 id="2026-08-10-pycon-tw-2026-keynote-2-tian-gao">PyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark</h1>
+<p>
+      Posted on Mon 10 August 2026 in <a href="https://conf.python.tw/category/announcement.html">announcement</a>
+</p>
+</header>
+<div>
+<p><img alt="Image-zh" src="images/2026-08-10-pycon-tw-2026-keynote-2-tian-gao/Image.png" width="300"/></p>
+<div class="toc">
+<ul>
+<li><a href="#pycon-tw-2026-keynote-2-tian-gao-cpython-pyspark">PyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark</a></li>
+<li><a href="#pycon-tw-2026-keynote-2-tian-gao-from-cpython-to-pyspark">PyCon TW 2026 Keynote 2 Tian Gao From CPython to PySpark</a></li>
+</ul>
+</div>
+<hr/>
+<h2 id="pycon-tw-2026-keynote-2-tian-gao-cpython-pyspark">PyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark</h2>
+<p>對於每天使用的頂級開源專案，你是否也曾好奇過：那些看似神秘的 Core Dev 究竟是如何加入的？他們平時都在做些什麼？如果自己也想成為其中一員，該從何下手？</p>
+<p>在 #PyConTW2026，我們非常榮幸邀請到 Databricks 工程師、Python Core Developer、pdb 負責人暨 Apache Spark Committer 高天 (Tian Gao) 擔任 Keynote 講者，帶來專題演講：「從 CPython 到 PySpark」。</p>
+<p>從 2022 年第一次接觸大型開源專案，到 2024 年成為 Python 核心開發者，再到 2026 年成為 Apache Spark Committer，高天將以親身經歷揭開大型開源專案的神秘面紗。他將分享零開源經驗者如何跨出第一步，以及過去一年在 PySpark 領域打磨 Python 體驗的實戰經驗。</p>
+<p>🛠️ 無論你是想尋找參與開源專案的切入點，還是希望提升個人與公司產品的品質，這場 Keynote 絕對能為你提供明確且可行的實踐路徑！</p>
+<p>—</p>
+<p>PyConTW 2026 | 重新定義，科技與人之間的可能<br/>
+📅 大會日期：2026/10/17~2026/10/18<br/>
+📍 大會地點：臺北醫學大學（預定）<br/>
+🔔 立即購票參戰：👉 <a href="https://lihi1.me/9wIMG">https://lihi1.me/9wIMG</a></p>
+<hr/>
+<h2 id="pycon-tw-2026-keynote-2-tian-gao-from-cpython-to-pyspark">PyCon TW 2026 Keynote 2 Tian Gao From CPython to PySpark</h2>
+<p>Ever wondered how developers join massive open-source projects used by millions every day? What do they actually do behind the scenes, and how can you become a part of these communities?</p>
+<p>At #PyConTW2026, we’re thrilled to welcome Tian Gao—Databricks Engineer, Python Core Developer, pdb maintainer, and Apache Spark Committer—as one of our Keynote speakers! His talk, "From CPython to PySpark," will break down the journey from everyday developer to core contributor.</p>
+<p>Starting his open-source journey in 2022, Tian became a Python Core Developer in 2024 and an Apache Spark Committer in 2026. He will share actionable insights on how to start contributing with zero prior open-source experience, alongside his recent work refining the Python ecosystem within PySpark.</p>
+<p>🛠️ Whether you’re an aspiring contributor, a big data enthusiast, or looking for ways to elevate your own codebase, this is a keynote you won't want to miss.<br/>
+—<br/>
+PyConTW 2026 | Redefining the future between people and technology<br/>
+📅 Conference Dates: Oct 17–18, 2026<br/>
+📍 Venue: Taipei Medical University (Tentative)<br/>
+🔔 Grab your ticket now: 👉 <a href="https://lihi1.me/9wIMG">https://lihi1.me/9wIMG</a></p>
+</div>
+<div class="tag-cloud">
+<p>
+<a href="https://conf.python.tw/tag/pycontw2026.html">PyConTW2026</a>
+<a href="https://conf.python.tw/tag/keynote.html">Keynote</a>
+<a href="https://conf.python.tw/tag/tiangao.html">TianGao</a>
+<a href="https://conf.python.tw/tag/cpython.html">CPython</a>
+<a href="https://conf.python.tw/tag/pyspark.html">PySpark</a>
+<a href="https://conf.python.tw/tag/opensource.html">OpenSource</a>
+<a href="https://conf.python.tw/tag/pythonkai-fa-zhe.html">Python開發者</a>
+<a href="https://conf.python.tw/tag/apachespark.html">ApacheSpark</a>
+<a href="https://conf.python.tw/tag/techtalk.html">TechTalk</a>
+<a href="https://conf.python.tw/tag/developercommunity.html">DeveloperCommunity</a>
+</p>
+</div>
+<div>
+<applause-button multiclap="true" url="2026-08-10-pycon-tw-2026-keynote-2-tian-gao.html"></applause-button>
+</div><!-- utteranc.es -->
+<script async="" crossorigin="anonymous" issue-term="pathname" label="✨Blog Comments✨" repo="pycontw/pycontw-blog" src="https://utteranc.es/client.js" theme="github-light">
+</script>
+<!-- End utteranc.es -->
+</article>
+<footer>
+<p>
+  © 2026 PyCon Taiwan - This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" rel="license" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
+<img alt="Creative Commons License" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border-width:0" title="Creative Commons License" width="80">
+</img></a>
+</p></footer> </main>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PyCon Taiwan Blog ",
+  "url" : "https://conf.python.tw",
+  "image": "/images/profile.jpg",
+  "description": "PyCon Taiwan official blog. Catch up the latest announcement here!"
+}
+</script>
+</body>
+</html>
