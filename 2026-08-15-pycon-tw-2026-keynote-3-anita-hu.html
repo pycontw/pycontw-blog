@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://conf.python.tw/theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/stylesheet/applause-button.css" rel="stylesheet" type="text/css"/>
+<script src="https://conf.python.tw/theme/js/applause-button.js"></script>
+<link href="https://conf.python.tw/theme/pygments/default.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="https://conf.python.tw/theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://conf.python.tw/feeds/all.atom.xml" rel="alternate" title="PyCon Taiwan Blog Atom" type="application/atom+xml"/>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CLR9RYLP5N', 'auto');
+  ga('send', 'pageview');
+</script>
+<meta content="Peter" name="author"/>
+<meta content="PyCon TW 2026 Keynote 3 Anita Hu Next-Generation Sports Technology with AI VRPyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技" name="description"/>
+<meta content="PyConTW2026, Keynote, AnitaHu, AI, VR, XR, ComputerVision, SportsTech, Python" name="keywords"/>
+<meta content="PyCon Taiwan Blog" property="og:site_name">
+<meta content="PyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技" property="og:title"/>
+<meta content="PyCon TW 2026 Keynote 3 Anita Hu Next-Generation Sports Technology with AI VRPyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技" property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://conf.python.tw/2026-08-15-pycon-tw-2026-keynote-3-anita-hu.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2026-08-15 09:00:00+08:00" property="article:published_time"/>
+<meta content="2026-08-15 09:00:00+08:00" property="article:modified_time"/>
+<meta content="https://conf.python.tw/author/peter.html" property="article:author"/>
+<meta content="announcement" property="article:section">
+<meta content="PyConTW2026" property="article:tag"/>
+<meta content="Keynote" property="article:tag"/>
+<meta content="AnitaHu" property="article:tag"/>
+<meta content="AI" property="article:tag"/>
+<meta content="VR" property="article:tag"/>
+<meta content="XR" property="article:tag"/>
+<meta content="ComputerVision" property="article:tag"/>
+<meta content="SportsTech" property="article:tag"/>
+<meta content="Python" property="article:tag"/>
+<meta content="/images/profile.jpg" property="og:image"/>
+<title>PyCon Taiwan Blog – PyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技</title>
+</meta></meta><link href="https://conf.python.tw/2026-08-15-pycon-tw-2026-keynote-3-anita-hu.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "PyCon Taiwan Blog", "item": "https://conf.python.tw"}, {"@type": "ListItem", "position": 2, "name": "2026 08 15 pycon tw 2026 keynote 3 anita hu", "item": "https://conf.python.tw/2026-08-15-pycon-tw-2026-keynote-3-anita-hu.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Peter"}, "publisher": {"@type": "Organization", "name": "PyCon Taiwan Blog"}, "headline": "PyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技", "about": "announcement", "datePublished": "2026-08-15 09:00"}</script><meta content="summary" name="twitter:card"/><meta content="https://conf.python.tw/2026-08-15-pycon-tw-2026-keynote-3-anita-hu.html" property="og:url"/><meta content="article" property="og:type"/><meta content="PyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技" property="og:title"/><meta content="C" property="og:locale"/></head>
+<body class="light-theme">
+<aside>
+<div>
+<a href="https://conf.python.tw/">
+<img alt="PyCon Taiwan" src="/images/profile.jpg" title="PyCon Taiwan"/>
+</a>
+<h1>
+<a href="https://conf.python.tw/">PyCon Taiwan</a>
+</h1>
+<nav>
+<ul class="list">
+<li>
+<a href="https://conf.python.tw/pages/about.html#about" target="_self">
+                About
+              </a>
+</li>
+<li>
+<a href="http://tw.pycon.org" target="_self">Official Website</a>
+</li>
+<li>
+<a href="/2024-03-07-code-of-conduct.html" target="_self">Code of Conduct</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-facebook" href="https://www.facebook.com/pycontw" target="_blank">
+<i class="fa-brands fa-facebook"></i>
+</a>
+</li>
+<li>
+<a class="sc-instagram" href="https://www.instagram.com/pycon.tw/" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/#!/PyConTW" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/company/pycontw/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-flickr" href="https://www.flickr.com/photos/pycon_tw/albums/" target="_blank">
+<i class="fa-brands fa-flickr"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/pycontw" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-youtube" href="https://www.youtube.com/c/PyConTaiwanVideo" target="_blank">
+<i class="fa-brands fa-youtube"></i>
+</a>
+</li>
+<li>
+<a class="sc-itunes-note" href="https://podcasts.apple.com/tw/podcast/pycast/id1559843325" target="_blank">
+<i class="fa-brands fa-itunes-note"></i>
+</a>
+</li>
+<li>
+<a class="sc-spotify" href="https://open.spotify.com/show/63C4CNtJywIKizNFHRrIGv" target="_blank">
+<i class="fa-brands fa-spotify"></i>
+</a>
+</li>
+<li>
+<a class="sc-rss" href="https://conf.python.tw/feeds/all.atom.xml" target="_blank">
+<i class="fa-solid fa-rss"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="https://conf.python.tw/">Home</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="https://conf.python.tw/feeds/all.atom.xml">Atom</a>
+</nav>
+<article class="single">
+<header>
+<h1 id="2026-08-15-pycon-tw-2026-keynote-3-anita-hu">PyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技</h1>
+<p>
+      Posted on Sat 15 August 2026 in <a href="https://conf.python.tw/category/announcement.html">announcement</a>
+</p>
+</header>
+<div>
+<p><img alt="Image-zh" src="images/2026-08-15-pycon-tw-2026-keynote-3-anita-hu/Image-zh.png" width="300"/></p>
+<div class="toc">
+<ul>
+<li><a href="#pycon-tw-2026-keynote-3-anita-huai-vr">PyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技</a></li>
+<li><a href="#pycon-tw-2026-keynote-3-anita-hu-next-generation-sports-technology-with-ai-vr">PyCon TW 2026 Keynote 3 Anita Hu Next-Generation Sports Technology with AI VR</a></li>
+</ul>
+</div>
+<hr/>
+<h2 id="pycon-tw-2026-keynote-3-anita-huai-vr">PyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技</h2>
+<p>如果 AI 能看懂一場球賽，它能不能進一步幫助運動員練得更好？🤖🏀</p>
+<p>從追蹤球員與球的動態、辨識賽事事件，到分析球隊戰術；再透過 VR 打造沉浸式訓練環境——AI 與 XR 技術，正在改變我們理解與訓練運動的方式。</p>
+<p>在 PyCon Taiwan 2026，我們非常榮幸邀請到國立清華大學資訊工程系教授、運動科技中心主任 胡敏君（Anita Hu）擔任 Keynote 講者，帶來：</p>
+<p>🎯「從數據收集到技能訓練：結合人工智慧與虛擬實境之新世代運動科技」</p>
+<p>身為資訊工程研究者與籃球愛好者，胡敏君教授長期投入電腦視覺、AI 與 AR / VR / MR 技術，並將研究真正帶進運動場域。</p>
+<p>🥽 這場 Keynote 將帶我們從運動數據分析走到沉浸式技能訓練，看看科技如何跨越工程與運動的界線，成為教練與運動員日常訓練的一部分！</p>
+<p>—<br/>
+PyCon TW 2026 | 重新定義，科技與人之間的可能<br/>
+📅 大會日期：2026/10/17～2026/10/18<br/>
+📍 大會地點：臺北醫學大學（預定）<br/>
+🔔 立即購票參加：👉 <a href="https://lihi1.me/9wIMG">https://lihi1.me/9wIMG</a></p>
+<hr/>
+<h2 id="pycon-tw-2026-keynote-3-anita-hu-next-generation-sports-technology-with-ai-vr">PyCon TW 2026 Keynote 3 Anita Hu Next-Generation Sports Technology with AI VR</h2>
+<p>If AI can understand what’s happening in a game, can it also help athletes train better? 🤖🏀</p>
+<p>From tracking players and the ball, detecting fine-grained events, and analyzing team tactics, to creating immersive training environments with VR—AI and XR technologies are reshaping how we understand and train for sports.</p>
+<p>At PyCon Taiwan 2026, we’re thrilled to welcome Anita Hu, Professor of Computer Science and Director of the Sports Technology Center at National Tsing Hua University, as one of our Keynote speakers!</p>
+<p>🎯 “From Data Collection to Skill Training: Next-Generation Sports Technology Combining AI and VR”</p>
+<p>As both a computer science researcher and a passionate basketball enthusiast, Anita has long explored computer vision, AI, and AR / VR / MR technologies—and, more importantly, how to bring them into real-world sports.</p>
+<p>🥽 This Keynote will take us from sports data analysis to immersive skill training, showing how technology can bridge the gap between engineering and athletics and become part of everyday training for athletes and coaches.</p>
+<p>—<br/>
+PyCon TW 2026 | Redefining the future between people and technology<br/>
+📅 Conference Dates: Oct 17–18, 2026<br/>
+📍 Venue: Taipei Medical University (Tentative)<br/>
+🔔 Grab your ticket now: 👉 <a href="https://lihi1.me/9wIMG">https://lihi1.me/9wIMG</a></p>
+</div>
+<div class="tag-cloud">
+<p>
+<a href="https://conf.python.tw/tag/pycontw2026.html">PyConTW2026</a>
+<a href="https://conf.python.tw/tag/keynote.html">Keynote</a>
+<a href="https://conf.python.tw/tag/anitahu.html">AnitaHu</a>
+<a href="https://conf.python.tw/tag/ai.html">AI</a>
+<a href="https://conf.python.tw/tag/vr.html">VR</a>
+<a href="https://conf.python.tw/tag/xr.html">XR</a>
+<a href="https://conf.python.tw/tag/computervision.html">ComputerVision</a>
+<a href="https://conf.python.tw/tag/sportstech.html">SportsTech</a>
+<a href="https://conf.python.tw/tag/python.html">Python</a>
+</p>
+</div>
+<div>
+<applause-button multiclap="true" url="2026-08-15-pycon-tw-2026-keynote-3-anita-hu.html"></applause-button>
+</div><!-- utteranc.es -->
+<script async="" crossorigin="anonymous" issue-term="pathname" label="✨Blog Comments✨" repo="pycontw/pycontw-blog" src="https://utteranc.es/client.js" theme="github-light">
+</script>
+<!-- End utteranc.es -->
+</article>
+<footer>
+<p>
+  © 2026 PyCon Taiwan - This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" rel="license" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
+<img alt="Creative Commons License" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border-width:0" title="Creative Commons License" width="80">
+</img></a>
+</p></footer> </main>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " PyCon Taiwan Blog ",
+  "url" : "https://conf.python.tw",
+  "image": "/images/profile.jpg",
+  "description": "PyCon Taiwan official blog. Catch up the latest announcement here!"
+}
+</script>
+</body>
+</html>
