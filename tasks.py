@@ -67,6 +67,16 @@ AVAILABLE_CATEGORIES = [
 ]
 
 
+# Advisories we accept, with the condition for dropping each. See issue #219.
+#
+# PYSEC-2026-2987: ReDoS in the Pygments ADL lexer. Fixed in Pygments 2.20.0,
+# which Pelican's pygments<2.20.0 cap puts out of reach. This blog has no ADL
+# content. Drop when Pelican relaxes the cap or the advisory is withdrawn.
+IGNORED_VULNERABILITIES = [
+    "PYSEC-2026-2987",
+]
+
+
 @task
 def clean(context: Context) -> None:
     """Remove generated files"""
@@ -215,7 +225,8 @@ def format(context: Context) -> None:
 @task
 def security_check(context: Context) -> None:
     """Run pip-audit on dependencies"""
-    context.run("""uv run pip-audit""")
+    ignored = " ".join(f"--ignore-vuln {vuln}" for vuln in IGNORED_VULNERABILITIES)
+    context.run(f"uv run pip-audit {ignored}")
 
 
 @task

@@ -18,11 +18,10 @@ on:
 
 jobs:
   audit:
-    # Non-blocking (continue-on-error) because pygments PYSEC-2026-2987
-    # cannot be fixed while pelican caps pygments<2.20.0 — see issue #219.
-    # Make this job blocking once that finding is resolved or ignored.
+    # Advisories we knowingly accept are listed in IGNORED_VULNERABILITIES in
+    # tasks.py, each with the condition for dropping it. A red job here means
+    # a finding nobody has triaged yet.
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - name: Check out
         uses: actions/checkout@v7
