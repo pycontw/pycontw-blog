@@ -373,7 +373,7 @@ PyCon TW will partially provide financial aid for transportation.&lt;/li&gt;
 &lt;p&gt;我們常低估我們的想法，覺得這並不重要、實現不了、技術性不高。這樣的想法有點類似英雄主義。覺得要站上檯面，總得是某個技術性很強的人，同時有精準的直覺，作出了一套技術、一個產出就改變了世界。我們與這樣的理想模式太遠了，所以投稿？再等一下好了。實際上有非常大的機會是我們對我們自己的誤解。唯有將它放到檯面上與他人討論之後，你才會發現你可能是成為 Master Piece 的最後一塊拼圖。&lt;/p&gt;
 &lt;p&gt;PyCon 不是崇拜英雄的一個地方，我們不太討論英雄，我們討論進展。那些進展很棒的人，我們一起為他開心，那些拋出想法的人，我們在台下一起討論要怎麼進行。這就是 PyCon 吸引人的地方。PyCon 是一個孵蛋器，幫助你學習，也幫助他人學習。投稿成為講者是學習與進步最快的手段：準備題目幫你釐清細節、演講題目幫你闡述想法、會後討論幫助你取得提示，更別說那些因分享而來的絕佳朋友了。&lt;/p&gt;
 &lt;p&gt;雖然未來不全然是電影裡描述的那樣，未來還是很吸引人的。與其問未來是什麼樣子，我更想問，在你心中，未來到底有什麼？PyCon APAC 2015 PR 組的亮亮用 Python 巧妙的回答了這個問題：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;__future__&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;limit&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;from&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;__future__&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;limit&lt;/span&gt;
 
   &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
 

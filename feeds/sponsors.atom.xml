@@ -224,7 +224,7 @@
 &lt;p&gt;First, the notion that Python has "function objects" seems a bit weird. But really, it's part of Python's overall philosophy that everything is an object. Every string is an instance of class "str", every dictionary is an instance of class "dict", and every function is an instance of class "function". (Note that while both "str" and "dict" are builtin names, "function" is not.) The fact that functions are objects allows us to store them in lists and dicts, and to pass them as arguments to other functions (e.g., the "key" parameter in the builtin "sorted" function). The fact that functions are objects also means that they have attributes, names following dots (.) that act like a private dictionary.&lt;/p&gt;
 &lt;p&gt;The fact that "def" assigns our newly created function object to a variable is also a bit surprising to many, especially those coming from languages in which functions and data are in separate namespaces. Python has only a single namespace, which means that you cannot have both a variable named "x" and a function named "x" at the same time.&lt;/p&gt;
 &lt;p&gt;So if I execute the following code in Python:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hello&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    &lt;span class="k"&gt;def&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;hello&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
         &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Hello, &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s1"&gt;!&amp;#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -276,7 +276,7 @@
 
 &lt;p&gt;What we see here is a bytestring, a sequence of bytes -- as opposed to a sequence of characters, which is what we would have in a normal Python string. This is the code that Python executes when we run our function.&lt;/p&gt;
 &lt;p&gt;But wait -- what are these codes? What do they mean, and what do they do? In order to understand, we can use the "dis" function in the "dis" module. That module (and its function) are short for "disassemble," and they allow us to break apart the function and see it:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    &lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;dis&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    &lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;dis&lt;/span&gt;
 
     &lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;dis&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dis&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hello&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 

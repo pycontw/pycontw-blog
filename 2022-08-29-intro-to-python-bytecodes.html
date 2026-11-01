@@ -31,7 +31,7 @@
 <meta content="PyCon Taiwan Blogger contributors" name="author"/>
 <meta content="This was originally posted on blogger here. One of the most common myths that I encounter in my corporate training is that Python is an interpreted language. It's not really surprising that people believe that -- after all, Python is often referred to as a &quot;scripting&quot; language, and often has the …" name="description"/>
 <meta content="legacy-blogger, PyCon APAC 2022" name="keywords"/>
-<meta content="PyCon Taiwan Blog" property="og:site_name">
+<meta content="PyCon Taiwan Blog" property="og:site_name"/>
 <meta content="銀級贊助商 - Reuven Lerner - An intro to Python bytecodes" property="og:title"/>
 <meta content="This was originally posted on blogger here. One of the most common myths that I encounter in my corporate training is that Python is an interpreted language. It's not really surprising that people believe that -- after all, Python is often referred to as a &quot;scripting&quot; language, and often has the …" property="og:description"/>
 <meta content="en_US" property="og:locale"/>
@@ -40,12 +40,12 @@
 <meta content="2022-08-29 18:34:00+08:00" property="article:published_time"/>
 <meta content="" property="article:modified_time"/>
 <meta content="https://conf.python.tw/author/pycon-taiwan-blogger-contributors.html" property="article:author"/>
-<meta content="sponsors" property="article:section">
+<meta content="sponsors" property="article:section"/>
 <meta content="legacy-blogger" property="article:tag"/>
 <meta content="PyCon APAC 2022" property="article:tag"/>
 <meta content="/images/profile.jpg" property="og:image"/>
 <title>PyCon Taiwan Blog – 銀級贊助商 - Reuven Lerner - An intro to Python bytecodes</title>
-</meta></meta><link href="https://conf.python.tw/2022-08-29-intro-to-python-bytecodes.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "PyCon Taiwan Blog", "item": "https://conf.python.tw"}, {"@type": "ListItem", "position": 2, "name": "2022 08 29 intro to python bytecodes", "item": "https://conf.python.tw/2022-08-29-intro-to-python-bytecodes.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "PyCon Taiwan Blogger contributors"}, "publisher": {"@type": "Organization", "name": "PyCon Taiwan Blog"}, "headline": "銀級贊助商  - Reuven Lerner - An intro to Python bytecodes", "about": "sponsors", "datePublished": "2022-08-29 18:34"}</script><meta content="summary" name="twitter:card"/><meta content="https://conf.python.tw/2022-08-29-intro-to-python-bytecodes.html" property="og:url"/><meta content="article" property="og:type"/><meta content="銀級贊助商  - Reuven Lerner - An intro to Python bytecodes" property="og:title"/><meta content="C" property="og:locale"/></head>
+<link href="https://conf.python.tw/2022-08-29-intro-to-python-bytecodes.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "PyCon Taiwan Blog", "item": "https://conf.python.tw"}, {"@type": "ListItem", "position": 2, "name": "2022 08 29 intro to python bytecodes", "item": "https://conf.python.tw/2022-08-29-intro-to-python-bytecodes.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "PyCon Taiwan Blogger contributors"}, "publisher": {"@type": "Organization", "name": "PyCon Taiwan Blog"}, "headline": "銀級贊助商  - Reuven Lerner - An intro to Python bytecodes", "about": "sponsors", "datePublished": "2022-08-29 18:34"}</script><meta content="summary" name="twitter:card"/><meta content="https://conf.python.tw/2022-08-29-intro-to-python-bytecodes.html" property="og:url"/><meta content="article" property="og:type"/><meta content="銀級贊助商  - Reuven Lerner - An intro to Python bytecodes" property="og:title"/><meta content="C" property="og:locale"/></head>
 <body class="light-theme">
 <aside>
 <div>
@@ -148,7 +148,7 @@
 <p>First, the notion that Python has "function objects" seems a bit weird. But really, it's part of Python's overall philosophy that everything is an object. Every string is an instance of class "str", every dictionary is an instance of class "dict", and every function is an instance of class "function". (Note that while both "str" and "dict" are builtin names, "function" is not.) The fact that functions are objects allows us to store them in lists and dicts, and to pass them as arguments to other functions (e.g., the "key" parameter in the builtin "sorted" function). The fact that functions are objects also means that they have attributes, names following dots (.) that act like a private dictionary.</p>
 <p>The fact that "def" assigns our newly created function object to a variable is also a bit surprising to many, especially those coming from languages in which functions and data are in separate namespaces. Python has only a single namespace, which means that you cannot have both a variable named "x" and a function named "x" at the same time.</p>
 <p>So if I execute the following code in Python:</p>
-<div class="highlight"><pre><span></span><code>    <span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code>    <span class="k">def</span><span class="w"> </span><span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
         <span class="k">return</span> <span class="sa">f</span><span class="s1">'Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1">!'</span>
 </code></pre></div>
 <p>I have assigned a new value, a function object, to the variable "hello".  I can even ask Python what type of object the variable refers to, using the "type" builtin:</p>
@@ -193,7 +193,7 @@
 </code></pre></div>
 <p>What we see here is a bytestring, a sequence of bytes -- as opposed to a sequence of characters, which is what we would have in a normal Python string. This is the code that Python executes when we run our function.</p>
 <p>But wait -- what are these codes? What do they mean, and what do they do? In order to understand, we can use the "dis" function in the "dis" module. That module (and its function) are short for "disassemble," and they allow us to break apart the function and see it:</p>
-<div class="highlight"><pre><span></span><code>    <span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">dis</span>
+<div class="highlight"><pre><span></span><code>    <span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span><span class="w"> </span><span class="nn">dis</span>
 
     <span class="o">&gt;&gt;&gt;</span> <span class="n">dis</span><span class="o">.</span><span class="n">dis</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
 
@@ -272,8 +272,8 @@
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
 </p><p>
 <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
-<img alt="Creative Commons License" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border-width:0" title="Creative Commons License" width="80">
-</img></a>
+<img alt="Creative Commons License" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border-width:0" title="Creative Commons License" width="80"/>
+</a>
 </p></footer> </main>
 <script type="application/ld+json">
 {
