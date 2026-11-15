@@ -1,4 +1,5 @@
 import os
+import re
 import shlex
 import shutil
 import sys
@@ -158,6 +159,11 @@ def livereload(context: Context) -> None:
         CONFIG["settings_base"],
         f"{theme_path}/templates/**/*.html",
     ]
+    # Flex-extend overrides the base theme's templates and adds static files.
+    for override_path in SETTINGS.get("THEME_TEMPLATES_OVERRIDES", []):
+        watched_globs.append(f"{override_path}/**/*.html")
+    watched_globs.append("theme/Flex-extend/static/**/*.css")
+    watched_globs.append("theme/Flex-extend/static/**/*.js")
 
     content_file_extensions = [".md", ".rst"]
     for extension in content_file_extensions:
@@ -234,12 +240,9 @@ def security_check(context: Context) -> None:
 def setup_pre_commit_hooks(context: Context) -> None:
     """Setup pre-commit hook to automate check before git commit and git push"""
     context.run("git init")
-    context.run(
-        "uv run pre-commit install -t pre-commit & "
-        "uv run pre-commit install -t pre-push & "
-        "uv run pre-commit install -t commit-msg &"
-        "uv run pre-commit autoupdate"
-    )
+    context.run("uv run pre-commit install -t pre-commit")
+    context.run("uv run pre-commit install -t pre-push")
+    context.run("uv run pre-commit install -t commit-msg")
 
 
 @task
@@ -267,6 +270,9 @@ def _validate_datetime(datetime_str: str) -> bool:
 def _build_slug(title: str, date_str: str) -> str:
     """Build a post slug as ``<post-date>-<dash-joined-title>``."""
     slug_title = "-".join(title.lower().split())
+    # Drop ASCII punctuation; non-ASCII characters (e.g. Chinese) are kept.
+    slug_title = re.sub(r"[^a-z0-9\-\u0080-\U0010ffff]", "", slug_title)
+    slug_title = re.sub(r"-{2,}", "-", slug_title).strip("-")
     slug_date = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S").strftime("%Y-%m-%d")
     return f"{slug_date}-{slug_title}"
 

@@ -29,6 +29,20 @@ def test_build_slug_dash_joins_title_words():
     )
 
 
+@pytest.mark.parametrize(
+    ("title", "expected"),
+    [
+        ("Hello, World!", "2024-01-09-hello-world"),
+        ("Talk (Part 2)", "2024-01-09-talk-part-2"),
+        ("a  -  b", "2024-01-09-a-b"),
+        ("!Wow!", "2024-01-09-wow"),
+        ("PyCon 台灣 2024!", "2024-01-09-pycon-台灣-2024"),
+    ],
+)
+def test_build_slug_strips_ascii_punctuation(title, expected):
+    assert _build_slug(title, "2024-01-09 00:00:00") == expected
+
+
 def test_post_template_no_leading_whitespace():
     rendered = POST_TEMPLATE.format(
         title="T",
