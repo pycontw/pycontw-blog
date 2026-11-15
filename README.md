@@ -92,7 +92,7 @@
     uv sync
     ```
 
-7. Setup [pre-commit](https://pre-commit.com/) hooks
+5. Setup [pre-commit](https://pre-commit.com/) hooks
 
     This will check common errors when you do certain types of git commits.
 
@@ -147,6 +147,13 @@
     posts with a future `Date` are hidden until a scheduled publish workflow
     rebuilds the site after that time.
 
+    Before committing, also run the tests and the style check:
+
+    ```bash
+    uv run inv test
+    uv run inv style
+    ```
+
 4. Commit
 
     After all is ready, it's time to commit the modifications to the branch and push to the repository.
@@ -186,7 +193,7 @@ The following is a minimal example of an article.
     Title: My super post
     Date: 2010-12-03 10:20
     Modified: 2010-12-05 19:30
-    Category: Python
+    Category: announcement
     Tags: pelican, publishing
     Slug: my-super-post
     Authors: Alexis Metaireau, Conan Doyle
@@ -202,7 +209,7 @@ The following is a minimal example of an article.
     :date: 2010-10-03 10:20
     :modified: 2010-10-04 18:40
     :tags: that's, awesome
-    :category: yeah
+    :category: announcement
     :slug: my-super-post
     :authors: Alexis Metaireau, Conan Doyle
     :summary: Short version for index and feeds
@@ -211,7 +218,7 @@ The following is a minimal example of an article.
     Please read [Writing content](https://docs.getpelican.com/en/latest/content.html) section in pelican documentation for format detail.
 
 
-If you need to upload images, you'll need to create a directory for your posts in [content/images/readme/](https://github.com/pycontw/pycontw-blog/tree/main/content/images).
+If you need to upload images, create a directory named after your post's slug under [content/images/](https://github.com/pycontw/pycontw-blog/tree/main/content/images), i.e. `content/images/<slug>/`.
 
 Reference images with the `{static}` prefix so they resolve on every page (including tag, category and author listings), for example `![alt]({static}/images/<slug>/<file>)`. A bare `images/...` path breaks outside the article page.
 
