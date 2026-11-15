@@ -10,6 +10,16 @@ on:
   schedule:
     - cron: "5 1,5,9,13 * * *"
 
+# peaceiris/actions-gh-pages pushes the built site to the gh-pages branch.
+permissions:
+  contents: write
+
+# Deployments to gh-pages must not run in parallel; queue instead of cancelling
+# one that is already publishing.
+concurrency:
+  group: publish-post
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest

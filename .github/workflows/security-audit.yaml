@@ -16,6 +16,9 @@ on:
     - cron: "5 1 * * 1"
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   audit:
     # Advisories we knowingly accept are listed in IGNORED_VULNERABILITIES in
