@@ -5,9 +5,9 @@ Category: announcement
 Tags: pycontw2026, pycontw, python, talks, cfp, 徵稿延期, DeadlineExtended
 Slug: 2026-05-15-cfp-postponed-to-june-1
 Authors: Winnie
-Summary: ![Image-zh](images/2026-05-15-cfp-postponed-to-june-1/Image-zh.jpeg){width=300} ![Image-en](images/2026-05-15-cfp-postponed-to-june-1/Image-en.jpeg){width=300}<br>PyCon TW 2026 CFP Deadline Extended to June 1! 🚀<br>PyCon TW 2026 CFP 徵稿延期至 6/1 🚀
+Summary: ![Image-zh]({static}/images/2026-05-15-cfp-postponed-to-june-1/Image-zh.jpeg){width=300} ![Image-en]({static}/images/2026-05-15-cfp-postponed-to-june-1/Image-en.jpeg){width=300}<br>PyCon TW 2026 CFP Deadline Extended to June 1! 🚀<br>PyCon TW 2026 CFP 徵稿延期至 6/1 🚀
 
-![Image-zh](images/2026-05-15-cfp-postponed-to-june-1/Image-zh.jpeg){width=300} ![Image-en](images/2026-05-15-cfp-postponed-to-june-1/Image-en.jpeg){width=300}
+![Image-zh]({static}/images/2026-05-15-cfp-postponed-to-june-1/Image-zh.jpeg){width=300} ![Image-en]({static}/images/2026-05-15-cfp-postponed-to-june-1/Image-en.jpeg){width=300}
 
 [TOC]
 

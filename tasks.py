@@ -51,6 +51,7 @@ POST_TEMPLATE = dedent(
 
     ---
     <!--your content here-->
+    <!--images: ![alt]({{static}}/images/<slug>/<file>)-->
     """
 ).lstrip("\n")
 

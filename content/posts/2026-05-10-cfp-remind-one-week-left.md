@@ -5,9 +5,9 @@ Category: announcement
 Tags: pycontw2026, pycontw, python, talks, cfp
 Slug: 2026-05-10-cfp-remind-one-week-left
 Authors: Justin, Winnie, Peter
-Summary: ![Image-zh](images/2026-05-10-cfp-remind-one-week-left/Image-zh.jpg){width=300} ![Image-en](images/2026-05-10-cfp-remind-one-week-left/Image-en.jpg){width=300}<br>Times Running Out!!<br>PyCon TW 2026 Call for Proposal (CFP)截止倒數一週
+Summary: ![Image-zh]({static}/images/2026-05-10-cfp-remind-one-week-left/Image-zh.jpg){width=300} ![Image-en]({static}/images/2026-05-10-cfp-remind-one-week-left/Image-en.jpg){width=300}<br>Times Running Out!!<br>PyCon TW 2026 Call for Proposal (CFP)截止倒數一週
 
-![Image-zh](images/2026-05-10-cfp-remind-one-week-left/Image-zh.jpg){width=300} ![Image-en](images/2026-05-10-cfp-remind-one-week-left/Image-en.jpg){width=300}
+![Image-zh]({static}/images/2026-05-10-cfp-remind-one-week-left/Image-zh.jpg){width=300} ![Image-en]({static}/images/2026-05-10-cfp-remind-one-week-left/Image-en.jpg){width=300}
 
 [TOC]
 

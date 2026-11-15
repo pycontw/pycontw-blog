@@ -213,6 +213,8 @@ The following is a minimal example of an article.
 
 If you need to upload images, you'll need to create a directory for your posts in [content/images/readme/](https://github.com/pycontw/pycontw-blog/tree/main/content/images).
 
+Reference images with the `{static}` prefix so they resolve on every page (including tag, category and author listings), for example `![alt]({static}/images/<slug>/<file>)`. A bare `images/...` path breaks outside the article page.
+
 
 ### How do we organize our data in the `content` directory?
 TBD

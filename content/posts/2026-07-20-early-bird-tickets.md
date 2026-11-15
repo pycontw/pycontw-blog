@@ -5,9 +5,9 @@ Category: announcement
 Tags:  PyConTW, PyConTW2026, Python, AI, FreeThreading, DataScience, EarlyBird, DeveloperConference, 早鳥票, 開發者年會
 Slug: 2026-07-20-early-bird-tickets
 Authors: Winnie
-Summary: ![Image-zh](images/2026-07-20-early-bird-tickets/Image-zh.png){width=300} ![Image-en](images/2026-07-20-early-bird-tickets/Image-en.png){width=300}<br>Limited Time Early Bird Tickets for PyCon TW 2026 are NOW OPEN!<br>限時早鳥 PyCon TW 2026 迎接 Python 史上最具變革性的一年
+Summary: ![Image-zh]({static}/images/2026-07-20-early-bird-tickets/Image-zh.png){width=300} ![Image-en]({static}/images/2026-07-20-early-bird-tickets/Image-en.png){width=300}<br>Limited Time Early Bird Tickets for PyCon TW 2026 are NOW OPEN!<br>限時早鳥 PyCon TW 2026 迎接 Python 史上最具變革性的一年
 
-![Image-zh](images/2026-07-20-early-bird-tickets/Image-zh.png){width=300} ![Image-en](images/2026-07-20-early-bird-tickets/Image-en.png){width=300}
+![Image-zh]({static}/images/2026-07-20-early-bird-tickets/Image-zh.png){width=300} ![Image-en]({static}/images/2026-07-20-early-bird-tickets/Image-en.png){width=300}
 
 [TOC]
 

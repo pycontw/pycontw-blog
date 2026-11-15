@@ -5,9 +5,9 @@ Category: announcement
 Tags: pycontw2026, pycontw, python, talks, cfp
 Slug: 2026-05-24-cfp-closes-in-one-week
 Authors: Winnie, Peter
-Summary: ![Image-zh](images/2026-05-24-cfp-closes-in-one-week/Image-zh.jpeg){width=300} ![Image-en](images/2026-05-24-cfp-closes-in-one-week/Image-en.jpeg){width=300}<br>Quest: The S-Rank Gate Closes in One Week<br>PyCon TW 2026 Call for Proposal (CFP) 截止倒數一週
+Summary: ![Image-zh]({static}/images/2026-05-24-cfp-closes-in-one-week/Image-zh.jpeg){width=300} ![Image-en]({static}/images/2026-05-24-cfp-closes-in-one-week/Image-en.jpeg){width=300}<br>Quest: The S-Rank Gate Closes in One Week<br>PyCon TW 2026 Call for Proposal (CFP) 截止倒數一週
 
-![Image-zh](images/2026-05-24-cfp-closes-in-one-week/Image-zh.jpeg){width=300} ![Image-en](images/2026-05-24-cfp-closes-in-one-week/Image-en.jpeg){width=300}
+![Image-zh]({static}/images/2026-05-24-cfp-closes-in-one-week/Image-zh.jpeg){width=300} ![Image-en]({static}/images/2026-05-24-cfp-closes-in-one-week/Image-en.jpeg){width=300}
 
 [TOC]
 

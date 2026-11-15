@@ -5,9 +5,9 @@ Category: announcement
 Tags: PyConTW2026, Python, CUDA, NVIDIA, Autoresearch, AgenticAI, GPU, Keynote, AI
 Slug: 2026-07-29-keynote-bryce
 Authors: Kevin, Winnie, Kaya
-Summary: ![Image](images/2026-07-29-keynote-bryce/Image.png){width=300}<br>PyCon TW 2026 Keynote 1 Bryce Adelstein Lelbach, the CUDA Colonel<br>PyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach
+Summary: ![Image]({static}/images/2026-07-29-keynote-bryce/Image.png){width=300}<br>PyCon TW 2026 Keynote 1 Bryce Adelstein Lelbach, the CUDA Colonel<br>PyCon TW 2026 Keynote 1 揭曉 Bryce Adelstein Lelbach
 
-![Image](images/2026-07-29-keynote-bryce/Image.png){width=300}
+![Image]({static}/images/2026-07-29-keynote-bryce/Image.png){width=300}
 
 [TOC]
 

@@ -5,9 +5,9 @@ Category: announcement
 Tags: PyConTW2026, Keynote, AnitaHu, AI, VR, XR, ComputerVision, SportsTech, Python
 Slug: 2026-08-15-pycon-tw-2026-keynote-3-anita-hu
 Authors: Peter, Kaya
-Summary: ![Image-zh](images/2026-08-15-pycon-tw-2026-keynote-3-anita-hu/Image-zh.png){width=300}<br>PyCon TW 2026 Keynote 3 Anita Hu Next-Generation Sports Technology with AI VR<br>PyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技
+Summary: ![Image-zh]({static}/images/2026-08-15-pycon-tw-2026-keynote-3-anita-hu/Image-zh.png){width=300}<br>PyCon TW 2026 Keynote 3 Anita Hu Next-Generation Sports Technology with AI VR<br>PyCon TW 2026 Keynote 3 胡敏君 Anita HuAI VR 的新世代運動科技
 
-![Image-zh](images/2026-08-15-pycon-tw-2026-keynote-3-anita-hu/Image-zh.png){width=300}
+![Image-zh]({static}/images/2026-08-15-pycon-tw-2026-keynote-3-anita-hu/Image-zh.png){width=300}
 
 [TOC]
 

@@ -5,11 +5,11 @@ Category: announcement
 Tags: zh-tw, financial-support, PyCon TW 2024
 Slug: 2024-06-03-financial_support
 Authors: Simon Huang
-Summary: ![PyCon Taiwan 2024 財務補助申請指南](images/2024-06-03-pycon-tw-2024-financial-support/financial_support.png){width=400} <br> 我們非常歡迎對 PyCon Taiwan 有熱誠的參加朋友，因此我們推出了財務補助方案，盡我們最大的能力盡可能地提供幫助，以下是詳細的申請說明，希望你能快速了解並申請順利！<br/>
+Summary: ![PyCon Taiwan 2024 財務補助申請指南]({static}/images/2024-06-03-pycon-tw-2024-financial-support/financial_support.png){width=400} <br> 我們非常歡迎對 PyCon Taiwan 有熱誠的參加朋友，因此我們推出了財務補助方案，盡我們最大的能力盡可能地提供幫助，以下是詳細的申請說明，希望你能快速了解並申請順利！<br/>
 
 [TOC]
 
-![PyCon Taiwan 2024 財務補助申請指南](images/2024-06-03-pycon-tw-2024-financial-support/financial_support.png){width=500}
+![PyCon Taiwan 2024 財務補助申請指南]({static}/images/2024-06-03-pycon-tw-2024-financial-support/financial_support.png){width=500}
 
 ## PyCon Taiwan 2024 財務補助申請指南
 

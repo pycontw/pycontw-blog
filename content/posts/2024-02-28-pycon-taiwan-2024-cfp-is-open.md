@@ -5,12 +5,12 @@ Category: programs
 Tags: Calls for Proposals, PyCon TW 2024, legacy-blogger
 Slug: 2024-02-28-pycon-taiwan-2024-cfp-is-open!
 Authors: program team
-Summary: ![PyCon TW 2024 Call for Proposal](images/2024-02-25-pycon-tw-2024-programs/CFP_starts_en.png){width=500}<br>PyCon TW 2024 has opened its Call for Proposals, inviting submissions on Python-related topics until April 8, 2024, for their event on September 21-22 at the National Science and Technology Museum.
+Summary: ![PyCon TW 2024 Call for Proposal]({static}/images/2024-02-25-pycon-tw-2024-programs/CFP_starts_en.png){width=500}<br>PyCon TW 2024 has opened its Call for Proposals, inviting submissions on Python-related topics until April 8, 2024, for their event on September 21-22 at the National Science and Technology Museum.
 [TOC]
 
 ---
 
-![PyCon TW 2024 Call for Proposal](images/2024-02-25-pycon-tw-2024-programs/CFP_starts_en.png){width=500}<br>
+![PyCon TW 2024 Call for Proposal]({static}/images/2024-02-25-pycon-tw-2024-programs/CFP_starts_en.png){width=500}<br>
 📢 **PyCon TW 2024 Call for Proposals (CFP) is Now Open!**
 
 Time flies, and another year has passed! We believe you have accumulated many brilliant ideas that you are eager to share with the community. Now is the time to act: go to the PyCon TW 2024 [official website](https://tw.pycon.org/prs/zh-hant/accounts/login/?next=/prs/zh-hant/dashboard/), register your account, prepare your manuscript, and start submitting!
@@ -43,7 +43,7 @@ For more detailed information, please visit the CFP page for more insights 👇
 
 ---
 
-![PyCon TW 2024 Call for Proposal](images/2024-02-25-pycon-tw-2024-programs/CFP_starts_zh.png){width=500}<br>
+![PyCon TW 2024 Call for Proposal]({static}/images/2024-02-25-pycon-tw-2024-programs/CFP_starts_zh.png){width=500}<br>
 
 📢 **PyCon TW 2024 徵稿 (CFP) 正式開啟 !**
 

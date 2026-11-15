@@ -5,9 +5,9 @@ Category: announcement
 Tags: pycontw2026, python, cfp, 審稿中, 志工招募, ReviewPhase, VolunteerRegistration
 Slug: 2026-06-02-cfp-closed
 Authors: Winnie
-Summary: ![Image-zh](images/2026-06-02-cfp-closed/Image-zh.jpeg){width=300} ![Image-en](images/2026-06-02-cfp-closed/Image-en.jpeg){width=300}<br>Thank You! PyCon TW 2026 CfP Has Officially Closed<br>感謝熱烈響應PyCon TW 2026 徵稿順利結束
+Summary: ![Image-zh]({static}/images/2026-06-02-cfp-closed/Image-zh.jpeg){width=300} ![Image-en]({static}/images/2026-06-02-cfp-closed/Image-en.jpeg){width=300}<br>Thank You! PyCon TW 2026 CfP Has Officially Closed<br>感謝熱烈響應PyCon TW 2026 徵稿順利結束
 
-![Image-zh](images/2026-06-02-cfp-closed/Image-zh.jpeg){width=300} ![Image-en](images/2026-06-02-cfp-closed/Image-en.jpeg){width=300}
+![Image-zh]({static}/images/2026-06-02-cfp-closed/Image-zh.jpeg){width=300} ![Image-en]({static}/images/2026-06-02-cfp-closed/Image-en.jpeg){width=300}
 
 [TOC]
 
