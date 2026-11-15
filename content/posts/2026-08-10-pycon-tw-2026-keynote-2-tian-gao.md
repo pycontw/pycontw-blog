@@ -5,9 +5,9 @@ Category: announcement
 Tags: PyConTW2026, Keynote, TianGao, CPython, PySpark, OpenSource, Python開發者, ApacheSpark, TechTalk, DeveloperCommunity
 Slug: 2026-08-10-pycon-tw-2026-keynote-2-tian-gao
 Authors: Winnie, Kaya
-Summary: ![Image-zh](images/2026-08-10-pycon-tw-2026-keynote-2-tian-gao/Image.png){width=300}<br>PyCon TW 2026 Keynote 2 Tian Gao From CPython to PySpark<br>PyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark
+Summary: ![Image-zh]({static}/images/2026-08-10-pycon-tw-2026-keynote-2-tian-gao/Image.png){width=300}<br>PyCon TW 2026 Keynote 2 Tian Gao From CPython to PySpark<br>PyCon TW 2026 Keynote 2 高天 Tian Gao - 從 CPython 到 PySpark
 
-![Image-zh](images/2026-08-10-pycon-tw-2026-keynote-2-tian-gao/Image.png){width=300}
+![Image-zh]({static}/images/2026-08-10-pycon-tw-2026-keynote-2-tian-gao/Image.png){width=300}
 
 [TOC]
 

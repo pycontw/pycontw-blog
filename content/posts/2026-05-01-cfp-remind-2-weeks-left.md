@@ -5,9 +5,9 @@ Category: announcement
 Tags: pycontw2026, pycontw, python, talks, cfp
 Slug: 2026-05-01-cfp-remind-2-weeks-left
 Authors: Peter, Winnie
-Summary: ![Image-zh](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-1.jpg){width=300} ![Image-en](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-1.jpg){width=300}<br>PyCon TW 2026 Proposal Guides CfP 2 Weeks Left!<br>PyCon TW 2026 投稿指南 CFP 截止倒數兩週
+Summary: ![Image-zh]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-1.jpg){width=300} ![Image-en]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-1.jpg){width=300}<br>PyCon TW 2026 Proposal Guides CfP 2 Weeks Left!<br>PyCon TW 2026 投稿指南 CFP 截止倒數兩週
 
-![Image-zh](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-1.jpg){width=300} ![Image-en](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-1.jpg){width=300}
+![Image-zh]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-1.jpg){width=300} ![Image-en]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-1.jpg){width=300}
 
 [TOC]
 
@@ -15,7 +15,7 @@ Summary: ![Image-zh](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh
 
 ## PyCon TW 2026 投稿指南 CFP 截止倒數兩週
 
-![Image-zh](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-2.jpg){width=300} ![Image-zh](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-3.jpg){width=300} ![Image-zh](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-4.jpg){width=300} ![Image-zh](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-5.jpg){width=300}
+![Image-zh]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-2.jpg){width=300} ![Image-zh]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-3.jpg){width=300} ![Image-zh]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-4.jpg){width=300} ![Image-zh]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh-5.jpg){width=300}
 
 每天都在倒數 321，終於來到美好的星期五晚上！🍻
 蛇不得假期馬不停蹄，更不想數著日子就把大好機會馬掉了嗎？🐴
@@ -49,7 +49,7 @@ Summary: ![Image-zh](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-zh
 
 ## PyCon TW 2026 Proposal Guides CfP 2 Weeks Left!
 
-![Image-en](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-2.jpg){width=300} ![Image-en](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-3.jpg){width=300} ![Image-en](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-4.jpg){width=300} ![Image-en](images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-5.jpg){width=300}
+![Image-en]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-2.jpg){width=300} ![Image-en]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-3.jpg){width=300} ![Image-en]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-4.jpg){width=300} ![Image-en]({static}/images/2026-05-01-cfp-remind-2-weeks-left/proposal-guide-en-5.jpg){width=300}
 
 🎶 We can count the days like 1, 2, 3 — vacation will be there!
 And we know when we need it

@@ -5,9 +5,9 @@ Category: announcement
 Tags: PyConTW2026, 世界地球日, Python, CfP, 靈感回收, 不要再拖了, EarthDay, RecycleYourIdeas, StopProcrastinating
 Slug: 2026-04-20-cfp-remind-earth-day
 Authors: Winnie, Justin
-Summary: ![Image-zh](images/2026-04-20-cfp-remind-earth-day/Image-zh.jpg){width=300} ![Image-en](images/2026-04-20-cfp-remind-earth-day/Image-en.jpg){width=300}<br>Tomorrow is Earth Day 🌍 — do you know what the most eco-friendly thing you can do is?<br>明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？
+Summary: ![Image-zh]({static}/images/2026-04-20-cfp-remind-earth-day/Image-zh.jpg){width=300} ![Image-en]({static}/images/2026-04-20-cfp-remind-earth-day/Image-en.jpg){width=300}<br>Tomorrow is Earth Day 🌍 — do you know what the most eco-friendly thing you can do is?<br>明天是世界地球日 🌍，你知道最環保的行為是什麼嗎？
 
-![Image-zh](images/2026-04-20-cfp-remind-earth-day/Image-zh.jpg){width=300} ![Image-en](images/2026-04-20-cfp-remind-earth-day/Image-en.jpg){width=300}
+![Image-zh]({static}/images/2026-04-20-cfp-remind-earth-day/Image-zh.jpg){width=300} ![Image-en]({static}/images/2026-04-20-cfp-remind-earth-day/Image-en.jpg){width=300}
 
 [TOC]
 

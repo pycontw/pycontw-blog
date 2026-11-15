@@ -5,9 +5,9 @@ Category: announcement
 Tags: PyConTW2026, PyConTW, Python, PosterSession, CallForPoster
 Slug: 2026-07-21-call-for-poster
 Authors: Raymond
-Summary: ![Image-zh](images/2026-07-21-call-for-poster/Image-zh-1.png){width=300} ![Image-en](images/2026-07-21-call-for-poster/Image-en-1.png){width=300}![Image-zh](images/2026-07-21-call-for-poster/Image-zh-2.png){width=300} ![Image-en](images/2026-07-21-call-for-poster/Image-en-2.png){width=300}<br>PyCon Taiwan 2026 Call for Poster Is Still Open!<br>PyCon Taiwan 2026 海報展持續徵稿中 Call for Poster
+Summary: ![Image-zh]({static}/images/2026-07-21-call-for-poster/Image-zh-1.png){width=300} ![Image-en]({static}/images/2026-07-21-call-for-poster/Image-en-1.png){width=300}![Image-zh]({static}/images/2026-07-21-call-for-poster/Image-zh-2.png){width=300} ![Image-en]({static}/images/2026-07-21-call-for-poster/Image-en-2.png){width=300}<br>PyCon Taiwan 2026 Call for Poster Is Still Open!<br>PyCon Taiwan 2026 海報展持續徵稿中 Call for Poster
 
-![Image-zh](images/2026-07-21-call-for-poster/Image-zh-1.png){width=300} ![Image-en](images/2026-07-21-call-for-poster/Image-en-1.png){width=300} ![Image-zh](images/2026-07-21-call-for-poster/Image-zh-2.png){width=300} ![Image-en](images/2026-07-21-call-for-poster/Image-en-2.png){width=300}
+![Image-zh]({static}/images/2026-07-21-call-for-poster/Image-zh-1.png){width=300} ![Image-en]({static}/images/2026-07-21-call-for-poster/Image-en-1.png){width=300} ![Image-zh]({static}/images/2026-07-21-call-for-poster/Image-zh-2.png){width=300} ![Image-en]({static}/images/2026-07-21-call-for-poster/Image-en-2.png){width=300}
 
 [TOC]
 

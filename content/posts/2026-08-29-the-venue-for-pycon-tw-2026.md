@@ -5,9 +5,9 @@ Category: announcement
 Tags: PyConTW2026, Python進校園, 跨域技能樹, 北醫見, 買票啦各位, PythonOnCampus, BuildYourSkillTree, SeeYouAtTMU, GrabYourTicketNow
 Slug: 2026-08-29-the-venue-for-pycon-tw-2026
 Authors: Winnie, Ray
-Summary: ![Image-zh](images/2026-08-29-the-venue-for-pycon-tw-2026/Image-zh.jpeg){width=300} ![Image-en](images/2026-08-29-the-venue-for-pycon-tw-2026/Image-en.jpeg){width=300}<br>The venue for PyCon TW 2026 is officially announced!<br>場地確認公告 PyCon TW 2026 的場地出爐啦
+Summary: ![Image-zh]({static}/images/2026-08-29-the-venue-for-pycon-tw-2026/Image-zh.jpeg){width=300} ![Image-en]({static}/images/2026-08-29-the-venue-for-pycon-tw-2026/Image-en.jpeg){width=300}<br>The venue for PyCon TW 2026 is officially announced!<br>場地確認公告 PyCon TW 2026 的場地出爐啦
 
-![Image-zh](images/2026-08-29-the-venue-for-pycon-tw-2026/Image-zh.jpeg){width=300} ![Image-en](images/2026-08-29-the-venue-for-pycon-tw-2026/Image-en.jpeg){width=300}
+![Image-zh]({static}/images/2026-08-29-the-venue-for-pycon-tw-2026/Image-zh.jpeg){width=300} ![Image-en]({static}/images/2026-08-29-the-venue-for-pycon-tw-2026/Image-en.jpeg){width=300}
 
 [TOC]
 

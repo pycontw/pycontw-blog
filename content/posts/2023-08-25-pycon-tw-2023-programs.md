@@ -4,7 +4,7 @@ Category: programs
 Tags: zh-tw, en, PyCon TW 2023
 Slug: pycon-tw-2023-programs
 Authors: Andy Lee, Ting Yi, Lois, Jaihua
-Summary: ![Programs](images/2023-08-25-pycon-tw-2023-programs/0_programs.jpg){width=400} <br> PyCon Taiwan 2023 將回歸實體年會！趕快來看看今年會有哪些活動及議程！<br>PyCon Taiwan 2023 is returning as an in-person conference! Come take a look at this year's lineup of activities and sessions!
+Summary: ![Programs]({static}/images/2023-08-25-pycon-tw-2023-programs/0_programs.jpg){width=400} <br> PyCon Taiwan 2023 將回歸實體年會！趕快來看看今年會有哪些活動及議程！<br>PyCon Taiwan 2023 is returning as an in-person conference! Come take a look at this year's lineup of activities and sessions!
 
 [TOC]
 ### 大會議程 Agenda
@@ -12,7 +12,7 @@ Summary: ![Programs](images/2023-08-25-pycon-tw-2023-programs/0_programs.jpg){wi
 請參考 [PyCon TW 2023 議程時間表](https://tw.pycon.org/2023/conference/schedule)。
 Please refer  [PyCon TW 2023 Agenda](https://tw.pycon.org/2023/conference/schedule).
 
-![Programs](images/2023-08-25-pycon-tw-2023-programs/0_programs.jpg){width=400}
+![Programs]({static}/images/2023-08-25-pycon-tw-2023-programs/0_programs.jpg){width=400}
 
 ---
 
@@ -25,7 +25,7 @@ Panel Discussion is the new event planned for PyCon Taiwan 2023, aiming to facil
 - [生成式 AI 對 Python 開發者的影響](https://tw.pycon.org/2023/conference/panel-discussion)：[slido 連結](https://app.sli.do/event/eXMeazdzUYv1pv2LePFnfc/live/questions)
 - [The Impact of Generative AI to Python Developer](https://tw.pycon.org/2023/conference/panel-discussion)：[slido link](https://app.sli.do/event/eXMeazdzUYv1pv2LePFnfc/live/questions)
 
-![Panel](images/2023-08-25-pycon-tw-2023-programs/1_panel.jpg){width=500}
+![Panel]({static}/images/2023-08-25-pycon-tw-2023-programs/1_panel.jpg){width=500}
 
 ---
 
@@ -40,7 +40,7 @@ The tutorial is part of PyCon TW, and will be held at the R3 located next to the
 - [MicroPython for hardware hacking: interacting with sensors and actuators](https://tw.pycon.org/2023/conference/tutorial/16)
 - [Explainable AI: Demystifying Complex Models with Shapley Values](https://tw.pycon.org/2023/conference/tutorial/14)
 
-![Tutorial](images/2023-08-25-pycon-tw-2023-programs/2_tutorial.jpg){width=400}
+![Tutorial]({static}/images/2023-08-25-pycon-tw-2023-programs/2_tutorial.jpg){width=400}
 
 ---
 

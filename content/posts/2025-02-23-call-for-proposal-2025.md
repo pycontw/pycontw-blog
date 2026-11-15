@@ -5,10 +5,10 @@ Category: announcement
 Tags: zh-tw
 Slug: 2025-02-23-call-for-proposal-2025
 Authors: YC.Chen
-Summary: ![CFP-1](images/2025-02-23-call-for-proposal-2025/CFP-1.png){width=500} <br> 忘不了去年 PyCon TW 大會的精彩講題嗎？盤桓著數不盡的想法只差一個機會嗎？ 新一年的 CFP 張開雙手歡迎你！馬上前往 PyCon TW 2025 官網，來個「註冊帳號、準備好稿件、進行投稿」一條龍，分享你的 Python 之道吧！<br/>
+Summary: ![CFP-1]({static}/images/2025-02-23-call-for-proposal-2025/CFP-1.png){width=500} <br> 忘不了去年 PyCon TW 大會的精彩講題嗎？盤桓著數不盡的想法只差一個機會嗎？ 新一年的 CFP 張開雙手歡迎你！馬上前往 PyCon TW 2025 官網，來個「註冊帳號、準備好稿件、進行投稿」一條龍，分享你的 Python 之道吧！<br/>
 
 
-![CFP-1](images/2025-02-23-call-for-proposal-2025/CFP-1.png){width=500}
+![CFP-1]({static}/images/2025-02-23-call-for-proposal-2025/CFP-1.png){width=500}
 
 
 # 【PyCon TW 2025 Call for Proposal (CFP) 即刻開跑啦！🏃‍♂️】
@@ -42,10 +42,10 @@ Summary: ![CFP-1](images/2025-02-23-call-for-proposal-2025/CFP-1.png){width=500}
 👉PyCon TW 2025 志工報名表單：https://reurl.cc/A6m7bE  
 #pycontw2025 #pycontw #python #talks #cfp  
 
-![CFP-2](images/2025-02-23-call-for-proposal-2025/CFP-2.jpg){width=500}
+![CFP-2]({static}/images/2025-02-23-call-for-proposal-2025/CFP-2.jpg){width=500}
 
-![CFP-3](images/2025-02-23-call-for-proposal-2025/CFP-3.jpg){width=500}
+![CFP-3]({static}/images/2025-02-23-call-for-proposal-2025/CFP-3.jpg){width=500}
 
-![CFP-4](images/2025-02-23-call-for-proposal-2025/CFP-4.jpg){width=500}
+![CFP-4]({static}/images/2025-02-23-call-for-proposal-2025/CFP-4.jpg){width=500}
 
-![CFP-5](images/2025-02-23-call-for-proposal-2025/CFP-5.jpg){width=500}
+![CFP-5]({static}/images/2025-02-23-call-for-proposal-2025/CFP-5.jpg){width=500}
