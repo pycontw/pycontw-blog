@@ -37,10 +37,19 @@ def test_build_slug_dash_joins_title_words():
         ("a  -  b", "2024-01-09-a-b"),
         ("!Wow!", "2024-01-09-wow"),
         ("PyCon 台灣 2024!", "2024-01-09-pycon-台灣-2024"),
+        ("snake_case_title", "2024-01-09-snake_case_title"),
+        ("don't stop", "2024-01-09-dont-stop"),
+        ("台灣開發者大會", "2024-01-09-台灣開發者大會"),
     ],
 )
 def test_build_slug_strips_ascii_punctuation(title, expected):
     assert _build_slug(title, "2024-01-09 00:00:00") == expected
+
+
+@pytest.mark.parametrize("title", ["!!!", "?!  ...", "'"])
+def test_build_slug_rejects_title_without_usable_characters(title):
+    with pytest.raises(ValueError, match="no characters usable in a slug"):
+        _build_slug(title, "2024-01-09 00:00:00")
 
 
 def test_post_template_no_leading_whitespace():

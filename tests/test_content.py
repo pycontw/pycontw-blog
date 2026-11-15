@@ -32,4 +32,6 @@ def test_category_is_available(path):
 @pytest.mark.parametrize("path", POSTS, ids=lambda p: p.name)
 def test_no_bare_relative_image_reference(path):
     # Use ({static}/images/...) so images resolve on tag/category/author pages.
-    assert not re.search(r"\]\(images/", path.read_text(encoding="utf-8"))
+    text = path.read_text(encoding="utf-8")
+    assert not re.search(r"\]\(images/", text)
+    assert not re.search(r"""src=["']images/""", text)

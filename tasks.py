@@ -270,9 +270,15 @@ def _validate_datetime(datetime_str: str) -> bool:
 def _build_slug(title: str, date_str: str) -> str:
     """Build a post slug as ``<post-date>-<dash-joined-title>``."""
     slug_title = "-".join(title.lower().split())
-    # Drop ASCII punctuation; non-ASCII characters (e.g. Chinese) are kept.
-    slug_title = re.sub(r"[^a-z0-9\-\u0080-\U0010ffff]", "", slug_title)
+    # Drop ASCII punctuation (underscores are kept, existing slugs use them);
+    # non-ASCII characters (e.g. Chinese) are kept.
+    slug_title = re.sub(r"[^a-z0-9_\-\u0080-\U0010ffff]", "", slug_title)
     slug_title = re.sub(r"-{2,}", "-", slug_title).strip("-")
+    if not slug_title:
+        raise ValueError(
+            f"Title {title!r} has no characters usable in a slug; "
+            "include at least one letter, digit or non-ASCII character."
+        )
     slug_date = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S").strftime("%Y-%m-%d")
     return f"{slug_date}-{slug_title}"
 
